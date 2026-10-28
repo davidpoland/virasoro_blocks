@@ -1,0 +1,1236 @@
+{
+ "metadata": {
+  "model": "Ising x compact-boson Z2 orbifold twist sectors",
+  "radius_convention": "Ginsparg orbifold modulus rho; Ising^2 at rho=1",
+  "radii": [
+   "1/32",
+   "1/16",
+   "1/3",
+   "977403790889/2394140560340",
+   "1/2",
+   "487298937602/844026518401",
+   "254017951139/359235631587",
+   "58843206544/72067915431",
+   "1",
+   "72067915431/58843206544",
+   "359235631587/254017951139",
+   "844026518401/487298937602",
+   "2",
+   "2394140560340/977403790889",
+   "3",
+   "16",
+   "32"
+  ],
+  "twist_sectors": [
+   "ground_twist",
+   "excited_twist"
+  ],
+  "delta_cut": "10-16 (merged converged samples)",
+  "lam": 5,
+  "q_order": "35-40",
+  "identity_excluded_ratio": "nu_1/(nu_0-nu_identity)",
+  "correlator": "four identical twists at one orbifold fixed point"
+ },
+ "operators": [
+  {
+   "radius": "1/32",
+   "ising": "1",
+   "sector": "ground_twist",
+   "delta_ext": "1/8",
+   "label": "$1\\times\\sigma_{\\rm twist}$",
+   "ratio_include": "0.1637524351280899570504346",
+   "ratio_exclude": "0.1988097049309468788980126",
+   "n_operators": 110,
+   "landmarks": [],
+   "landmark_kinds": []
+  },
+  {
+   "radius": "1/32",
+   "ising": "eps",
+   "sector": "ground_twist",
+   "delta_ext": "9/8",
+   "label": "$\\epsilon\\times\\sigma_{\\rm twist}$",
+   "ratio_include": "0.7317131450179643614717406",
+   "ratio_exclude": "0.8261639078534246394269758",
+   "n_operators": 110,
+   "landmarks": [],
+   "landmark_kinds": []
+  },
+  {
+   "radius": "1/32",
+   "ising": "sigma",
+   "sector": "ground_twist",
+   "delta_ext": "1/4",
+   "label": "$\\sigma\\times\\sigma_{\\rm twist}$",
+   "ratio_include": "0.3089149861091570192783706",
+   "ratio_exclude": "0.3636487755395516052736582",
+   "n_operators": 164,
+   "landmarks": [],
+   "landmark_kinds": []
+  },
+  {
+   "radius": "1/16",
+   "ising": "1",
+   "sector": "ground_twist",
+   "delta_ext": "1/8",
+   "label": "$1\\times\\sigma_{\\rm twist}$",
+   "ratio_include": "0.1637502741729125188552274",
+   "ratio_exclude": "0.2181523387088530885336013",
+   "n_operators": 70,
+   "landmarks": [],
+   "landmark_kinds": []
+  },
+  {
+   "radius": "1/16",
+   "ising": "eps",
+   "sector": "ground_twist",
+   "delta_ext": "9/8",
+   "label": "$\\epsilon\\times\\sigma_{\\rm twist}$",
+   "ratio_include": "0.7320957157804456327809817",
+   "ratio_exclude": "0.8732883017425715488357696",
+   "n_operators": 74,
+   "landmarks": [],
+   "landmark_kinds": []
+  },
+  {
+   "radius": "1/16",
+   "ising": "sigma",
+   "sector": "ground_twist",
+   "delta_ext": "1/4",
+   "label": "$\\sigma\\times\\sigma_{\\rm twist}$",
+   "ratio_include": "0.3089224630434069807094488",
+   "ratio_exclude": "0.3924605177112051590526676",
+   "n_operators": 111,
+   "landmarks": [],
+   "landmark_kinds": []
+  },
+  {
+   "radius": "1/3",
+   "ising": "1",
+   "sector": "excited_twist",
+   "delta_ext": "9/8",
+   "label": "$1\\times\\tau_{\\rm twist}$",
+   "landmarks": [],
+   "landmark_kinds": [],
+   "ratio_include": "0.904927353974874004727269",
+   "ratio_exclude": "1.470152091775174252319403",
+   "n_operators": 82
+  },
+  {
+   "radius": "1/3",
+   "ising": "eps",
+   "sector": "excited_twist",
+   "delta_ext": "17/8",
+   "label": "$\\epsilon\\times\\tau_{\\rm twist}$",
+   "landmarks": [],
+   "landmark_kinds": [],
+   "ratio_include": "1.095353324480013768038589",
+   "ratio_exclude": "1.779912476111130237299562",
+   "n_operators": 77
+  },
+  {
+   "radius": "1/3",
+   "ising": "sigma",
+   "sector": "excited_twist",
+   "delta_ext": "5/4",
+   "label": "$\\sigma\\times\\tau_{\\rm twist}$",
+   "landmarks": [],
+   "landmark_kinds": [],
+   "ratio_include": "0.9283717019556232408206142",
+   "ratio_exclude": "1.431373290739601511489809",
+   "n_operators": 125
+  },
+  {
+   "radius": "1/3",
+   "ising": "1",
+   "sector": "ground_twist",
+   "delta_ext": "1/8",
+   "label": "$1\\times\\sigma_{\\rm twist}$",
+   "landmarks": [],
+   "landmark_kinds": [],
+   "ratio_include": "0.1637464721724748439868335",
+   "ratio_exclude": "0.2453137970998944539235964",
+   "n_operators": 77
+  },
+  {
+   "radius": "1/3",
+   "ising": "eps",
+   "sector": "ground_twist",
+   "delta_ext": "9/8",
+   "label": "$\\epsilon\\times\\sigma_{\\rm twist}$",
+   "landmarks": [],
+   "landmark_kinds": [],
+   "ratio_include": "0.7279267705427908685678062",
+   "ratio_exclude": "0.9279717981738407894809484",
+   "n_operators": 82
+  },
+  {
+   "radius": "1/3",
+   "ising": "sigma",
+   "sector": "ground_twist",
+   "delta_ext": "1/4",
+   "label": "$\\sigma\\times\\sigma_{\\rm twist}$",
+   "landmarks": [],
+   "landmark_kinds": [],
+   "ratio_include": "0.3088931141088089860069488",
+   "ratio_exclude": "0.4313002875702928728962604",
+   "n_operators": 125
+  },
+  {
+   "radius": "977403790889/2394140560340",
+   "ising": "1",
+   "sector": "excited_twist",
+   "delta_ext": "9/8",
+   "label": "$1\\times\\tau_{\\rm twist}$",
+   "landmarks": [],
+   "landmark_kinds": [],
+   "ratio_include": "0.9093902560677352697737774",
+   "ratio_exclude": "1.718221074091837552444417",
+   "n_operators": 66
+  },
+  {
+   "radius": "977403790889/2394140560340",
+   "ising": "eps",
+   "sector": "excited_twist",
+   "delta_ext": "17/8",
+   "label": "$\\epsilon\\times\\tau_{\\rm twist}$",
+   "landmarks": [],
+   "landmark_kinds": [],
+   "ratio_include": "1.109520163861505759328452",
+   "ratio_exclude": "2.097009989463186396818628",
+   "n_operators": 66
+  },
+  {
+   "radius": "977403790889/2394140560340",
+   "ising": "sigma",
+   "sector": "excited_twist",
+   "delta_ext": "5/4",
+   "label": "$\\sigma\\times\\tau_{\\rm twist}$",
+   "landmarks": [],
+   "landmark_kinds": [],
+   "ratio_include": "0.9325879875851856848356647",
+   "ratio_exclude": "1.636880800579925798743375",
+   "n_operators": 119
+  },
+  {
+   "radius": "977403790889/2394140560340",
+   "ising": "1",
+   "sector": "ground_twist",
+   "delta_ext": "1/8",
+   "label": "$1\\times\\sigma_{\\rm twist}$",
+   "landmarks": [],
+   "landmark_kinds": [],
+   "ratio_include": "0.163741059584213144439957",
+   "ratio_exclude": "0.2762303846783359384531309",
+   "n_operators": 66
+  },
+  {
+   "radius": "977403790889/2394140560340",
+   "ising": "eps",
+   "sector": "ground_twist",
+   "delta_ext": "9/8",
+   "label": "$\\epsilon\\times\\sigma_{\\rm twist}$",
+   "landmarks": [],
+   "landmark_kinds": [],
+   "ratio_include": "0.7431860536473517964140001",
+   "ratio_exclude": "1.009792580002032424957292",
+   "n_operators": 66
+  },
+  {
+   "radius": "977403790889/2394140560340",
+   "ising": "sigma",
+   "sector": "ground_twist",
+   "delta_ext": "1/4",
+   "label": "$\\sigma\\times\\sigma_{\\rm twist}$",
+   "landmarks": [],
+   "landmark_kinds": [],
+   "ratio_include": "0.3090377130162814123259807",
+   "ratio_exclude": "0.4736895288818059879254463",
+   "n_operators": 119
+  },
+  {
+   "radius": "1/2",
+   "ising": "1",
+   "sector": "excited_twist",
+   "delta_ext": "9/8",
+   "label": "$1\\times\\tau_{\\rm twist}$",
+   "landmarks": [],
+   "landmark_kinds": [],
+   "ratio_include": "0.921801867850501666090679",
+   "ratio_exclude": "2.109910779667670599479834",
+   "n_operators": 63
+  },
+  {
+   "radius": "1/2",
+   "ising": "eps",
+   "sector": "excited_twist",
+   "delta_ext": "17/8",
+   "label": "$\\epsilon\\times\\tau_{\\rm twist}$",
+   "landmarks": [],
+   "landmark_kinds": [],
+   "ratio_include": "1.148753805786083992401814",
+   "ratio_exclude": "2.630578285955992967615202",
+   "n_operators": 57
+  },
+  {
+   "radius": "1/2",
+   "ising": "sigma",
+   "sector": "excited_twist",
+   "delta_ext": "5/4",
+   "label": "$\\sigma\\times\\tau_{\\rm twist}$",
+   "landmarks": [],
+   "landmark_kinds": [],
+   "ratio_include": "0.9430798630217734901393101",
+   "ratio_exclude": "1.943271394553442332764348",
+   "n_operators": 107
+  },
+  {
+   "radius": "1/2",
+   "ising": "1",
+   "sector": "ground_twist",
+   "delta_ext": "1/8",
+   "label": "$1\\times\\sigma_{\\rm twist}$",
+   "landmarks": [],
+   "landmark_kinds": [],
+   "ratio_include": "0.1638559027393802491889829",
+   "ratio_exclude": "0.3268919754401037880420233",
+   "n_operators": 57
+  },
+  {
+   "radius": "1/2",
+   "ising": "eps",
+   "sector": "ground_twist",
+   "delta_ext": "9/8",
+   "label": "$\\epsilon\\times\\sigma_{\\rm twist}$",
+   "landmarks": [],
+   "landmark_kinds": [],
+   "ratio_include": "0.7250394970684694850859842",
+   "ratio_exclude": "1.071519604396656388800579",
+   "n_operators": 63
+  },
+  {
+   "radius": "1/2",
+   "ising": "sigma",
+   "sector": "ground_twist",
+   "delta_ext": "1/4",
+   "label": "$\\sigma\\times\\sigma_{\\rm twist}$",
+   "landmarks": [],
+   "landmark_kinds": [],
+   "ratio_include": "0.3086588066105216410228707",
+   "ratio_exclude": "0.5374601700113459390450998",
+   "n_operators": 107
+  },
+  {
+   "radius": "487298937602/844026518401",
+   "ising": "1",
+   "sector": "excited_twist",
+   "delta_ext": "9/8",
+   "label": "$1\\times\\tau_{\\rm twist}$",
+   "landmarks": [],
+   "landmark_kinds": [],
+   "ratio_include": "0.953175390592047366844497",
+   "ratio_exclude": "2.294583059919820922090139",
+   "n_operators": 48
+  },
+  {
+   "radius": "487298937602/844026518401",
+   "ising": "eps",
+   "sector": "excited_twist",
+   "delta_ext": "17/8",
+   "label": "$\\epsilon\\times\\tau_{\\rm twist}$",
+   "landmarks": [],
+   "landmark_kinds": [],
+   "ratio_include": "1.240292169008297529231299",
+   "ratio_exclude": "2.9872463021265946991889",
+   "n_operators": 48
+  },
+  {
+   "radius": "487298937602/844026518401",
+   "ising": "sigma",
+   "sector": "excited_twist",
+   "delta_ext": "5/4",
+   "label": "$\\sigma\\times\\tau_{\\rm twist}$",
+   "landmarks": [],
+   "landmark_kinds": [],
+   "ratio_include": "0.9773520714878344284315403",
+   "ratio_exclude": "2.098836029930428281886634",
+   "n_operators": 64
+  },
+  {
+   "radius": "487298937602/844026518401",
+   "ising": "1",
+   "sector": "ground_twist",
+   "delta_ext": "1/8",
+   "label": "$1\\times\\sigma_{\\rm twist}$",
+   "landmarks": [],
+   "landmark_kinds": [],
+   "ratio_include": "0.1637834501296712708118264",
+   "ratio_exclude": "0.3860308720642456337124315",
+   "n_operators": 48
+  },
+  {
+   "radius": "487298937602/844026518401",
+   "ising": "eps",
+   "sector": "ground_twist",
+   "delta_ext": "9/8",
+   "label": "$\\epsilon\\times\\sigma_{\\rm twist}$",
+   "landmarks": [],
+   "landmark_kinds": [],
+   "ratio_include": "0.6884125639153314546447859",
+   "ratio_exclude": "1.098405133989173609876389",
+   "n_operators": 48
+  },
+  {
+   "radius": "487298937602/844026518401",
+   "ising": "sigma",
+   "sector": "ground_twist",
+   "delta_ext": "1/4",
+   "label": "$\\sigma\\times\\sigma_{\\rm twist}$",
+   "landmarks": [],
+   "landmark_kinds": [],
+   "ratio_include": "0.3084688845773753129719807",
+   "ratio_exclude": "0.606522625959137084983297",
+   "n_operators": 59
+  },
+  {
+   "radius": "254017951139/359235631587",
+   "ising": "1",
+   "sector": "excited_twist",
+   "delta_ext": "9/8",
+   "label": "$1\\times\\tau_{\\rm twist}$",
+   "landmarks": [
+    "$D_1$ / common"
+   ],
+   "landmark_kinds": [
+    "common"
+   ],
+   "ratio_include": "0.8612446559278975621865015",
+   "ratio_exclude": "2.094213537925972978825939",
+   "n_operators": 33
+  },
+  {
+   "radius": "254017951139/359235631587",
+   "ising": "eps",
+   "sector": "excited_twist",
+   "delta_ext": "17/8",
+   "label": "$\\epsilon\\times\\tau_{\\rm twist}$",
+   "landmarks": [
+    "$D_1$ / common"
+   ],
+   "landmark_kinds": [
+    "common"
+   ],
+   "ratio_include": "1.210699894744114546440983",
+   "ratio_exclude": "2.945442868790470125617276",
+   "n_operators": 33
+  },
+  {
+   "radius": "254017951139/359235631587",
+   "ising": "sigma",
+   "sector": "excited_twist",
+   "delta_ext": "5/4",
+   "label": "$\\sigma\\times\\tau_{\\rm twist}$",
+   "landmarks": [
+    "$D_1$ / common"
+   ],
+   "landmark_kinds": [
+    "common"
+   ],
+   "ratio_include": "0.8886210420059273973336644",
+   "ratio_exclude": "1.923971296396729924182978",
+   "n_operators": 55
+  },
+  {
+   "radius": "254017951139/359235631587",
+   "ising": "1",
+   "sector": "ground_twist",
+   "delta_ext": "1/8",
+   "label": "$1\\times\\sigma_{\\rm twist}$",
+   "landmarks": [
+    "$D_1$ / common"
+   ],
+   "landmark_kinds": [
+    "common"
+   ],
+   "ratio_include": "0.1634047020337816846780044",
+   "ratio_exclude": "0.544870951708963824344778",
+   "n_operators": 39
+  },
+  {
+   "radius": "254017951139/359235631587",
+   "ising": "eps",
+   "sector": "ground_twist",
+   "delta_ext": "9/8",
+   "label": "$\\epsilon\\times\\sigma_{\\rm twist}$",
+   "landmarks": [
+    "$D_1$ / common"
+   ],
+   "landmark_kinds": [
+    "common"
+   ],
+   "ratio_include": "0.7176436074666611153460849",
+   "ratio_exclude": "1.314127464540013168203814",
+   "n_operators": 39
+  },
+  {
+   "radius": "254017951139/359235631587",
+   "ising": "sigma",
+   "sector": "ground_twist",
+   "delta_ext": "1/4",
+   "label": "$\\sigma\\times\\sigma_{\\rm twist}$",
+   "landmarks": [
+    "$D_1$ / common"
+   ],
+   "landmark_kinds": [
+    "common"
+   ],
+   "ratio_include": "0.3094236566143558353481069",
+   "ratio_exclude": "0.7689053798135141448710783",
+   "n_operators": 67
+  },
+  {
+   "radius": "58843206544/72067915431",
+   "ising": "1",
+   "sector": "excited_twist",
+   "delta_ext": "9/8",
+   "label": "$1\\times\\tau_{\\rm twist}$",
+   "landmarks": [],
+   "landmark_kinds": [],
+   "ratio_include": "0.9623762266227022799114366",
+   "ratio_exclude": "2.222347642179355542424446",
+   "n_operators": 65
+  },
+  {
+   "radius": "58843206544/72067915431",
+   "ising": "eps",
+   "sector": "excited_twist",
+   "delta_ext": "17/8",
+   "label": "$\\epsilon\\times\\tau_{\\rm twist}$",
+   "landmarks": [],
+   "landmark_kinds": [],
+   "ratio_include": "1.267136098023665002898497",
+   "ratio_exclude": "2.927463451218696555145016",
+   "n_operators": 65
+  },
+  {
+   "radius": "58843206544/72067915431",
+   "ising": "sigma",
+   "sector": "excited_twist",
+   "delta_ext": "5/4",
+   "label": "$\\sigma\\times\\tau_{\\rm twist}$",
+   "landmarks": [],
+   "landmark_kinds": [],
+   "ratio_include": "0.9884346498615690368438891",
+   "ratio_exclude": "2.051590473946901305168922",
+   "n_operators": 117
+  },
+  {
+   "radius": "58843206544/72067915431",
+   "ising": "1",
+   "sector": "ground_twist",
+   "delta_ext": "1/8",
+   "label": "$1\\times\\sigma_{\\rm twist}$",
+   "landmarks": [],
+   "landmark_kinds": [],
+   "ratio_include": "0.1632886515671220784007289",
+   "ratio_exclude": "0.7629037898786940052886507",
+   "n_operators": 65
+  },
+  {
+   "radius": "58843206544/72067915431",
+   "ising": "eps",
+   "sector": "ground_twist",
+   "delta_ext": "9/8",
+   "label": "$\\epsilon\\times\\sigma_{\\rm twist}$",
+   "landmarks": [],
+   "landmark_kinds": [],
+   "ratio_include": "0.8297017497665065688394748",
+   "ratio_exclude": "1.691774953370758005632979",
+   "n_operators": 65
+  },
+  {
+   "radius": "58843206544/72067915431",
+   "ising": "sigma",
+   "sector": "ground_twist",
+   "delta_ext": "1/4",
+   "label": "$\\sigma\\times\\sigma_{\\rm twist}$",
+   "landmarks": [],
+   "landmark_kinds": [],
+   "ratio_include": "0.3106061612622736944899771",
+   "ratio_exclude": "0.9437069171070413542423694",
+   "n_operators": 117
+  },
+  {
+   "radius": "1",
+   "ising": "1",
+   "sector": "excited_twist",
+   "delta_ext": "9/8",
+   "label": "$1\\times\\tau_{\\rm twist}$",
+   "landmarks": [
+    "$(\\mathrm{Ising})^2$ / free Dirac"
+   ],
+   "landmark_kinds": [
+    "fermionic"
+   ],
+   "ratio_include": "0.9281657443028034082388444",
+   "ratio_exclude": "2.053041867013349008885825",
+   "n_operators": 35
+  },
+  {
+   "radius": "1",
+   "ising": "eps",
+   "sector": "excited_twist",
+   "delta_ext": "17/8",
+   "label": "$\\epsilon\\times\\tau_{\\rm twist}$",
+   "landmarks": [
+    "$(\\mathrm{Ising})^2$ / free Dirac"
+   ],
+   "landmark_kinds": [
+    "fermionic"
+   ],
+   "ratio_include": "1.170072088040762681160345",
+   "ratio_exclude": "2.5892312314615337776047",
+   "n_operators": 29
+  },
+  {
+   "radius": "1",
+   "ising": "sigma",
+   "sector": "excited_twist",
+   "delta_ext": "5/4",
+   "label": "$\\sigma\\times\\tau_{\\rm twist}$",
+   "landmarks": [
+    "$(\\mathrm{Ising})^2$ / free Dirac"
+   ],
+   "landmark_kinds": [
+    "fermionic"
+   ],
+   "ratio_include": "0.9454836612252609517881297",
+   "ratio_exclude": "1.893998265823857662937257",
+   "n_operators": 51
+  },
+  {
+   "radius": "1",
+   "ising": "1",
+   "sector": "ground_twist",
+   "delta_ext": "1/8",
+   "label": "$1\\times\\sigma_{\\rm twist}$",
+   "landmarks": [
+    "$(\\mathrm{Ising})^2$ / free Dirac"
+   ],
+   "landmark_kinds": [
+    "fermionic"
+   ],
+   "ratio_include": "0.1634171430897092547329663",
+   "ratio_exclude": "1.054985477890184597526968",
+   "n_operators": 29
+  },
+  {
+   "radius": "1",
+   "ising": "eps",
+   "sector": "ground_twist",
+   "delta_ext": "9/8",
+   "label": "$\\epsilon\\times\\sigma_{\\rm twist}$",
+   "landmarks": [
+    "$(\\mathrm{Ising})^2$ / free Dirac"
+   ],
+   "landmark_kinds": [
+    "fermionic"
+   ],
+   "ratio_include": "0.9281657443028034082388444",
+   "ratio_exclude": "2.053041867013349008885825",
+   "n_operators": 35
+  },
+  {
+   "radius": "1",
+   "ising": "sigma",
+   "sector": "ground_twist",
+   "delta_ext": "1/4",
+   "label": "$\\sigma\\times\\sigma_{\\rm twist}$",
+   "landmarks": [
+    "$(\\mathrm{Ising})^2$ / free Dirac"
+   ],
+   "landmark_kinds": [
+    "fermionic"
+   ],
+   "ratio_include": "0.3112085908682118984280862",
+   "ratio_exclude": "1.116810719350301406294079",
+   "n_operators": 51
+  },
+  {
+   "radius": "72067915431/58843206544",
+   "ising": "1",
+   "sector": "excited_twist",
+   "delta_ext": "9/8",
+   "label": "$1\\times\\tau_{\\rm twist}$",
+   "landmarks": [
+    "$Z_4$ parafermions"
+   ],
+   "landmark_kinds": [
+    "parafermion"
+   ],
+   "ratio_include": "0.9623762266227022799114366",
+   "ratio_exclude": "2.222347642179355542424446",
+   "n_operators": 65
+  },
+  {
+   "radius": "72067915431/58843206544",
+   "ising": "eps",
+   "sector": "excited_twist",
+   "delta_ext": "17/8",
+   "label": "$\\epsilon\\times\\tau_{\\rm twist}$",
+   "landmarks": [
+    "$Z_4$ parafermions"
+   ],
+   "landmark_kinds": [
+    "parafermion"
+   ],
+   "ratio_include": "1.267136098023665002898497",
+   "ratio_exclude": "2.927463451218696555145016",
+   "n_operators": 65
+  },
+  {
+   "radius": "72067915431/58843206544",
+   "ising": "sigma",
+   "sector": "excited_twist",
+   "delta_ext": "5/4",
+   "label": "$\\sigma\\times\\tau_{\\rm twist}$",
+   "landmarks": [
+    "$Z_4$ parafermions"
+   ],
+   "landmark_kinds": [
+    "parafermion"
+   ],
+   "ratio_include": "0.9884346498615690368438891",
+   "ratio_exclude": "2.051590473946901305168922",
+   "n_operators": 117
+  },
+  {
+   "radius": "72067915431/58843206544",
+   "ising": "1",
+   "sector": "ground_twist",
+   "delta_ext": "1/8",
+   "label": "$1\\times\\sigma_{\\rm twist}$",
+   "landmarks": [
+    "$Z_4$ parafermions"
+   ],
+   "landmark_kinds": [
+    "parafermion"
+   ],
+   "ratio_include": "0.1632886515671220784007289",
+   "ratio_exclude": "0.7629037898786940052886507",
+   "n_operators": 65
+  },
+  {
+   "radius": "72067915431/58843206544",
+   "ising": "eps",
+   "sector": "ground_twist",
+   "delta_ext": "9/8",
+   "label": "$\\epsilon\\times\\sigma_{\\rm twist}$",
+   "landmarks": [
+    "$Z_4$ parafermions"
+   ],
+   "landmark_kinds": [
+    "parafermion"
+   ],
+   "ratio_include": "0.8297017497665065688394748",
+   "ratio_exclude": "1.691774953370758005632979",
+   "n_operators": 65
+  },
+  {
+   "radius": "72067915431/58843206544",
+   "ising": "sigma",
+   "sector": "ground_twist",
+   "delta_ext": "1/4",
+   "label": "$\\sigma\\times\\sigma_{\\rm twist}$",
+   "landmarks": [
+    "$Z_4$ parafermions"
+   ],
+   "landmark_kinds": [
+    "parafermion"
+   ],
+   "ratio_include": "0.3106061612622736944899771",
+   "ratio_exclude": "0.9437069171070413542423694",
+   "n_operators": 117
+  },
+  {
+   "radius": "359235631587/254017951139",
+   "ising": "1",
+   "sector": "excited_twist",
+   "delta_ext": "9/8",
+   "label": "$1\\times\\tau_{\\rm twist}$",
+   "landmarks": [
+    "$D_2$ / 4-state Potts"
+   ],
+   "landmark_kinds": [
+    "potts"
+   ],
+   "ratio_include": "0.8612446559278975621865015",
+   "ratio_exclude": "2.094213537925972978825939",
+   "n_operators": 33
+  },
+  {
+   "radius": "359235631587/254017951139",
+   "ising": "eps",
+   "sector": "excited_twist",
+   "delta_ext": "17/8",
+   "label": "$\\epsilon\\times\\tau_{\\rm twist}$",
+   "landmarks": [
+    "$D_2$ / 4-state Potts"
+   ],
+   "landmark_kinds": [
+    "potts"
+   ],
+   "ratio_include": "1.210699894744114546440983",
+   "ratio_exclude": "2.945442868790470125617276",
+   "n_operators": 33
+  },
+  {
+   "radius": "359235631587/254017951139",
+   "ising": "sigma",
+   "sector": "excited_twist",
+   "delta_ext": "5/4",
+   "label": "$\\sigma\\times\\tau_{\\rm twist}$",
+   "landmarks": [
+    "$D_2$ / 4-state Potts"
+   ],
+   "landmark_kinds": [
+    "potts"
+   ],
+   "ratio_include": "0.8886210420059273973336644",
+   "ratio_exclude": "1.923971296396729924182978",
+   "n_operators": 55
+  },
+  {
+   "radius": "359235631587/254017951139",
+   "ising": "1",
+   "sector": "ground_twist",
+   "delta_ext": "1/8",
+   "label": "$1\\times\\sigma_{\\rm twist}$",
+   "landmarks": [
+    "$D_2$ / 4-state Potts"
+   ],
+   "landmark_kinds": [
+    "potts"
+   ],
+   "ratio_include": "0.1634047020337816846780044",
+   "ratio_exclude": "0.544870951708963824344778",
+   "n_operators": 39
+  },
+  {
+   "radius": "359235631587/254017951139",
+   "ising": "eps",
+   "sector": "ground_twist",
+   "delta_ext": "9/8",
+   "label": "$\\epsilon\\times\\sigma_{\\rm twist}$",
+   "landmarks": [
+    "$D_2$ / 4-state Potts"
+   ],
+   "landmark_kinds": [
+    "potts"
+   ],
+   "ratio_include": "0.7176436074666611153460849",
+   "ratio_exclude": "1.314127464540013168203814",
+   "n_operators": 39
+  },
+  {
+   "radius": "359235631587/254017951139",
+   "ising": "sigma",
+   "sector": "ground_twist",
+   "delta_ext": "1/4",
+   "label": "$\\sigma\\times\\sigma_{\\rm twist}$",
+   "landmarks": [
+    "$D_2$ / 4-state Potts"
+   ],
+   "landmark_kinds": [
+    "potts"
+   ],
+   "ratio_include": "0.3094236566143558353481069",
+   "ratio_exclude": "0.7689053798135141448710783",
+   "n_operators": 67
+  },
+  {
+   "radius": "844026518401/487298937602",
+   "ising": "1",
+   "sector": "excited_twist",
+   "delta_ext": "9/8",
+   "label": "$1\\times\\tau_{\\rm twist}$",
+   "landmarks": [
+    "twisted $\\mathcal{N}=2$"
+   ],
+   "landmark_kinds": [
+    "supersymmetric"
+   ],
+   "ratio_include": "0.953175390592047366844497",
+   "ratio_exclude": "2.294583059919820922090139",
+   "n_operators": 48
+  },
+  {
+   "radius": "844026518401/487298937602",
+   "ising": "eps",
+   "sector": "excited_twist",
+   "delta_ext": "17/8",
+   "label": "$\\epsilon\\times\\tau_{\\rm twist}$",
+   "landmarks": [
+    "twisted $\\mathcal{N}=2$"
+   ],
+   "landmark_kinds": [
+    "supersymmetric"
+   ],
+   "ratio_include": "1.240292169008297529231299",
+   "ratio_exclude": "2.9872463021265946991889",
+   "n_operators": 48
+  },
+  {
+   "radius": "844026518401/487298937602",
+   "ising": "sigma",
+   "sector": "excited_twist",
+   "delta_ext": "5/4",
+   "label": "$\\sigma\\times\\tau_{\\rm twist}$",
+   "landmarks": [
+    "twisted $\\mathcal{N}=2$"
+   ],
+   "landmark_kinds": [
+    "supersymmetric"
+   ],
+   "ratio_include": "0.9773520714878344284315403",
+   "ratio_exclude": "2.098836029930428281886634",
+   "n_operators": 64
+  },
+  {
+   "radius": "844026518401/487298937602",
+   "ising": "1",
+   "sector": "ground_twist",
+   "delta_ext": "1/8",
+   "label": "$1\\times\\sigma_{\\rm twist}$",
+   "landmarks": [
+    "twisted $\\mathcal{N}=2$"
+   ],
+   "landmark_kinds": [
+    "supersymmetric"
+   ],
+   "ratio_include": "0.1637834501296712708118264",
+   "ratio_exclude": "0.3860308720642456337124315",
+   "n_operators": 48
+  },
+  {
+   "radius": "844026518401/487298937602",
+   "ising": "eps",
+   "sector": "ground_twist",
+   "delta_ext": "9/8",
+   "label": "$\\epsilon\\times\\sigma_{\\rm twist}$",
+   "landmarks": [
+    "twisted $\\mathcal{N}=2$"
+   ],
+   "landmark_kinds": [
+    "supersymmetric"
+   ],
+   "ratio_include": "0.6884125639153314546447859",
+   "ratio_exclude": "1.098405133989173609876389",
+   "n_operators": 48
+  },
+  {
+   "radius": "844026518401/487298937602",
+   "ising": "sigma",
+   "sector": "ground_twist",
+   "delta_ext": "1/4",
+   "label": "$\\sigma\\times\\sigma_{\\rm twist}$",
+   "landmarks": [
+    "twisted $\\mathcal{N}=2$"
+   ],
+   "landmark_kinds": [
+    "supersymmetric"
+   ],
+   "ratio_include": "0.3084688845773753129719807",
+   "ratio_exclude": "0.606522625959137084983297",
+   "n_operators": 59
+  },
+  {
+   "radius": "2",
+   "ising": "1",
+   "sector": "excited_twist",
+   "delta_ext": "9/8",
+   "label": "$1\\times\\tau_{\\rm twist}$",
+   "landmarks": [],
+   "landmark_kinds": [],
+   "ratio_include": "0.921801867850501666090679",
+   "ratio_exclude": "2.109910779667670599479834",
+   "n_operators": 63
+  },
+  {
+   "radius": "2",
+   "ising": "eps",
+   "sector": "excited_twist",
+   "delta_ext": "17/8",
+   "label": "$\\epsilon\\times\\tau_{\\rm twist}$",
+   "landmarks": [],
+   "landmark_kinds": [],
+   "ratio_include": "1.148753805786083992401814",
+   "ratio_exclude": "2.630578285955992967615202",
+   "n_operators": 57
+  },
+  {
+   "radius": "2",
+   "ising": "sigma",
+   "sector": "excited_twist",
+   "delta_ext": "5/4",
+   "label": "$\\sigma\\times\\tau_{\\rm twist}$",
+   "landmarks": [],
+   "landmark_kinds": [],
+   "ratio_include": "0.9430798630217734901393101",
+   "ratio_exclude": "1.943271394553442332764348",
+   "n_operators": 107
+  },
+  {
+   "radius": "2",
+   "ising": "1",
+   "sector": "ground_twist",
+   "delta_ext": "1/8",
+   "label": "$1\\times\\sigma_{\\rm twist}$",
+   "landmarks": [],
+   "landmark_kinds": [],
+   "ratio_include": "0.1638559027393802491889829",
+   "ratio_exclude": "0.3268919754401037880420233",
+   "n_operators": 57
+  },
+  {
+   "radius": "2",
+   "ising": "eps",
+   "sector": "ground_twist",
+   "delta_ext": "9/8",
+   "label": "$\\epsilon\\times\\sigma_{\\rm twist}$",
+   "landmarks": [],
+   "landmark_kinds": [],
+   "ratio_include": "0.7250394970684694850859842",
+   "ratio_exclude": "1.071519604396656388800579",
+   "n_operators": 63
+  },
+  {
+   "radius": "2",
+   "ising": "sigma",
+   "sector": "ground_twist",
+   "delta_ext": "1/4",
+   "label": "$\\sigma\\times\\sigma_{\\rm twist}$",
+   "landmarks": [],
+   "landmark_kinds": [],
+   "ratio_include": "0.3086588066105216410228707",
+   "ratio_exclude": "0.5374601700113459390450998",
+   "n_operators": 107
+  },
+  {
+   "radius": "2394140560340/977403790889",
+   "ising": "1",
+   "sector": "excited_twist",
+   "delta_ext": "9/8",
+   "label": "$1\\times\\tau_{\\rm twist}$",
+   "landmarks": [],
+   "landmark_kinds": [],
+   "ratio_include": "0.9093902560677352697737774",
+   "ratio_exclude": "1.718221074091837552444417",
+   "n_operators": 66
+  },
+  {
+   "radius": "2394140560340/977403790889",
+   "ising": "eps",
+   "sector": "excited_twist",
+   "delta_ext": "17/8",
+   "label": "$\\epsilon\\times\\tau_{\\rm twist}$",
+   "landmarks": [],
+   "landmark_kinds": [],
+   "ratio_include": "1.109520163861505759328452",
+   "ratio_exclude": "2.097009989463186396818628",
+   "n_operators": 66
+  },
+  {
+   "radius": "2394140560340/977403790889",
+   "ising": "sigma",
+   "sector": "excited_twist",
+   "delta_ext": "5/4",
+   "label": "$\\sigma\\times\\tau_{\\rm twist}$",
+   "landmarks": [],
+   "landmark_kinds": [],
+   "ratio_include": "0.9325879875851856848356647",
+   "ratio_exclude": "1.636880800579925798743375",
+   "n_operators": 119
+  },
+  {
+   "radius": "2394140560340/977403790889",
+   "ising": "1",
+   "sector": "ground_twist",
+   "delta_ext": "1/8",
+   "label": "$1\\times\\sigma_{\\rm twist}$",
+   "landmarks": [],
+   "landmark_kinds": [],
+   "ratio_include": "0.163741059584213144439957",
+   "ratio_exclude": "0.2762303846783359384531309",
+   "n_operators": 66
+  },
+  {
+   "radius": "2394140560340/977403790889",
+   "ising": "eps",
+   "sector": "ground_twist",
+   "delta_ext": "9/8",
+   "label": "$\\epsilon\\times\\sigma_{\\rm twist}$",
+   "landmarks": [],
+   "landmark_kinds": [],
+   "ratio_include": "0.7431860536473517964140001",
+   "ratio_exclude": "1.009792580002032424957292",
+   "n_operators": 66
+  },
+  {
+   "radius": "2394140560340/977403790889",
+   "ising": "sigma",
+   "sector": "ground_twist",
+   "delta_ext": "1/4",
+   "label": "$\\sigma\\times\\sigma_{\\rm twist}$",
+   "landmarks": [],
+   "landmark_kinds": [],
+   "ratio_include": "0.3090377130162814123259807",
+   "ratio_exclude": "0.4736895288818059879254463",
+   "n_operators": 119
+  },
+  {
+   "radius": "3",
+   "ising": "1",
+   "sector": "excited_twist",
+   "delta_ext": "9/8",
+   "label": "$1\\times\\tau_{\\rm twist}$",
+   "landmarks": [],
+   "landmark_kinds": [],
+   "ratio_include": "0.904927353974874004727269",
+   "ratio_exclude": "1.470152091775174252319403",
+   "n_operators": 82
+  },
+  {
+   "radius": "3",
+   "ising": "eps",
+   "sector": "excited_twist",
+   "delta_ext": "17/8",
+   "label": "$\\epsilon\\times\\tau_{\\rm twist}$",
+   "landmarks": [],
+   "landmark_kinds": [],
+   "ratio_include": "1.095353324480013768038589",
+   "ratio_exclude": "1.779912476111130237299562",
+   "n_operators": 77
+  },
+  {
+   "radius": "3",
+   "ising": "sigma",
+   "sector": "excited_twist",
+   "delta_ext": "5/4",
+   "label": "$\\sigma\\times\\tau_{\\rm twist}$",
+   "landmarks": [],
+   "landmark_kinds": [],
+   "ratio_include": "0.9283717019556232408206142",
+   "ratio_exclude": "1.431373290739601511489809",
+   "n_operators": 125
+  },
+  {
+   "radius": "3",
+   "ising": "1",
+   "sector": "ground_twist",
+   "delta_ext": "1/8",
+   "label": "$1\\times\\sigma_{\\rm twist}$",
+   "landmarks": [],
+   "landmark_kinds": [],
+   "ratio_include": "0.1637464721724748439868335",
+   "ratio_exclude": "0.2453137970998944539235964",
+   "n_operators": 77
+  },
+  {
+   "radius": "3",
+   "ising": "eps",
+   "sector": "ground_twist",
+   "delta_ext": "9/8",
+   "label": "$\\epsilon\\times\\sigma_{\\rm twist}$",
+   "landmarks": [],
+   "landmark_kinds": [],
+   "ratio_include": "0.7279267705427908685678062",
+   "ratio_exclude": "0.9279717981738407894809484",
+   "n_operators": 82
+  },
+  {
+   "radius": "3",
+   "ising": "sigma",
+   "sector": "ground_twist",
+   "delta_ext": "1/4",
+   "label": "$\\sigma\\times\\sigma_{\\rm twist}$",
+   "landmarks": [],
+   "landmark_kinds": [],
+   "ratio_include": "0.3088931141088089860069488",
+   "ratio_exclude": "0.4313002875702928728962604",
+   "n_operators": 125
+  },
+  {
+   "radius": "16",
+   "ising": "1",
+   "sector": "ground_twist",
+   "delta_ext": "1/8",
+   "label": "$1\\times\\sigma_{\\rm twist}$",
+   "ratio_include": "0.1637502741729125188552274",
+   "ratio_exclude": "0.2181523387088530885336013",
+   "n_operators": 70,
+   "landmarks": [],
+   "landmark_kinds": []
+  },
+  {
+   "radius": "16",
+   "ising": "eps",
+   "sector": "ground_twist",
+   "delta_ext": "9/8",
+   "label": "$\\epsilon\\times\\sigma_{\\rm twist}$",
+   "ratio_include": "0.7320957157804456327809817",
+   "ratio_exclude": "0.8732883017425715488357696",
+   "n_operators": 74,
+   "landmarks": [],
+   "landmark_kinds": []
+  },
+  {
+   "radius": "16",
+   "ising": "sigma",
+   "sector": "ground_twist",
+   "delta_ext": "1/4",
+   "label": "$\\sigma\\times\\sigma_{\\rm twist}$",
+   "ratio_include": "0.3089224630434069807094488",
+   "ratio_exclude": "0.3924605177112051590526676",
+   "n_operators": 111,
+   "landmarks": [],
+   "landmark_kinds": []
+  },
+  {
+   "radius": "32",
+   "ising": "1",
+   "sector": "ground_twist",
+   "delta_ext": "1/8",
+   "label": "$1\\times\\sigma_{\\rm twist}$",
+   "ratio_include": "0.1637524351280899570504346",
+   "ratio_exclude": "0.1988097049309468788980126",
+   "n_operators": 110,
+   "landmarks": [],
+   "landmark_kinds": []
+  },
+  {
+   "radius": "32",
+   "ising": "eps",
+   "sector": "ground_twist",
+   "delta_ext": "9/8",
+   "label": "$\\epsilon\\times\\sigma_{\\rm twist}$",
+   "ratio_include": "0.7317131450179643614717406",
+   "ratio_exclude": "0.8261639078534246394269758",
+   "n_operators": 110,
+   "landmarks": [],
+   "landmark_kinds": []
+  },
+  {
+   "radius": "32",
+   "ising": "sigma",
+   "sector": "ground_twist",
+   "delta_ext": "1/4",
+   "label": "$\\sigma\\times\\sigma_{\\rm twist}$",
+   "ratio_include": "0.3089149861091570192783706",
+   "ratio_exclude": "0.3636487755395516052736582",
+   "n_operators": 164,
+   "landmarks": [],
+   "landmark_kinds": []
+  }
+ ]
+}

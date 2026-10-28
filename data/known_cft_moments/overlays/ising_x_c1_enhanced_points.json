@@ -1,0 +1,4753 @@
+{
+ "metadata": {
+  "full_cft_family": "spectator Ising x (c=1 CFT)",
+  "data_scope": "full c=3/2 correlators",
+  "external_dimension_max": "2",
+  "delta_cut": 14,
+  "lam": 5,
+  "q_order": 45,
+  "mixture": "sqrt(t) M + sqrt(1-t) W; 0 <= t <= 1/2 modulo M/W",
+  "coverage": [
+   {
+    "family": "momentum/winding mixtures at named rational points",
+    "delta_max": "2",
+    "status": "implemented",
+    "note": "exact compact-boson cocycles; all Ising products through Delta=2"
+   },
+   {
+    "family": "two-fixed-point ground-twist mixtures",
+    "delta_max": "9/8",
+    "status": "implemented",
+    "note": "continuous at every orbifold radius; all Ising products through Delta=2"
+   },
+   {
+    "family": "two-fixed-point excited-twist mixtures",
+    "delta_max": "2",
+    "status": "implemented",
+    "note": "exact characteristic sum; completes scalar twist levels below c1 Delta=2"
+   },
+   {
+    "family": "exceptional SU(2)_1/A4,S4,A5 orbifolds",
+    "delta_max": "2",
+    "status": "partial",
+    "note": "current singlet implemented; nonabelian twist OPE data missing"
+   }
+  ],
+  "targeted_refreshes": {
+   "free Dirac": {
+    "delta_cut": 18,
+    "lam": 5,
+    "q_order": 55
+   }
+  }
+ },
+ "operators": [
+  {
+   "kind": "vertex_mixture",
+   "branch": "circle",
+   "radius_squared": "1",
+   "c1_factor_names": [
+    "SU(2)_1 enhanced circle"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "1",
+   "c1_delta": "1/2",
+   "delta_ext": "1/2",
+   "h_boson": "1/4",
+   "momentum_charge": 1,
+   "winding_charge": 1,
+   "mutual_locality_parity": 1,
+   "momentum_fraction": "0",
+   "ratio_include": "0.560335487978979810140321",
+   "ratio_exclude": "2.012637972569621624677744",
+   "crossing_residual": "1.2383708e-13",
+   "n_operators": 35
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "circle",
+   "radius_squared": "1",
+   "c1_factor_names": [
+    "SU(2)_1 enhanced circle"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "1",
+   "c1_delta": "1/2",
+   "delta_ext": "1/2",
+   "h_boson": "1/4",
+   "momentum_charge": 1,
+   "winding_charge": 1,
+   "mutual_locality_parity": 1,
+   "momentum_fraction": "1/16",
+   "ratio_include": "0.560335487978979810140321",
+   "ratio_exclude": "2.012637972569621624677744",
+   "crossing_residual": "1.2383708e-13",
+   "n_operators": 35
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "circle",
+   "radius_squared": "1",
+   "c1_factor_names": [
+    "SU(2)_1 enhanced circle"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "1",
+   "c1_delta": "1/2",
+   "delta_ext": "1/2",
+   "h_boson": "1/4",
+   "momentum_charge": 1,
+   "winding_charge": 1,
+   "mutual_locality_parity": 1,
+   "momentum_fraction": "1/8",
+   "ratio_include": "0.560335487978979810140321",
+   "ratio_exclude": "2.012637972569621624677744",
+   "crossing_residual": "1.2383708e-13",
+   "n_operators": 35
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "circle",
+   "radius_squared": "1",
+   "c1_factor_names": [
+    "SU(2)_1 enhanced circle"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "1",
+   "c1_delta": "1/2",
+   "delta_ext": "1/2",
+   "h_boson": "1/4",
+   "momentum_charge": 1,
+   "winding_charge": 1,
+   "mutual_locality_parity": 1,
+   "momentum_fraction": "3/16",
+   "ratio_include": "0.560335487978979810140321",
+   "ratio_exclude": "2.012637972569621624677744",
+   "crossing_residual": "1.2383708e-13",
+   "n_operators": 35
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "circle",
+   "radius_squared": "1",
+   "c1_factor_names": [
+    "SU(2)_1 enhanced circle"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "1",
+   "c1_delta": "1/2",
+   "delta_ext": "1/2",
+   "h_boson": "1/4",
+   "momentum_charge": 1,
+   "winding_charge": 1,
+   "mutual_locality_parity": 1,
+   "momentum_fraction": "1/4",
+   "ratio_include": "0.560335487978979810140321",
+   "ratio_exclude": "2.012637972569621624677744",
+   "crossing_residual": "1.2383708e-13",
+   "n_operators": 35
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "circle",
+   "radius_squared": "1",
+   "c1_factor_names": [
+    "SU(2)_1 enhanced circle"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "1",
+   "c1_delta": "1/2",
+   "delta_ext": "1/2",
+   "h_boson": "1/4",
+   "momentum_charge": 1,
+   "winding_charge": 1,
+   "mutual_locality_parity": 1,
+   "momentum_fraction": "5/16",
+   "ratio_include": "0.560335487978979810140321",
+   "ratio_exclude": "2.012637972569621624677744",
+   "crossing_residual": "1.2383708e-13",
+   "n_operators": 35
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "circle",
+   "radius_squared": "1",
+   "c1_factor_names": [
+    "SU(2)_1 enhanced circle"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "1",
+   "c1_delta": "1/2",
+   "delta_ext": "1/2",
+   "h_boson": "1/4",
+   "momentum_charge": 1,
+   "winding_charge": 1,
+   "mutual_locality_parity": 1,
+   "momentum_fraction": "3/8",
+   "ratio_include": "0.560335487978979810140321",
+   "ratio_exclude": "2.012637972569621624677744",
+   "crossing_residual": "1.2383708e-13",
+   "n_operators": 35
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "circle",
+   "radius_squared": "1",
+   "c1_factor_names": [
+    "SU(2)_1 enhanced circle"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "1",
+   "c1_delta": "1/2",
+   "delta_ext": "1/2",
+   "h_boson": "1/4",
+   "momentum_charge": 1,
+   "winding_charge": 1,
+   "mutual_locality_parity": 1,
+   "momentum_fraction": "7/16",
+   "ratio_include": "0.560335487978979810140321",
+   "ratio_exclude": "2.012637972569621624677744",
+   "crossing_residual": "1.2383708e-13",
+   "n_operators": 35
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "circle",
+   "radius_squared": "1",
+   "c1_factor_names": [
+    "SU(2)_1 enhanced circle"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "1",
+   "c1_delta": "1/2",
+   "delta_ext": "1/2",
+   "h_boson": "1/4",
+   "momentum_charge": 1,
+   "winding_charge": 1,
+   "mutual_locality_parity": 1,
+   "momentum_fraction": "1/2",
+   "ratio_include": "0.560335487978979810140321",
+   "ratio_exclude": "2.012637972569621624677744",
+   "crossing_residual": "1.2383708e-13",
+   "n_operators": 35
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "circle",
+   "radius_squared": "1",
+   "c1_factor_names": [
+    "SU(2)_1 enhanced circle"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "sigma",
+   "c1_delta": "1/2",
+   "delta_ext": "5/8",
+   "h_boson": "1/4",
+   "momentum_charge": 1,
+   "winding_charge": 1,
+   "mutual_locality_parity": 1,
+   "momentum_fraction": "0",
+   "ratio_include": "0.6602910312381519369052561",
+   "ratio_exclude": "1.803755231413486910522682",
+   "crossing_residual": "2.3467707e-12",
+   "n_operators": 57
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "circle",
+   "radius_squared": "1",
+   "c1_factor_names": [
+    "SU(2)_1 enhanced circle"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "sigma",
+   "c1_delta": "1/2",
+   "delta_ext": "5/8",
+   "h_boson": "1/4",
+   "momentum_charge": 1,
+   "winding_charge": 1,
+   "mutual_locality_parity": 1,
+   "momentum_fraction": "1/16",
+   "ratio_include": "0.6602910312381519369052561",
+   "ratio_exclude": "1.803755231413486910522682",
+   "crossing_residual": "2.3467707e-12",
+   "n_operators": 57
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "circle",
+   "radius_squared": "1",
+   "c1_factor_names": [
+    "SU(2)_1 enhanced circle"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "sigma",
+   "c1_delta": "1/2",
+   "delta_ext": "5/8",
+   "h_boson": "1/4",
+   "momentum_charge": 1,
+   "winding_charge": 1,
+   "mutual_locality_parity": 1,
+   "momentum_fraction": "1/8",
+   "ratio_include": "0.6602910312381519369052561",
+   "ratio_exclude": "1.803755231413486910522682",
+   "crossing_residual": "2.3467707e-12",
+   "n_operators": 57
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "circle",
+   "radius_squared": "1",
+   "c1_factor_names": [
+    "SU(2)_1 enhanced circle"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "sigma",
+   "c1_delta": "1/2",
+   "delta_ext": "5/8",
+   "h_boson": "1/4",
+   "momentum_charge": 1,
+   "winding_charge": 1,
+   "mutual_locality_parity": 1,
+   "momentum_fraction": "3/16",
+   "ratio_include": "0.6602910312381519369052561",
+   "ratio_exclude": "1.803755231413486910522682",
+   "crossing_residual": "2.3467707e-12",
+   "n_operators": 57
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "circle",
+   "radius_squared": "1",
+   "c1_factor_names": [
+    "SU(2)_1 enhanced circle"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "sigma",
+   "c1_delta": "1/2",
+   "delta_ext": "5/8",
+   "h_boson": "1/4",
+   "momentum_charge": 1,
+   "winding_charge": 1,
+   "mutual_locality_parity": 1,
+   "momentum_fraction": "1/4",
+   "ratio_include": "0.6602910312381519369052561",
+   "ratio_exclude": "1.803755231413486910522682",
+   "crossing_residual": "2.3467707e-12",
+   "n_operators": 57
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "circle",
+   "radius_squared": "1",
+   "c1_factor_names": [
+    "SU(2)_1 enhanced circle"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "sigma",
+   "c1_delta": "1/2",
+   "delta_ext": "5/8",
+   "h_boson": "1/4",
+   "momentum_charge": 1,
+   "winding_charge": 1,
+   "mutual_locality_parity": 1,
+   "momentum_fraction": "5/16",
+   "ratio_include": "0.6602910312381519369052561",
+   "ratio_exclude": "1.803755231413486910522682",
+   "crossing_residual": "2.3467707e-12",
+   "n_operators": 57
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "circle",
+   "radius_squared": "1",
+   "c1_factor_names": [
+    "SU(2)_1 enhanced circle"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "sigma",
+   "c1_delta": "1/2",
+   "delta_ext": "5/8",
+   "h_boson": "1/4",
+   "momentum_charge": 1,
+   "winding_charge": 1,
+   "mutual_locality_parity": 1,
+   "momentum_fraction": "3/8",
+   "ratio_include": "0.6602910312381519369052561",
+   "ratio_exclude": "1.803755231413486910522682",
+   "crossing_residual": "2.3467707e-12",
+   "n_operators": 57
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "circle",
+   "radius_squared": "1",
+   "c1_factor_names": [
+    "SU(2)_1 enhanced circle"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "sigma",
+   "c1_delta": "1/2",
+   "delta_ext": "5/8",
+   "h_boson": "1/4",
+   "momentum_charge": 1,
+   "winding_charge": 1,
+   "mutual_locality_parity": 1,
+   "momentum_fraction": "7/16",
+   "ratio_include": "0.6602910312381519369052561",
+   "ratio_exclude": "1.803755231413486910522682",
+   "crossing_residual": "2.3467707e-12",
+   "n_operators": 57
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "circle",
+   "radius_squared": "1",
+   "c1_factor_names": [
+    "SU(2)_1 enhanced circle"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "sigma",
+   "c1_delta": "1/2",
+   "delta_ext": "5/8",
+   "h_boson": "1/4",
+   "momentum_charge": 1,
+   "winding_charge": 1,
+   "mutual_locality_parity": 1,
+   "momentum_fraction": "1/2",
+   "ratio_include": "0.6602910312381519369052561",
+   "ratio_exclude": "1.803755231413486910522682",
+   "crossing_residual": "2.3467707e-12",
+   "n_operators": 57
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "circle",
+   "radius_squared": "1",
+   "c1_factor_names": [
+    "SU(2)_1 enhanced circle"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "eps",
+   "c1_delta": "1/2",
+   "delta_ext": "3/2",
+   "h_boson": "1/4",
+   "momentum_charge": 1,
+   "winding_charge": 1,
+   "mutual_locality_parity": 1,
+   "momentum_fraction": "0",
+   "ratio_include": "1.153356053058452053515424",
+   "ratio_exclude": "2.67026434855707185151399",
+   "crossing_residual": "2.4920779e-9",
+   "n_operators": 35
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "circle",
+   "radius_squared": "1",
+   "c1_factor_names": [
+    "SU(2)_1 enhanced circle"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "eps",
+   "c1_delta": "1/2",
+   "delta_ext": "3/2",
+   "h_boson": "1/4",
+   "momentum_charge": 1,
+   "winding_charge": 1,
+   "mutual_locality_parity": 1,
+   "momentum_fraction": "1/16",
+   "ratio_include": "1.153356053058452053515424",
+   "ratio_exclude": "2.67026434855707185151399",
+   "crossing_residual": "2.4920779e-9",
+   "n_operators": 35
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "circle",
+   "radius_squared": "1",
+   "c1_factor_names": [
+    "SU(2)_1 enhanced circle"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "eps",
+   "c1_delta": "1/2",
+   "delta_ext": "3/2",
+   "h_boson": "1/4",
+   "momentum_charge": 1,
+   "winding_charge": 1,
+   "mutual_locality_parity": 1,
+   "momentum_fraction": "1/8",
+   "ratio_include": "1.153356053058452053515424",
+   "ratio_exclude": "2.67026434855707185151399",
+   "crossing_residual": "2.4920779e-9",
+   "n_operators": 35
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "circle",
+   "radius_squared": "1",
+   "c1_factor_names": [
+    "SU(2)_1 enhanced circle"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "eps",
+   "c1_delta": "1/2",
+   "delta_ext": "3/2",
+   "h_boson": "1/4",
+   "momentum_charge": 1,
+   "winding_charge": 1,
+   "mutual_locality_parity": 1,
+   "momentum_fraction": "3/16",
+   "ratio_include": "1.153356053058452053515424",
+   "ratio_exclude": "2.67026434855707185151399",
+   "crossing_residual": "2.4920779e-9",
+   "n_operators": 35
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "circle",
+   "radius_squared": "1",
+   "c1_factor_names": [
+    "SU(2)_1 enhanced circle"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "eps",
+   "c1_delta": "1/2",
+   "delta_ext": "3/2",
+   "h_boson": "1/4",
+   "momentum_charge": 1,
+   "winding_charge": 1,
+   "mutual_locality_parity": 1,
+   "momentum_fraction": "1/4",
+   "ratio_include": "1.153356053058452053515424",
+   "ratio_exclude": "2.67026434855707185151399",
+   "crossing_residual": "2.4920779e-9",
+   "n_operators": 35
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "circle",
+   "radius_squared": "1",
+   "c1_factor_names": [
+    "SU(2)_1 enhanced circle"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "eps",
+   "c1_delta": "1/2",
+   "delta_ext": "3/2",
+   "h_boson": "1/4",
+   "momentum_charge": 1,
+   "winding_charge": 1,
+   "mutual_locality_parity": 1,
+   "momentum_fraction": "5/16",
+   "ratio_include": "1.153356053058452053515424",
+   "ratio_exclude": "2.67026434855707185151399",
+   "crossing_residual": "2.4920779e-9",
+   "n_operators": 35
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "circle",
+   "radius_squared": "1",
+   "c1_factor_names": [
+    "SU(2)_1 enhanced circle"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "eps",
+   "c1_delta": "1/2",
+   "delta_ext": "3/2",
+   "h_boson": "1/4",
+   "momentum_charge": 1,
+   "winding_charge": 1,
+   "mutual_locality_parity": 1,
+   "momentum_fraction": "3/8",
+   "ratio_include": "1.153356053058452053515424",
+   "ratio_exclude": "2.67026434855707185151399",
+   "crossing_residual": "2.4920779e-9",
+   "n_operators": 35
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "circle",
+   "radius_squared": "1",
+   "c1_factor_names": [
+    "SU(2)_1 enhanced circle"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "eps",
+   "c1_delta": "1/2",
+   "delta_ext": "3/2",
+   "h_boson": "1/4",
+   "momentum_charge": 1,
+   "winding_charge": 1,
+   "mutual_locality_parity": 1,
+   "momentum_fraction": "7/16",
+   "ratio_include": "1.153356053058452053515424",
+   "ratio_exclude": "2.67026434855707185151399",
+   "crossing_residual": "2.4920779e-9",
+   "n_operators": 35
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "circle",
+   "radius_squared": "1",
+   "c1_factor_names": [
+    "SU(2)_1 enhanced circle"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "eps",
+   "c1_delta": "1/2",
+   "delta_ext": "3/2",
+   "h_boson": "1/4",
+   "momentum_charge": 1,
+   "winding_charge": 1,
+   "mutual_locality_parity": 1,
+   "momentum_fraction": "1/2",
+   "ratio_include": "1.153356053058452053515424",
+   "ratio_exclude": "2.67026434855707185151399",
+   "crossing_residual": "2.4920779e-9",
+   "n_operators": 35
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "circle",
+   "radius_squared": "4",
+   "c1_factor_names": [
+    "C2 / KT"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "1",
+   "c1_delta": "2",
+   "delta_ext": "2",
+   "h_boson": "1",
+   "momentum_charge": 4,
+   "winding_charge": 1,
+   "mutual_locality_parity": 0,
+   "momentum_fraction": "0",
+   "ratio_include": "1.459979431554010808881028",
+   "ratio_exclude": "2.297392927800558445166374",
+   "crossing_residual": "7.8263124e-8",
+   "n_operators": 35
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "circle",
+   "radius_squared": "4",
+   "c1_factor_names": [
+    "C2 / KT"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "1",
+   "c1_delta": "2",
+   "delta_ext": "2",
+   "h_boson": "1",
+   "momentum_charge": 4,
+   "winding_charge": 1,
+   "mutual_locality_parity": 0,
+   "momentum_fraction": "1/16",
+   "ratio_include": "1.427678982881582746958535",
+   "ratio_exclude": "2.376816441747377015383436",
+   "crossing_residual": "7.8649278e-8",
+   "n_operators": 35
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "circle",
+   "radius_squared": "4",
+   "c1_factor_names": [
+    "C2 / KT"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "1",
+   "c1_delta": "2",
+   "delta_ext": "2",
+   "h_boson": "1",
+   "momentum_charge": 4,
+   "winding_charge": 1,
+   "mutual_locality_parity": 0,
+   "momentum_fraction": "1/8",
+   "ratio_include": "1.394242036940919323648149",
+   "ratio_exclude": "2.469355272570112032692229",
+   "crossing_residual": "7.8983946e-8",
+   "n_operators": 35
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "circle",
+   "radius_squared": "4",
+   "c1_factor_names": [
+    "C2 / KT"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "1",
+   "c1_delta": "2",
+   "delta_ext": "2",
+   "h_boson": "1",
+   "momentum_charge": 4,
+   "winding_charge": 1,
+   "mutual_locality_parity": 0,
+   "momentum_fraction": "3/16",
+   "ratio_include": "1.360843768786057282589809",
+   "ratio_exclude": "2.574387335833740407677724",
+   "crossing_residual": "7.9267126e-8",
+   "n_operators": 35
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "circle",
+   "radius_squared": "4",
+   "c1_factor_names": [
+    "C2 / KT"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "1",
+   "c1_delta": "2",
+   "delta_ext": "2",
+   "h_boson": "1",
+   "momentum_charge": 4,
+   "winding_charge": 1,
+   "mutual_locality_parity": 0,
+   "momentum_fraction": "1/4",
+   "ratio_include": "1.329110516932047202608871",
+   "ratio_exclude": "2.68835801413269455739836",
+   "crossing_residual": "7.9498818e-8",
+   "n_operators": 35
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "circle",
+   "radius_squared": "4",
+   "c1_factor_names": [
+    "C2 / KT"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "1",
+   "c1_delta": "2",
+   "delta_ext": "2",
+   "h_boson": "1",
+   "momentum_charge": 4,
+   "winding_charge": 1,
+   "mutual_locality_parity": 0,
+   "momentum_fraction": "5/16",
+   "ratio_include": "1.301053862158838285628651",
+   "ratio_exclude": "2.803119223159510734296902",
+   "crossing_residual": "7.9679024e-8",
+   "n_operators": 35
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "circle",
+   "radius_squared": "4",
+   "c1_factor_names": [
+    "C2 / KT"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "1",
+   "c1_delta": "2",
+   "delta_ext": "2",
+   "h_boson": "1",
+   "momentum_charge": 4,
+   "winding_charge": 1,
+   "mutual_locality_parity": 0,
+   "momentum_fraction": "3/8",
+   "ratio_include": "1.278866201496284993460233",
+   "ratio_exclude": "2.905042192312368944180088",
+   "crossing_residual": "7.9807742e-8",
+   "n_operators": 35
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "circle",
+   "radius_squared": "4",
+   "c1_factor_names": [
+    "C2 / KT"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "1",
+   "c1_delta": "2",
+   "delta_ext": "2",
+   "h_boson": "1",
+   "momentum_charge": 4,
+   "winding_charge": 1,
+   "mutual_locality_parity": 0,
+   "momentum_fraction": "7/16",
+   "ratio_include": "1.264576533803490150641538",
+   "ratio_exclude": "2.976761368079147555309045",
+   "crossing_residual": "7.9884973e-8",
+   "n_operators": 35
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "circle",
+   "radius_squared": "4",
+   "c1_factor_names": [
+    "C2 / KT"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "1",
+   "c1_delta": "2",
+   "delta_ext": "2",
+   "h_boson": "1",
+   "momentum_charge": 4,
+   "winding_charge": 1,
+   "mutual_locality_parity": 0,
+   "momentum_fraction": "1/2",
+   "ratio_include": "1.259636895588691192907762",
+   "ratio_exclude": "3.002778468170695669454701",
+   "crossing_residual": "7.9910717e-8",
+   "n_operators": 19
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "orbifold",
+   "radius_squared": "1/2",
+   "c1_factor_names": [
+    "D1 / circle-orbifold junction"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "1",
+   "c1_delta": "1/2",
+   "delta_ext": "1/2",
+   "h_boson": "1/4",
+   "momentum_charge": 1,
+   "winding_charge": 1,
+   "mutual_locality_parity": 1,
+   "momentum_fraction": "0",
+   "ratio_include": "0.560335487978979810140321",
+   "ratio_exclude": "2.012637972569621624677744",
+   "crossing_residual": "1.2383708e-13",
+   "n_operators": 35
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "orbifold",
+   "radius_squared": "1/2",
+   "c1_factor_names": [
+    "D1 / circle-orbifold junction"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "1",
+   "c1_delta": "1/2",
+   "delta_ext": "1/2",
+   "h_boson": "1/4",
+   "momentum_charge": 1,
+   "winding_charge": 1,
+   "mutual_locality_parity": 1,
+   "momentum_fraction": "1/16",
+   "ratio_include": "0.560335487978979810140321",
+   "ratio_exclude": "2.012637972569621624677744",
+   "crossing_residual": "1.2383708e-13",
+   "n_operators": 35
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "orbifold",
+   "radius_squared": "1/2",
+   "c1_factor_names": [
+    "D1 / circle-orbifold junction"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "1",
+   "c1_delta": "1/2",
+   "delta_ext": "1/2",
+   "h_boson": "1/4",
+   "momentum_charge": 1,
+   "winding_charge": 1,
+   "mutual_locality_parity": 1,
+   "momentum_fraction": "1/8",
+   "ratio_include": "0.560335487978979810140321",
+   "ratio_exclude": "2.012637972569621624677744",
+   "crossing_residual": "1.2383708e-13",
+   "n_operators": 35
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "orbifold",
+   "radius_squared": "1/2",
+   "c1_factor_names": [
+    "D1 / circle-orbifold junction"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "1",
+   "c1_delta": "1/2",
+   "delta_ext": "1/2",
+   "h_boson": "1/4",
+   "momentum_charge": 1,
+   "winding_charge": 1,
+   "mutual_locality_parity": 1,
+   "momentum_fraction": "3/16",
+   "ratio_include": "0.560335487978979810140321",
+   "ratio_exclude": "2.012637972569621624677744",
+   "crossing_residual": "1.2383708e-13",
+   "n_operators": 35
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "orbifold",
+   "radius_squared": "1/2",
+   "c1_factor_names": [
+    "D1 / circle-orbifold junction"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "1",
+   "c1_delta": "1/2",
+   "delta_ext": "1/2",
+   "h_boson": "1/4",
+   "momentum_charge": 1,
+   "winding_charge": 1,
+   "mutual_locality_parity": 1,
+   "momentum_fraction": "1/4",
+   "ratio_include": "0.560335487978979810140321",
+   "ratio_exclude": "2.012637972569621624677744",
+   "crossing_residual": "1.2383708e-13",
+   "n_operators": 35
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "orbifold",
+   "radius_squared": "1/2",
+   "c1_factor_names": [
+    "D1 / circle-orbifold junction"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "1",
+   "c1_delta": "1/2",
+   "delta_ext": "1/2",
+   "h_boson": "1/4",
+   "momentum_charge": 1,
+   "winding_charge": 1,
+   "mutual_locality_parity": 1,
+   "momentum_fraction": "5/16",
+   "ratio_include": "0.560335487978979810140321",
+   "ratio_exclude": "2.012637972569621624677744",
+   "crossing_residual": "1.2383708e-13",
+   "n_operators": 35
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "orbifold",
+   "radius_squared": "1/2",
+   "c1_factor_names": [
+    "D1 / circle-orbifold junction"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "1",
+   "c1_delta": "1/2",
+   "delta_ext": "1/2",
+   "h_boson": "1/4",
+   "momentum_charge": 1,
+   "winding_charge": 1,
+   "mutual_locality_parity": 1,
+   "momentum_fraction": "3/8",
+   "ratio_include": "0.560335487978979810140321",
+   "ratio_exclude": "2.012637972569621624677744",
+   "crossing_residual": "1.2383708e-13",
+   "n_operators": 35
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "orbifold",
+   "radius_squared": "1/2",
+   "c1_factor_names": [
+    "D1 / circle-orbifold junction"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "1",
+   "c1_delta": "1/2",
+   "delta_ext": "1/2",
+   "h_boson": "1/4",
+   "momentum_charge": 1,
+   "winding_charge": 1,
+   "mutual_locality_parity": 1,
+   "momentum_fraction": "7/16",
+   "ratio_include": "0.560335487978979810140321",
+   "ratio_exclude": "2.012637972569621624677744",
+   "crossing_residual": "1.2383708e-13",
+   "n_operators": 35
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "orbifold",
+   "radius_squared": "1/2",
+   "c1_factor_names": [
+    "D1 / circle-orbifold junction"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "1",
+   "c1_delta": "1/2",
+   "delta_ext": "1/2",
+   "h_boson": "1/4",
+   "momentum_charge": 1,
+   "winding_charge": 1,
+   "mutual_locality_parity": 1,
+   "momentum_fraction": "1/2",
+   "ratio_include": "0.560335487978979810140321",
+   "ratio_exclude": "2.012637972569621624677744",
+   "crossing_residual": "1.2383708e-13",
+   "n_operators": 35
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "orbifold",
+   "radius_squared": "1/2",
+   "c1_factor_names": [
+    "D1 / circle-orbifold junction"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "sigma",
+   "c1_delta": "1/2",
+   "delta_ext": "5/8",
+   "h_boson": "1/4",
+   "momentum_charge": 1,
+   "winding_charge": 1,
+   "mutual_locality_parity": 1,
+   "momentum_fraction": "0",
+   "ratio_include": "0.6602910312381519369052561",
+   "ratio_exclude": "1.803755231413486910522682",
+   "crossing_residual": "2.3467707e-12",
+   "n_operators": 57
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "orbifold",
+   "radius_squared": "1/2",
+   "c1_factor_names": [
+    "D1 / circle-orbifold junction"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "sigma",
+   "c1_delta": "1/2",
+   "delta_ext": "5/8",
+   "h_boson": "1/4",
+   "momentum_charge": 1,
+   "winding_charge": 1,
+   "mutual_locality_parity": 1,
+   "momentum_fraction": "1/16",
+   "ratio_include": "0.6602910312381519369052561",
+   "ratio_exclude": "1.803755231413486910522682",
+   "crossing_residual": "2.3467707e-12",
+   "n_operators": 57
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "orbifold",
+   "radius_squared": "1/2",
+   "c1_factor_names": [
+    "D1 / circle-orbifold junction"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "sigma",
+   "c1_delta": "1/2",
+   "delta_ext": "5/8",
+   "h_boson": "1/4",
+   "momentum_charge": 1,
+   "winding_charge": 1,
+   "mutual_locality_parity": 1,
+   "momentum_fraction": "1/8",
+   "ratio_include": "0.6602910312381519369052561",
+   "ratio_exclude": "1.803755231413486910522682",
+   "crossing_residual": "2.3467707e-12",
+   "n_operators": 57
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "orbifold",
+   "radius_squared": "1/2",
+   "c1_factor_names": [
+    "D1 / circle-orbifold junction"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "sigma",
+   "c1_delta": "1/2",
+   "delta_ext": "5/8",
+   "h_boson": "1/4",
+   "momentum_charge": 1,
+   "winding_charge": 1,
+   "mutual_locality_parity": 1,
+   "momentum_fraction": "3/16",
+   "ratio_include": "0.6602910312381519369052561",
+   "ratio_exclude": "1.803755231413486910522682",
+   "crossing_residual": "2.3467707e-12",
+   "n_operators": 57
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "orbifold",
+   "radius_squared": "1/2",
+   "c1_factor_names": [
+    "D1 / circle-orbifold junction"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "sigma",
+   "c1_delta": "1/2",
+   "delta_ext": "5/8",
+   "h_boson": "1/4",
+   "momentum_charge": 1,
+   "winding_charge": 1,
+   "mutual_locality_parity": 1,
+   "momentum_fraction": "1/4",
+   "ratio_include": "0.6602910312381519369052561",
+   "ratio_exclude": "1.803755231413486910522682",
+   "crossing_residual": "2.3467707e-12",
+   "n_operators": 57
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "orbifold",
+   "radius_squared": "1/2",
+   "c1_factor_names": [
+    "D1 / circle-orbifold junction"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "sigma",
+   "c1_delta": "1/2",
+   "delta_ext": "5/8",
+   "h_boson": "1/4",
+   "momentum_charge": 1,
+   "winding_charge": 1,
+   "mutual_locality_parity": 1,
+   "momentum_fraction": "5/16",
+   "ratio_include": "0.6602910312381519369052561",
+   "ratio_exclude": "1.803755231413486910522682",
+   "crossing_residual": "2.3467707e-12",
+   "n_operators": 57
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "orbifold",
+   "radius_squared": "1/2",
+   "c1_factor_names": [
+    "D1 / circle-orbifold junction"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "sigma",
+   "c1_delta": "1/2",
+   "delta_ext": "5/8",
+   "h_boson": "1/4",
+   "momentum_charge": 1,
+   "winding_charge": 1,
+   "mutual_locality_parity": 1,
+   "momentum_fraction": "3/8",
+   "ratio_include": "0.6602910312381519369052561",
+   "ratio_exclude": "1.803755231413486910522682",
+   "crossing_residual": "2.3467707e-12",
+   "n_operators": 57
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "orbifold",
+   "radius_squared": "1/2",
+   "c1_factor_names": [
+    "D1 / circle-orbifold junction"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "sigma",
+   "c1_delta": "1/2",
+   "delta_ext": "5/8",
+   "h_boson": "1/4",
+   "momentum_charge": 1,
+   "winding_charge": 1,
+   "mutual_locality_parity": 1,
+   "momentum_fraction": "7/16",
+   "ratio_include": "0.6602910312381519369052561",
+   "ratio_exclude": "1.803755231413486910522682",
+   "crossing_residual": "2.3467707e-12",
+   "n_operators": 57
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "orbifold",
+   "radius_squared": "1/2",
+   "c1_factor_names": [
+    "D1 / circle-orbifold junction"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "sigma",
+   "c1_delta": "1/2",
+   "delta_ext": "5/8",
+   "h_boson": "1/4",
+   "momentum_charge": 1,
+   "winding_charge": 1,
+   "mutual_locality_parity": 1,
+   "momentum_fraction": "1/2",
+   "ratio_include": "0.6602910312381519369052561",
+   "ratio_exclude": "1.803755231413486910522682",
+   "crossing_residual": "2.3467707e-12",
+   "n_operators": 57
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "orbifold",
+   "radius_squared": "1/2",
+   "c1_factor_names": [
+    "D1 / circle-orbifold junction"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "eps",
+   "c1_delta": "1/2",
+   "delta_ext": "3/2",
+   "h_boson": "1/4",
+   "momentum_charge": 1,
+   "winding_charge": 1,
+   "mutual_locality_parity": 1,
+   "momentum_fraction": "0",
+   "ratio_include": "1.153356053058452053515424",
+   "ratio_exclude": "2.67026434855707185151399",
+   "crossing_residual": "2.4920779e-9",
+   "n_operators": 35
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "orbifold",
+   "radius_squared": "1/2",
+   "c1_factor_names": [
+    "D1 / circle-orbifold junction"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "eps",
+   "c1_delta": "1/2",
+   "delta_ext": "3/2",
+   "h_boson": "1/4",
+   "momentum_charge": 1,
+   "winding_charge": 1,
+   "mutual_locality_parity": 1,
+   "momentum_fraction": "1/16",
+   "ratio_include": "1.153356053058452053515424",
+   "ratio_exclude": "2.67026434855707185151399",
+   "crossing_residual": "2.4920779e-9",
+   "n_operators": 35
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "orbifold",
+   "radius_squared": "1/2",
+   "c1_factor_names": [
+    "D1 / circle-orbifold junction"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "eps",
+   "c1_delta": "1/2",
+   "delta_ext": "3/2",
+   "h_boson": "1/4",
+   "momentum_charge": 1,
+   "winding_charge": 1,
+   "mutual_locality_parity": 1,
+   "momentum_fraction": "1/8",
+   "ratio_include": "1.153356053058452053515424",
+   "ratio_exclude": "2.67026434855707185151399",
+   "crossing_residual": "2.4920779e-9",
+   "n_operators": 35
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "orbifold",
+   "radius_squared": "1/2",
+   "c1_factor_names": [
+    "D1 / circle-orbifold junction"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "eps",
+   "c1_delta": "1/2",
+   "delta_ext": "3/2",
+   "h_boson": "1/4",
+   "momentum_charge": 1,
+   "winding_charge": 1,
+   "mutual_locality_parity": 1,
+   "momentum_fraction": "3/16",
+   "ratio_include": "1.153356053058452053515424",
+   "ratio_exclude": "2.67026434855707185151399",
+   "crossing_residual": "2.4920779e-9",
+   "n_operators": 35
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "orbifold",
+   "radius_squared": "1/2",
+   "c1_factor_names": [
+    "D1 / circle-orbifold junction"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "eps",
+   "c1_delta": "1/2",
+   "delta_ext": "3/2",
+   "h_boson": "1/4",
+   "momentum_charge": 1,
+   "winding_charge": 1,
+   "mutual_locality_parity": 1,
+   "momentum_fraction": "1/4",
+   "ratio_include": "1.153356053058452053515424",
+   "ratio_exclude": "2.67026434855707185151399",
+   "crossing_residual": "2.4920779e-9",
+   "n_operators": 35
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "orbifold",
+   "radius_squared": "1/2",
+   "c1_factor_names": [
+    "D1 / circle-orbifold junction"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "eps",
+   "c1_delta": "1/2",
+   "delta_ext": "3/2",
+   "h_boson": "1/4",
+   "momentum_charge": 1,
+   "winding_charge": 1,
+   "mutual_locality_parity": 1,
+   "momentum_fraction": "5/16",
+   "ratio_include": "1.153356053058452053515424",
+   "ratio_exclude": "2.67026434855707185151399",
+   "crossing_residual": "2.4920779e-9",
+   "n_operators": 35
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "orbifold",
+   "radius_squared": "1/2",
+   "c1_factor_names": [
+    "D1 / circle-orbifold junction"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "eps",
+   "c1_delta": "1/2",
+   "delta_ext": "3/2",
+   "h_boson": "1/4",
+   "momentum_charge": 1,
+   "winding_charge": 1,
+   "mutual_locality_parity": 1,
+   "momentum_fraction": "3/8",
+   "ratio_include": "1.153356053058452053515424",
+   "ratio_exclude": "2.67026434855707185151399",
+   "crossing_residual": "2.4920779e-9",
+   "n_operators": 35
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "orbifold",
+   "radius_squared": "1/2",
+   "c1_factor_names": [
+    "D1 / circle-orbifold junction"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "eps",
+   "c1_delta": "1/2",
+   "delta_ext": "3/2",
+   "h_boson": "1/4",
+   "momentum_charge": 1,
+   "winding_charge": 1,
+   "mutual_locality_parity": 1,
+   "momentum_fraction": "7/16",
+   "ratio_include": "1.153356053058452053515424",
+   "ratio_exclude": "2.67026434855707185151399",
+   "crossing_residual": "2.4920779e-9",
+   "n_operators": 35
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "orbifold",
+   "radius_squared": "1/2",
+   "c1_factor_names": [
+    "D1 / circle-orbifold junction"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "eps",
+   "c1_delta": "1/2",
+   "delta_ext": "3/2",
+   "h_boson": "1/4",
+   "momentum_charge": 1,
+   "winding_charge": 1,
+   "mutual_locality_parity": 1,
+   "momentum_fraction": "1/2",
+   "ratio_include": "1.153356053058452053515424",
+   "ratio_exclude": "2.67026434855707185151399",
+   "crossing_residual": "2.4920779e-9",
+   "n_operators": 35
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "orbifold",
+   "radius_squared": "1",
+   "c1_factor_names": [
+    "Ising^2",
+    "free Dirac orbifold"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "1",
+   "c1_delta": "1",
+   "delta_ext": "1",
+   "h_boson": "1/2",
+   "momentum_charge": 2,
+   "winding_charge": 1,
+   "mutual_locality_parity": 0,
+   "momentum_fraction": "0",
+   "ratio_include": "0.9253671670188199955393016",
+   "ratio_exclude": "2.334147709884290255422677",
+   "crossing_residual": "3.4821066e-11",
+   "n_operators": 35
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "orbifold",
+   "radius_squared": "1",
+   "c1_factor_names": [
+    "Ising^2",
+    "free Dirac orbifold"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "1",
+   "c1_delta": "1",
+   "delta_ext": "1",
+   "h_boson": "1/2",
+   "momentum_charge": 2,
+   "winding_charge": 1,
+   "mutual_locality_parity": 0,
+   "momentum_fraction": "1/16",
+   "ratio_include": "0.9189801639015503219225851",
+   "ratio_exclude": "2.318037122400159687964931",
+   "crossing_residual": "3.5062085e-11",
+   "n_operators": 35
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "orbifold",
+   "radius_squared": "1",
+   "c1_factor_names": [
+    "Ising^2",
+    "free Dirac orbifold"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "1",
+   "c1_delta": "1",
+   "delta_ext": "1",
+   "h_boson": "1/2",
+   "momentum_charge": 2,
+   "winding_charge": 1,
+   "mutual_locality_parity": 0,
+   "momentum_fraction": "1/8",
+   "ratio_include": "0.9134447611999166045673229",
+   "ratio_exclude": "2.30407461324724652809687",
+   "crossing_residual": "3.5270968e-11",
+   "n_operators": 35
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "orbifold",
+   "radius_squared": "1",
+   "c1_factor_names": [
+    "Ising^2",
+    "free Dirac orbifold"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "1",
+   "c1_delta": "1",
+   "delta_ext": "1",
+   "h_boson": "1/2",
+   "momentum_charge": 2,
+   "winding_charge": 1,
+   "mutual_locality_parity": 0,
+   "momentum_fraction": "3/16",
+   "ratio_include": "0.9087609589139188435681326",
+   "ratio_exclude": "2.292260182425550776420501",
+   "crossing_residual": "3.5447715e-11",
+   "n_operators": 35
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "orbifold",
+   "radius_squared": "1",
+   "c1_factor_names": [
+    "Ising^2",
+    "free Dirac orbifold"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "1",
+   "c1_delta": "1",
+   "delta_ext": "1",
+   "h_boson": "1/2",
+   "momentum_charge": 2,
+   "winding_charge": 1,
+   "mutual_locality_parity": 0,
+   "momentum_fraction": "1/4",
+   "ratio_include": "0.9049287570435570390050753",
+   "ratio_exclude": "2.282593829935072433445213",
+   "crossing_residual": "3.5592327e-11",
+   "n_operators": 35
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "orbifold",
+   "radius_squared": "1",
+   "c1_factor_names": [
+    "Ising^2",
+    "free Dirac orbifold"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "1",
+   "c1_delta": "1",
+   "delta_ext": "1",
+   "h_boson": "1/2",
+   "momentum_charge": 2,
+   "winding_charge": 1,
+   "mutual_locality_parity": 0,
+   "momentum_fraction": "5/16",
+   "ratio_include": "0.9019481555888311909436557",
+   "ratio_exclude": "2.275075555775811499587779",
+   "crossing_residual": "3.5704802e-11",
+   "n_operators": 35
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "orbifold",
+   "radius_squared": "1",
+   "c1_factor_names": [
+    "Ising^2",
+    "free Dirac orbifold"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "1",
+   "c1_delta": "1",
+   "delta_ext": "1",
+   "h_boson": "1/2",
+   "momentum_charge": 2,
+   "winding_charge": 1,
+   "mutual_locality_parity": 0,
+   "momentum_fraction": "3/8",
+   "ratio_include": "0.8998191545497412994348217",
+   "ratio_exclude": "2.269705359947767975172357",
+   "crossing_residual": "3.5785142e-11",
+   "n_operators": 35
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "orbifold",
+   "radius_squared": "1",
+   "c1_factor_names": [
+    "Ising^2",
+    "free Dirac orbifold"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "1",
+   "c1_delta": "1",
+   "delta_ext": "1",
+   "h_boson": "1/2",
+   "momentum_charge": 2,
+   "winding_charge": 1,
+   "mutual_locality_parity": 0,
+   "momentum_fraction": "7/16",
+   "ratio_include": "0.8985417539262873645149647",
+   "ratio_exclude": "2.266483242450941860430488",
+   "crossing_residual": "3.5833346e-11",
+   "n_operators": 35
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "orbifold",
+   "radius_squared": "1",
+   "c1_factor_names": [
+    "Ising^2",
+    "free Dirac orbifold"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "1",
+   "c1_delta": "1",
+   "delta_ext": "1",
+   "h_boson": "1/2",
+   "momentum_charge": 2,
+   "winding_charge": 1,
+   "mutual_locality_parity": 0,
+   "momentum_fraction": "1/2",
+   "ratio_include": "0.8981159537184693862059196",
+   "ratio_exclude": "2.265409203285333155501095",
+   "crossing_residual": "3.5849414e-11",
+   "n_operators": 19
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "orbifold",
+   "radius_squared": "1",
+   "c1_factor_names": [
+    "Ising^2",
+    "free Dirac orbifold"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "sigma",
+   "c1_delta": "1",
+   "delta_ext": "9/8",
+   "h_boson": "1/2",
+   "momentum_charge": 2,
+   "winding_charge": 1,
+   "mutual_locality_parity": 0,
+   "momentum_fraction": "0",
+   "ratio_include": "0.9682712133834850656728329",
+   "ratio_exclude": "2.141752539244293091422515",
+   "crossing_residual": "5.4522098e-10",
+   "n_operators": 62
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "orbifold",
+   "radius_squared": "1",
+   "c1_factor_names": [
+    "Ising^2",
+    "free Dirac orbifold"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "sigma",
+   "c1_delta": "1",
+   "delta_ext": "9/8",
+   "h_boson": "1/2",
+   "momentum_charge": 2,
+   "winding_charge": 1,
+   "mutual_locality_parity": 0,
+   "momentum_fraction": "1/16",
+   "ratio_include": "0.9588714940677002488489693",
+   "ratio_exclude": "2.120960975440165619175793",
+   "crossing_residual": "5.5370601e-10",
+   "n_operators": 63
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "orbifold",
+   "radius_squared": "1",
+   "c1_factor_names": [
+    "Ising^2",
+    "free Dirac orbifold"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "sigma",
+   "c1_delta": "1",
+   "delta_ext": "9/8",
+   "h_boson": "1/2",
+   "momentum_charge": 2,
+   "winding_charge": 1,
+   "mutual_locality_parity": 0,
+   "momentum_fraction": "1/8",
+   "ratio_include": "0.9507250706606867219669857",
+   "ratio_exclude": "2.102941620143255050424919",
+   "crossing_residual": "5.6105971e-10",
+   "n_operators": 63
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "orbifold",
+   "radius_squared": "1",
+   "c1_factor_names": [
+    "Ising^2",
+    "free Dirac orbifold"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "sigma",
+   "c1_delta": "1",
+   "delta_ext": "9/8",
+   "h_boson": "1/2",
+   "momentum_charge": 2,
+   "winding_charge": 1,
+   "mutual_locality_parity": 0,
+   "momentum_fraction": "3/16",
+   "ratio_include": "0.9438319431624444931560114",
+   "ratio_exclude": "2.087694473353561424942914",
+   "crossing_residual": "5.6728207e-10",
+   "n_operators": 63
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "orbifold",
+   "radius_squared": "1",
+   "c1_factor_names": [
+    "Ising^2",
+    "free Dirac orbifold"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "sigma",
+   "c1_delta": "1",
+   "delta_ext": "9/8",
+   "h_boson": "1/2",
+   "momentum_charge": 2,
+   "winding_charge": 1,
+   "mutual_locality_parity": 0,
+   "momentum_fraction": "1/4",
+   "ratio_include": "0.9381921115729735692945405",
+   "ratio_exclude": "2.075219535071084776383873",
+   "crossing_residual": "5.7523675e-10",
+   "n_operators": 63
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "orbifold",
+   "radius_squared": "1",
+   "c1_factor_names": [
+    "Ising^2",
+    "free Dirac orbifold"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "sigma",
+   "c1_delta": "1",
+   "delta_ext": "9/8",
+   "h_boson": "1/2",
+   "momentum_charge": 2,
+   "winding_charge": 1,
+   "mutual_locality_parity": 0,
+   "momentum_fraction": "5/16",
+   "ratio_include": "0.9338055758922739560104318",
+   "ratio_exclude": "2.065516805295825132282962",
+   "crossing_residual": "5.8585057e-10",
+   "n_operators": 63
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "orbifold",
+   "radius_squared": "1",
+   "c1_factor_names": [
+    "Ising^2",
+    "free Dirac orbifold"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "sigma",
+   "c1_delta": "1",
+   "delta_ext": "9/8",
+   "h_boson": "1/2",
+   "momentum_charge": 2,
+   "winding_charge": 1,
+   "mutual_locality_parity": 0,
+   "momentum_fraction": "3/8",
+   "ratio_include": "0.9306723361203456576809088",
+   "ratio_exclude": "2.058586284027782514056425",
+   "crossing_residual": "5.9343186e-10",
+   "n_operators": 63
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "orbifold",
+   "radius_squared": "1",
+   "c1_factor_names": [
+    "Ising^2",
+    "free Dirac orbifold"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "sigma",
+   "c1_delta": "1",
+   "delta_ext": "9/8",
+   "h_boson": "1/2",
+   "momentum_charge": 2,
+   "winding_charge": 1,
+   "mutual_locality_parity": 0,
+   "momentum_fraction": "7/16",
+   "ratio_include": "0.9287923922571886774325597",
+   "ratio_exclude": "2.054427971266956937001576",
+   "crossing_residual": "5.9798064e-10",
+   "n_operators": 63
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "orbifold",
+   "radius_squared": "1",
+   "c1_factor_names": [
+    "Ising^2",
+    "free Dirac orbifold"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "sigma",
+   "c1_delta": "1",
+   "delta_ext": "9/8",
+   "h_boson": "1/2",
+   "momentum_charge": 2,
+   "winding_charge": 1,
+   "mutual_locality_parity": 0,
+   "momentum_fraction": "1/2",
+   "ratio_include": "0.9281657443028030171413374",
+   "ratio_exclude": "2.053041867013348410296805",
+   "crossing_residual": "5.994969e-10",
+   "n_operators": 35
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "orbifold",
+   "radius_squared": "1",
+   "c1_factor_names": [
+    "Ising^2",
+    "free Dirac orbifold"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "eps",
+   "c1_delta": "1",
+   "delta_ext": "2",
+   "h_boson": "1/2",
+   "momentum_charge": 2,
+   "winding_charge": 1,
+   "mutual_locality_parity": 0,
+   "momentum_fraction": "0",
+   "ratio_include": "1.331366407077072427335003",
+   "ratio_exclude": "3.173770468597437329640609",
+   "crossing_residual": "6.1342327e-8",
+   "n_operators": 35
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "orbifold",
+   "radius_squared": "1",
+   "c1_factor_names": [
+    "Ising^2",
+    "free Dirac orbifold"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "eps",
+   "c1_delta": "1",
+   "delta_ext": "2",
+   "h_boson": "1/2",
+   "momentum_charge": 2,
+   "winding_charge": 1,
+   "mutual_locality_parity": 0,
+   "momentum_fraction": "1/16",
+   "ratio_include": "1.314554802822080030174462",
+   "ratio_exclude": "3.133694218497970718680573",
+   "crossing_residual": "6.5694294e-8",
+   "n_operators": 35
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "orbifold",
+   "radius_squared": "1",
+   "c1_factor_names": [
+    "Ising^2",
+    "free Dirac orbifold"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "eps",
+   "c1_delta": "1",
+   "delta_ext": "2",
+   "h_boson": "1/2",
+   "momentum_charge": 2,
+   "winding_charge": 1,
+   "mutual_locality_parity": 0,
+   "momentum_fraction": "1/8",
+   "ratio_include": "1.299984745801038603661671",
+   "ratio_exclude": "3.098961468411493463338127",
+   "crossing_residual": "6.9465998e-8",
+   "n_operators": 35
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "orbifold",
+   "radius_squared": "1",
+   "c1_factor_names": [
+    "Ising^2",
+    "free Dirac orbifold"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "eps",
+   "c1_delta": "1",
+   "delta_ext": "2",
+   "h_boson": "1/2",
+   "momentum_charge": 2,
+   "winding_charge": 1,
+   "mutual_locality_parity": 0,
+   "momentum_fraction": "3/16",
+   "ratio_include": "1.287656236013968725928196",
+   "ratio_exclude": "3.069572218338122503260589",
+   "crossing_residual": "7.265744e-8",
+   "n_operators": 35
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "orbifold",
+   "radius_squared": "1",
+   "c1_factor_names": [
+    "Ising^2",
+    "free Dirac orbifold"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "eps",
+   "c1_delta": "1",
+   "delta_ext": "2",
+   "h_boson": "1/2",
+   "momentum_charge": 2,
+   "winding_charge": 1,
+   "mutual_locality_parity": 0,
+   "momentum_fraction": "1/4",
+   "ratio_include": "1.277569273460887809239209",
+   "ratio_exclude": "3.045526468277956787380307",
+   "crossing_residual": "7.5268619e-8",
+   "n_operators": 35
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "orbifold",
+   "radius_squared": "1",
+   "c1_factor_names": [
+    "Ising^2",
+    "free Dirac orbifold"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "eps",
+   "c1_delta": "1",
+   "delta_ext": "2",
+   "h_boson": "1/2",
+   "momentum_charge": 2,
+   "winding_charge": 1,
+   "mutual_locality_parity": 0,
+   "momentum_fraction": "5/16",
+   "ratio_include": "1.269723858141810099993488",
+   "ratio_exclude": "3.026824218231077273914659",
+   "crossing_residual": "7.7299537e-8",
+   "n_operators": 35
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "orbifold",
+   "radius_squared": "1",
+   "c1_factor_names": [
+    "Ising^2",
+    "free Dirac orbifold"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "eps",
+   "c1_delta": "1",
+   "delta_ext": "2",
+   "h_boson": "1/2",
+   "momentum_charge": 2,
+   "winding_charge": 1,
+   "mutual_locality_parity": 0,
+   "momentum_fraction": "3/8",
+   "ratio_include": "1.264119990056746678723414",
+   "ratio_exclude": "3.013465468197546930366049",
+   "crossing_residual": "7.8750192e-8",
+   "n_operators": 35
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "orbifold",
+   "radius_squared": "1",
+   "c1_factor_names": [
+    "Ising^2",
+    "free Dirac orbifold"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "eps",
+   "c1_delta": "1",
+   "delta_ext": "2",
+   "h_boson": "1/2",
+   "momentum_charge": 2,
+   "winding_charge": 1,
+   "mutual_locality_parity": 0,
+   "momentum_fraction": "7/16",
+   "ratio_include": "1.260757669205705460094974",
+   "ratio_exclude": "3.00545021817741073352191",
+   "crossing_residual": "7.9620586e-8",
+   "n_operators": 35
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "orbifold",
+   "radius_squared": "1",
+   "c1_factor_names": [
+    "Ising^2",
+    "free Dirac orbifold"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "eps",
+   "c1_delta": "1",
+   "delta_ext": "2",
+   "h_boson": "1/2",
+   "momentum_charge": 2,
+   "winding_charge": 1,
+   "mutual_locality_parity": 0,
+   "momentum_fraction": "1/2",
+   "ratio_include": "1.259636895588691192907762",
+   "ratio_exclude": "3.002778468170695669454701",
+   "crossing_residual": "7.9910717e-8",
+   "n_operators": 19
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "orbifold",
+   "radius_squared": "3/2",
+   "c1_factor_names": [
+    "Z4 parafermion"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "1",
+   "c1_delta": "3/2",
+   "delta_ext": "3/2",
+   "h_boson": "3/4",
+   "momentum_charge": 3,
+   "winding_charge": 1,
+   "mutual_locality_parity": 1,
+   "momentum_fraction": "0",
+   "ratio_include": "1.206399150784645269644555",
+   "ratio_exclude": "2.254058425489182621108625",
+   "crossing_residual": "2.4881946e-9",
+   "n_operators": 35
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "orbifold",
+   "radius_squared": "3/2",
+   "c1_factor_names": [
+    "Z4 parafermion"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "1",
+   "c1_delta": "3/2",
+   "delta_ext": "3/2",
+   "h_boson": "3/4",
+   "momentum_charge": 3,
+   "winding_charge": 1,
+   "mutual_locality_parity": 1,
+   "momentum_fraction": "1/16",
+   "ratio_include": "1.190099868099435012574979",
+   "ratio_exclude": "2.363776986801611924251997",
+   "crossing_residual": "2.4895598e-9",
+   "n_operators": 35
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "orbifold",
+   "radius_squared": "3/2",
+   "c1_factor_names": [
+    "Z4 parafermion"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "1",
+   "c1_delta": "3/2",
+   "delta_ext": "3/2",
+   "h_boson": "3/4",
+   "momentum_charge": 3,
+   "winding_charge": 1,
+   "mutual_locality_parity": 1,
+   "momentum_fraction": "1/8",
+   "ratio_include": "1.1740599718483542382354",
+   "ratio_exclude": "2.48614715902051524192386",
+   "crossing_residual": "2.490743e-9",
+   "n_operators": 35
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "orbifold",
+   "radius_squared": "3/2",
+   "c1_factor_names": [
+    "Z4 parafermion"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "1",
+   "c1_delta": "3/2",
+   "delta_ext": "3/2",
+   "h_boson": "3/4",
+   "momentum_charge": 3,
+   "winding_charge": 1,
+   "mutual_locality_parity": 1,
+   "momentum_fraction": "3/16",
+   "ratio_include": "1.158823016282361608644638",
+   "ratio_exclude": "2.618388131927645948051913",
+   "crossing_residual": "2.4917442e-9",
+   "n_operators": 35
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "orbifold",
+   "radius_squared": "3/2",
+   "c1_factor_names": [
+    "Z4 parafermion"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "1",
+   "c1_delta": "3/2",
+   "delta_ext": "3/2",
+   "h_boson": "3/4",
+   "momentum_charge": 3,
+   "winding_charge": 1,
+   "mutual_locality_parity": 1,
+   "momentum_fraction": "1/4",
+   "ratio_include": "1.145020709130049527599564",
+   "ratio_exclude": "2.754472444226683001608382",
+   "crossing_residual": "2.4925633e-9",
+   "n_operators": 35
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "orbifold",
+   "radius_squared": "3/2",
+   "c1_factor_names": [
+    "Z4 parafermion"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "1",
+   "c1_delta": "3/2",
+   "delta_ext": "3/2",
+   "h_boson": "3/4",
+   "momentum_charge": 3,
+   "winding_charge": 1,
+   "mutual_locality_parity": 1,
+   "momentum_fraction": "5/16",
+   "ratio_include": "1.133329577386315778350051",
+   "ratio_exclude": "2.884304177227104202970655",
+   "crossing_residual": "2.4932004e-9",
+   "n_operators": 35
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "orbifold",
+   "radius_squared": "3/2",
+   "c1_factor_names": [
+    "Z4 parafermion"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "1",
+   "c1_delta": "3/2",
+   "delta_ext": "3/2",
+   "h_boson": "3/4",
+   "momentum_charge": 3,
+   "winding_charge": 1,
+   "mutual_locality_parity": 1,
+   "momentum_fraction": "3/8",
+   "ratio_include": "1.124405049337663797113809",
+   "ratio_exclude": "2.994006131968191074300424",
+   "crossing_residual": "2.4936555e-9",
+   "n_operators": 35
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "orbifold",
+   "radius_squared": "3/2",
+   "c1_factor_names": [
+    "Z4 parafermion"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "1",
+   "c1_delta": "3/2",
+   "delta_ext": "3/2",
+   "h_boson": "3/4",
+   "momentum_charge": 3,
+   "winding_charge": 1,
+   "mutual_locality_parity": 1,
+   "momentum_fraction": "7/16",
+   "ratio_include": "1.118800792306723775834871",
+   "ratio_exclude": "3.06823943745100716261502",
+   "crossing_residual": "2.4939285e-9",
+   "n_operators": 35
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "orbifold",
+   "radius_squared": "3/2",
+   "c1_factor_names": [
+    "Z4 parafermion"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "1",
+   "c1_delta": "3/2",
+   "delta_ext": "3/2",
+   "h_boson": "3/4",
+   "momentum_charge": 3,
+   "winding_charge": 1,
+   "mutual_locality_parity": 1,
+   "momentum_fraction": "1/2",
+   "ratio_include": "1.116888923371689529186693",
+   "ratio_exclude": "3.094590747517835440278382",
+   "crossing_residual": "2.4940195e-9",
+   "n_operators": 34
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "orbifold",
+   "radius_squared": "3/2",
+   "c1_factor_names": [
+    "Z4 parafermion"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "sigma",
+   "c1_delta": "3/2",
+   "delta_ext": "13/8",
+   "h_boson": "3/4",
+   "momentum_charge": 3,
+   "winding_charge": 1,
+   "mutual_locality_parity": 1,
+   "momentum_fraction": "0",
+   "ratio_include": "1.213204629210896515377082",
+   "ratio_exclude": "2.13637964959892081081958",
+   "crossing_residual": "3.2624773e-8",
+   "n_operators": 57
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "orbifold",
+   "radius_squared": "3/2",
+   "c1_factor_names": [
+    "Z4 parafermion"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "sigma",
+   "c1_delta": "3/2",
+   "delta_ext": "13/8",
+   "h_boson": "3/4",
+   "momentum_charge": 3,
+   "winding_charge": 1,
+   "mutual_locality_parity": 1,
+   "momentum_fraction": "1/16",
+   "ratio_include": "1.190386609111993624207561",
+   "ratio_exclude": "2.211088776399642290399662",
+   "crossing_residual": "3.1579154e-8",
+   "n_operators": 57
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "orbifold",
+   "radius_squared": "3/2",
+   "c1_factor_names": [
+    "Z4 parafermion"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "sigma",
+   "c1_delta": "3/2",
+   "delta_ext": "13/8",
+   "h_boson": "3/4",
+   "momentum_charge": 3,
+   "winding_charge": 1,
+   "mutual_locality_parity": 1,
+   "momentum_fraction": "1/8",
+   "ratio_include": "1.167931714494220812661535",
+   "ratio_exclude": "2.293059784437879215741248",
+   "crossing_residual": "3.0672951e-8",
+   "n_operators": 57
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "orbifold",
+   "radius_squared": "3/2",
+   "c1_factor_names": [
+    "Z4 parafermion"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "sigma",
+   "c1_delta": "3/2",
+   "delta_ext": "13/8",
+   "h_boson": "3/4",
+   "momentum_charge": 3,
+   "winding_charge": 1,
+   "mutual_locality_parity": 1,
+   "momentum_fraction": "3/16",
+   "ratio_include": "1.146600888772253636701092",
+   "ratio_exclude": "2.380079563425952092860757",
+   "crossing_residual": "3.0030542e-8",
+   "n_operators": 57
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "orbifold",
+   "radius_squared": "3/2",
+   "c1_factor_names": [
+    "Z4 parafermion"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "sigma",
+   "c1_delta": "3/2",
+   "delta_ext": "13/8",
+   "h_boson": "3/4",
+   "momentum_charge": 3,
+   "winding_charge": 1,
+   "mutual_locality_parity": 1,
+   "momentum_fraction": "1/4",
+   "ratio_include": "1.127278484952668848509123",
+   "ratio_exclude": "2.467978514574767437004123",
+   "crossing_residual": "2.9587241e-8",
+   "n_operators": 57
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "orbifold",
+   "radius_squared": "3/2",
+   "c1_factor_names": [
+    "Z4 parafermion"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "sigma",
+   "c1_delta": "3/2",
+   "delta_ext": "13/8",
+   "h_boson": "3/4",
+   "momentum_charge": 3,
+   "winding_charge": 1,
+   "mutual_locality_parity": 1,
+   "momentum_fraction": "5/16",
+   "ratio_include": "1.110911600332031407992432",
+   "ratio_exclude": "2.550321143410710615212051",
+   "crossing_residual": "2.9242451e-8",
+   "n_operators": 57
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "orbifold",
+   "radius_squared": "3/2",
+   "c1_factor_names": [
+    "Z4 parafermion"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "sigma",
+   "c1_delta": "3/2",
+   "delta_ext": "13/8",
+   "h_boson": "3/4",
+   "momentum_charge": 3,
+   "winding_charge": 1,
+   "mutual_locality_parity": 1,
+   "momentum_fraction": "3/8",
+   "ratio_include": "1.098417795278104820180341",
+   "ratio_exclude": "2.618771112665518767711112",
+   "crossing_residual": "2.8996172e-8",
+   "n_operators": 57
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "orbifold",
+   "radius_squared": "3/2",
+   "c1_factor_names": [
+    "Z4 parafermion"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "sigma",
+   "c1_delta": "3/2",
+   "delta_ext": "13/8",
+   "h_boson": "3/4",
+   "momentum_charge": 3,
+   "winding_charge": 1,
+   "mutual_locality_parity": 1,
+   "momentum_fraction": "7/16",
+   "ratio_include": "1.090572170900549538335009",
+   "ratio_exclude": "2.664517289635139224826575",
+   "crossing_residual": "2.8848405e-8",
+   "n_operators": 57
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "orbifold",
+   "radius_squared": "3/2",
+   "c1_factor_names": [
+    "Z4 parafermion"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "sigma",
+   "c1_delta": "3/2",
+   "delta_ext": "13/8",
+   "h_boson": "3/4",
+   "momentum_charge": 3,
+   "winding_charge": 1,
+   "mutual_locality_parity": 1,
+   "momentum_fraction": "1/2",
+   "ratio_include": "1.087895668834247746131854",
+   "ratio_exclude": "2.680646652761136806396947",
+   "crossing_residual": "2.8799149e-8",
+   "n_operators": 55
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "orbifold",
+   "radius_squared": "2",
+   "c1_factor_names": [
+    "D2 / four-state Potts"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "1",
+   "c1_delta": "2",
+   "delta_ext": "2",
+   "h_boson": "1",
+   "momentum_charge": 4,
+   "winding_charge": 1,
+   "mutual_locality_parity": 0,
+   "momentum_fraction": "0",
+   "ratio_include": "1.459979431554010808881028",
+   "ratio_exclude": "2.297392927800558445166374",
+   "crossing_residual": "7.8263124e-8",
+   "n_operators": 35
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "orbifold",
+   "radius_squared": "2",
+   "c1_factor_names": [
+    "D2 / four-state Potts"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "1",
+   "c1_delta": "2",
+   "delta_ext": "2",
+   "h_boson": "1",
+   "momentum_charge": 4,
+   "winding_charge": 1,
+   "mutual_locality_parity": 0,
+   "momentum_fraction": "1/16",
+   "ratio_include": "1.427678982881582746958535",
+   "ratio_exclude": "2.376816441747377015383436",
+   "crossing_residual": "7.8649278e-8",
+   "n_operators": 35
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "orbifold",
+   "radius_squared": "2",
+   "c1_factor_names": [
+    "D2 / four-state Potts"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "1",
+   "c1_delta": "2",
+   "delta_ext": "2",
+   "h_boson": "1",
+   "momentum_charge": 4,
+   "winding_charge": 1,
+   "mutual_locality_parity": 0,
+   "momentum_fraction": "1/8",
+   "ratio_include": "1.394242036940919323648149",
+   "ratio_exclude": "2.469355272570112032692229",
+   "crossing_residual": "7.8983946e-8",
+   "n_operators": 35
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "orbifold",
+   "radius_squared": "2",
+   "c1_factor_names": [
+    "D2 / four-state Potts"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "1",
+   "c1_delta": "2",
+   "delta_ext": "2",
+   "h_boson": "1",
+   "momentum_charge": 4,
+   "winding_charge": 1,
+   "mutual_locality_parity": 0,
+   "momentum_fraction": "3/16",
+   "ratio_include": "1.360843768786057282589809",
+   "ratio_exclude": "2.574387335833740407677724",
+   "crossing_residual": "7.9267126e-8",
+   "n_operators": 35
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "orbifold",
+   "radius_squared": "2",
+   "c1_factor_names": [
+    "D2 / four-state Potts"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "1",
+   "c1_delta": "2",
+   "delta_ext": "2",
+   "h_boson": "1",
+   "momentum_charge": 4,
+   "winding_charge": 1,
+   "mutual_locality_parity": 0,
+   "momentum_fraction": "1/4",
+   "ratio_include": "1.329110516932047202608871",
+   "ratio_exclude": "2.68835801413269455739836",
+   "crossing_residual": "7.9498818e-8",
+   "n_operators": 35
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "orbifold",
+   "radius_squared": "2",
+   "c1_factor_names": [
+    "D2 / four-state Potts"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "1",
+   "c1_delta": "2",
+   "delta_ext": "2",
+   "h_boson": "1",
+   "momentum_charge": 4,
+   "winding_charge": 1,
+   "mutual_locality_parity": 0,
+   "momentum_fraction": "5/16",
+   "ratio_include": "1.301053862158838285628651",
+   "ratio_exclude": "2.803119223159510734296902",
+   "crossing_residual": "7.9679024e-8",
+   "n_operators": 35
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "orbifold",
+   "radius_squared": "2",
+   "c1_factor_names": [
+    "D2 / four-state Potts"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "1",
+   "c1_delta": "2",
+   "delta_ext": "2",
+   "h_boson": "1",
+   "momentum_charge": 4,
+   "winding_charge": 1,
+   "mutual_locality_parity": 0,
+   "momentum_fraction": "3/8",
+   "ratio_include": "1.278866201496284993460233",
+   "ratio_exclude": "2.905042192312368944180088",
+   "crossing_residual": "7.9807742e-8",
+   "n_operators": 35
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "orbifold",
+   "radius_squared": "2",
+   "c1_factor_names": [
+    "D2 / four-state Potts"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "1",
+   "c1_delta": "2",
+   "delta_ext": "2",
+   "h_boson": "1",
+   "momentum_charge": 4,
+   "winding_charge": 1,
+   "mutual_locality_parity": 0,
+   "momentum_fraction": "7/16",
+   "ratio_include": "1.264576533803490150641538",
+   "ratio_exclude": "2.976761368079147555309045",
+   "crossing_residual": "7.9884973e-8",
+   "n_operators": 35
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "orbifold",
+   "radius_squared": "2",
+   "c1_factor_names": [
+    "D2 / four-state Potts"
+   ],
+   "full_cft": "spectator Ising x (c=1 factor)",
+   "ising": "1",
+   "c1_delta": "2",
+   "delta_ext": "2",
+   "h_boson": "1",
+   "momentum_charge": 4,
+   "winding_charge": 1,
+   "mutual_locality_parity": 0,
+   "momentum_fraction": "1/2",
+   "ratio_include": "1.259636895588691192907762",
+   "ratio_exclude": "3.002778468170695669454701",
+   "crossing_residual": "7.9910717e-8",
+   "n_operators": 19
+  },
+  {
+   "kind": "ground_twist_mixture",
+   "branch": "orbifold",
+   "radius": "1",
+   "c1_factor_names": [
+    "Ising^2",
+    "free Dirac orbifold"
+   ],
+   "full_cft": "Ising^3",
+   "ising": "1",
+   "sector": "ground_twist",
+   "delta_ext": "1/8",
+   "fixed_point_fraction": "0",
+   "ratio_include": "0.1634171430897093167720509",
+   "ratio_exclude": "1.054985477890184840420755",
+   "crossing_residual": "5.439589e-14",
+   "n_operators": 29
+  },
+  {
+   "kind": "ground_twist_mixture",
+   "branch": "orbifold",
+   "radius": "1",
+   "c1_factor_names": [
+    "Ising^2",
+    "free Dirac orbifold"
+   ],
+   "full_cft": "Ising^3",
+   "ising": "1",
+   "sector": "ground_twist",
+   "delta_ext": "1/8",
+   "fixed_point_fraction": "1/16",
+   "ratio_include": "0.1635669997212392197293337",
+   "ratio_exclude": "0.5987171738770902230521467",
+   "crossing_residual": "1.4351486e-13",
+   "n_operators": 57
+  },
+  {
+   "kind": "ground_twist_mixture",
+   "branch": "orbifold",
+   "radius": "1",
+   "c1_factor_names": [
+    "Ising^2",
+    "free Dirac orbifold"
+   ],
+   "full_cft": "Ising^3",
+   "ising": "1",
+   "sector": "ground_twist",
+   "delta_ext": "1/8",
+   "fixed_point_fraction": "1/8",
+   "ratio_include": "0.1636666113003033590920554",
+   "ratio_exclude": "0.4651885873226688845228713",
+   "crossing_residual": "2.2588647e-13",
+   "n_operators": 57
+  },
+  {
+   "kind": "ground_twist_mixture",
+   "branch": "orbifold",
+   "radius": "1",
+   "c1_factor_names": [
+    "Ising^2",
+    "free Dirac orbifold"
+   ],
+   "full_cft": "Ising^3",
+   "ising": "1",
+   "sector": "ground_twist",
+   "delta_ext": "1/8",
+   "fixed_point_fraction": "3/16",
+   "ratio_include": "0.1637354749326725782333214",
+   "ratio_exclude": "0.403101664790207701724845",
+   "crossing_residual": "2.9558553e-13",
+   "n_operators": 57
+  },
+  {
+   "kind": "ground_twist_mixture",
+   "branch": "orbifold",
+   "radius": "1",
+   "c1_factor_names": [
+    "Ising^2",
+    "free Dirac orbifold"
+   ],
+   "full_cft": "Ising^3",
+   "ising": "1",
+   "sector": "ground_twist",
+   "delta_ext": "1/8",
+   "fixed_point_fraction": "1/4",
+   "ratio_include": "0.1637837780561579151535312",
+   "ratio_exclude": "0.3686173683194834480039965",
+   "crossing_residual": "3.5261203e-13",
+   "n_operators": 57
+  },
+  {
+   "kind": "ground_twist_mixture",
+   "branch": "orbifold",
+   "radius": "1",
+   "c1_factor_names": [
+    "Ising^2",
+    "free Dirac orbifold"
+   ],
+   "full_cft": "Ising^3",
+   "ising": "1",
+   "sector": "ground_twist",
+   "delta_ext": "1/8",
+   "fixed_point_fraction": "5/16",
+   "ratio_include": "0.1638172624250817616376429",
+   "ratio_exclude": "0.3479909083127994046165103",
+   "crossing_residual": "3.9696597e-13",
+   "n_operators": 57
+  },
+  {
+   "kind": "ground_twist_mixture",
+   "branch": "orbifold",
+   "radius": "1",
+   "c1_factor_names": [
+    "Ising^2",
+    "free Dirac orbifold"
+   ],
+   "full_cft": "Ising^3",
+   "ising": "1",
+   "sector": "ground_twist",
+   "delta_ext": "1/8",
+   "fixed_point_fraction": "3/8",
+   "ratio_include": "0.163839293591849172415742",
+   "ratio_exclude": "0.3356380271808815595457916",
+   "crossing_residual": "4.2864736e-13",
+   "n_operators": 57
+  },
+  {
+   "kind": "ground_twist_mixture",
+   "branch": "orbifold",
+   "radius": "1",
+   "c1_factor_names": [
+    "Ising^2",
+    "free Dirac orbifold"
+   ],
+   "full_cft": "Ising^3",
+   "ising": "1",
+   "sector": "ground_twist",
+   "delta_ext": "1/8",
+   "fixed_point_fraction": "7/16",
+   "ratio_include": "0.1638518307368347560250024",
+   "ratio_exclude": "0.3289936032328235102948332",
+   "crossing_residual": "4.476562e-13",
+   "n_operators": 57
+  },
+  {
+   "kind": "ground_twist_mixture",
+   "branch": "orbifold",
+   "radius": "1",
+   "c1_factor_names": [
+    "Ising^2",
+    "free Dirac orbifold"
+   ],
+   "full_cft": "Ising^3",
+   "ising": "1",
+   "sector": "ground_twist",
+   "delta_ext": "1/8",
+   "fixed_point_fraction": "1/2",
+   "ratio_include": "0.1638559027393802531348198",
+   "ratio_exclude": "0.3268919754401037996821557",
+   "crossing_residual": "4.5399247e-13",
+   "n_operators": 57
+  },
+  {
+   "kind": "ground_twist_mixture",
+   "branch": "orbifold",
+   "radius": "1",
+   "c1_factor_names": [
+    "Ising^2",
+    "free Dirac orbifold"
+   ],
+   "full_cft": "Ising^3",
+   "ising": "sigma",
+   "sector": "ground_twist",
+   "delta_ext": "1/4",
+   "fixed_point_fraction": "0",
+   "ratio_include": "0.3112085908682119171994048",
+   "ratio_exclude": "1.116810719350301548964381",
+   "crossing_residual": "5.530229e-13",
+   "n_operators": 51
+  },
+  {
+   "kind": "ground_twist_mixture",
+   "branch": "orbifold",
+   "radius": "1",
+   "c1_factor_names": [
+    "Ising^2",
+    "free Dirac orbifold"
+   ],
+   "full_cft": "Ising^3",
+   "ising": "sigma",
+   "sector": "ground_twist",
+   "delta_ext": "1/4",
+   "fixed_point_fraction": "1/16",
+   "ratio_include": "0.3103377220901189191800671",
+   "ratio_exclude": "0.8174727478254445150167188",
+   "crossing_residual": "9.6288866e-13",
+   "n_operators": 107
+  },
+  {
+   "kind": "ground_twist_mixture",
+   "branch": "orbifold",
+   "radius": "1",
+   "c1_factor_names": [
+    "Ising^2",
+    "free Dirac orbifold"
+   ],
+   "full_cft": "Ising^3",
+   "ising": "sigma",
+   "sector": "ground_twist",
+   "delta_ext": "1/4",
+   "fixed_point_fraction": "1/8",
+   "ratio_include": "0.309758844710733870313999",
+   "ratio_exclude": "0.6933633086436898842223099",
+   "crossing_residual": "1.3181057e-12",
+   "n_operators": 107
+  },
+  {
+   "kind": "ground_twist_mixture",
+   "branch": "orbifold",
+   "radius": "1",
+   "c1_factor_names": [
+    "Ising^2",
+    "free Dirac orbifold"
+   ],
+   "full_cft": "Ising^3",
+   "ising": "sigma",
+   "sector": "ground_twist",
+   "delta_ext": "1/4",
+   "fixed_point_fraction": "3/16",
+   "ratio_include": "0.3093586542969752344605159",
+   "ratio_exclude": "0.6273139127839003987021496",
+   "crossing_residual": "1.6186739e-12",
+   "n_operators": 107
+  },
+  {
+   "kind": "ground_twist_mixture",
+   "branch": "orbifold",
+   "radius": "1",
+   "c1_factor_names": [
+    "Ising^2",
+    "free Dirac orbifold"
+   ],
+   "full_cft": "Ising^3",
+   "ising": "sigma",
+   "sector": "ground_twist",
+   "delta_ext": "1/4",
+   "fixed_point_fraction": "1/4",
+   "ratio_include": "0.309077948120022654189106",
+   "ratio_exclude": "0.587942259301379726397035",
+   "crossing_residual": "1.8645933e-12",
+   "n_operators": 107
+  },
+  {
+   "kind": "ground_twist_mixture",
+   "branch": "orbifold",
+   "radius": "1",
+   "c1_factor_names": [
+    "Ising^2",
+    "free Dirac orbifold"
+   ],
+   "full_cft": "Ising^3",
+   "ising": "sigma",
+   "sector": "ground_twist",
+   "delta_ext": "1/4",
+   "fixed_point_fraction": "5/16",
+   "ratio_include": "0.3088833588572571518941476",
+   "ratio_exclude": "0.5633926506222542420949835",
+   "crossing_residual": "2.055864e-12",
+   "n_operators": 107
+  },
+  {
+   "kind": "ground_twist_mixture",
+   "branch": "orbifold",
+   "radius": "1",
+   "c1_factor_names": [
+    "Ising^2",
+    "free Dirac orbifold"
+   ],
+   "full_cft": "Ising^3",
+   "ising": "sigma",
+   "sector": "ground_twist",
+   "delta_ext": "1/4",
+   "fixed_point_fraction": "3/8",
+   "ratio_include": "0.308755328118231301097862",
+   "ratio_exclude": "0.5483131318130645816864926",
+   "crossing_residual": "2.192486e-12",
+   "n_operators": 107
+  },
+  {
+   "kind": "ground_twist_mixture",
+   "branch": "orbifold",
+   "radius": "1",
+   "c1_factor_names": [
+    "Ising^2",
+    "free Dirac orbifold"
+   ],
+   "full_cft": "Ising^3",
+   "ising": "sigma",
+   "sector": "ground_twist",
+   "delta_ext": "1/4",
+   "fixed_point_fraction": "7/16",
+   "ratio_include": "0.3086824704273643387327092",
+   "ratio_exclude": "0.5400816238809859858384473",
+   "crossing_residual": "2.2744591e-12",
+   "n_operators": 107
+  },
+  {
+   "kind": "ground_twist_mixture",
+   "branch": "orbifold",
+   "radius": "1",
+   "c1_factor_names": [
+    "Ising^2",
+    "free Dirac orbifold"
+   ],
+   "full_cft": "Ising^3",
+   "ising": "sigma",
+   "sector": "ground_twist",
+   "delta_ext": "1/4",
+   "fixed_point_fraction": "1/2",
+   "ratio_include": "0.308658806610521631791796",
+   "ratio_exclude": "0.5374601700113459183225056",
+   "crossing_residual": "2.3017835e-12",
+   "n_operators": 107
+  },
+  {
+   "kind": "ground_twist_mixture",
+   "branch": "orbifold",
+   "radius": "1",
+   "c1_factor_names": [
+    "Ising^2",
+    "free Dirac orbifold"
+   ],
+   "full_cft": "Ising^3",
+   "ising": "eps",
+   "sector": "ground_twist",
+   "delta_ext": "9/8",
+   "fixed_point_fraction": "0",
+   "ratio_include": "0.9281657443028030171413374",
+   "ratio_exclude": "2.053041867013348410296805",
+   "crossing_residual": "5.994969e-10",
+   "n_operators": 35
+  },
+  {
+   "kind": "ground_twist_mixture",
+   "branch": "orbifold",
+   "radius": "1",
+   "c1_factor_names": [
+    "Ising^2",
+    "free Dirac orbifold"
+   ],
+   "full_cft": "Ising^3",
+   "ising": "eps",
+   "sector": "ground_twist",
+   "delta_ext": "9/8",
+   "fixed_point_fraction": "1/16",
+   "ratio_include": "0.8587887739987377436925224",
+   "ratio_exclude": "1.624069563506839183630829",
+   "crossing_residual": "1.3668836e-9",
+   "n_operators": 63
+  },
+  {
+   "kind": "ground_twist_mixture",
+   "branch": "orbifold",
+   "radius": "1",
+   "c1_factor_names": [
+    "Ising^2",
+    "free Dirac orbifold"
+   ],
+   "full_cft": "Ising^3",
+   "ising": "eps",
+   "sector": "ground_twist",
+   "delta_ext": "9/8",
+   "fixed_point_fraction": "1/8",
+   "ratio_include": "0.8126730332929567018792226",
+   "ratio_exclude": "1.401720008303154205498125",
+   "crossing_residual": "2.0319522e-9",
+   "n_operators": 63
+  },
+  {
+   "kind": "ground_twist_mixture",
+   "branch": "orbifold",
+   "radius": "1",
+   "c1_factor_names": [
+    "Ising^2",
+    "free Dirac orbifold"
+   ],
+   "full_cft": "Ising^3",
+   "ising": "eps",
+   "sector": "ground_twist",
+   "delta_ext": "9/8",
+   "fixed_point_fraction": "3/16",
+   "ratio_include": "0.7807922274244681186735172",
+   "ratio_exclude": "1.269555647781286656469853",
+   "crossing_residual": "2.5947024e-9",
+   "n_operators": 63
+  },
+  {
+   "kind": "ground_twist_mixture",
+   "branch": "orbifold",
+   "radius": "1",
+   "c1_factor_names": [
+    "Ising^2",
+    "free Dirac orbifold"
+   ],
+   "full_cft": "Ising^3",
+   "ising": "eps",
+   "sector": "ground_twist",
+   "delta_ext": "9/8",
+   "fixed_point_fraction": "1/4",
+   "ratio_include": "0.7584300247683374915918778",
+   "ratio_exclude": "1.185540950705242415687494",
+   "crossing_residual": "3.0551345e-9",
+   "n_operators": 63
+  },
+  {
+   "kind": "ground_twist_mixture",
+   "branch": "orbifold",
+   "radius": "1",
+   "c1_factor_names": [
+    "Ising^2",
+    "free Dirac orbifold"
+   ],
+   "full_cft": "Ising^3",
+   "ising": "eps",
+   "sector": "ground_twist",
+   "delta_ext": "9/8",
+   "fixed_point_fraction": "5/16",
+   "ratio_include": "0.7429282478715487260272529",
+   "ratio_exclude": "1.131012106700278060732958",
+   "crossing_residual": "3.4132483e-9",
+   "n_operators": 63
+  },
+  {
+   "kind": "ground_twist_mixture",
+   "branch": "orbifold",
+   "radius": "1",
+   "c1_factor_names": [
+    "Ising^2",
+    "free Dirac orbifold"
+   ],
+   "full_cft": "Ising^3",
+   "ising": "eps",
+   "sector": "ground_twist",
+   "delta_ext": "9/8",
+   "fixed_point_fraction": "3/8",
+   "ratio_include": "0.7327287953215818077535449",
+   "ratio_exclude": "1.096660307074644287229129",
+   "crossing_residual": "3.6690439e-9",
+   "n_operators": 63
+  },
+  {
+   "kind": "ground_twist_mixture",
+   "branch": "orbifold",
+   "radius": "1",
+   "c1_factor_names": [
+    "Ising^2",
+    "free Dirac orbifold"
+   ],
+   "full_cft": "Ising^3",
+   "ising": "eps",
+   "sector": "ground_twist",
+   "delta_ext": "9/8",
+   "fixed_point_fraction": "7/16",
+   "ratio_include": "0.7269246535463186585182411",
+   "ratio_exclude": "1.077624628100115941599765",
+   "crossing_residual": "3.8225212e-9",
+   "n_operators": 63
+  },
+  {
+   "kind": "ground_twist_mixture",
+   "branch": "orbifold",
+   "radius": "1",
+   "c1_factor_names": [
+    "Ising^2",
+    "free Dirac orbifold"
+   ],
+   "full_cft": "Ising^3",
+   "ising": "eps",
+   "sector": "ground_twist",
+   "delta_ext": "9/8",
+   "fixed_point_fraction": "1/2",
+   "ratio_include": "0.7250394970684702311687808",
+   "ratio_exclude": "1.071519604396657593506813",
+   "crossing_residual": "3.8736803e-9",
+   "n_operators": 63
+  },
+  {
+   "kind": "excited_twist_mixture",
+   "branch": "orbifold",
+   "radius": "1",
+   "c1_factor_names": [
+    "Ising^2",
+    "free Dirac orbifold"
+   ],
+   "full_cft": "Ising^3",
+   "ising": "1",
+   "sector": "excited_twist",
+   "delta_ext": "9/8",
+   "fixed_point_fraction": "0",
+   "ratio_include": "0.9281657443028030171413374",
+   "ratio_exclude": "2.053041867013348410296805",
+   "crossing_residual": "5.994969e-10",
+   "n_operators": 35
+  },
+  {
+   "kind": "excited_twist_mixture",
+   "branch": "orbifold",
+   "radius": "1",
+   "c1_factor_names": [
+    "Ising^2",
+    "free Dirac orbifold"
+   ],
+   "full_cft": "Ising^3",
+   "ising": "1",
+   "sector": "excited_twist",
+   "delta_ext": "9/8",
+   "fixed_point_fraction": "1/16",
+   "ratio_include": "0.9267052350142854066220101",
+   "ratio_exclude": "2.065752514511039685691072",
+   "crossing_residual": "1.3208437e-9",
+   "n_operators": 63
+  },
+  {
+   "kind": "excited_twist_mixture",
+   "branch": "orbifold",
+   "radius": "1",
+   "c1_factor_names": [
+    "Ising^2",
+    "free Dirac orbifold"
+   ],
+   "full_cft": "Ising^3",
+   "ising": "1",
+   "sector": "excited_twist",
+   "delta_ext": "9/8",
+   "fixed_point_fraction": "1/8",
+   "ratio_include": "0.9254243320032292535894278",
+   "ratio_exclude": "2.077063912259981691574917",
+   "crossing_residual": "1.9460109e-9",
+   "n_operators": 63
+  },
+  {
+   "kind": "excited_twist_mixture",
+   "branch": "orbifold",
+   "radius": "1",
+   "c1_factor_names": [
+    "Ising^2",
+    "free Dirac orbifold"
+   ],
+   "full_cft": "Ising^3",
+   "ising": "1",
+   "sector": "excited_twist",
+   "delta_ext": "9/8",
+   "fixed_point_fraction": "3/16",
+   "ratio_include": "0.9243293353072250462921697",
+   "ratio_exclude": "2.086857509110747859107613",
+   "crossing_residual": "2.4749985e-9",
+   "n_operators": 63
+  },
+  {
+   "kind": "excited_twist_mixture",
+   "branch": "orbifold",
+   "radius": "1",
+   "c1_factor_names": [
+    "Ising^2",
+    "free Dirac orbifold"
+   ],
+   "full_cft": "Ising^3",
+   "ising": "1",
+   "sector": "excited_twist",
+   "delta_ext": "9/8",
+   "fixed_point_fraction": "1/4",
+   "ratio_include": "0.9234257147063949608872098",
+   "ratio_exclude": "2.095026985997560963967533",
+   "crossing_residual": "2.9078065e-9",
+   "n_operators": 63
+  },
+  {
+   "kind": "excited_twist_mixture",
+   "branch": "orbifold",
+   "radius": "1",
+   "c1_factor_names": [
+    "Ising^2",
+    "free Dirac orbifold"
+   ],
+   "full_cft": "Ising^3",
+   "ising": "1",
+   "sector": "excited_twist",
+   "delta_ext": "9/8",
+   "fixed_point_fraction": "5/16",
+   "ratio_include": "0.9227180427643981025613496",
+   "ratio_exclude": "2.101481008846964396410103",
+   "crossing_residual": "3.244435e-9",
+   "n_operators": 63
+  },
+  {
+   "kind": "excited_twist_mixture",
+   "branch": "orbifold",
+   "radius": "1",
+   "c1_factor_names": [
+    "Ising^2",
+    "free Dirac orbifold"
+   ],
+   "full_cft": "Ising^3",
+   "ising": "1",
+   "sector": "excited_twist",
+   "delta_ext": "9/8",
+   "fixed_point_fraction": "3/8",
+   "ratio_include": "0.9222099377792193599529937",
+   "ratio_exclude": "2.106145700426564825154073",
+   "crossing_residual": "3.4848839e-9",
+   "n_operators": 63
+  },
+  {
+   "kind": "excited_twist_mixture",
+   "branch": "orbifold",
+   "radius": "1",
+   "c1_factor_names": [
+    "Ising^2",
+    "free Dirac orbifold"
+   ],
+   "full_cft": "Ising^3",
+   "ising": "1",
+   "sector": "excited_twist",
+   "delta_ext": "9/8",
+   "fixed_point_fraction": "7/16",
+   "ratio_include": "0.9219040179525463681875458",
+   "ratio_exclude": "2.108966710669005647335338",
+   "crossing_residual": "3.6291533e-9",
+   "n_operators": 63
+  },
+  {
+   "kind": "excited_twist_mixture",
+   "branch": "orbifold",
+   "radius": "1",
+   "c1_factor_names": [
+    "Ising^2",
+    "free Dirac orbifold"
+   ],
+   "full_cft": "Ising^3",
+   "ising": "1",
+   "sector": "excited_twist",
+   "delta_ext": "9/8",
+   "fixed_point_fraction": "1/2",
+   "ratio_include": "0.9218018678505016591917201",
+   "ratio_exclude": "2.109910779667671325365859",
+   "crossing_residual": "3.6772431e-9",
+   "n_operators": 63
+  },
+  {
+   "kind": "excited_twist_mixture",
+   "branch": "orbifold",
+   "radius": "1",
+   "c1_factor_names": [
+    "Ising^2",
+    "free Dirac orbifold"
+   ],
+   "full_cft": "Ising^3",
+   "ising": "sigma",
+   "sector": "excited_twist",
+   "delta_ext": "5/4",
+   "fixed_point_fraction": "0",
+   "ratio_include": "0.9454836612252604718883538",
+   "ratio_exclude": "1.893998265823857238066032",
+   "crossing_residual": "2.0603499e-9",
+   "n_operators": 51
+  },
+  {
+   "kind": "excited_twist_mixture",
+   "branch": "orbifold",
+   "radius": "1",
+   "c1_factor_names": [
+    "Ising^2",
+    "free Dirac orbifold"
+   ],
+   "full_cft": "Ising^3",
+   "ising": "sigma",
+   "sector": "excited_twist",
+   "delta_ext": "5/4",
+   "fixed_point_fraction": "1/16",
+   "ratio_include": "0.9449319896725162360807115",
+   "ratio_exclude": "1.905062373278786959433717",
+   "crossing_residual": "3.3007874e-9",
+   "n_operators": 107
+  },
+  {
+   "kind": "excited_twist_mixture",
+   "branch": "orbifold",
+   "radius": "1",
+   "c1_factor_names": [
+    "Ising^2",
+    "free Dirac orbifold"
+   ],
+   "full_cft": "Ising^3",
+   "ising": "sigma",
+   "sector": "excited_twist",
+   "delta_ext": "5/4",
+   "fixed_point_fraction": "1/8",
+   "ratio_include": "0.9444481599847629507445091",
+   "ratio_exclude": "1.914883629039267946445447",
+   "crossing_residual": "4.3758332e-9",
+   "n_operators": 107
+  },
+  {
+   "kind": "excited_twist_mixture",
+   "branch": "orbifold",
+   "radius": "1",
+   "c1_factor_names": [
+    "Ising^2",
+    "free Dirac orbifold"
+   ],
+   "full_cft": "Ising^3",
+   "ising": "sigma",
+   "sector": "excited_twist",
+   "delta_ext": "5/4",
+   "fixed_point_fraction": "3/16",
+   "ratio_include": "0.9440345518466402618665174",
+   "ratio_exclude": "1.923368191969671315746472",
+   "crossing_residual": "5.2854874e-9",
+   "n_operators": 107
+  },
+  {
+   "kind": "excited_twist_mixture",
+   "branch": "orbifold",
+   "radius": "1",
+   "c1_factor_names": [
+    "Ising^2",
+    "free Dirac orbifold"
+   ],
+   "full_cft": "Ising^3",
+   "ising": "sigma",
+   "sector": "excited_twist",
+   "delta_ext": "5/4",
+   "fixed_point_fraction": "1/4",
+   "ratio_include": "0.9436932313333980442930616",
+   "ratio_exclude": "1.930432380513788519678425",
+   "crossing_residual": "6.0297499e-9",
+   "n_operators": 107
+  },
+  {
+   "kind": "excited_twist_mixture",
+   "branch": "orbifold",
+   "radius": "1",
+   "c1_factor_names": [
+    "Ising^2",
+    "free Dirac orbifold"
+   ],
+   "full_cft": "Ising^3",
+   "ising": "sigma",
+   "sector": "excited_twist",
+   "delta_ext": "5/4",
+   "fixed_point_fraction": "5/16",
+   "ratio_include": "0.9434259256187788504145084",
+   "ratio_exclude": "1.936004650948441846005775",
+   "crossing_residual": "6.6086207e-9",
+   "n_operators": 107
+  },
+  {
+   "kind": "excited_twist_mixture",
+   "branch": "orbifold",
+   "radius": "1",
+   "c1_factor_names": [
+    "Ising^2",
+    "free Dirac orbifold"
+   ],
+   "full_cft": "Ising^3",
+   "ising": "sigma",
+   "sector": "excited_twist",
+   "delta_ext": "5/4",
+   "fixed_point_fraction": "3/8",
+   "ratio_include": "0.9432340014260779999912059",
+   "ratio_exclude": "1.940027357172093343273945",
+   "crossing_residual": "7.0220999e-9",
+   "n_operators": 107
+  },
+  {
+   "kind": "excited_twist_mixture",
+   "branch": "orbifold",
+   "radius": "1",
+   "c1_factor_names": [
+    "Ising^2",
+    "free Dirac orbifold"
+   ],
+   "full_cft": "Ising^3",
+   "ising": "sigma",
+   "sector": "excited_twist",
+   "delta_ext": "5/4",
+   "fixed_point_fraction": "7/16",
+   "ratio_include": "0.9431184477167501000623041",
+   "ratio_exclude": "1.942458213780846535131637",
+   "crossing_residual": "7.2701874e-9",
+   "n_operators": 107
+  },
+  {
+   "kind": "excited_twist_mixture",
+   "branch": "orbifold",
+   "radius": "1",
+   "c1_factor_names": [
+    "Ising^2",
+    "free Dirac orbifold"
+   ],
+   "full_cft": "Ising^3",
+   "ising": "sigma",
+   "sector": "excited_twist",
+   "delta_ext": "5/4",
+   "fixed_point_fraction": "1/2",
+   "ratio_include": "0.9430798630217734404937368",
+   "ratio_exclude": "1.943271394553442656618278",
+   "crossing_residual": "7.3528832e-9",
+   "n_operators": 107
+  },
+  {
+   "kind": "ground_twist_mixture",
+   "branch": "orbifold",
+   "radius": "sqrt(3/2)",
+   "c1_factor_names": [
+    "Z4 parafermion"
+   ],
+   "full_cft": "Ising x Z4 parafermion",
+   "ising": "1",
+   "sector": "ground_twist",
+   "delta_ext": "1/8",
+   "fixed_point_fraction": "0",
+   "ratio_include": "0.1632886515671305192062139",
+   "ratio_exclude": "0.7629037898787325747728038",
+   "crossing_residual": "5.0287733e-13",
+   "n_operators": 87
+  },
+  {
+   "kind": "ground_twist_mixture",
+   "branch": "orbifold",
+   "radius": "sqrt(3/2)",
+   "c1_factor_names": [
+    "Z4 parafermion"
+   ],
+   "full_cft": "Ising x Z4 parafermion",
+   "ising": "1",
+   "sector": "ground_twist",
+   "delta_ext": "1/8",
+   "fixed_point_fraction": "1/16",
+   "ratio_include": "0.1634030312362456262124366",
+   "ratio_exclude": "0.6196263272895712090821158",
+   "crossing_residual": "4.9383039e-13",
+   "n_operators": 148
+  },
+  {
+   "kind": "ground_twist_mixture",
+   "branch": "orbifold",
+   "radius": "sqrt(3/2)",
+   "c1_factor_names": [
+    "Z4 parafermion"
+   ],
+   "full_cft": "Ising x Z4 parafermion",
+   "ising": "1",
+   "sector": "ground_twist",
+   "delta_ext": "1/8",
+   "fixed_point_fraction": "1/8",
+   "ratio_include": "0.1634910722324539281725265",
+   "ratio_exclude": "0.5414516867329675971544699",
+   "crossing_residual": "4.8598972e-13",
+   "n_operators": 148
+  },
+  {
+   "kind": "ground_twist_mixture",
+   "branch": "orbifold",
+   "radius": "sqrt(3/2)",
+   "c1_factor_names": [
+    "Z4 parafermion"
+   ],
+   "full_cft": "Ising x Z4 parafermion",
+   "ising": "1",
+   "sector": "ground_twist",
+   "delta_ext": "1/8",
+   "fixed_point_fraction": "3/16",
+   "ratio_include": "0.16355872674470964401414",
+   "ratio_exclude": "0.4936389444859170051748584",
+   "crossing_residual": "4.7935531e-13",
+   "n_operators": 148
+  },
+  {
+   "kind": "ground_twist_mixture",
+   "branch": "orbifold",
+   "radius": "sqrt(3/2)",
+   "c1_factor_names": [
+    "Z4 parafermion"
+   ],
+   "full_cft": "Ising x Z4 parafermion",
+   "ising": "1",
+   "sector": "ground_twist",
+   "delta_ext": "1/8",
+   "fixed_point_fraction": "1/4",
+   "ratio_include": "0.1636099850887007097816712",
+   "ratio_exclude": "0.4627046746193085140977145",
+   "crossing_residual": "4.7392715e-13",
+   "n_operators": 148
+  },
+  {
+   "kind": "ground_twist_mixture",
+   "branch": "orbifold",
+   "radius": "sqrt(3/2)",
+   "c1_factor_names": [
+    "Z4 parafermion"
+   ],
+   "full_cft": "Ising x Z4 parafermion",
+   "ising": "1",
+   "sector": "ground_twist",
+   "delta_ext": "1/8",
+   "fixed_point_fraction": "5/16",
+   "ratio_include": "0.1636475525644005892951939",
+   "ratio_exclude": "0.442397264614154241368282",
+   "crossing_residual": "4.6970525e-13",
+   "n_operators": 148
+  },
+  {
+   "kind": "ground_twist_mixture",
+   "branch": "orbifold",
+   "radius": "sqrt(3/2)",
+   "c1_factor_names": [
+    "Z4 parafermion"
+   ],
+   "full_cft": "Ising x Z4 parafermion",
+   "ising": "1",
+   "sector": "ground_twist",
+   "delta_ext": "1/8",
+   "fixed_point_fraction": "3/8",
+   "ratio_include": "0.1636732459204635129581049",
+   "ratio_exclude": "0.429509881450240364897392",
+   "crossing_residual": "4.666896e-13",
+   "n_operators": 148
+  },
+  {
+   "kind": "ground_twist_mixture",
+   "branch": "orbifold",
+   "radius": "sqrt(3/2)",
+   "c1_factor_names": [
+    "Z4 parafermion"
+   ],
+   "full_cft": "Ising x Z4 parafermion",
+   "ising": "1",
+   "sector": "ground_twist",
+   "delta_ext": "1/8",
+   "fixed_point_fraction": "7/16",
+   "ratio_include": "0.163688229696399593175066",
+   "ratio_exclude": "0.4223368329988242596161145",
+   "crossing_residual": "4.6488022e-13",
+   "n_operators": 148
+  },
+  {
+   "kind": "ground_twist_mixture",
+   "branch": "orbifold",
+   "radius": "sqrt(3/2)",
+   "c1_factor_names": [
+    "Z4 parafermion"
+   ],
+   "full_cft": "Ising x Z4 parafermion",
+   "ising": "1",
+   "sector": "ground_twist",
+   "delta_ext": "1/8",
+   "fixed_point_fraction": "1/2",
+   "ratio_include": "0.1636931545131711729864427",
+   "ratio_exclude": "0.4200315275401153969316488",
+   "crossing_residual": "4.6427709e-13",
+   "n_operators": 136
+  },
+  {
+   "kind": "ground_twist_mixture",
+   "branch": "orbifold",
+   "radius": "sqrt(3/2)",
+   "c1_factor_names": [
+    "Z4 parafermion"
+   ],
+   "full_cft": "Ising x Z4 parafermion",
+   "ising": "sigma",
+   "sector": "ground_twist",
+   "delta_ext": "1/4",
+   "fixed_point_fraction": "0",
+   "ratio_include": "0.3106061612623059845663898",
+   "ratio_exclude": "0.9437069171071346750181062",
+   "crossing_residual": "2.4851637e-12",
+   "n_operators": 158
+  },
+  {
+   "kind": "ground_twist_mixture",
+   "branch": "orbifold",
+   "radius": "sqrt(3/2)",
+   "c1_factor_names": [
+    "Z4 parafermion"
+   ],
+   "full_cft": "Ising x Z4 parafermion",
+   "ising": "sigma",
+   "sector": "ground_twist",
+   "delta_ext": "1/4",
+   "fixed_point_fraction": "1/16",
+   "ratio_include": "0.3100314280982649290179412",
+   "ratio_exclude": "0.8344588672338869234515208",
+   "crossing_residual": "2.8510442e-12",
+   "n_operators": 244
+  },
+  {
+   "kind": "ground_twist_mixture",
+   "branch": "orbifold",
+   "radius": "sqrt(3/2)",
+   "c1_factor_names": [
+    "Z4 parafermion"
+   ],
+   "full_cft": "Ising x Z4 parafermion",
+   "ising": "sigma",
+   "sector": "ground_twist",
+   "delta_ext": "1/4",
+   "fixed_point_fraction": "1/8",
+   "ratio_include": "0.3095890410839678154703264",
+   "ratio_exclude": "0.7659802870159974319992947",
+   "crossing_residual": "3.1681405e-12",
+   "n_operators": 244
+  },
+  {
+   "kind": "ground_twist_mixture",
+   "branch": "orbifold",
+   "radius": "sqrt(3/2)",
+   "c1_factor_names": [
+    "Z4 parafermion"
+   ],
+   "full_cft": "Ising x Z4 parafermion",
+   "ising": "sigma",
+   "sector": "ground_twist",
+   "delta_ext": "1/4",
+   "fixed_point_fraction": "3/16",
+   "ratio_include": "0.3092490917538884340876494",
+   "ratio_exclude": "0.7204339859110531298064244",
+   "crossing_residual": "3.4364529e-12",
+   "n_operators": 244
+  },
+  {
+   "kind": "ground_twist_mixture",
+   "branch": "orbifold",
+   "radius": "sqrt(3/2)",
+   "c1_factor_names": [
+    "Z4 parafermion"
+   ],
+   "full_cft": "Ising x Z4 parafermion",
+   "ising": "sigma",
+   "sector": "ground_twist",
+   "delta_ext": "1/4",
+   "fixed_point_fraction": "1/4",
+   "ratio_include": "0.3089915296324606928419187",
+   "ratio_exclude": "0.689319481962154946747508",
+   "crossing_residual": "3.6559811e-12",
+   "n_operators": 244
+  },
+  {
+   "kind": "ground_twist_mixture",
+   "branch": "orbifold",
+   "radius": "sqrt(3/2)",
+   "c1_factor_names": [
+    "Z4 parafermion"
+   ],
+   "full_cft": "Ising x Z4 parafermion",
+   "ising": "sigma",
+   "sector": "ground_twist",
+   "delta_ext": "1/4",
+   "fixed_point_fraction": "5/16",
+   "ratio_include": "0.3088027611708882201314071",
+   "ratio_exclude": "0.6681402113124170646341611",
+   "crossing_residual": "3.8267253e-12",
+   "n_operators": 244
+  },
+  {
+   "kind": "ground_twist_mixture",
+   "branch": "orbifold",
+   "radius": "sqrt(3/2)",
+   "c1_factor_names": [
+    "Z4 parafermion"
+   ],
+   "full_cft": "Ising x Z4 parafermion",
+   "ising": "sigma",
+   "sector": "ground_twist",
+   "delta_ext": "1/4",
+   "fixed_point_fraction": "3/8",
+   "ratio_include": "0.3086736575990810939093981",
+   "ratio_exclude": "0.6543753075951840596746796",
+   "crossing_residual": "3.9486855e-12",
+   "n_operators": 244
+  },
+  {
+   "kind": "ground_twist_mixture",
+   "branch": "orbifold",
+   "radius": "sqrt(3/2)",
+   "c1_factor_names": [
+    "Z4 parafermion"
+   ],
+   "full_cft": "Ising x Z4 parafermion",
+   "ising": "sigma",
+   "sector": "ground_twist",
+   "delta_ext": "1/4",
+   "fixed_point_fraction": "7/16",
+   "ratio_include": "0.3085983673572081332725997",
+   "ratio_exclude": "0.6466015623719657477535313",
+   "crossing_residual": "4.0218616e-12",
+   "n_operators": 244
+  },
+  {
+   "kind": "ground_twist_mixture",
+   "branch": "orbifold",
+   "radius": "sqrt(3/2)",
+   "c1_factor_names": [
+    "Z4 parafermion"
+   ],
+   "full_cft": "Ising x Z4 parafermion",
+   "ising": "sigma",
+   "sector": "ground_twist",
+   "delta_ext": "1/4",
+   "fixed_point_fraction": "1/2",
+   "ratio_include": "0.3085736212152814236663315",
+   "ratio_exclude": "0.6440858745201928883742103",
+   "crossing_residual": "4.0462536e-12",
+   "n_operators": 220
+  },
+  {
+   "kind": "ground_twist_mixture",
+   "branch": "orbifold",
+   "radius": "sqrt(3/2)",
+   "c1_factor_names": [
+    "Z4 parafermion"
+   ],
+   "full_cft": "Ising x Z4 parafermion",
+   "ising": "eps",
+   "sector": "ground_twist",
+   "delta_ext": "9/8",
+   "fixed_point_fraction": "0",
+   "ratio_include": "0.8297017507468203221244898",
+   "ratio_exclude": "1.691774955219218210345939",
+   "crossing_residual": "4.1583982e-9",
+   "n_operators": 87
+  },
+  {
+   "kind": "ground_twist_mixture",
+   "branch": "orbifold",
+   "radius": "sqrt(3/2)",
+   "c1_factor_names": [
+    "Z4 parafermion"
+   ],
+   "full_cft": "Ising x Z4 parafermion",
+   "ising": "eps",
+   "sector": "ground_twist",
+   "delta_ext": "9/8",
+   "fixed_point_fraction": "1/16",
+   "ratio_include": "0.7877443114477786765605627",
+   "ratio_exclude": "1.507241741118423558820996",
+   "crossing_residual": "3.6465392e-9",
+   "n_operators": 148
+  },
+  {
+   "kind": "ground_twist_mixture",
+   "branch": "orbifold",
+   "radius": "sqrt(3/2)",
+   "c1_factor_names": [
+    "Z4 parafermion"
+   ],
+   "full_cft": "Ising x Z4 parafermion",
+   "ising": "eps",
+   "sector": "ground_twist",
+   "delta_ext": "9/8",
+   "fixed_point_fraction": "1/8",
+   "ratio_include": "0.7554485828203509831712414",
+   "ratio_exclude": "1.379990705919500223660008",
+   "crossing_residual": "3.2029281e-9",
+   "n_operators": 148
+  },
+  {
+   "kind": "ground_twist_mixture",
+   "branch": "orbifold",
+   "radius": "sqrt(3/2)",
+   "c1_factor_names": [
+    "Z4 parafermion"
+   ],
+   "full_cft": "Ising x Z4 parafermion",
+   "ising": "eps",
+   "sector": "ground_twist",
+   "delta_ext": "9/8",
+   "fixed_point_fraction": "3/16",
+   "ratio_include": "0.730631147053701724964961",
+   "ratio_exclude": "1.289773228031561687655522",
+   "crossing_residual": "2.8275648e-9",
+   "n_operators": 148
+  },
+  {
+   "kind": "ground_twist_mixture",
+   "branch": "orbifold",
+   "radius": "sqrt(3/2)",
+   "c1_factor_names": [
+    "Z4 parafermion"
+   ],
+   "full_cft": "Ising x Z4 parafermion",
+   "ising": "eps",
+   "sector": "ground_twist",
+   "delta_ext": "9/8",
+   "fixed_point_fraction": "1/4",
+   "ratio_include": "0.7118282525077358307335979",
+   "ratio_exclude": "1.225359908538767582180485",
+   "crossing_residual": "2.5204494e-9",
+   "n_operators": 148
+  },
+  {
+   "kind": "ground_twist_mixture",
+   "branch": "orbifold",
+   "radius": "sqrt(3/2)",
+   "c1_factor_names": [
+    "Z4 parafermion"
+   ],
+   "full_cft": "Ising x Z4 parafermion",
+   "ising": "eps",
+   "sector": "ground_twist",
+   "delta_ext": "9/8",
+   "fixed_point_fraction": "5/16",
+   "ratio_include": "0.6980475247482505137121278",
+   "ratio_exclude": "1.180147339163909824055503",
+   "crossing_residual": "2.2815819e-9",
+   "n_operators": 148
+  },
+  {
+   "kind": "ground_twist_mixture",
+   "branch": "orbifold",
+   "radius": "sqrt(3/2)",
+   "c1_factor_names": [
+    "Z4 parafermion"
+   ],
+   "full_cft": "Ising x Z4 parafermion",
+   "ising": "eps",
+   "sector": "ground_twist",
+   "delta_ext": "9/8",
+   "fixed_point_fraction": "3/8",
+   "ratio_include": "0.6886225330889947760965732",
+   "ratio_exclude": "1.15014528185236323174234",
+   "crossing_residual": "2.1109622e-9",
+   "n_operators": 148
+  },
+  {
+   "kind": "ground_twist_mixture",
+   "branch": "orbifold",
+   "radius": "sqrt(3/2)",
+   "c1_factor_names": [
+    "Z4 parafermion"
+   ],
+   "full_cft": "Ising x Z4 parafermion",
+   "ising": "eps",
+   "sector": "ground_twist",
+   "delta_ext": "9/8",
+   "fixed_point_fraction": "7/16",
+   "ratio_include": "0.6831260941311625319999642",
+   "ratio_exclude": "1.132981142281870877932214",
+   "crossing_residual": "2.0085905e-9",
+   "n_operators": 148
+  },
+  {
+   "kind": "ground_twist_mixture",
+   "branch": "orbifold",
+   "radius": "sqrt(3/2)",
+   "c1_factor_names": [
+    "Z4 parafermion"
+   ],
+   "full_cft": "Ising x Z4 parafermion",
+   "ising": "eps",
+   "sector": "ground_twist",
+   "delta_ext": "9/8",
+   "fixed_point_fraction": "1/2",
+   "ratio_include": "0.6813195431737155661437225",
+   "ratio_exclude": "1.127392021661775980074121",
+   "crossing_residual": "1.9744665e-9",
+   "n_operators": 136
+  },
+  {
+   "kind": "excited_twist_mixture",
+   "branch": "orbifold",
+   "radius": "sqrt(3/2)",
+   "c1_factor_names": [
+    "Z4 parafermion"
+   ],
+   "full_cft": "Ising x Z4 parafermion",
+   "ising": "1",
+   "sector": "excited_twist",
+   "delta_ext": "9/8",
+   "fixed_point_fraction": "0",
+   "ratio_include": "0.962376228012063890363098",
+   "ratio_exclude": "2.222347645030289044709168",
+   "crossing_residual": "3.8963149e-9",
+   "n_operators": 87
+  },
+  {
+   "kind": "excited_twist_mixture",
+   "branch": "orbifold",
+   "radius": "sqrt(3/2)",
+   "c1_factor_names": [
+    "Z4 parafermion"
+   ],
+   "full_cft": "Ising x Z4 parafermion",
+   "ising": "1",
+   "sector": "excited_twist",
+   "delta_ext": "9/8",
+   "fixed_point_fraction": "1/16",
+   "ratio_include": "0.9643958774394059837782688",
+   "ratio_exclude": "2.240734989823650033197741",
+   "crossing_residual": "3.7747863e-9",
+   "n_operators": 148
+  },
+  {
+   "kind": "excited_twist_mixture",
+   "branch": "orbifold",
+   "radius": "sqrt(3/2)",
+   "c1_factor_names": [
+    "Z4 parafermion"
+   ],
+   "full_cft": "Ising x Z4 parafermion",
+   "ising": "1",
+   "sector": "excited_twist",
+   "delta_ext": "9/8",
+   "fixed_point_fraction": "1/8",
+   "ratio_include": "0.9661615870857109947269404",
+   "ratio_exclude": "2.256997082786933676750718",
+   "crossing_residual": "3.6694615e-9",
+   "n_operators": 148
+  },
+  {
+   "kind": "excited_twist_mixture",
+   "branch": "orbifold",
+   "radius": "sqrt(3/2)",
+   "c1_factor_names": [
+    "Z4 parafermion"
+   ],
+   "full_cft": "Ising x Z4 parafermion",
+   "ising": "1",
+   "sector": "excited_twist",
+   "delta_ext": "9/8",
+   "fixed_point_fraction": "3/16",
+   "ratio_include": "0.9676669161474312115069793",
+   "ratio_exclude": "2.271000848901993304765435",
+   "crossing_residual": "3.5803406e-9",
+   "n_operators": 148
+  },
+  {
+   "kind": "excited_twist_mixture",
+   "branch": "orbifold",
+   "radius": "sqrt(3/2)",
+   "c1_factor_names": [
+    "Z4 parafermion"
+   ],
+   "full_cft": "Ising x Z4 parafermion",
+   "ising": "1",
+   "sector": "excited_twist",
+   "delta_ext": "9/8",
+   "fixed_point_fraction": "1/4",
+   "ratio_include": "0.9689063109807087449635713",
+   "ratio_exclude": "2.282628589124604628778451",
+   "crossing_residual": "3.5074234e-9",
+   "n_operators": 148
+  },
+  {
+   "kind": "excited_twist_mixture",
+   "branch": "orbifold",
+   "radius": "sqrt(3/2)",
+   "c1_factor_names": [
+    "Z4 parafermion"
+   ],
+   "full_cft": "Ising x Z4 parafermion",
+   "ising": "1",
+   "sector": "excited_twist",
+   "delta_ext": "9/8",
+   "fixed_point_fraction": "5/16",
+   "ratio_include": "0.9698751555881123414460693",
+   "ratio_exclude": "2.291780368087531612839274",
+   "crossing_residual": "3.4507101e-9",
+   "n_operators": 148
+  },
+  {
+   "kind": "excited_twist_mixture",
+   "branch": "orbifold",
+   "radius": "sqrt(3/2)",
+   "c1_factor_names": [
+    "Z4 parafermion"
+   ],
+   "full_cft": "Ising x Z4 parafermion",
+   "ising": "1",
+   "sector": "excited_twist",
+   "delta_ext": "9/8",
+   "fixed_point_fraction": "3/8",
+   "ratio_include": "0.9705698141660655026481354",
+   "ratio_exclude": "2.298376109944912322293004",
+   "crossing_residual": "3.4102005e-9",
+   "n_operators": 148
+  },
+  {
+   "kind": "excited_twist_mixture",
+   "branch": "orbifold",
+   "radius": "sqrt(3/2)",
+   "c1_factor_names": [
+    "Z4 parafermion"
+   ],
+   "full_cft": "Ising x Z4 parafermion",
+   "ising": "1",
+   "sector": "excited_twist",
+   "delta_ext": "9/8",
+   "fixed_point_fraction": "7/16",
+   "ratio_include": "0.9709876649888365543888453",
+   "ratio_exclude": "2.302357322472104413263792",
+   "crossing_residual": "3.3858948e-9",
+   "n_operators": 148
+  },
+  {
+   "kind": "excited_twist_mixture",
+   "branch": "orbifold",
+   "radius": "sqrt(3/2)",
+   "c1_factor_names": [
+    "Z4 parafermion"
+   ],
+   "full_cft": "Ising x Z4 parafermion",
+   "ising": "1",
+   "sector": "excited_twist",
+   "delta_ext": "9/8",
+   "fixed_point_fraction": "1/2",
+   "ratio_include": "0.9711271250439342688374569",
+   "ratio_exclude": "2.303688381334018370035284",
+   "crossing_residual": "3.3777929e-9",
+   "n_operators": 136
+  },
+  {
+   "kind": "excited_twist_mixture",
+   "branch": "orbifold",
+   "radius": "sqrt(3/2)",
+   "c1_factor_names": [
+    "Z4 parafermion"
+   ],
+   "full_cft": "Ising x Z4 parafermion",
+   "ising": "sigma",
+   "sector": "excited_twist",
+   "delta_ext": "5/4",
+   "fixed_point_fraction": "0",
+   "ratio_include": "0.9884346523940414310952831",
+   "ratio_exclude": "2.051590478713453972190504",
+   "crossing_residual": "7.7485309e-9",
+   "n_operators": 158
+  },
+  {
+   "kind": "excited_twist_mixture",
+   "branch": "orbifold",
+   "radius": "sqrt(3/2)",
+   "c1_factor_names": [
+    "Z4 parafermion"
+   ],
+   "full_cft": "Ising x Z4 parafermion",
+   "ising": "sigma",
+   "sector": "excited_twist",
+   "delta_ext": "5/4",
+   "fixed_point_fraction": "1/16",
+   "ratio_include": "0.9906866237046011688301693",
+   "ratio_exclude": "2.066663325787755562621103",
+   "crossing_residual": "8.0905985e-9",
+   "n_operators": 244
+  },
+  {
+   "kind": "excited_twist_mixture",
+   "branch": "orbifold",
+   "radius": "sqrt(3/2)",
+   "c1_factor_names": [
+    "Z4 parafermion"
+   ],
+   "full_cft": "Ising x Z4 parafermion",
+   "ising": "sigma",
+   "sector": "excited_twist",
+   "delta_ext": "5/4",
+   "fixed_point_fraction": "1/8",
+   "ratio_include": "0.9926554443387303647708128",
+   "ratio_exclude": "2.079966451053587477992223",
+   "crossing_residual": "8.3870571e-9",
+   "n_operators": 244
+  },
+  {
+   "kind": "excited_twist_mixture",
+   "branch": "orbifold",
+   "radius": "sqrt(3/2)",
+   "c1_factor_names": [
+    "Z4 parafermion"
+   ],
+   "full_cft": "Ising x Z4 parafermion",
+   "ising": "sigma",
+   "sector": "excited_twist",
+   "delta_ext": "5/4",
+   "fixed_point_fraction": "3/16",
+   "ratio_include": "0.9943339326021159419187885",
+   "ratio_exclude": "2.091401487567421702860992",
+   "crossing_residual": "8.6379067e-9",
+   "n_operators": 244
+  },
+  {
+   "kind": "excited_twist_mixture",
+   "branch": "orbifold",
+   "radius": "sqrt(3/2)",
+   "c1_factor_names": [
+    "Z4 parafermion"
+   ],
+   "full_cft": "Ising x Z4 parafermion",
+   "ising": "sigma",
+   "sector": "excited_twist",
+   "delta_ext": "5/4",
+   "fixed_point_fraction": "1/4",
+   "ratio_include": "0.9957158960108208227950578",
+   "ratio_exclude": "2.100881833285473747748408",
+   "crossing_residual": "8.8431472e-9",
+   "n_operators": 244
+  },
+  {
+   "kind": "excited_twist_mixture",
+   "branch": "orbifold",
+   "radius": "sqrt(3/2)",
+   "c1_factor_names": [
+    "Z4 parafermion"
+   ],
+   "full_cft": "Ising x Z4 parafermion",
+   "ising": "sigma",
+   "sector": "excited_twist",
+   "delta_ext": "5/4",
+   "fixed_point_fraction": "5/16",
+   "ratio_include": "0.9967961875855503169236741",
+   "ratio_exclude": "2.10833424022171326313604",
+   "crossing_residual": "9.0027788e-9",
+   "n_operators": 244
+  },
+  {
+   "kind": "excited_twist_mixture",
+   "branch": "orbifold",
+   "radius": "sqrt(3/2)",
+   "c1_factor_names": [
+    "Z4 parafermion"
+   ],
+   "full_cft": "Ising x Z4 parafermion",
+   "ising": "sigma",
+   "sector": "excited_twist",
+   "delta_ext": "5/4",
+   "fixed_point_fraction": "3/8",
+   "ratio_include": "0.9975707532933448084781868",
+   "ratio_exclude": "2.113700199011958866873124",
+   "crossing_residual": "9.1168013e-9",
+   "n_operators": 244
+  },
+  {
+   "kind": "excited_twist_mixture",
+   "branch": "orbifold",
+   "radius": "sqrt(3/2)",
+   "c1_factor_names": [
+    "Z4 parafermion"
+   ],
+   "full_cft": "Ising x Z4 parafermion",
+   "ising": "sigma",
+   "sector": "excited_twist",
+   "delta_ext": "5/4",
+   "fixed_point_fraction": "7/16",
+   "ratio_include": "0.9980366698292722089387095",
+   "ratio_exclude": "2.116937071176279375104418",
+   "crossing_residual": "9.1852148e-9",
+   "n_operators": 244
+  },
+  {
+   "kind": "excited_twist_mixture",
+   "branch": "orbifold",
+   "radius": "sqrt(3/2)",
+   "c1_factor_names": [
+    "Z4 parafermion"
+   ],
+   "full_cft": "Ising x Z4 parafermion",
+   "ising": "sigma",
+   "sector": "excited_twist",
+   "delta_ext": "5/4",
+   "fixed_point_fraction": "1/2",
+   "ratio_include": "0.9981921720856527726901423",
+   "ratio_exclude": "2.118018928814757989325454",
+   "crossing_residual": "9.2080193e-9",
+   "n_operators": 220
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "circle",
+   "radius_squared": "2",
+   "c1_factor_names": [
+    "free Dirac"
+   ],
+   "full_cft": "Ising x free-Dirac circle invariant",
+   "ising": "1",
+   "c1_delta": "1",
+   "delta_ext": "1",
+   "h_boson": "1/2",
+   "momentum_charge": 2,
+   "winding_charge": 1,
+   "mutual_locality_parity": 0,
+   "momentum_fraction": "0",
+   "delta_cut": 18,
+   "lam": 5,
+   "q_order": 55,
+   "ratio_include": "0.9253671670188515694026046",
+   "ratio_exclude": "2.334147709884362458418025",
+   "crossing_residual": "1.6191004e-15",
+   "n_operators": 54
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "circle",
+   "radius_squared": "2",
+   "c1_factor_names": [
+    "free Dirac"
+   ],
+   "full_cft": "Ising x free-Dirac circle invariant",
+   "ising": "1",
+   "c1_delta": "1",
+   "delta_ext": "1",
+   "h_boson": "1/2",
+   "momentum_charge": 2,
+   "winding_charge": 1,
+   "mutual_locality_parity": 0,
+   "momentum_fraction": "1/16",
+   "delta_cut": 18,
+   "lam": 5,
+   "q_order": 55,
+   "ratio_include": "0.9189801639015822314321613",
+   "ratio_exclude": "2.318037122400232713537596",
+   "crossing_residual": "1.6133217e-15",
+   "n_operators": 54
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "circle",
+   "radius_squared": "2",
+   "c1_factor_names": [
+    "free Dirac"
+   ],
+   "full_cft": "Ising x free-Dirac circle invariant",
+   "ising": "1",
+   "c1_delta": "1",
+   "delta_ext": "1",
+   "h_boson": "1/2",
+   "momentum_charge": 2,
+   "winding_charge": 1,
+   "mutual_locality_parity": 0,
+   "momentum_fraction": "1/8",
+   "delta_cut": 18,
+   "lam": 5,
+   "q_order": 55,
+   "ratio_include": "0.913444761199948805191111",
+   "ratio_exclude": "2.304074613247320267974559",
+   "crossing_residual": "1.6083134e-15",
+   "n_operators": 54
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "circle",
+   "radius_squared": "2",
+   "c1_factor_names": [
+    "free Dirac"
+   ],
+   "full_cft": "Ising x free-Dirac circle invariant",
+   "ising": "1",
+   "c1_delta": "1",
+   "delta_ext": "1",
+   "h_boson": "1/2",
+   "momentum_charge": 2,
+   "winding_charge": 1,
+   "mutual_locality_parity": 0,
+   "momentum_fraction": "3/16",
+   "delta_cut": 18,
+   "lam": 5,
+   "q_order": 55,
+   "ratio_include": "0.9087609589139512906794533",
+   "ratio_exclude": "2.292260182425625121728915",
+   "crossing_residual": "1.6040757e-15",
+   "n_operators": 54
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "circle",
+   "radius_squared": "2",
+   "c1_factor_names": [
+    "free Dirac"
+   ],
+   "full_cft": "Ising x free-Dirac circle invariant",
+   "ising": "1",
+   "c1_delta": "1",
+   "delta_ext": "1",
+   "h_boson": "1/2",
+   "momentum_charge": 2,
+   "winding_charge": 1,
+   "mutual_locality_parity": 0,
+   "momentum_fraction": "1/4",
+   "delta_cut": 18,
+   "lam": 5,
+   "q_order": 55,
+   "ratio_include": "0.9049287570435896878971882",
+   "ratio_exclude": "2.282593829935147274800662",
+   "crossing_residual": "1.6006084e-15",
+   "n_operators": 54
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "circle",
+   "radius_squared": "2",
+   "c1_factor_names": [
+    "free Dirac"
+   ],
+   "full_cft": "Ising x free-Dirac circle invariant",
+   "ising": "1",
+   "c1_delta": "1",
+   "delta_ext": "1",
+   "h_boson": "1/2",
+   "momentum_charge": 2,
+   "winding_charge": 1,
+   "mutual_locality_parity": 0,
+   "momentum_fraction": "5/16",
+   "delta_cut": 18,
+   "lam": 5,
+   "q_order": 55,
+   "ratio_include": "0.9019481555888639968443154",
+   "ratio_exclude": "2.2750755557758867271898",
+   "crossing_residual": "1.5979117e-15",
+   "n_operators": 54
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "circle",
+   "radius_squared": "2",
+   "c1_factor_names": [
+    "free Dirac"
+   ],
+   "full_cft": "Ising x free-Dirac circle invariant",
+   "ising": "1",
+   "c1_delta": "1",
+   "delta_ext": "1",
+   "h_boson": "1/2",
+   "momentum_charge": 2,
+   "winding_charge": 1,
+   "mutual_locality_parity": 0,
+   "momentum_fraction": "3/8",
+   "delta_cut": 18,
+   "lam": 5,
+   "q_order": 55,
+   "ratio_include": "0.899819154549774217520835",
+   "ratio_exclude": "2.269705359947843478896327",
+   "crossing_residual": "1.5959854e-15",
+   "n_operators": 54
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "circle",
+   "radius_squared": "2",
+   "c1_factor_names": [
+    "free Dirac"
+   ],
+   "full_cft": "Ising x free-Dirac circle invariant",
+   "ising": "1",
+   "c1_delta": "1",
+   "delta_ext": "1",
+   "h_boson": "1/2",
+   "momentum_charge": 2,
+   "winding_charge": 1,
+   "mutual_locality_parity": 0,
+   "momentum_fraction": "7/16",
+   "delta_cut": 18,
+   "lam": 5,
+   "q_order": 55,
+   "ratio_include": "0.8985417539263203499267467",
+   "ratio_exclude": "2.266483242451017529920244",
+   "crossing_residual": "1.5948297e-15",
+   "n_operators": 54
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "circle",
+   "radius_squared": "2",
+   "c1_factor_names": [
+    "free Dirac"
+   ],
+   "full_cft": "Ising x free-Dirac circle invariant",
+   "ising": "1",
+   "c1_delta": "1",
+   "delta_ext": "1",
+   "h_boson": "1/2",
+   "momentum_charge": 2,
+   "winding_charge": 1,
+   "mutual_locality_parity": 0,
+   "momentum_fraction": "1/2",
+   "delta_cut": 18,
+   "lam": 5,
+   "q_order": 55,
+   "ratio_include": "0.8981159537185023940620507",
+   "ratio_exclude": "2.265409203285408880261549",
+   "crossing_residual": "1.5944444e-15",
+   "n_operators": 29
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "circle",
+   "radius_squared": "2",
+   "c1_factor_names": [
+    "free Dirac"
+   ],
+   "full_cft": "Ising x free-Dirac circle invariant",
+   "ising": "sigma",
+   "c1_delta": "1",
+   "delta_ext": "9/8",
+   "h_boson": "1/2",
+   "momentum_charge": 2,
+   "winding_charge": 1,
+   "mutual_locality_parity": 0,
+   "momentum_fraction": "0",
+   "delta_cut": 18,
+   "lam": 5,
+   "q_order": 55,
+   "ratio_include": "0.9682712133843756234516203",
+   "ratio_exclude": "2.141752539246099116063586",
+   "crossing_residual": "3.8263752e-14",
+   "n_operators": 98
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "circle",
+   "radius_squared": "2",
+   "c1_factor_names": [
+    "free Dirac"
+   ],
+   "full_cft": "Ising x free-Dirac circle invariant",
+   "ising": "sigma",
+   "c1_delta": "1",
+   "delta_ext": "9/8",
+   "h_boson": "1/2",
+   "momentum_charge": 2,
+   "winding_charge": 1,
+   "mutual_locality_parity": 0,
+   "momentum_fraction": "1/16",
+   "delta_cut": 18,
+   "lam": 5,
+   "q_order": 55,
+   "ratio_include": "0.9588714940686089942669293",
+   "ratio_exclude": "2.120960975442010257844243",
+   "crossing_residual": "3.8281352e-14",
+   "n_operators": 99
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "circle",
+   "radius_squared": "2",
+   "c1_factor_names": [
+    "free Dirac"
+   ],
+   "full_cft": "Ising x free-Dirac circle invariant",
+   "ising": "sigma",
+   "c1_delta": "1",
+   "delta_ext": "9/8",
+   "h_boson": "1/2",
+   "momentum_charge": 2,
+   "winding_charge": 1,
+   "mutual_locality_parity": 0,
+   "momentum_fraction": "1/8",
+   "delta_cut": 18,
+   "lam": 5,
+   "q_order": 55,
+   "ratio_include": "0.9507250706616112489735605",
+   "ratio_exclude": "2.102941620145133247387625",
+   "crossing_residual": "3.8296605e-14",
+   "n_operators": 99
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "circle",
+   "radius_squared": "2",
+   "c1_factor_names": [
+    "free Dirac"
+   ],
+   "full_cft": "Ising x free-Dirac circle invariant",
+   "ising": "sigma",
+   "c1_delta": "1",
+   "delta_ext": "9/8",
+   "h_boson": "1/2",
+   "momentum_charge": 2,
+   "winding_charge": 1,
+   "mutual_locality_parity": 0,
+   "momentum_fraction": "3/16",
+   "delta_cut": 18,
+   "lam": 5,
+   "q_order": 55,
+   "ratio_include": "0.943831943163382387571501",
+   "ratio_exclude": "2.087694473355468084693671",
+   "crossing_residual": "3.8309512e-14",
+   "n_operators": 99
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "circle",
+   "radius_squared": "2",
+   "c1_factor_names": [
+    "free Dirac"
+   ],
+   "full_cft": "Ising x free-Dirac circle invariant",
+   "ising": "sigma",
+   "c1_delta": "1",
+   "delta_ext": "9/8",
+   "h_boson": "1/2",
+   "momentum_charge": 2,
+   "winding_charge": 1,
+   "mutual_locality_parity": 0,
+   "momentum_fraction": "1/4",
+   "delta_cut": 18,
+   "lam": 5,
+   "q_order": 55,
+   "ratio_include": "0.9381921115739224100607399",
+   "ratio_exclude": "2.075219535073014769762327",
+   "crossing_residual": "3.8320071e-14",
+   "n_operators": 99
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "circle",
+   "radius_squared": "2",
+   "c1_factor_names": [
+    "free Dirac"
+   ],
+   "full_cft": "Ising x free-Dirac circle invariant",
+   "ising": "sigma",
+   "c1_delta": "1",
+   "delta_ext": "9/8",
+   "h_boson": "1/2",
+   "momentum_charge": 2,
+   "winding_charge": 1,
+   "mutual_locality_parity": 0,
+   "momentum_fraction": "5/16",
+   "delta_cut": 18,
+   "lam": 5,
+   "q_order": 55,
+   "ratio_include": "0.9338055758932313164412683",
+   "ratio_exclude": "2.065516805297773302593549",
+   "crossing_residual": "3.8328285e-14",
+   "n_operators": 99
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "circle",
+   "radius_squared": "2",
+   "c1_factor_names": [
+    "free Dirac"
+   ],
+   "full_cft": "Ising x free-Dirac circle invariant",
+   "ising": "sigma",
+   "c1_delta": "1",
+   "delta_ext": "9/8",
+   "h_boson": "1/2",
+   "momentum_charge": 2,
+   "winding_charge": 1,
+   "mutual_locality_parity": 0,
+   "momentum_fraction": "3/8",
+   "delta_cut": 18,
+   "lam": 5,
+   "q_order": 55,
+   "ratio_include": "0.9306723361213091067130793",
+   "ratio_exclude": "2.058586284029743683187304",
+   "crossing_residual": "3.8334151e-14",
+   "n_operators": 99
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "circle",
+   "radius_squared": "2",
+   "c1_factor_names": [
+    "free Dirac"
+   ],
+   "full_cft": "Ising x free-Dirac circle invariant",
+   "ising": "sigma",
+   "c1_delta": "1",
+   "delta_ext": "9/8",
+   "h_boson": "1/2",
+   "momentum_charge": 2,
+   "winding_charge": 1,
+   "mutual_locality_parity": 0,
+   "momentum_fraction": "7/16",
+   "delta_cut": 18,
+   "lam": 5,
+   "q_order": 55,
+   "ratio_include": "0.9287923922581557808761678",
+   "ratio_exclude": "2.054427971268925911543566",
+   "crossing_residual": "3.8337671e-14",
+   "n_operators": 99
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "circle",
+   "radius_squared": "2",
+   "c1_factor_names": [
+    "free Dirac"
+   ],
+   "full_cft": "Ising x free-Dirac circle invariant",
+   "ising": "sigma",
+   "c1_delta": "1",
+   "delta_ext": "9/8",
+   "h_boson": "1/2",
+   "momentum_charge": 2,
+   "winding_charge": 1,
+   "mutual_locality_parity": 0,
+   "momentum_fraction": "1/2",
+   "delta_cut": 18,
+   "lam": 5,
+   "q_order": 55,
+   "ratio_include": "0.928165744303771338930531",
+   "ratio_exclude": "2.053041867015319987662322",
+   "crossing_residual": "3.8338845e-14",
+   "n_operators": 54
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "circle",
+   "radius_squared": "2",
+   "c1_factor_names": [
+    "free Dirac"
+   ],
+   "full_cft": "Ising x free-Dirac circle invariant",
+   "ising": "eps",
+   "c1_delta": "1",
+   "delta_ext": "2",
+   "h_boson": "1/2",
+   "momentum_charge": 2,
+   "winding_charge": 1,
+   "mutual_locality_parity": 0,
+   "momentum_fraction": "0",
+   "delta_cut": 18,
+   "lam": 5,
+   "q_order": 55,
+   "ratio_include": "1.331366407427046947628578",
+   "ratio_exclude": "3.173770469327055009787836",
+   "crossing_residual": "8.8494257e-12",
+   "n_operators": 54
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "circle",
+   "radius_squared": "2",
+   "c1_factor_names": [
+    "free Dirac"
+   ],
+   "full_cft": "Ising x free-Dirac circle invariant",
+   "ising": "eps",
+   "c1_delta": "1",
+   "delta_ext": "2",
+   "h_boson": "1/2",
+   "momentum_charge": 2,
+   "winding_charge": 1,
+   "mutual_locality_parity": 0,
+   "momentum_fraction": "1/16",
+   "delta_cut": 18,
+   "lam": 5,
+   "q_order": 55,
+   "ratio_include": "1.314554803198378600164532",
+   "ratio_exclude": "3.133694219284006653729083",
+   "crossing_residual": "9.0487526e-12",
+   "n_operators": 54
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "circle",
+   "radius_squared": "2",
+   "c1_factor_names": [
+    "free Dirac"
+   ],
+   "full_cft": "Ising x free-Dirac circle invariant",
+   "ising": "eps",
+   "c1_delta": "1",
+   "delta_ext": "2",
+   "h_boson": "1/2",
+   "momentum_charge": 2,
+   "winding_charge": 1,
+   "mutual_locality_parity": 0,
+   "momentum_fraction": "1/8",
+   "delta_cut": 18,
+   "lam": 5,
+   "q_order": 55,
+   "ratio_include": "1.29998474620019936513806",
+   "ratio_exclude": "3.098961469246698075309295",
+   "crossing_residual": "9.2215025e-12",
+   "n_operators": 54
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "circle",
+   "radius_squared": "2",
+   "c1_factor_names": [
+    "free Dirac"
+   ],
+   "full_cft": "Ising x free-Dirac circle invariant",
+   "ising": "eps",
+   "c1_delta": "1",
+   "delta_ext": "2",
+   "h_boson": "1/2",
+   "momentum_charge": 2,
+   "winding_charge": 1,
+   "mutual_locality_parity": 0,
+   "momentum_fraction": "3/16",
+   "delta_cut": 18,
+   "lam": 5,
+   "q_order": 55,
+   "ratio_include": "1.287656236432509242788146",
+   "ratio_exclude": "3.069572219215129275886559",
+   "crossing_residual": "9.3676756e-12",
+   "n_operators": 54
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "circle",
+   "radius_squared": "2",
+   "c1_factor_names": [
+    "free Dirac"
+   ],
+   "full_cft": "Ising x free-Dirac circle invariant",
+   "ising": "eps",
+   "c1_delta": "1",
+   "delta_ext": "2",
+   "h_boson": "1/2",
+   "momentum_charge": 2,
+   "winding_charge": 1,
+   "mutual_locality_parity": 0,
+   "momentum_fraction": "1/4",
+   "delta_cut": 18,
+   "lam": 5,
+   "q_order": 55,
+   "ratio_include": "1.277569273895308233317009",
+   "ratio_exclude": "3.045526469189300256610025",
+   "crossing_residual": "9.4872717e-12",
+   "n_operators": 54
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "circle",
+   "radius_squared": "2",
+   "c1_factor_names": [
+    "free Dirac"
+   ],
+   "full_cft": "Ising x free-Dirac circle invariant",
+   "ising": "eps",
+   "c1_delta": "1",
+   "delta_ext": "2",
+   "h_boson": "1/2",
+   "momentum_charge": 2,
+   "winding_charge": 1,
+   "mutual_locality_parity": 0,
+   "momentum_fraction": "5/16",
+   "delta_cut": 18,
+   "lam": 5,
+   "q_order": 55,
+   "ratio_include": "1.269723858588596336890102",
+   "ratio_exclude": "3.026824219169211018419907",
+   "crossing_residual": "9.5802909e-12",
+   "n_operators": 54
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "circle",
+   "radius_squared": "2",
+   "c1_factor_names": [
+    "free Dirac"
+   ],
+   "full_cft": "Ising x free-Dirac circle invariant",
+   "ising": "eps",
+   "c1_delta": "1",
+   "delta_ext": "2",
+   "h_boson": "1/2",
+   "momentum_charge": 2,
+   "winding_charge": 1,
+   "mutual_locality_parity": 0,
+   "momentum_fraction": "3/8",
+   "delta_cut": 18,
+   "lam": 5,
+   "q_order": 55,
+   "ratio_include": "1.264119990512373553636107",
+   "ratio_exclude": "3.013465469154861562047482",
+   "crossing_residual": "9.6467332e-12",
+   "n_operators": 54
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "circle",
+   "radius_squared": "2",
+   "c1_factor_names": [
+    "free Dirac"
+   ],
+   "full_cft": "Ising x free-Dirac circle invariant",
+   "ising": "eps",
+   "c1_delta": "1",
+   "delta_ext": "2",
+   "h_boson": "1/2",
+   "momentum_charge": 2,
+   "winding_charge": 1,
+   "mutual_locality_parity": 0,
+   "momentum_fraction": "7/16",
+   "delta_cut": 18,
+   "lam": 5,
+   "q_order": 55,
+   "ratio_include": "1.260757669666639883646944",
+   "ratio_exclude": "3.00545021914625188801509",
+   "crossing_residual": "9.6865986e-12",
+   "n_operators": 54
+  },
+  {
+   "kind": "vertex_mixture",
+   "branch": "circle",
+   "radius_squared": "2",
+   "c1_factor_names": [
+    "free Dirac"
+   ],
+   "full_cft": "Ising x free-Dirac circle invariant",
+   "ising": "eps",
+   "c1_delta": "1",
+   "delta_ext": "2",
+   "h_boson": "1/2",
+   "momentum_charge": 2,
+   "winding_charge": 1,
+   "mutual_locality_parity": 0,
+   "momentum_fraction": "1/2",
+   "delta_cut": 18,
+   "lam": 5,
+   "q_order": 55,
+   "ratio_include": "1.259636896051395326977761",
+   "ratio_exclude": "3.002778469143381996636137",
+   "crossing_residual": "9.699887e-12",
+   "n_operators": 29
+  }
+ ]
+}

@@ -1,0 +1,22 @@
+# The source distribution: the packages, their tests, the user documentation,
+# the examples and the known-CFT data.  Research drivers, generated artifacts,
+# the paper sources and internal notes stay out.
+include LICENSE
+include CITATION.cff
+include README.md
+include pyproject.toml
+
+graft src
+graft examples
+graft data/known_cft_moments
+graft tests
+
+include docs/API.md
+include docs/ARCHITECTURE.md
+include docs/CLI.md
+include docs/CLUSTER.md
+
+include tools/check_public_wheel.sh
+include tools/regen_block_samples.sh
+
+global-exclude *.py[cod]

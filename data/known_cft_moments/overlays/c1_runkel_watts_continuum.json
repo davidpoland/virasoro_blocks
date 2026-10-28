@@ -1,0 +1,6318 @@
+{
+ "schema": "c1_continuum_moments_v1",
+ "metadata": {
+  "exact_c": "1",
+  "finite_c_dozz": false,
+  "theories": "runkel_watts",
+  "production_curve": true,
+  "analytic_liouville_included": false,
+  "maximum_nonsingular_spacing": 0.025000001,
+  "identity_excluded_prescription": "Runkel-Watts has no normalizable vacuum; take the arbitrary common continuum scale A to infinity, so the finite unit Virasoro identity is negligible and ratio_exclude=ratio_include",
+  "normalization_cross_check": "finite-c DOZZ reference has M0=1e31..1e34 and identical included/excluded ratios; exact x=1/2 RW correlator reproduced",
+  "sources": [
+   "runkel_watts_dense_diagnostic.json",
+   "runkel_watts_dense_part2.json",
+   "runkel_watts_dense_refinement.json",
+   "runkel_watts_validation_q24_n64.json",
+   "runkel_watts_validation_cusp_q24_n64.json",
+   "runkel_watts_validation_cusp_q24_n128.json",
+   "runkel_watts_validation_cusp_q24_n256.json",
+   "runkel_watts_validation_cusp_shoulders_q24_n128.json"
+  ]
+ },
+ "curves": {
+  "runkel_watts": [
+   {
+    "delta_ext": "0.02",
+    "momentum_external": "0.1",
+    "continuum_nu0": "0.10153283651608817480302081307",
+    "continuum_nu1": "0.00269733950861511770372510006244",
+    "identity_measure": "2.05662124123332041683533029141",
+    "p_cutoff": "4.5",
+    "q_order": 16,
+    "quadrature_order": 32,
+    "chiral_norm": "16.0",
+    "normalization": "Runkel-Watts delta(x-y) fields; c_RW=C_an/2 on support; x=2P Jacobian cancels repository diagonal-block factor 2",
+    "crossing_residual": null,
+    "promotion_status": "production",
+    "positivity": true,
+    "imaginary_residual": "0.0",
+    "convergence": {},
+    "ratio_include": "0.0265661789936078105355364327203",
+    "ratio_exclude": "0.0265661789936078105355364327203",
+    "identity_subtracted_drawable": true,
+    "minimum_spectral_weight": "7.00939079831632922369430036733e-68",
+    "support_intervals": [
+     [
+      "0.0",
+      "0.2"
+     ],
+     [
+      "0.8",
+      "1.0"
+     ],
+     [
+      "1.0",
+      "1.2"
+     ],
+     [
+      "1.8",
+      "2.0"
+     ],
+     [
+      "2.0",
+      "2.2"
+     ],
+     [
+      "2.8",
+      "3.0"
+     ],
+     [
+      "3.0",
+      "3.2"
+     ],
+     [
+      "3.8",
+      "4.0"
+     ],
+     [
+      "4.0",
+      "4.2"
+     ]
+    ],
+    "unit_scale_identity_subtracted_denominator": "-1.95508840471723224203230947834",
+    "identity_subtracted_denominator": null,
+    "identity_subtracted_denominator_status": "not_scale_invariant_for_delta_normalized_RW_fields",
+    "ratio_exclude_prescription": "large_continuum_scale_limit: (A*M1)/(A*M0-M_identity) -> M1/M0 as A->infinity",
+    "production_source": "runkel_watts_dense_refinement.json"
+   },
+   {
+    "delta_ext": "0.0250000000000000013877787807814",
+    "momentum_external": "0.111803398874989487923626374996",
+    "continuum_nu0": "0.11381667368253252778855055909",
+    "continuum_nu1": "0.00377571718779171592047650048784",
+    "identity_measure": "2.07114918065172787989410653466",
+    "p_cutoff": "4.5",
+    "q_order": 16,
+    "quadrature_order": 24,
+    "chiral_norm": "16.0",
+    "normalization": "Runkel-Watts delta(x-y) fields; c_RW=C_an/2 on support; x=2P Jacobian cancels repository diagonal-block factor 2",
+    "crossing_residual": null,
+    "promotion_status": "production",
+    "positivity": true,
+    "imaginary_residual": "0.0",
+    "convergence": {},
+    "ratio_include": "0.0331736736422580599715271411218",
+    "ratio_exclude": "0.0331736736422580599715271411218",
+    "identity_subtracted_drawable": true,
+    "minimum_spectral_weight": "2.15294986164615853795082585239e-65",
+    "support_intervals": [
+     [
+      "0.0",
+      "0.223606797749978975847252749991"
+     ],
+     [
+      "0.776393202250021024152747250009",
+      "1.0"
+     ],
+     [
+      "1.0",
+      "1.22360679774997897584725274999"
+     ],
+     [
+      "1.77639320225002102415274725001",
+      "2.0"
+     ],
+     [
+      "2.0",
+      "2.22360679774997897584725274999"
+     ],
+     [
+      "2.77639320225002102415274725001",
+      "3.0"
+     ],
+     [
+      "3.0",
+      "3.22360679774997897584725274999"
+     ],
+     [
+      "3.77639320225002102415274725001",
+      "4.0"
+     ],
+     [
+      "4.0",
+      "4.22360679774997897584725274999"
+     ]
+    ],
+    "unit_scale_identity_subtracted_denominator": "-1.95733250696919535210555597557",
+    "identity_subtracted_denominator": null,
+    "identity_subtracted_denominator_status": "not_scale_invariant_for_delta_normalized_RW_fields",
+    "ratio_exclude_prescription": "large_continuum_scale_limit: (A*M1)/(A*M0-M_identity) -> M1/M0 as A->infinity",
+    "production_source": "runkel_watts_dense_diagnostic.json"
+   },
+   {
+    "delta_ext": "0.0500000000000000027755575615629",
+    "momentum_external": "0.158113883008418970988486512943",
+    "continuum_nu0": "0.161593562555557675426243249332",
+    "continuum_nu1": "0.0106592028023206465283616288793",
+    "identity_measure": "2.14611343323063288751941550312",
+    "p_cutoff": "4.5",
+    "q_order": 16,
+    "quadrature_order": 24,
+    "chiral_norm": "16.0",
+    "normalization": "Runkel-Watts delta(x-y) fields; c_RW=C_an/2 on support; x=2P Jacobian cancels repository diagonal-block factor 2",
+    "crossing_residual": null,
+    "promotion_status": "production",
+    "positivity": true,
+    "imaginary_residual": "0.0",
+    "convergence": {},
+    "ratio_include": "0.0659630410627025646697531296233",
+    "ratio_exclude": "0.0659630410627025646697531296233",
+    "identity_subtracted_drawable": true,
+    "minimum_spectral_weight": "1.19855981358030000054276601338e-63",
+    "support_intervals": [
+     [
+      "0.0",
+      "0.316227766016837941976973025885"
+     ],
+     [
+      "0.683772233983162058023026974115",
+      "1.0"
+     ],
+     [
+      "1.0",
+      "1.31622776601683794197697302589"
+     ],
+     [
+      "1.68377223398316205802302697411",
+      "2.0"
+     ],
+     [
+      "2.0",
+      "2.31622776601683794197697302589"
+     ],
+     [
+      "2.68377223398316205802302697411",
+      "3.0"
+     ],
+     [
+      "3.0",
+      "3.31622776601683794197697302589"
+     ],
+     [
+      "3.68377223398316205802302697411",
+      "4.0"
+     ],
+     [
+      "4.0",
+      "4.31622776601683794197697302589"
+     ]
+    ],
+    "unit_scale_identity_subtracted_denominator": "-1.98451987067507521209317225379",
+    "identity_subtracted_denominator": null,
+    "identity_subtracted_denominator_status": "not_scale_invariant_for_delta_normalized_RW_fields",
+    "ratio_exclude_prescription": "large_continuum_scale_limit: (A*M1)/(A*M0-M_identity) -> M1/M0 as A->infinity",
+    "production_source": "runkel_watts_dense_diagnostic.json"
+   },
+   {
+    "delta_ext": "0.0750000000000000041633363423443",
+    "momentum_external": "0.193649167310370849633807376176",
+    "continuum_nu0": "0.194444101159398474194911559926",
+    "continuum_nu1": "0.0190953462089503415421187707148",
+    "identity_measure": "2.22512252247609179076198773872",
+    "p_cutoff": "4.5",
+    "q_order": 16,
+    "quadrature_order": 24,
+    "chiral_norm": "16.0",
+    "normalization": "Runkel-Watts delta(x-y) fields; c_RW=C_an/2 on support; x=2P Jacobian cancels repository diagonal-block factor 2",
+    "crossing_residual": null,
+    "promotion_status": "production",
+    "positivity": true,
+    "imaginary_residual": "0.0",
+    "convergence": {},
+    "ratio_include": "0.0982048110232803848670536216682",
+    "ratio_exclude": "0.0982048110232803848670536216682",
+    "identity_subtracted_drawable": true,
+    "minimum_spectral_weight": "3.86526733962587731928867448169e-62",
+    "support_intervals": [
+     [
+      "0.0",
+      "0.387298334620741699267614752351"
+     ],
+     [
+      "0.612701665379258300732385247649",
+      "1.0"
+     ],
+     [
+      "1.0",
+      "1.38729833462074169926761475235"
+     ],
+     [
+      "1.61270166537925830073238524765",
+      "2.0"
+     ],
+     [
+      "2.0",
+      "2.38729833462074169926761475235"
+     ],
+     [
+      "2.61270166537925830073238524765",
+      "3.0"
+     ],
+     [
+      "3.0",
+      "3.38729833462074169926761475235"
+     ],
+     [
+      "3.61270166537925830073238524765",
+      "4.0"
+     ],
+     [
+      "4.0",
+      "4.38729833462074169926761475235"
+     ]
+    ],
+    "unit_scale_identity_subtracted_denominator": "-2.0306784213166933165670761788",
+    "identity_subtracted_denominator": null,
+    "identity_subtracted_denominator_status": "not_scale_invariant_for_delta_normalized_RW_fields",
+    "ratio_exclude_prescription": "large_continuum_scale_limit: (A*M1)/(A*M0-M_identity) -> M1/M0 as A->infinity",
+    "production_source": "runkel_watts_dense_diagnostic.json"
+   },
+   {
+    "delta_ext": "0.100000000000000005551115123126",
+    "momentum_external": "0.223606797749978975847252749991",
+    "continuum_nu0": "0.21291088293993938728325595665",
+    "continuum_nu1": "0.0275835990556349430695771837156",
+    "identity_measure": "2.3084210256588089502658057749",
+    "p_cutoff": "4.5",
+    "q_order": 16,
+    "quadrature_order": 24,
+    "chiral_norm": "16.0",
+    "normalization": "Runkel-Watts delta(x-y) fields; c_RW=C_an/2 on support; x=2P Jacobian cancels repository diagonal-block factor 2",
+    "crossing_residual": null,
+    "promotion_status": "production",
+    "positivity": true,
+    "imaginary_residual": "0.0",
+    "convergence": {},
+    "ratio_include": "0.12955466942202327860985446058",
+    "ratio_exclude": "0.12955466942202327860985446058",
+    "identity_subtracted_drawable": true,
+    "minimum_spectral_weight": "6.65941991582057277329700470674e-60",
+    "support_intervals": [
+     [
+      "0.0",
+      "0.447213595499957951694505499983"
+     ],
+     [
+      "0.552786404500042048305494500017",
+      "1.0"
+     ],
+     [
+      "1.0",
+      "1.44721359549995795169450549998"
+     ],
+     [
+      "1.55278640450004204830549450002",
+      "2.0"
+     ],
+     [
+      "2.0",
+      "2.44721359549995795169450549998"
+     ],
+     [
+      "2.55278640450004204830549450002",
+      "3.0"
+     ],
+     [
+      "3.0",
+      "3.44721359549995795169450549998"
+     ],
+     [
+      "3.55278640450004204830549450002",
+      "4.0"
+     ],
+     [
+      "4.0",
+      "4.44721359549995795169450549998"
+     ]
+    ],
+    "unit_scale_identity_subtracted_denominator": "-2.09551014271886956298254981825",
+    "identity_subtracted_denominator": null,
+    "identity_subtracted_denominator_status": "not_scale_invariant_for_delta_normalized_RW_fields",
+    "ratio_exclude_prescription": "large_continuum_scale_limit: (A*M1)/(A*M0-M_identity) -> M1/M0 as A->infinity",
+    "production_source": "runkel_watts_dense_diagnostic.json"
+   },
+   {
+    "delta_ext": "0.125000000000000006938893903907",
+    "momentum_external": "0.250000000000000006938893903907",
+    "continuum_nu0": "0.211803271198494775614321495469",
+    "continuum_nu1": "0.0337095375742737147994779807853",
+    "identity_measure": "2.39626932728363193818884646938",
+    "p_cutoff": "4.5",
+    "q_order": 16,
+    "quadrature_order": 24,
+    "chiral_norm": "16.0",
+    "normalization": "Runkel-Watts delta(x-y) fields; c_RW=C_an/2 on support; x=2P Jacobian cancels repository diagonal-block factor 2",
+    "crossing_residual": null,
+    "promotion_status": "production",
+    "positivity": true,
+    "imaginary_residual": "0.0",
+    "convergence": {},
+    "ratio_include": "0.159154943091895356434519394343",
+    "ratio_exclude": "0.159154943091895356434519394343",
+    "identity_subtracted_drawable": true,
+    "minimum_spectral_weight": "4.54104144198093939229145516202e-50",
+    "support_intervals": [
+     [
+      "0.0",
+      "0.499999999999999986122212192186"
+     ],
+     [
+      "0.500000000000000013877787807814",
+      "1.0"
+     ],
+     [
+      "1.0",
+      "1.49999999999999998612221219219"
+     ],
+     [
+      "1.50000000000000001387778780781",
+      "2.0"
+     ],
+     [
+      "2.0",
+      "2.49999999999999998612221219219"
+     ],
+     [
+      "2.50000000000000001387778780781",
+      "3.0"
+     ],
+     [
+      "3.0",
+      "3.49999999999999998612221219219"
+     ],
+     [
+      "3.50000000000000001387778780781",
+      "4.0"
+     ],
+     [
+      "4.0",
+      "4.49999999999999998612221219219"
+     ]
+    ],
+    "unit_scale_identity_subtracted_denominator": "-2.18446605608513716257452497391",
+    "identity_subtracted_denominator": null,
+    "identity_subtracted_denominator_status": "not_scale_invariant_for_delta_normalized_RW_fields",
+    "ratio_exclude_prescription": "large_continuum_scale_limit: (A*M1)/(A*M0-M_identity) -> M1/M0 as A->infinity",
+    "production_source": "runkel_watts_dense_diagnostic.json"
+   },
+   {
+    "delta_ext": "0.150000000000000008326672684689",
+    "momentum_external": "0.273861278752583064329662322011",
+    "continuum_nu0": "0.198489523326766497967957991276",
+    "continuum_nu1": "0.0371022725348086702448937386757",
+    "identity_measure": "2.48894468165497683724538604903",
+    "p_cutoff": "4.5",
+    "q_order": 16,
+    "quadrature_order": 24,
+    "chiral_norm": "16.0",
+    "normalization": "Runkel-Watts delta(x-y) fields; c_RW=C_an/2 on support; x=2P Jacobian cancels repository diagonal-block factor 2",
+    "crossing_residual": null,
+    "promotion_status": "production",
+    "positivity": true,
+    "imaginary_residual": "0.0",
+    "convergence": {},
+    "ratio_include": "0.186923077414662691535164342093",
+    "ratio_exclude": "0.186923077414662691535164342093",
+    "identity_subtracted_drawable": true,
+    "minimum_spectral_weight": "6.57519909203817162121321001327e-63",
+    "support_intervals": [
+     [
+      "0.0",
+      "0.452277442494833871340675355979"
+     ],
+     [
+      "0.547722557505166128659324644021",
+      "1.0"
+     ],
+     [
+      "1.0",
+      "1.45227744249483387134067535598"
+     ],
+     [
+      "1.54772255750516612865932464402",
+      "2.0"
+     ],
+     [
+      "2.0",
+      "2.45227744249483387134067535598"
+     ],
+     [
+      "2.54772255750516612865932464402",
+      "3.0"
+     ],
+     [
+      "3.0",
+      "3.45227744249483387134067535598"
+     ],
+     [
+      "3.54772255750516612865932464402",
+      "4.0"
+     ],
+     [
+      "4.0",
+      "4.45227744249483387134067535598"
+     ]
+    ],
+    "unit_scale_identity_subtracted_denominator": "-2.29045515832821033927742805776",
+    "identity_subtracted_denominator": null,
+    "identity_subtracted_denominator_status": "not_scale_invariant_for_delta_normalized_RW_fields",
+    "ratio_exclude_prescription": "large_continuum_scale_limit: (A*M1)/(A*M0-M_identity) -> M1/M0 as A->infinity",
+    "production_source": "runkel_watts_dense_diagnostic.json"
+   },
+   {
+    "delta_ext": "0.17500000000000000971445146547",
+    "momentum_external": "0.295803989154980810338576402974",
+    "continuum_nu0": "0.186009135757923304714261963817",
+    "continuum_nu1": "0.0398058581494481489306618846554",
+    "identity_measure": "2.58674234793219082192469876193",
+    "p_cutoff": "4.5",
+    "q_order": 16,
+    "quadrature_order": 24,
+    "chiral_norm": "16.0",
+    "normalization": "Runkel-Watts delta(x-y) fields; c_RW=C_an/2 on support; x=2P Jacobian cancels repository diagonal-block factor 2",
+    "crossing_residual": null,
+    "promotion_status": "production",
+    "positivity": true,
+    "imaginary_residual": "0.0",
+    "convergence": {},
+    "ratio_include": "0.213999479043074720858221537058",
+    "ratio_exclude": "0.213999479043074720858221537058",
+    "identity_subtracted_drawable": true,
+    "minimum_spectral_weight": "6.34899167401578458491335722306e-65",
+    "support_intervals": [
+     [
+      "0.0",
+      "0.408392021690038379322847194052"
+     ],
+     [
+      "0.591607978309961620677152805948",
+      "1.0"
+     ],
+     [
+      "1.0",
+      "1.40839202169003837932284719405"
+     ],
+     [
+      "1.59160797830996162067715280595",
+      "2.0"
+     ],
+     [
+      "2.0",
+      "2.40839202169003837932284719405"
+     ],
+     [
+      "2.59160797830996162067715280595",
+      "3.0"
+     ],
+     [
+      "3.0",
+      "3.40839202169003837932284719405"
+     ],
+     [
+      "3.59160797830996162067715280595",
+      "4.0"
+     ],
+     [
+      "4.0",
+      "4.40839202169003837932284719405"
+     ]
+    ],
+    "unit_scale_identity_subtracted_denominator": "-2.40073321217426751721043679811",
+    "identity_subtracted_denominator": null,
+    "identity_subtracted_denominator_status": "not_scale_invariant_for_delta_normalized_RW_fields",
+    "ratio_exclude_prescription": "large_continuum_scale_limit: (A*M1)/(A*M0-M_identity) -> M1/M0 as A->infinity",
+    "production_source": "runkel_watts_dense_diagnostic.json"
+   },
+   {
+    "delta_ext": "0.200000000000000011102230246252",
+    "momentum_external": "0.316227766016837941976973025885",
+    "continuum_nu0": "0.173987242432626089483322062437",
+    "continuum_nu1": "0.0418247994408118912065126379101",
+    "identity_measure": "2.68997680261539480985472057129",
+    "p_cutoff": "4.5",
+    "q_order": 16,
+    "quadrature_order": 24,
+    "chiral_norm": "16.0",
+    "normalization": "Runkel-Watts delta(x-y) fields; c_RW=C_an/2 on support; x=2P Jacobian cancels repository diagonal-block factor 2",
+    "crossing_residual": null,
+    "promotion_status": "production",
+    "positivity": true,
+    "imaginary_residual": "0.0",
+    "convergence": {},
+    "ratio_include": "0.240390035821206304646339776835",
+    "ratio_exclude": "0.240390035821206304646339776835",
+    "identity_subtracted_drawable": true,
+    "minimum_spectral_weight": "7.2974643747963904878970837849e-66",
+    "support_intervals": [
+     [
+      "0.0",
+      "0.36754446796632411604605394823"
+     ],
+     [
+      "0.63245553203367588395394605177",
+      "1.0"
+     ],
+     [
+      "1.0",
+      "1.36754446796632411604605394823"
+     ],
+     [
+      "1.63245553203367588395394605177",
+      "2.0"
+     ],
+     [
+      "2.0",
+      "2.36754446796632411604605394823"
+     ],
+     [
+      "2.63245553203367588395394605177",
+      "3.0"
+     ],
+     [
+      "3.0",
+      "3.36754446796632411604605394823"
+     ],
+     [
+      "3.63245553203367588395394605177",
+      "4.0"
+     ],
+     [
+      "4.0",
+      "4.36754446796632411604605394823"
+     ]
+    ],
+    "unit_scale_identity_subtracted_denominator": "-2.51598956018276872037139850885",
+    "identity_subtracted_denominator": null,
+    "identity_subtracted_denominator_status": "not_scale_invariant_for_delta_normalized_RW_fields",
+    "ratio_exclude_prescription": "large_continuum_scale_limit: (A*M1)/(A*M0-M_identity) -> M1/M0 as A->infinity",
+    "production_source": "runkel_watts_dense_diagnostic.json"
+   },
+   {
+    "delta_ext": "0.225000000000000012490009027033",
+    "momentum_external": "0.335410196624968463770879124987",
+    "continuum_nu0": "0.162152361373514309757593858041",
+    "continuum_nu1": "0.0431479324614336492133918334706",
+    "identity_measure": "2.79898303473660368170961157977",
+    "p_cutoff": "4.5",
+    "q_order": 16,
+    "quadrature_order": 24,
+    "chiral_norm": "16.0",
+    "normalization": "Runkel-Watts delta(x-y) fields; c_RW=C_an/2 on support; x=2P Jacobian cancels repository diagonal-block factor 2",
+    "crossing_residual": null,
+    "promotion_status": "production",
+    "positivity": true,
+    "imaginary_residual": "0.0",
+    "convergence": {},
+    "ratio_include": "0.266094999147396683770176093667",
+    "ratio_exclude": "0.266094999147396683770176093667",
+    "identity_subtracted_drawable": true,
+    "minimum_spectral_weight": "2.0530637935440804290601938144e-66",
+    "support_intervals": [
+     [
+      "0.0",
+      "0.329179606750063072458241750026"
+     ],
+     [
+      "0.670820393249936927541758249974",
+      "1.0"
+     ],
+     [
+      "1.0",
+      "1.32917960675006307245824175003"
+     ],
+     [
+      "1.67082039324993692754175824997",
+      "2.0"
+     ],
+     [
+      "2.0",
+      "2.32917960675006307245824175003"
+     ],
+     [
+      "2.67082039324993692754175824997",
+      "3.0"
+     ],
+     [
+      "3.0",
+      "3.32917960675006307245824175003"
+     ],
+     [
+      "3.67082039324993692754175824997",
+      "4.0"
+     ],
+     [
+      "4.0",
+      "4.32917960675006307245824175003"
+     ]
+    ],
+    "unit_scale_identity_subtracted_denominator": "-2.63683067336308937195201772173",
+    "identity_subtracted_denominator": null,
+    "identity_subtracted_denominator_status": "not_scale_invariant_for_delta_normalized_RW_fields",
+    "ratio_exclude_prescription": "large_continuum_scale_limit: (A*M1)/(A*M0-M_identity) -> M1/M0 as A->infinity",
+    "production_source": "runkel_watts_dense_diagnostic.json"
+   },
+   {
+    "delta_ext": "0.250000000000000013877787807814",
+    "momentum_external": "0.353553390593273772013500047826",
+    "continuum_nu0": "0.150294250922394852178922413973",
+    "continuum_nu1": "0.0437522062266176621541601572667",
+    "identity_measure": "2.91411792938762236333119755664",
+    "p_cutoff": "4.5",
+    "q_order": 16,
+    "quadrature_order": 24,
+    "chiral_norm": "16.0",
+    "normalization": "Runkel-Watts delta(x-y) fields; c_RW=C_an/2 on support; x=2P Jacobian cancels repository diagonal-block factor 2",
+    "crossing_residual": null,
+    "promotion_status": "production",
+    "positivity": true,
+    "imaginary_residual": "0.0",
+    "convergence": {},
+    "ratio_include": "0.291110311659288424297208822141",
+    "ratio_exclude": "0.291110311659288424297208822141",
+    "identity_subtracted_drawable": true,
+    "minimum_spectral_weight": "8.5922998516220791035283017879e-67",
+    "support_intervals": [
+     [
+      "0.0",
+      "0.292893218813452455972999904348"
+     ],
+     [
+      "0.707106781186547544027000095652",
+      "1.0"
+     ],
+     [
+      "1.0",
+      "1.29289321881345245597299990435"
+     ],
+     [
+      "1.70710678118654754402700009565",
+      "2.0"
+     ],
+     [
+      "2.0",
+      "2.29289321881345245597299990435"
+     ],
+     [
+      "2.70710678118654754402700009565",
+      "3.0"
+     ],
+     [
+      "3.0",
+      "3.29289321881345245597299990435"
+     ],
+     [
+      "3.70710678118654754402700009565",
+      "4.0"
+     ],
+     [
+      "4.0",
+      "4.29289321881345245597299990435"
+     ]
+    ],
+    "unit_scale_identity_subtracted_denominator": "-2.76382367846522751115227514267",
+    "identity_subtracted_denominator": null,
+    "identity_subtracted_denominator_status": "not_scale_invariant_for_delta_normalized_RW_fields",
+    "ratio_exclude_prescription": "large_continuum_scale_limit: (A*M1)/(A*M0-M_identity) -> M1/M0 as A->infinity",
+    "production_source": "runkel_watts_dense_diagnostic.json"
+   },
+   {
+    "delta_ext": "0.275000000000000015265566588596",
+    "momentum_external": "0.370809924354783157727612766495",
+    "continuum_nu0": "0.138240758219946429747820073358",
+    "continuum_nu1": "0.0436050451342828208645520247101",
+    "identity_measure": "3.03576174559686344214728430262",
+    "p_cutoff": "4.5",
+    "q_order": 16,
+    "quadrature_order": 24,
+    "chiral_norm": "16.0",
+    "normalization": "Runkel-Watts delta(x-y) fields; c_RW=C_an/2 on support; x=2P Jacobian cancels repository diagonal-block factor 2",
+    "crossing_residual": null,
+    "promotion_status": "production",
+    "positivity": true,
+    "imaginary_residual": "0.0",
+    "convergence": {},
+    "ratio_include": "0.315428283928430832048909694209",
+    "ratio_exclude": "0.315428283928430832048909694209",
+    "identity_subtracted_drawable": true,
+    "minimum_spectral_weight": "4.26014489590721162235542305316e-67",
+    "support_intervals": [
+     [
+      "0.0",
+      "0.25838015129043368454477446701"
+     ],
+     [
+      "0.74161984870956631545522553299",
+      "1.0"
+     ],
+     [
+      "1.0",
+      "1.25838015129043368454477446701"
+     ],
+     [
+      "1.74161984870956631545522553299",
+      "2.0"
+     ],
+     [
+      "2.0",
+      "2.25838015129043368454477446701"
+     ],
+     [
+      "2.74161984870956631545522553299",
+      "3.0"
+     ],
+     [
+      "3.0",
+      "3.25838015129043368454477446701"
+     ],
+     [
+      "3.74161984870956631545522553299",
+      "4.0"
+     ],
+     [
+      "4.0",
+      "4.25838015129043368454477446701"
+     ]
+    ],
+    "unit_scale_identity_subtracted_denominator": "-2.89752098737691701239946422927",
+    "identity_subtracted_denominator": null,
+    "identity_subtracted_denominator_status": "not_scale_invariant_for_delta_normalized_RW_fields",
+    "ratio_exclude_prescription": "large_continuum_scale_limit: (A*M1)/(A*M0-M_identity) -> M1/M0 as A->infinity",
+    "production_source": "runkel_watts_dense_diagnostic.json"
+   },
+   {
+    "delta_ext": "0.300000000000000016653345369377",
+    "momentum_external": "0.387298334620741699267614752351",
+    "continuum_nu0": "0.125844183062549328801914838341",
+    "continuum_nu1": "0.0426659499650258761399984015654",
+    "identity_measure": "3.16431969497342667580132198695",
+    "p_cutoff": "4.5",
+    "q_order": 16,
+    "quadrature_order": 24,
+    "chiral_norm": "16.0",
+    "normalization": "Runkel-Watts delta(x-y) fields; c_RW=C_an/2 on support; x=2P Jacobian cancels repository diagonal-block factor 2",
+    "crossing_residual": null,
+    "promotion_status": "production",
+    "positivity": true,
+    "imaginary_residual": "0.0",
+    "convergence": {},
+    "ratio_include": "0.339037919168812767909910513966",
+    "ratio_exclude": "0.339037919168812767909910513966",
+    "identity_subtracted_drawable": true,
+    "minimum_spectral_weight": "2.18963593486193114179631026256e-67",
+    "support_intervals": [
+     [
+      "0.0",
+      "0.225403330758516601464770495297"
+     ],
+     [
+      "0.774596669241483398535229504703",
+      "1.0"
+     ],
+     [
+      "1.0",
+      "1.2254033307585166014647704953"
+     ],
+     [
+      "1.7745966692414833985352295047",
+      "2.0"
+     ],
+     [
+      "2.0",
+      "2.2254033307585166014647704953"
+     ],
+     [
+      "2.7745966692414833985352295047",
+      "3.0"
+     ],
+     [
+      "3.0",
+      "3.2254033307585166014647704953"
+     ],
+     [
+      "3.7745966692414833985352295047",
+      "4.0"
+     ],
+     [
+      "4.0",
+      "4.2254033307585166014647704953"
+     ]
+    ],
+    "unit_scale_identity_subtracted_denominator": "-3.03847551191087734699940714861",
+    "identity_subtracted_denominator": null,
+    "identity_subtracted_denominator_status": "not_scale_invariant_for_delta_normalized_RW_fields",
+    "ratio_exclude_prescription": "large_continuum_scale_limit: (A*M1)/(A*M0-M_identity) -> M1/M0 as A->infinity",
+    "production_source": "runkel_watts_dense_diagnostic.json"
+   },
+   {
+    "delta_ext": "0.325000000000000018041124150159",
+    "momentum_external": "0.403112887414927493806960889795",
+    "continuum_nu0": "0.112972803327338784561088585531",
+    "continuum_nu1": "0.0408876852520845658508655367058",
+    "identity_measure": "3.30022362797023040545415025958",
+    "p_cutoff": "4.5",
+    "q_order": 16,
+    "quadrature_order": 24,
+    "chiral_norm": "16.0",
+    "normalization": "Runkel-Watts delta(x-y) fields; c_RW=C_an/2 on support; x=2P Jacobian cancels repository diagonal-block factor 2",
+    "crossing_residual": null,
+    "promotion_status": "production",
+    "positivity": true,
+    "imaginary_residual": "0.0",
+    "convergence": {},
+    "ratio_include": "0.361925030165113867046229179618",
+    "ratio_exclude": "0.361925030165113867046229179618",
+    "identity_subtracted_drawable": true,
+    "minimum_spectral_weight": "1.05649843734086504499717948674e-67",
+    "support_intervals": [
+     [
+      "0.0",
+      "0.193774225170145012386078220411"
+     ],
+     [
+      "0.806225774829854987613921779589",
+      "1.0"
+     ],
+     [
+      "1.0",
+      "1.19377422517014501238607822041"
+     ],
+     [
+      "1.80622577482985498761392177959",
+      "2.0"
+     ],
+     [
+      "2.0",
+      "2.19377422517014501238607822041"
+     ],
+     [
+      "2.80622577482985498761392177959",
+      "3.0"
+     ],
+     [
+      "3.0",
+      "3.19377422517014501238607822041"
+     ],
+     [
+      "3.80622577482985498761392177959",
+      "4.0"
+     ],
+     [
+      "4.0",
+      "4.19377422517014501238607822041"
+     ]
+    ],
+    "unit_scale_identity_subtracted_denominator": "-3.18725082464289162089306167405",
+    "identity_subtracted_denominator": null,
+    "identity_subtracted_denominator_status": "not_scale_invariant_for_delta_normalized_RW_fields",
+    "ratio_exclude_prescription": "large_continuum_scale_limit: (A*M1)/(A*M0-M_identity) -> M1/M0 as A->infinity",
+    "production_source": "runkel_watts_dense_diagnostic.json"
+   },
+   {
+    "delta_ext": "0.35000000000000001942890293094",
+    "momentum_external": "0.418330013267037785600076328413",
+    "continuum_nu0": "0.0995053861833793104603524840592",
+    "continuum_nu1": "0.0382172549428323598360658887899",
+    "identity_measure": "3.44393383508051127032985639412",
+    "p_cutoff": "4.5",
+    "q_order": 16,
+    "quadrature_order": 24,
+    "chiral_norm": "16.0",
+    "normalization": "Runkel-Watts delta(x-y) fields; c_RW=C_an/2 on support; x=2P Jacobian cancels repository diagonal-block factor 2",
+    "crossing_residual": null,
+    "promotion_status": "production",
+    "positivity": true,
+    "imaginary_residual": "0.0",
+    "convergence": {},
+    "ratio_include": "0.384072223712608484174650650745",
+    "ratio_exclude": "0.384072223712608484174650650745",
+    "identity_subtracted_drawable": true,
+    "minimum_spectral_weight": "4.35441228699550258473503688933e-68",
+    "support_intervals": [
+     [
+      "0.0",
+      "0.163339973465924428799847343174"
+     ],
+     [
+      "0.836660026534075571200152656826",
+      "1.0"
+     ],
+     [
+      "1.0",
+      "1.16333997346592442879984734317"
+     ],
+     [
+      "1.83666002653407557120015265683",
+      "2.0"
+     ],
+     [
+      "2.0",
+      "2.16333997346592442879984734317"
+     ],
+     [
+      "2.83666002653407557120015265683",
+      "3.0"
+     ],
+     [
+      "3.0",
+      "3.16333997346592442879984734317"
+     ],
+     [
+      "3.83666002653407557120015265683",
+      "4.0"
+     ],
+     [
+      "4.0",
+      "4.16333997346592442879984734317"
+     ]
+    ],
+    "unit_scale_identity_subtracted_denominator": "-3.34442844889713195986950391006",
+    "identity_subtracted_denominator": null,
+    "identity_subtracted_denominator_status": "not_scale_invariant_for_delta_normalized_RW_fields",
+    "ratio_exclude_prescription": "large_continuum_scale_limit: (A*M1)/(A*M0-M_identity) -> M1/M0 as A->infinity",
+    "production_source": "runkel_watts_dense_diagnostic.json"
+   },
+   {
+    "delta_ext": "0.375000000000000020816681711722",
+    "momentum_external": "0.433012701892219335400378375274",
+    "continuum_nu0": "0.0853275239952075686796400776761",
+    "continuum_nu1": "0.0345967950046639845538126644486",
+    "identity_measure": "3.5959409707755552387375091213",
+    "p_cutoff": "4.5",
+    "q_order": 16,
+    "quadrature_order": 24,
+    "chiral_norm": "16.0",
+    "normalization": "Runkel-Watts delta(x-y) fields; c_RW=C_an/2 on support; x=2P Jacobian cancels repository diagonal-block factor 2",
+    "crossing_residual": null,
+    "promotion_status": "production",
+    "positivity": true,
+    "imaginary_residual": "0.0",
+    "convergence": {},
+    "ratio_include": "0.405458794358161828052224885402",
+    "ratio_exclude": "0.405458794358161828052224885402",
+    "identity_subtracted_drawable": true,
+    "minimum_spectral_weight": "1.3685791193132915026795683623e-68",
+    "support_intervals": [
+     [
+      "0.0",
+      "0.133974596215561329199243249453"
+     ],
+     [
+      "0.866025403784438670800756750547",
+      "1.0"
+     ],
+     [
+      "1.0",
+      "1.13397459621556132919924324945"
+     ],
+     [
+      "1.86602540378443867080075675055",
+      "2.0"
+     ],
+     [
+      "2.0",
+      "2.13397459621556132919924324945"
+     ],
+     [
+      "2.86602540378443867080075675055",
+      "3.0"
+     ],
+     [
+      "3.0",
+      "3.13397459621556132919924324945"
+     ],
+     [
+      "3.86602540378443867080075675055",
+      "4.0"
+     ],
+     [
+      "4.0",
+      "4.13397459621556132919924324945"
+     ]
+    ],
+    "unit_scale_identity_subtracted_denominator": "-3.51061344678034767005786904362",
+    "identity_subtracted_denominator": null,
+    "identity_subtracted_denominator_status": "not_scale_invariant_for_delta_normalized_RW_fields",
+    "ratio_exclude_prescription": "large_continuum_scale_limit: (A*M1)/(A*M0-M_identity) -> M1/M0 as A->infinity",
+    "production_source": "runkel_watts_dense_diagnostic.json"
+   },
+   {
+    "delta_ext": "0.400000000000000022204460492503",
+    "momentum_external": "0.447213595499957951694505499983",
+    "continuum_nu0": "0.0703291424930902130556213694701",
+    "continuum_nu1": "0.0299644732584495259781533309069",
+    "identity_measure": "3.7567681085181632323856577318",
+    "p_cutoff": "4.5",
+    "q_order": 16,
+    "quadrature_order": 24,
+    "chiral_norm": "16.0",
+    "normalization": "Runkel-Watts delta(x-y) fields; c_RW=C_an/2 on support; x=2P Jacobian cancels repository diagonal-block factor 2",
+    "crossing_residual": null,
+    "promotion_status": "production",
+    "positivity": true,
+    "imaginary_residual": "0.0",
+    "convergence": {},
+    "ratio_include": "0.42606055180316628510745178635",
+    "ratio_exclude": "0.42606055180316628510745178635",
+    "identity_subtracted_drawable": true,
+    "minimum_spectral_weight": "2.77600487859423153248719886057e-69",
+    "support_intervals": [
+     [
+      "0.0",
+      "0.105572809000084096610989000035"
+     ],
+     [
+      "0.894427190999915903389010999965",
+      "1.0"
+     ],
+     [
+      "1.0",
+      "1.10557280900008409661098900003"
+     ],
+     [
+      "1.89442719099991590338901099997",
+      "2.0"
+     ],
+     [
+      "2.0",
+      "2.10557280900008409661098900003"
+     ],
+     [
+      "2.89442719099991590338901099997",
+      "3.0"
+     ],
+     [
+      "3.0",
+      "3.10557280900008409661098900003"
+     ],
+     [
+      "3.89442719099991590338901099997",
+      "4.0"
+     ],
+     [
+      "4.0",
+      "4.10557280900008409661098900003"
+     ]
+    ],
+    "unit_scale_identity_subtracted_denominator": "-3.68643896602507301933003636233",
+    "identity_subtracted_denominator": null,
+    "identity_subtracted_denominator_status": "not_scale_invariant_for_delta_normalized_RW_fields",
+    "ratio_exclude_prescription": "large_continuum_scale_limit: (A*M1)/(A*M0-M_identity) -> M1/M0 as A->infinity",
+    "production_source": "runkel_watts_dense_diagnostic.json"
+   },
+   {
+    "delta_ext": "0.425000000000000023592239273285",
+    "momentum_external": "0.46097722286464437829480188039",
+    "continuum_nu0": "0.0544027997411773823067114236378",
+    "continuum_nu1": "0.0242554663297947112850082413754",
+    "identity_measure": "3.92697293574830054588950392568",
+    "p_cutoff": "4.5",
+    "q_order": 16,
+    "quadrature_order": 24,
+    "chiral_norm": "16.0",
+    "normalization": "Runkel-Watts delta(x-y) fields; c_RW=C_an/2 on support; x=2P Jacobian cancels repository diagonal-block factor 2",
+    "crossing_residual": null,
+    "promotion_status": "production",
+    "positivity": true,
+    "imaginary_residual": "0.0",
+    "convergence": {},
+    "ratio_include": "0.445849596807345780514656476401",
+    "ratio_exclude": "0.445849596807345780514656476401",
+    "identity_subtracted_drawable": true,
+    "minimum_spectral_weight": "2.70633687653281284600321627077e-70",
+    "support_intervals": [
+     [
+      "0.0",
+      "0.0780455542707112434103962392192"
+     ],
+     [
+      "0.921954445729288756589603760781",
+      "1.0"
+     ],
+     [
+      "1.0",
+      "1.07804555427071124341039623922"
+     ],
+     [
+      "1.92195444572928875658960376078",
+      "2.0"
+     ],
+     [
+      "2.0",
+      "2.07804555427071124341039623922"
+     ],
+     [
+      "2.92195444572928875658960376078",
+      "3.0"
+     ],
+     [
+      "3.0",
+      "3.07804555427071124341039623922"
+     ],
+     [
+      "3.92195444572928875658960376078",
+      "4.0"
+     ],
+     [
+      "4.0",
+      "4.07804555427071124341039623922"
+     ]
+    ],
+    "unit_scale_identity_subtracted_denominator": "-3.87257013600712316358279250205",
+    "identity_subtracted_denominator": null,
+    "identity_subtracted_denominator_status": "not_scale_invariant_for_delta_normalized_RW_fields",
+    "ratio_exclude_prescription": "large_continuum_scale_limit: (A*M1)/(A*M0-M_identity) -> M1/M0 as A->infinity",
+    "production_source": "runkel_watts_dense_diagnostic.json"
+   },
+   {
+    "delta_ext": "0.450000000000000024980018054066",
+    "momentum_external": "0.474341649025256912965459538828",
+    "continuum_nu0": "0.0374425464659186960302278404274",
+    "continuum_nu1": "0.0174030730051258822245887847799",
+    "identity_measure": "4.10715009833699078029922721891",
+    "p_cutoff": "4.5",
+    "q_order": 16,
+    "quadrature_order": 24,
+    "chiral_norm": "16.0",
+    "normalization": "Runkel-Watts delta(x-y) fields; c_RW=C_an/2 on support; x=2P Jacobian cancels repository diagonal-block factor 2",
+    "crossing_residual": null,
+    "promotion_status": "production",
+    "positivity": true,
+    "imaginary_residual": "0.0",
+    "convergence": {},
+    "ratio_include": "0.464794055098967953468649392189",
+    "ratio_exclude": "0.464794055098967953468649392189",
+    "identity_subtracted_drawable": true,
+    "minimum_spectral_weight": "6.6478547344036252925969680373e-72",
+    "support_intervals": [
+     [
+      "0.0",
+      "0.0513167019494861740690809223449"
+     ],
+     [
+      "0.948683298050513825930919077655",
+      "1.0"
+     ],
+     [
+      "1.0",
+      "1.05131670194948617406908092234"
+     ],
+     [
+      "1.94868329805051382593091907766",
+      "2.0"
+     ],
+     [
+      "2.0",
+      "2.05131670194948617406908092234"
+     ],
+     [
+      "2.94868329805051382593091907766",
+      "3.0"
+     ],
+     [
+      "3.0",
+      "3.05131670194948617406908092234"
+     ],
+     [
+      "3.94868329805051382593091907766",
+      "4.0"
+     ],
+     [
+      "4.0",
+      "4.05131670194948617406908092234"
+     ]
+    ],
+    "unit_scale_identity_subtracted_denominator": "-4.06970755187107208426899937848",
+    "identity_subtracted_denominator": null,
+    "identity_subtracted_denominator_status": "not_scale_invariant_for_delta_normalized_RW_fields",
+    "ratio_exclude_prescription": "large_continuum_scale_limit: (A*M1)/(A*M0-M_identity) -> M1/M0 as A->infinity",
+    "production_source": "runkel_watts_dense_diagnostic.json"
+   },
+   {
+    "delta_ext": "0.475000000000000026367796834847",
+    "momentum_external": "0.487339717240448208868315032361",
+    "continuum_nu0": "0.0193432076396451738083088061701",
+    "continuum_nu1": "0.00934001821900167374779447265985",
+    "identity_measure": "4.29793370464430987650760609336",
+    "p_cutoff": "4.5",
+    "q_order": 16,
+    "quadrature_order": 24,
+    "chiral_norm": "16.0",
+    "normalization": "Runkel-Watts delta(x-y) fields; c_RW=C_an/2 on support; x=2P Jacobian cancels repository diagonal-block factor 2",
+    "crossing_residual": null,
+    "promotion_status": "production",
+    "positivity": true,
+    "imaginary_residual": "0.0",
+    "convergence": {},
+    "ratio_include": "0.482857775866433512241077266497",
+    "ratio_exclude": "0.482857775866433512241077266497",
+    "identity_subtracted_drawable": true,
+    "minimum_spectral_weight": "5.33171124668054724343948003679e-75",
+    "support_intervals": [
+     [
+      "0.0",
+      "0.0253205655191035822633699352771"
+     ],
+     [
+      "0.974679434480896417736630064723",
+      "1.0"
+     ],
+     [
+      "1.0",
+      "1.02532056551910358226336993528"
+     ],
+     [
+      "1.97467943448089641773663006472",
+      "2.0"
+     ],
+     [
+      "2.0",
+      "2.02532056551910358226336993528"
+     ],
+     [
+      "2.97467943448089641773663006472",
+      "3.0"
+     ],
+     [
+      "3.0",
+      "3.02532056551910358226336993528"
+     ],
+     [
+      "3.97467943448089641773663006472",
+      "4.0"
+     ],
+     [
+      "4.0",
+      "4.02532056551910358226336993528"
+     ]
+    ],
+    "unit_scale_identity_subtracted_denominator": "-4.27859049700466470269929728719",
+    "identity_subtracted_denominator": null,
+    "identity_subtracted_denominator_status": "not_scale_invariant_for_delta_normalized_RW_fields",
+    "ratio_exclude_prescription": "large_continuum_scale_limit: (A*M1)/(A*M0-M_identity) -> M1/M0 as A->infinity",
+    "production_source": "runkel_watts_dense_diagnostic.json"
+   },
+   {
+    "delta_ext": "0.49",
+    "momentum_external": "0.494974746830583267080591053473",
+    "continuum_nu0": "0.00789324189276533947719178899421",
+    "continuum_nu1": "0.00389339287578940856282715008865",
+    "identity_measure": "4.41777444234371715105924052193",
+    "p_cutoff": "4.5",
+    "q_order": 16,
+    "quadrature_order": 32,
+    "chiral_norm": "16.0",
+    "normalization": "Runkel-Watts delta(x-y) fields; c_RW=C_an/2 on support; x=2P Jacobian cancels repository diagonal-block factor 2",
+    "crossing_residual": null,
+    "promotion_status": "production",
+    "positivity": true,
+    "imaginary_residual": "0.0",
+    "convergence": {},
+    "ratio_include": "0.493256500774156167264613476805",
+    "ratio_exclude": "0.493256500774156167264613476805",
+    "identity_subtracted_drawable": true,
+    "minimum_spectral_weight": "6.54411041406687848693159338626e-82",
+    "support_intervals": [
+     [
+      "0.0",
+      "0.0100505063388334658388178930532"
+     ],
+     [
+      "0.989949493661166534161182106947",
+      "1.0"
+     ],
+     [
+      "1.0",
+      "1.01005050633883346583881789305"
+     ],
+     [
+      "1.98994949366116653416118210695",
+      "2.0"
+     ],
+     [
+      "2.0",
+      "2.01005050633883346583881789305"
+     ],
+     [
+      "2.98994949366116653416118210695",
+      "3.0"
+     ],
+     [
+      "3.0",
+      "3.01005050633883346583881789305"
+     ],
+     [
+      "3.98994949366116653416118210695",
+      "4.0"
+     ],
+     [
+      "4.0",
+      "4.01005050633883346583881789305"
+     ]
+    ],
+    "unit_scale_identity_subtracted_denominator": "-4.40988120045095181158204873294",
+    "identity_subtracted_denominator": null,
+    "identity_subtracted_denominator_status": "not_scale_invariant_for_delta_normalized_RW_fields",
+    "ratio_exclude_prescription": "large_continuum_scale_limit: (A*M1)/(A*M0-M_identity) -> M1/M0 as A->infinity",
+    "production_source": "runkel_watts_dense_refinement.json"
+   },
+   {
+    "delta_ext": "0.495",
+    "momentum_external": "0.497493718553309977367239910501",
+    "continuum_nu0": "0.00397317128620681316812576300953",
+    "continuum_nu1": "0.00197326516993224840774808740331",
+    "identity_measure": "4.45865017825640740895890925467",
+    "p_cutoff": "4.5",
+    "q_order": 16,
+    "quadrature_order": 32,
+    "chiral_norm": "16.0",
+    "normalization": "Runkel-Watts delta(x-y) fields; c_RW=C_an/2 on support; x=2P Jacobian cancels repository diagonal-block factor 2",
+    "crossing_residual": null,
+    "promotion_status": "production",
+    "positivity": true,
+    "imaginary_residual": "0.0",
+    "convergence": {},
+    "ratio_include": "0.496647395188472925681903634238",
+    "ratio_exclude": "0.496647395188472925681903634238",
+    "identity_subtracted_drawable": true,
+    "minimum_spectral_weight": "2.04036234525666037567769926973e-85",
+    "support_intervals": [
+     [
+      "0.0",
+      "0.00501256289338004526552017899879"
+     ],
+     [
+      "0.994987437106619954734479821001",
+      "1.0"
+     ],
+     [
+      "1.0",
+      "1.005012562893380045265520179"
+     ],
+     [
+      "1.994987437106619954734479821",
+      "2.0"
+     ],
+     [
+      "2.0",
+      "2.005012562893380045265520179"
+     ],
+     [
+      "2.994987437106619954734479821",
+      "3.0"
+     ],
+     [
+      "3.0",
+      "3.005012562893380045265520179"
+     ],
+     [
+      "3.994987437106619954734479821",
+      "4.0"
+     ],
+     [
+      "4.0",
+      "4.005012562893380045265520179"
+     ]
+    ],
+    "unit_scale_identity_subtracted_denominator": "-4.45467700697020059579078349166",
+    "identity_subtracted_denominator": null,
+    "identity_subtracted_denominator_status": "not_scale_invariant_for_delta_normalized_RW_fields",
+    "ratio_exclude_prescription": "large_continuum_scale_limit: (A*M1)/(A*M0-M_identity) -> M1/M0 as A->infinity",
+    "production_source": "runkel_watts_dense_refinement.json"
+   },
+   {
+    "delta_ext": "0.499",
+    "momentum_external": "0.499499749749687061842717071421",
+    "continuum_nu0": "0.000798922398929809534071716358449",
+    "continuum_nu1": "0.000398927967040150830722903468841",
+    "identity_measure": "4.49169182583849040454653310324",
+    "p_cutoff": "6.0",
+    "q_order": 24,
+    "quadrature_order": 64,
+    "chiral_norm": "16.0",
+    "normalization": "Runkel-Watts delta(x-y) fields; c_RW=C_an/2 on support; x=2P Jacobian cancels repository diagonal-block factor 2",
+    "crossing_residual": "2.97212222697063905069400428874e-16",
+    "promotion_status": "production",
+    "positivity": true,
+    "imaginary_residual": "0.0",
+    "convergence": {},
+    "ratio_include": "0.499332560427059970054039822033",
+    "ratio_exclude": "0.499332560427059970054039822033",
+    "identity_subtracted_drawable": true,
+    "minimum_spectral_weight": "7.08896148021661892260637974277e-165",
+    "support_intervals": [
+     [
+      "0.0",
+      "0.00100050050062587631456585715795"
+     ],
+     [
+      "0.998999499499374123685434142842",
+      "1.0"
+     ],
+     [
+      "1.0",
+      "1.00100050050062587631456585716"
+     ],
+     [
+      "1.99899949949937412368543414284",
+      "2.0"
+     ],
+     [
+      "2.0",
+      "2.00100050050062587631456585716"
+     ],
+     [
+      "2.99899949949937412368543414284",
+      "3.0"
+     ],
+     [
+      "3.0",
+      "3.00100050050062587631456585716"
+     ],
+     [
+      "3.99899949949937412368543414284",
+      "4.0"
+     ],
+     [
+      "4.0",
+      "4.00100050050062587631456585716"
+     ],
+     [
+      "4.99899949949937412368543414284",
+      "5.0"
+     ],
+     [
+      "5.0",
+      "5.00100050050062587631456585716"
+     ],
+     [
+      "5.99899949949937412368543414284",
+      "6.0"
+     ]
+    ],
+    "unit_scale_identity_subtracted_denominator": "-4.49089290343956059501246138688",
+    "identity_subtracted_denominator": null,
+    "identity_subtracted_denominator_status": "not_scale_invariant_for_delta_normalized_RW_fields",
+    "ratio_exclude_prescription": "large_continuum_scale_limit: (A*M1)/(A*M0-M_identity) -> M1/M0 as A->infinity",
+    "production_source": "runkel_watts_validation_q24_n64.json"
+   },
+   {
+    "delta_ext": "0.5",
+    "ratio_include": null,
+    "ratio_exclude": null,
+    "promotion_status": "excluded_external",
+    "reason": "positive-integer x=sqrt(2*Delta_ext) is absent"
+   },
+   {
+    "delta_ext": "0.501",
+    "momentum_external": "0.500499750249687936844779577007",
+    "continuum_nu0": "0.000801079826811497542302839512489",
+    "continuum_nu1": "0.000401073346638575828185851257934",
+    "identity_measure": "4.50832737405402528080577993974",
+    "p_cutoff": "6.0",
+    "q_order": 24,
+    "quadrature_order": 64,
+    "chiral_norm": "16.0",
+    "normalization": "Runkel-Watts delta(x-y) fields; c_RW=C_an/2 on support; x=2P Jacobian cancels repository diagonal-block factor 2",
+    "crossing_residual": "2.96766353463722687243117460915e-16",
+    "promotion_status": "production",
+    "positivity": true,
+    "imaginary_residual": "0.0",
+    "convergence": {},
+    "ratio_include": "0.500665892730004521073278787775",
+    "ratio_exclude": "0.500665892730004521073278787775",
+    "identity_subtracted_drawable": true,
+    "minimum_spectral_weight": "6.57994213852979156704323219559e-180",
+    "support_intervals": [
+     [
+      "0.0",
+      "0.000999500499375873689559154013958"
+     ],
+     [
+      "0.999000499500624126310440845986",
+      "1.0"
+     ],
+     [
+      "1.0",
+      "1.00099950049937587368955915401"
+     ],
+     [
+      "1.99900049950062412631044084599",
+      "2.0"
+     ],
+     [
+      "2.0",
+      "2.00099950049937587368955915401"
+     ],
+     [
+      "2.99900049950062412631044084599",
+      "3.0"
+     ],
+     [
+      "3.0",
+      "3.00099950049937587368955915401"
+     ],
+     [
+      "3.99900049950062412631044084599",
+      "4.0"
+     ],
+     [
+      "4.0",
+      "4.00099950049937587368955915401"
+     ],
+     [
+      "4.99900049950062412631044084599",
+      "5.0"
+     ],
+     [
+      "5.0",
+      "5.00099950049937587368955915401"
+     ],
+     [
+      "5.99900049950062412631044084599",
+      "6.0"
+     ]
+    ],
+    "unit_scale_identity_subtracted_denominator": "-4.50752629422721378326347710023",
+    "identity_subtracted_denominator": null,
+    "identity_subtracted_denominator_status": "not_scale_invariant_for_delta_normalized_RW_fields",
+    "ratio_exclude_prescription": "large_continuum_scale_limit: (A*M1)/(A*M0-M_identity) -> M1/M0 as A->infinity",
+    "production_source": "runkel_watts_validation_q24_n64.json"
+   },
+   {
+    "delta_ext": "0.505",
+    "momentum_external": "0.502493781056044513510963245638",
+    "continuum_nu0": "0.00402710692998652858433607784241",
+    "continuum_nu1": "0.00202689902776281519203508854681",
+    "identity_measure": "4.54182982520175221479585948568",
+    "p_cutoff": "4.5",
+    "q_order": 16,
+    "quadrature_order": 32,
+    "chiral_norm": "16.0",
+    "normalization": "Runkel-Watts delta(x-y) fields; c_RW=C_an/2 on support; x=2P Jacobian cancels repository diagonal-block factor 2",
+    "crossing_residual": null,
+    "promotion_status": "production",
+    "positivity": true,
+    "imaginary_residual": "0.0",
+    "convergence": {},
+    "ratio_include": "0.503313933054565189615342566655",
+    "ratio_exclude": "0.503313933054565189615342566655",
+    "identity_subtracted_drawable": true,
+    "minimum_spectral_weight": "3.3379063767498314532784141415e-85",
+    "support_intervals": [
+     [
+      "0.0",
+      "0.00498756211208902702192649127596"
+     ],
+     [
+      "0.995012437887910972978073508724",
+      "1.0"
+     ],
+     [
+      "1.0",
+      "1.00498756211208902702192649128"
+     ],
+     [
+      "1.99501243788791097297807350872",
+      "2.0"
+     ],
+     [
+      "2.0",
+      "2.00498756211208902702192649128"
+     ],
+     [
+      "2.99501243788791097297807350872",
+      "3.0"
+     ],
+     [
+      "3.0",
+      "3.00498756211208902702192649128"
+     ],
+     [
+      "3.99501243788791097297807350872",
+      "4.0"
+     ],
+     [
+      "4.0",
+      "4.00498756211208902702192649128"
+     ]
+    ],
+    "unit_scale_identity_subtracted_denominator": "-4.53780271827176568621152340784",
+    "identity_subtracted_denominator": null,
+    "identity_subtracted_denominator_status": "not_scale_invariant_for_delta_normalized_RW_fields",
+    "ratio_exclude_prescription": "large_continuum_scale_limit: (A*M1)/(A*M0-M_identity) -> M1/M0 as A->infinity",
+    "production_source": "runkel_watts_dense_refinement.json"
+   },
+   {
+    "delta_ext": "0.51",
+    "momentum_external": "0.504975246918103897668169295853",
+    "continuum_nu0": "0.0081089838000322471616825201365",
+    "continuum_nu1": "0.00410792040210379640760514436696",
+    "identity_measure": "4.58414564830651564059734505959",
+    "p_cutoff": "4.5",
+    "q_order": 16,
+    "quadrature_order": 32,
+    "chiral_norm": "16.0",
+    "normalization": "Runkel-Watts delta(x-y) fields; c_RW=C_an/2 on support; x=2P Jacobian cancels repository diagonal-block factor 2",
+    "crossing_residual": null,
+    "promotion_status": "production",
+    "positivity": true,
+    "imaginary_residual": "0.0",
+    "convergence": {},
+    "ratio_include": "0.506588803653481260691034567009",
+    "ratio_exclude": "0.506588803653481260691034567009",
+    "identity_subtracted_drawable": true,
+    "minimum_spectral_weight": "1.75135742001814471049944929983e-81",
+    "support_intervals": [
+     [
+      "0.0",
+      "0.00995049383620779533633859170696"
+     ],
+     [
+      "0.990049506163792204663661408293",
+      "1.0"
+     ],
+     [
+      "1.0",
+      "1.00995049383620779533633859171"
+     ],
+     [
+      "1.99004950616379220466366140829",
+      "2.0"
+     ],
+     [
+      "2.0",
+      "2.00995049383620779533633859171"
+     ],
+     [
+      "2.99004950616379220466366140829",
+      "3.0"
+     ],
+     [
+      "3.0",
+      "3.00995049383620779533633859171"
+     ],
+     [
+      "3.99004950616379220466366140829",
+      "4.0"
+     ],
+     [
+      "4.0",
+      "4.00995049383620779533633859171"
+     ]
+    ],
+    "unit_scale_identity_subtracted_denominator": "-4.57603666450648339343566253945",
+    "identity_subtracted_denominator": null,
+    "identity_subtracted_denominator_status": "not_scale_invariant_for_delta_normalized_RW_fields",
+    "ratio_exclude_prescription": "large_continuum_scale_limit: (A*M1)/(A*M0-M_identity) -> M1/M0 as A->infinity",
+    "production_source": "runkel_watts_dense_refinement.json"
+   },
+   {
+    "delta_ext": "0.52500000000000002914335439641",
+    "momentum_external": "0.512347538297979933381552774737",
+    "continuum_nu0": "0.0206915647919887519146816831743",
+    "continuum_nu1": "0.010680468517625747718149198239",
+    "identity_measure": "4.71407022315362470725083225319",
+    "p_cutoff": "4.5",
+    "q_order": 16,
+    "quadrature_order": 24,
+    "chiral_norm": "16.0",
+    "normalization": "Runkel-Watts delta(x-y) fields; c_RW=C_an/2 on support; x=2P Jacobian cancels repository diagonal-block factor 2",
+    "crossing_residual": null,
+    "promotion_status": "production",
+    "positivity": true,
+    "imaginary_residual": "0.0",
+    "convergence": {},
+    "ratio_include": "0.516175002953906788250875087424",
+    "ratio_exclude": "0.516175002953906788250875087424",
+    "identity_subtracted_drawable": true,
+    "minimum_spectral_weight": "6.23185466789600207595394115292e-74",
+    "support_intervals": [
+     [
+      "0.0",
+      "0.0246950765959598667631055494739"
+     ],
+     [
+      "0.975304923404040133236894450526",
+      "1.0"
+     ],
+     [
+      "1.0",
+      "1.02469507659595986676310554947"
+     ],
+     [
+      "1.97530492340404013323689445053",
+      "2.0"
+     ],
+     [
+      "2.0",
+      "2.02469507659595986676310554947"
+     ],
+     [
+      "2.97530492340404013323689445053",
+      "3.0"
+     ],
+     [
+      "3.0",
+      "3.02469507659595986676310554947"
+     ],
+     [
+      "3.97530492340404013323689445053",
+      "4.0"
+     ],
+     [
+      "4.0",
+      "4.02469507659595986676310554947"
+     ]
+    ],
+    "unit_scale_identity_subtracted_denominator": "-4.69337865836163595533615057001",
+    "identity_subtracted_denominator": null,
+    "identity_subtracted_denominator_status": "not_scale_invariant_for_delta_normalized_RW_fields",
+    "ratio_exclude_prescription": "large_continuum_scale_limit: (A*M1)/(A*M0-M_identity) -> M1/M0 as A->infinity",
+    "production_source": "runkel_watts_dense_diagnostic.json"
+   },
+   {
+    "delta_ext": "0.550000000000000030531133177192",
+    "momentum_external": "0.524404424085075788050873402704",
+    "continuum_nu0": "0.0428355183113370860837051664741",
+    "continuum_nu1": "0.0227598695251705295994721912901",
+    "identity_measure": "4.94091365701837332851605280219",
+    "p_cutoff": "4.5",
+    "q_order": 16,
+    "quadrature_order": 24,
+    "chiral_norm": "16.0",
+    "normalization": "Runkel-Watts delta(x-y) fields; c_RW=C_an/2 on support; x=2P Jacobian cancels repository diagonal-block factor 2",
+    "crossing_residual": null,
+    "promotion_status": "production",
+    "positivity": true,
+    "imaginary_residual": "0.0",
+    "convergence": {},
+    "ratio_include": "0.531331717752246181559849125232",
+    "ratio_exclude": "0.531331717752246181559849125232",
+    "identity_subtracted_drawable": true,
+    "minimum_spectral_weight": "9.05639714907132649941451396807e-70",
+    "support_intervals": [
+     [
+      "0.0",
+      "0.0488088481701515761017468054072"
+     ],
+     [
+      "0.951191151829848423898253194593",
+      "1.0"
+     ],
+     [
+      "1.0",
+      "1.04880884817015157610174680541"
+     ],
+     [
+      "1.95119115182984842389825319459",
+      "2.0"
+     ],
+     [
+      "2.0",
+      "2.04880884817015157610174680541"
+     ],
+     [
+      "2.95119115182984842389825319459",
+      "3.0"
+     ],
+     [
+      "3.0",
+      "3.04880884817015157610174680541"
+     ],
+     [
+      "3.95119115182984842389825319459",
+      "4.0"
+     ],
+     [
+      "4.0",
+      "4.04880884817015157610174680541"
+     ]
+    ],
+    "unit_scale_identity_subtracted_denominator": "-4.89807813870703624243234763572",
+    "identity_subtracted_denominator": null,
+    "identity_subtracted_denominator_status": "not_scale_invariant_for_delta_normalized_RW_fields",
+    "ratio_exclude_prescription": "large_continuum_scale_limit: (A*M1)/(A*M0-M_identity) -> M1/M0 as A->infinity",
+    "production_source": "runkel_watts_dense_diagnostic.json"
+   },
+   {
+    "delta_ext": "0.575000000000000031918911957973",
+    "momentum_external": "0.536190264738180430122977420912",
+    "continuum_nu0": "0.0665350255749111233727039084155",
+    "continuum_nu1": "0.036289090877141752810326149774",
+    "identity_measure": "5.18135088686188391513391970075",
+    "p_cutoff": "4.5",
+    "q_order": 16,
+    "quadrature_order": 24,
+    "chiral_norm": "16.0",
+    "normalization": "Runkel-Watts delta(x-y) fields; c_RW=C_an/2 on support; x=2P Jacobian cancels repository diagonal-block factor 2",
+    "crossing_residual": null,
+    "promotion_status": "production",
+    "positivity": true,
+    "imaginary_residual": "0.0",
+    "convergence": {},
+    "ratio_include": "0.545413345280587987644084814115",
+    "ratio_exclude": "0.545413345280587987644084814115",
+    "identity_subtracted_drawable": true,
+    "minimum_spectral_weight": "4.2710314589921604445699915602e-67",
+    "support_intervals": [
+     [
+      "0.0",
+      "0.0723805294763608602459548418247"
+     ],
+     [
+      "0.927619470523639139754045158175",
+      "1.0"
+     ],
+     [
+      "1.0",
+      "1.07238052947636086024595484182"
+     ],
+     [
+      "1.92761947052363913975404515818",
+      "2.0"
+     ],
+     [
+      "2.0",
+      "2.07238052947636086024595484182"
+     ],
+     [
+      "2.92761947052363913975404515818",
+      "3.0"
+     ],
+     [
+      "3.0",
+      "3.07238052947636086024595484182"
+     ],
+     [
+      "3.92761947052363913975404515818",
+      "4.0"
+     ],
+     [
+      "4.0",
+      "4.07238052947636086024595484182"
+     ]
+    ],
+    "unit_scale_identity_subtracted_denominator": "-5.11481586128697279176121579234",
+    "identity_subtracted_denominator": null,
+    "identity_subtracted_denominator_status": "not_scale_invariant_for_delta_normalized_RW_fields",
+    "ratio_exclude_prescription": "large_continuum_scale_limit: (A*M1)/(A*M0-M_identity) -> M1/M0 as A->infinity",
+    "production_source": "runkel_watts_dense_diagnostic.json"
+   },
+   {
+    "delta_ext": "0.6",
+    "momentum_external": "0.547722557505166113456969782801",
+    "continuum_nu0": "0.0918917262678450981567126031748",
+    "continuum_nu1": "0.0513083850879083588645315620813",
+    "identity_measure": "5.43625727998222240211930265887",
+    "p_cutoff": "4.5",
+    "q_order": 16,
+    "quadrature_order": 24,
+    "chiral_norm": "16.0",
+    "normalization": "Runkel-Watts delta(x-y) fields; c_RW=C_an/2 on support; x=2P Jacobian cancels repository diagonal-block factor 2",
+    "crossing_residual": null,
+    "promotion_status": "production",
+    "positivity": true,
+    "imaginary_residual": "0.0",
+    "convergence": {},
+    "ratio_include": "0.558356961739462632804844363848",
+    "ratio_exclude": "0.558356961739462632804844363848",
+    "identity_subtracted_drawable": true,
+    "minimum_spectral_weight": "5.0230361117388973737485131251e-65",
+    "support_intervals": [
+     [
+      "0.0",
+      "0.0954451150103322269139395656016"
+     ],
+     [
+      "0.904554884989667773086060434398",
+      "1.0"
+     ],
+     [
+      "1.0",
+      "1.0954451150103322269139395656"
+     ],
+     [
+      "1.9045548849896677730860604344",
+      "2.0"
+     ],
+     [
+      "2.0",
+      "2.0954451150103322269139395656"
+     ],
+     [
+      "2.9045548849896677730860604344",
+      "3.0"
+     ],
+     [
+      "3.0",
+      "3.0954451150103322269139395656"
+     ],
+     [
+      "3.9045548849896677730860604344",
+      "4.0"
+     ],
+     [
+      "4.0",
+      "4.0954451150103322269139395656"
+     ]
+    ],
+    "unit_scale_identity_subtracted_denominator": "-5.3443655537143773039625900557",
+    "identity_subtracted_denominator": null,
+    "identity_subtracted_denominator_status": "not_scale_invariant_for_delta_normalized_RW_fields",
+    "ratio_exclude_prescription": "large_continuum_scale_limit: (A*M1)/(A*M0-M_identity) -> M1/M0 as A->infinity",
+    "production_source": "runkel_watts_dense_part2.json"
+   },
+   {
+    "delta_ext": "0.625",
+    "momentum_external": "0.559016994374947424102293417183",
+    "continuum_nu0": "0.119004817146992982396662581388",
+    "continuum_nu1": "0.0678438295573819239942134708756",
+    "identity_measure": "5.70656670185120604228557428503",
+    "p_cutoff": "4.5",
+    "q_order": 16,
+    "quadrature_order": 24,
+    "chiral_norm": "16.0",
+    "normalization": "Runkel-Watts delta(x-y) fields; c_RW=C_an/2 on support; x=2P Jacobian cancels repository diagonal-block factor 2",
+    "crossing_residual": null,
+    "promotion_status": "production",
+    "positivity": true,
+    "imaginary_residual": "0.0",
+    "convergence": {},
+    "ratio_include": "0.57009313726840345885545873844",
+    "ratio_exclude": "0.57009313726840345885545873844",
+    "identity_subtracted_drawable": true,
+    "minimum_spectral_weight": "2.79365930546581863821971708002e-63",
+    "support_intervals": [
+     [
+      "0.0",
+      "0.118033988749894848204586834366"
+     ],
+     [
+      "0.881966011250105151795413165634",
+      "1.0"
+     ],
+     [
+      "1.0",
+      "1.11803398874989484820458683437"
+     ],
+     [
+      "1.88196601125010515179541316563",
+      "2.0"
+     ],
+     [
+      "2.0",
+      "2.11803398874989484820458683437"
+     ],
+     [
+      "2.88196601125010515179541316563",
+      "3.0"
+     ],
+     [
+      "3.0",
+      "3.11803398874989484820458683437"
+     ],
+     [
+      "3.88196601125010515179541316563",
+      "4.0"
+     ],
+     [
+      "4.0",
+      "4.11803398874989484820458683437"
+     ]
+    ],
+    "unit_scale_identity_subtracted_denominator": "-5.58756188470421305988891170364",
+    "identity_subtracted_denominator": null,
+    "identity_subtracted_denominator_status": "not_scale_invariant_for_delta_normalized_RW_fields",
+    "ratio_exclude_prescription": "large_continuum_scale_limit: (A*M1)/(A*M0-M_identity) -> M1/M0 as A->infinity",
+    "production_source": "runkel_watts_dense_part2.json"
+   },
+   {
+    "delta_ext": "0.65",
+    "momentum_external": "0.570087712549568989568024512783",
+    "continuum_nu0": "0.147969859033996641464896798903",
+    "continuum_nu1": "0.0859032484814816247425457291386",
+    "identity_measure": "5.99327548471449361189529374986",
+    "p_cutoff": "4.5",
+    "q_order": 16,
+    "quadrature_order": 24,
+    "chiral_norm": "16.0",
+    "normalization": "Runkel-Watts delta(x-y) fields; c_RW=C_an/2 on support; x=2P Jacobian cancels repository diagonal-block factor 2",
+    "crossing_residual": null,
+    "promotion_status": "production",
+    "positivity": true,
+    "imaginary_residual": "0.0",
+    "convergence": {},
+    "ratio_include": "0.580545585717865856794976954742",
+    "ratio_exclude": "0.580545585717865856794976954742",
+    "identity_subtracted_drawable": true,
+    "minimum_spectral_weight": "9.78194627133221607657287100217e-62",
+    "support_intervals": [
+     [
+      "0.0",
+      "0.140175425099137979136049025567"
+     ],
+     [
+      "0.859824574900862020863950974433",
+      "1.0"
+     ],
+     [
+      "1.0",
+      "1.14017542509913797913604902557"
+     ],
+     [
+      "1.85982457490086202086395097443",
+      "2.0"
+     ],
+     [
+      "2.0",
+      "2.14017542509913797913604902557"
+     ],
+     [
+      "2.85982457490086202086395097443",
+      "3.0"
+     ],
+     [
+      "3.0",
+      "3.14017542509913797913604902557"
+     ],
+     [
+      "3.85982457490086202086395097443",
+      "4.0"
+     ],
+     [
+      "4.0",
+      "4.14017542509913797913604902557"
+     ]
+    ],
+    "unit_scale_identity_subtracted_denominator": "-5.84530562568049697043039695095",
+    "identity_subtracted_denominator": null,
+    "identity_subtracted_denominator_status": "not_scale_invariant_for_delta_normalized_RW_fields",
+    "ratio_exclude_prescription": "large_continuum_scale_limit: (A*M1)/(A*M0-M_identity) -> M1/M0 as A->infinity",
+    "production_source": "runkel_watts_dense_part2.json"
+   },
+   {
+    "delta_ext": "0.675",
+    "momentum_external": "0.580947501931112532776889809967",
+    "continuum_nu0": "0.178877286725449081203101653645",
+    "continuum_nu1": "0.105471570908011084817505313265",
+    "identity_measure": "6.29744666571256767940986611777",
+    "p_cutoff": "4.5",
+    "q_order": 16,
+    "quadrature_order": 24,
+    "chiral_norm": "16.0",
+    "normalization": "Runkel-Watts delta(x-y) fields; c_RW=C_an/2 on support; x=2P Jacobian cancels repository diagonal-block factor 2",
+    "crossing_residual": null,
+    "promotion_status": "production",
+    "positivity": true,
+    "imaginary_residual": "0.0",
+    "convergence": {},
+    "ratio_include": "0.589630873985106801296324291451",
+    "ratio_exclude": "0.589630873985106801296324291451",
+    "identity_subtracted_drawable": true,
+    "minimum_spectral_weight": "2.51518430848708779929837533951e-60",
+    "support_intervals": [
+     [
+      "0.0",
+      "0.161895003862225065553779619935"
+     ],
+     [
+      "0.838104996137774934446220380065",
+      "1.0"
+     ],
+     [
+      "1.0",
+      "1.16189500386222506555377961993"
+     ],
+     [
+      "1.83810499613777493444622038007",
+      "2.0"
+     ],
+     [
+      "2.0",
+      "2.16189500386222506555377961993"
+     ],
+     [
+      "2.83810499613777493444622038007",
+      "3.0"
+     ],
+     [
+      "3.0",
+      "3.16189500386222506555377961993"
+     ],
+     [
+      "3.83810499613777493444622038007",
+      "4.0"
+     ],
+     [
+      "4.0",
+      "4.16189500386222506555377961993"
+     ]
+    ],
+    "unit_scale_identity_subtracted_denominator": "-6.11856937898711859820676446412",
+    "identity_subtracted_denominator": null,
+    "identity_subtracted_denominator_status": "not_scale_invariant_for_delta_normalized_RW_fields",
+    "ratio_exclude_prescription": "large_continuum_scale_limit: (A*M1)/(A*M0-M_identity) -> M1/M0 as A->infinity",
+    "production_source": "runkel_watts_dense_part2.json"
+   },
+   {
+    "delta_ext": "0.7",
+    "momentum_external": "0.591607978309961604256732829156",
+    "continuum_nu0": "0.211810596647236806175148545045",
+    "continuum_nu1": "0.126505622289633373732802786231",
+    "identity_measure": "6.62021451273336453599470012172",
+    "p_cutoff": "4.5",
+    "q_order": 16,
+    "quadrature_order": 24,
+    "chiral_norm": "16.0",
+    "normalization": "Runkel-Watts delta(x-y) fields; c_RW=C_an/2 on support; x=2P Jacobian cancels repository diagonal-block factor 2",
+    "crossing_residual": null,
+    "promotion_status": "production",
+    "positivity": true,
+    "imaginary_residual": "0.0",
+    "convergence": {},
+    "ratio_include": "0.597258231137151720916615749704",
+    "ratio_exclude": "0.597258231137151720916615749704",
+    "identity_subtracted_drawable": true,
+    "minimum_spectral_weight": "5.21365673227193912525495052424e-59",
+    "support_intervals": [
+     [
+      "0.0",
+      "0.183215956619923208513465658312"
+     ],
+     [
+      "0.816784043380076791486534341688",
+      "1.0"
+     ],
+     [
+      "1.0",
+      "1.18321595661992320851346565831"
+     ],
+     [
+      "1.81678404338007679148653434169",
+      "2.0"
+     ],
+     [
+      "2.0",
+      "2.18321595661992320851346565831"
+     ],
+     [
+      "2.81678404338007679148653434169",
+      "3.0"
+     ],
+     [
+      "3.0",
+      "3.18321595661992320851346565831"
+     ],
+     [
+      "3.81678404338007679148653434169",
+      "4.0"
+     ],
+     [
+      "4.0",
+      "4.18321595661992320851346565831"
+     ]
+    ],
+    "unit_scale_identity_subtracted_denominator": "-6.40840391608612772981955157668",
+    "identity_subtracted_denominator": null,
+    "identity_subtracted_denominator_status": "not_scale_invariant_for_delta_normalized_RW_fields",
+    "ratio_exclude_prescription": "large_continuum_scale_limit: (A*M1)/(A*M0-M_identity) -> M1/M0 as A->infinity",
+    "production_source": "runkel_watts_dense_part2.json"
+   },
+   {
+    "delta_ext": "0.725",
+    "momentum_external": "0.602079728939614774006412051519",
+    "continuum_nu0": "0.246844185402757931826566016747",
+    "continuum_nu1": "0.148928382407976433329940182986",
+    "identity_measure": "6.96278935743072321367632339835",
+    "p_cutoff": "4.5",
+    "q_order": 16,
+    "quadrature_order": 24,
+    "chiral_norm": "16.0",
+    "normalization": "Runkel-Watts delta(x-y) fields; c_RW=C_an/2 on support; x=2P Jacobian cancels repository diagonal-block factor 2",
+    "crossing_residual": null,
+    "promotion_status": "production",
+    "positivity": true,
+    "imaginary_residual": "0.0",
+    "convergence": {},
+    "ratio_include": "0.603329513980573154150652939503",
+    "ratio_exclude": "0.603329513980573154150652939503",
+    "identity_subtracted_drawable": true,
+    "minimum_spectral_weight": "9.26843254419862998872611153823e-58",
+    "support_intervals": [
+     [
+      "0.0",
+      "0.204159457879229548012824103038"
+     ],
+     [
+      "0.795840542120770451987175896962",
+      "1.0"
+     ],
+     [
+      "1.0",
+      "1.20415945787922954801282410304"
+     ],
+     [
+      "1.79584054212077045198717589696",
+      "2.0"
+     ],
+     [
+      "2.0",
+      "2.20415945787922954801282410304"
+     ],
+     [
+      "2.79584054212077045198717589696",
+      "3.0"
+     ],
+     [
+      "3.0",
+      "3.20415945787922954801282410304"
+     ],
+     [
+      "3.79584054212077045198717589696",
+      "4.0"
+     ],
+     [
+      "4.0",
+      "4.20415945787922954801282410304"
+     ]
+    ],
+    "unit_scale_identity_subtracted_denominator": "-6.7159451720279652818497573816",
+    "identity_subtracted_denominator": null,
+    "identity_subtracted_denominator_status": "not_scale_invariant_for_delta_normalized_RW_fields",
+    "ratio_exclude_prescription": "large_continuum_scale_limit: (A*M1)/(A*M0-M_identity) -> M1/M0 as A->infinity",
+    "production_source": "runkel_watts_dense_part2.json"
+   },
+   {
+    "delta_ext": "0.75",
+    "momentum_external": "0.612372435695794524549321018676",
+    "continuum_nu0": "0.284040813093615131958856601367",
+    "continuum_nu1": "0.172622795759668350096107480454",
+    "identity_measure": "7.32646275614813563151457375502",
+    "p_cutoff": "4.5",
+    "q_order": 16,
+    "quadrature_order": 24,
+    "chiral_norm": "16.0",
+    "normalization": "Runkel-Watts delta(x-y) fields; c_RW=C_an/2 on support; x=2P Jacobian cancels repository diagonal-block factor 2",
+    "crossing_residual": null,
+    "promotion_status": "production",
+    "positivity": true,
+    "imaginary_residual": "0.0",
+    "convergence": {},
+    "ratio_include": "0.607739408571453233962168032791",
+    "ratio_exclude": "0.607739408571453233962168032791",
+    "identity_subtracted_drawable": true,
+    "minimum_spectral_weight": "1.47680580563425326761164862705e-56",
+    "support_intervals": [
+     [
+      "0.0",
+      "0.224744871391589049098642037353"
+     ],
+     [
+      "0.775255128608410950901357962647",
+      "1.0"
+     ],
+     [
+      "1.0",
+      "1.22474487139158904909864203735"
+     ],
+     [
+      "1.77525512860841095090135796265",
+      "2.0"
+     ],
+     [
+      "2.0",
+      "2.22474487139158904909864203735"
+     ],
+     [
+      "2.77525512860841095090135796265",
+      "3.0"
+     ],
+     [
+      "3.0",
+      "3.22474487139158904909864203735"
+     ],
+     [
+      "3.77525512860841095090135796265",
+      "4.0"
+     ],
+     [
+      "4.0",
+      "4.22474487139158904909864203735"
+     ]
+    ],
+    "unit_scale_identity_subtracted_denominator": "-7.04242194305452049955571715365",
+    "identity_subtracted_denominator": null,
+    "identity_subtracted_denominator_status": "not_scale_invariant_for_delta_normalized_RW_fields",
+    "ratio_exclude_prescription": "large_continuum_scale_limit: (A*M1)/(A*M0-M_identity) -> M1/M0 as A->infinity",
+    "production_source": "runkel_watts_dense_part2.json"
+   },
+   {
+    "delta_ext": "0.775",
+    "momentum_external": "0.622494979899436618741798533339",
+    "continuum_nu0": "0.32344866945025746985543565263",
+    "continuum_nu1": "0.197425298229151644463891722671",
+    "identity_measure": "7.7126130008799784426270384825",
+    "p_cutoff": "4.5",
+    "q_order": 16,
+    "quadrature_order": 24,
+    "chiral_norm": "16.0",
+    "normalization": "Runkel-Watts delta(x-y) fields; c_RW=C_an/2 on support; x=2P Jacobian cancels repository diagonal-block factor 2",
+    "crossing_residual": null,
+    "promotion_status": "production",
+    "positivity": true,
+    "imaginary_residual": "0.0",
+    "convergence": {},
+    "ratio_include": "0.610375978867686422782566386851",
+    "ratio_exclude": "0.610375978867686422782566386851",
+    "identity_subtracted_drawable": true,
+    "minimum_spectral_weight": "2.18129269949844851754555456119e-55",
+    "support_intervals": [
+     [
+      "0.0",
+      "0.244989959798873237483597066678"
+     ],
+     [
+      "0.755010040201126762516402933322",
+      "1.0"
+     ],
+     [
+      "1.0",
+      "1.24498995979887323748359706668"
+     ],
+     [
+      "1.75501004020112676251640293332",
+      "2.0"
+     ],
+     [
+      "2.0",
+      "2.24498995979887323748359706668"
+     ],
+     [
+      "2.75501004020112676251640293332",
+      "3.0"
+     ],
+     [
+      "3.0",
+      "3.24498995979887323748359706668"
+     ],
+     [
+      "3.75501004020112676251640293332",
+      "4.0"
+     ],
+     [
+      "4.0",
+      "4.24498995979887323748359706668"
+     ]
+    ],
+    "unit_scale_identity_subtracted_denominator": "-7.38916433142972097277160282987",
+    "identity_subtracted_denominator": null,
+    "identity_subtracted_denominator_status": "not_scale_invariant_for_delta_normalized_RW_fields",
+    "ratio_exclude_prescription": "large_continuum_scale_limit: (A*M1)/(A*M0-M_identity) -> M1/M0 as A->infinity",
+    "production_source": "runkel_watts_dense_part2.json"
+   },
+   {
+    "delta_ext": "0.79",
+    "momentum_external": "0.628490254498826735785127932681",
+    "continuum_nu0": "0.348168222457533736850707121612",
+    "continuum_nu1": "0.212750987234300002180385926236",
+    "identity_measure": "7.95569989500987161903812159731",
+    "p_cutoff": "4.5",
+    "q_order": 16,
+    "quadrature_order": 32,
+    "chiral_norm": "16.0",
+    "normalization": "Runkel-Watts delta(x-y) fields; c_RW=C_an/2 on support; x=2P Jacobian cancels repository diagonal-block factor 2",
+    "crossing_residual": null,
+    "promotion_status": "production",
+    "positivity": true,
+    "imaginary_residual": "0.0",
+    "convergence": {},
+    "ratio_include": "0.611058027446055485932229063766",
+    "ratio_exclude": "0.611058027446055485932229063766",
+    "identity_subtracted_drawable": true,
+    "minimum_spectral_weight": "3.86379689630334055997803292874e-57",
+    "support_intervals": [
+     [
+      "0.0",
+      "0.256980508997653471570255865361"
+     ],
+     [
+      "0.743019491002346528429744134639",
+      "1.0"
+     ],
+     [
+      "1.0",
+      "1.25698050899765347157025586536"
+     ],
+     [
+      "1.74301949100234652842974413464",
+      "2.0"
+     ],
+     [
+      "2.0",
+      "2.25698050899765347157025586536"
+     ],
+     [
+      "2.74301949100234652842974413464",
+      "3.0"
+     ],
+     [
+      "3.0",
+      "3.25698050899765347157025586536"
+     ],
+     [
+      "3.74301949100234652842974413464",
+      "4.0"
+     ],
+     [
+      "4.0",
+      "4.25698050899765347157025586536"
+     ]
+    ],
+    "unit_scale_identity_subtracted_denominator": "-7.6075316725523378821874144757",
+    "identity_subtracted_denominator": null,
+    "identity_subtracted_denominator_status": "not_scale_invariant_for_delta_normalized_RW_fields",
+    "ratio_exclude_prescription": "large_continuum_scale_limit: (A*M1)/(A*M0-M_identity) -> M1/M0 as A->infinity",
+    "production_source": "runkel_watts_dense_refinement.json"
+   },
+   {
+    "delta_ext": "0.795",
+    "momentum_external": "0.630476010645924576561431291727",
+    "continuum_nu0": "0.356588080024950753459756894742",
+    "continuum_nu1": "0.217921539079679141471227108109",
+    "identity_measure": "8.03870170846967319868991278195",
+    "p_cutoff": "6.0",
+    "q_order": 24,
+    "quadrature_order": 64,
+    "chiral_norm": "16.0",
+    "normalization": "Runkel-Watts delta(x-y) fields; c_RW=C_an/2 on support; x=2P Jacobian cancels repository diagonal-block factor 2",
+    "crossing_residual": "1.84723804502907158810408285813e-16",
+    "promotion_status": "production",
+    "positivity": true,
+    "imaginary_residual": "0.0",
+    "convergence": {},
+    "ratio_include": "0.611129623470394739229822904305",
+    "ratio_exclude": "0.611129623470394739229822904305",
+    "identity_subtracted_drawable": true,
+    "minimum_spectral_weight": "2.33332054308108226768442447778e-120",
+    "support_intervals": [
+     [
+      "0.0",
+      "0.260952021291849153122862583453"
+     ],
+     [
+      "0.739047978708150846877137416547",
+      "1.0"
+     ],
+     [
+      "1.0",
+      "1.26095202129184915312286258345"
+     ],
+     [
+      "1.73904797870815084687713741655",
+      "2.0"
+     ],
+     [
+      "2.0",
+      "2.26095202129184915312286258345"
+     ],
+     [
+      "2.73904797870815084687713741655",
+      "3.0"
+     ],
+     [
+      "3.0",
+      "3.26095202129184915312286258345"
+     ],
+     [
+      "3.73904797870815084687713741655",
+      "4.0"
+     ],
+     [
+      "4.0",
+      "4.26095202129184915312286258345"
+     ],
+     [
+      "4.73904797870815084687713741655",
+      "5.0"
+     ],
+     [
+      "5.0",
+      "5.26095202129184915312286258345"
+     ],
+     [
+      "5.73904797870815084687713741655",
+      "6.0"
+     ]
+    ],
+    "unit_scale_identity_subtracted_denominator": "-7.68211362844472244523015588721",
+    "identity_subtracted_denominator": null,
+    "identity_subtracted_denominator_status": "not_scale_invariant_for_delta_normalized_RW_fields",
+    "ratio_exclude_prescription": "large_continuum_scale_limit: (A*M1)/(A*M0-M_identity) -> M1/M0 as A->infinity",
+    "production_source": "runkel_watts_validation_q24_n64.json"
+   },
+   {
+    "delta_ext": "0.8",
+    "momentum_external": "0.632455532033675866399778708887",
+    "continuum_nu0": "0.36509803003725305605618406719",
+    "continuum_nu1": "0.223119335277741934489151967448",
+    "identity_measure": "8.12271100388834003211924167854",
+    "p_cutoff": "4.5",
+    "q_order": 16,
+    "quadrature_order": 24,
+    "chiral_norm": "16.0",
+    "normalization": "Runkel-Watts delta(x-y) fields; c_RW=C_an/2 on support; x=2P Jacobian cancels repository diagonal-block factor 2",
+    "crossing_residual": null,
+    "promotion_status": "production",
+    "positivity": true,
+    "imaginary_residual": "0.0",
+    "convergence": {},
+    "ratio_include": "0.611121717788988844665108891933",
+    "ratio_exclude": "0.611121717788988844665108891933",
+    "identity_subtracted_drawable": true,
+    "minimum_spectral_weight": "3.06974317495715982830070691974e-54",
+    "support_intervals": [
+     [
+      "0.0",
+      "0.264911064067351732799557417773"
+     ],
+     [
+      "0.735088935932648267200442582227",
+      "1.0"
+     ],
+     [
+      "1.0",
+      "1.26491106406735173279955741777"
+     ],
+     [
+      "1.73508893593264826720044258223",
+      "2.0"
+     ],
+     [
+      "2.0",
+      "2.26491106406735173279955741777"
+     ],
+     [
+      "2.73508893593264826720044258223",
+      "3.0"
+     ],
+     [
+      "3.0",
+      "3.26491106406735173279955741777"
+     ],
+     [
+      "3.73508893593264826720044258223",
+      "4.0"
+     ],
+     [
+      "4.0",
+      "4.26491106406735173279955741777"
+     ]
+    ],
+    "unit_scale_identity_subtracted_denominator": "-7.75761297385108697606305761135",
+    "identity_subtracted_denominator": null,
+    "identity_subtracted_denominator_status": "not_scale_invariant_for_delta_normalized_RW_fields",
+    "ratio_exclude_prescription": "large_continuum_scale_limit: (A*M1)/(A*M0-M_identity) -> M1/M0 as A->infinity",
+    "production_source": "runkel_watts_dense_part2.json"
+   },
+   {
+    "delta_ext": "0.805",
+    "momentum_external": "0.634428877022476019009688637304",
+    "continuum_nu0": "0.373698067078254874744872576875",
+    "continuum_nu1": "0.228341974475764556457450646716",
+    "identity_measure": "8.20774066450861264213008880146",
+    "p_cutoff": "4.5",
+    "q_order": 16,
+    "quadrature_order": 32,
+    "chiral_norm": "16.0",
+    "normalization": "Runkel-Watts delta(x-y) fields; c_RW=C_an/2 on support; x=2P Jacobian cancels repository diagonal-block factor 2",
+    "crossing_residual": null,
+    "promotion_status": "production",
+    "positivity": true,
+    "imaginary_residual": "0.0",
+    "convergence": {},
+    "ratio_include": "0.611033330359582030498485850838",
+    "ratio_exclude": "0.611033330359582030498485850838",
+    "identity_subtracted_drawable": true,
+    "minimum_spectral_weight": "1.87660340817848073304864950224e-56",
+    "support_intervals": [
+     [
+      "0.0",
+      "0.268857754044952038019377274609"
+     ],
+     [
+      "0.731142245955047961980622725391",
+      "1.0"
+     ],
+     [
+      "1.0",
+      "1.26885775404495203801937727461"
+     ],
+     [
+      "1.73114224595504796198062272539",
+      "2.0"
+     ],
+     [
+      "2.0",
+      "2.26885775404495203801937727461"
+     ],
+     [
+      "2.73114224595504796198062272539",
+      "3.0"
+     ],
+     [
+      "3.0",
+      "3.26885775404495203801937727461"
+     ],
+     [
+      "3.73114224595504796198062272539",
+      "4.0"
+     ],
+     [
+      "4.0",
+      "4.26885775404495203801937727461"
+     ]
+    ],
+    "unit_scale_identity_subtracted_denominator": "-7.83404259743035776738521622458",
+    "identity_subtracted_denominator": null,
+    "identity_subtracted_denominator_status": "not_scale_invariant_for_delta_normalized_RW_fields",
+    "ratio_exclude_prescription": "large_continuum_scale_limit: (A*M1)/(A*M0-M_identity) -> M1/M0 as A->infinity",
+    "production_source": "runkel_watts_dense_refinement.json"
+   },
+   {
+    "delta_ext": "0.81",
+    "momentum_external": "0.636396103067892771960759925894",
+    "continuum_nu0": "0.382388144551542747504844449607",
+    "continuum_nu1": "0.233586952371038643754883584964",
+    "identity_measure": "8.29380374243773410147950180754",
+    "p_cutoff": "4.5",
+    "q_order": 16,
+    "quadrature_order": 32,
+    "chiral_norm": "16.0",
+    "normalization": "Runkel-Watts delta(x-y) fields; c_RW=C_an/2 on support; x=2P Jacobian cancels repository diagonal-block factor 2",
+    "crossing_residual": null,
+    "promotion_status": "production",
+    "positivity": true,
+    "imaginary_residual": "0.0",
+    "convergence": {},
+    "ratio_include": "0.61086347916195153296262381417",
+    "ratio_exclude": "0.61086347916195153296262381417",
+    "identity_subtracted_drawable": true,
+    "minimum_spectral_weight": "3.17234565629018450841875780841e-56",
+    "support_intervals": [
+     [
+      "0.0",
+      "0.272792206135785543921519851789"
+     ],
+     [
+      "0.727207793864214456078480148211",
+      "1.0"
+     ],
+     [
+      "1.0",
+      "1.27279220613578554392151985179"
+     ],
+     [
+      "1.72720779386421445607848014821",
+      "2.0"
+     ],
+     [
+      "2.0",
+      "2.27279220613578554392151985179"
+     ],
+     [
+      "2.72720779386421445607848014821",
+      "3.0"
+     ],
+     [
+      "3.0",
+      "3.27279220613578554392151985179"
+     ],
+     [
+      "3.72720779386421445607848014821",
+      "4.0"
+     ],
+     [
+      "4.0",
+      "4.27279220613578554392151985179"
+     ]
+    ],
+    "unit_scale_identity_subtracted_denominator": "-7.91141559788619135397465735793",
+    "identity_subtracted_denominator": null,
+    "identity_subtracted_denominator_status": "not_scale_invariant_for_delta_normalized_RW_fields",
+    "ratio_exclude_prescription": "large_continuum_scale_limit: (A*M1)/(A*M0-M_identity) -> M1/M0 as A->infinity",
+    "production_source": "runkel_watts_dense_refinement.json"
+   },
+   {
+    "delta_ext": "0.825",
+    "momentum_external": "0.642261628933256451005844923882",
+    "continuum_nu0": "0.408997506633649173512650545768",
+    "continuum_nu1": "0.24942930416634976770318421315",
+    "identity_measure": "8.55832658117896554586326366824",
+    "p_cutoff": "4.5",
+    "q_order": 16,
+    "quadrature_order": 24,
+    "chiral_norm": "16.0",
+    "normalization": "Runkel-Watts delta(x-y) fields; c_RW=C_an/2 on support; x=2P Jacobian cancels repository diagonal-block factor 2",
+    "crossing_residual": null,
+    "promotion_status": "production",
+    "positivity": true,
+    "imaginary_residual": "0.0",
+    "convergence": {},
+    "ratio_include": "0.609855317259356221990013443605",
+    "ratio_exclude": "0.609855317259356221990013443605",
+    "identity_subtracted_drawable": true,
+    "minimum_spectral_weight": "4.21610966877936742118642160341e-53",
+    "support_intervals": [
+     [
+      "0.0",
+      "0.284523257866512902011689847764"
+     ],
+     [
+      "0.715476742133487097988310152236",
+      "1.0"
+     ],
+     [
+      "1.0",
+      "1.28452325786651290201168984776"
+     ],
+     [
+      "1.71547674213348709798831015224",
+      "2.0"
+     ],
+     [
+      "2.0",
+      "2.28452325786651290201168984776"
+     ],
+     [
+      "2.71547674213348709798831015224",
+      "3.0"
+     ],
+     [
+      "3.0",
+      "3.28452325786651290201168984776"
+     ],
+     [
+      "3.71547674213348709798831015224",
+      "4.0"
+     ],
+     [
+      "4.0",
+      "4.28452325786651290201168984776"
+     ]
+    ],
+    "unit_scale_identity_subtracted_denominator": "-8.14932907454531637235061312247",
+    "identity_subtracted_denominator": null,
+    "identity_subtracted_denominator_status": "not_scale_invariant_for_delta_normalized_RW_fields",
+    "ratio_exclude_prescription": "large_continuum_scale_limit: (A*M1)/(A*M0-M_identity) -> M1/M0 as A->infinity",
+    "production_source": "runkel_watts_dense_part2.json"
+   },
+   {
+    "delta_ext": "0.85",
+    "momentum_external": "0.651920240520264871458297155743",
+    "continuum_nu0": "0.455129924235259911457129254629",
+    "continuum_nu1": "0.276015572087717606862652984322",
+    "identity_measure": "9.02113516173138976824397790782",
+    "p_cutoff": "4.5",
+    "q_order": 16,
+    "quadrature_order": 24,
+    "chiral_norm": "16.0",
+    "normalization": "Runkel-Watts delta(x-y) fields; c_RW=C_an/2 on support; x=2P Jacobian cancels repository diagonal-block factor 2",
+    "crossing_residual": null,
+    "promotion_status": "production",
+    "positivity": true,
+    "imaginary_residual": "0.0",
+    "convergence": {},
+    "ratio_include": "0.606454459243693201939849860107",
+    "ratio_exclude": "0.606454459243693201939849860107",
+    "identity_subtracted_drawable": true,
+    "minimum_spectral_weight": "5.7802901103609721712786308402e-52",
+    "support_intervals": [
+     [
+      "0.0",
+      "0.303840481040529742916594311486"
+     ],
+     [
+      "0.696159518959470257083405688514",
+      "1.0"
+     ],
+     [
+      "1.0",
+      "1.30384048104052974291659431149"
+     ],
+     [
+      "1.69615951895947025708340568851",
+      "2.0"
+     ],
+     [
+      "2.0",
+      "2.30384048104052974291659431149"
+     ],
+     [
+      "2.69615951895947025708340568851",
+      "3.0"
+     ],
+     [
+      "3.0",
+      "3.30384048104052974291659431149"
+     ],
+     [
+      "3.69615951895947025708340568851",
+      "4.0"
+     ],
+     [
+      "4.0",
+      "4.30384048104052974291659431149"
+     ]
+    ],
+    "unit_scale_identity_subtracted_denominator": "-8.5660052374961298567868486532",
+    "identity_subtracted_denominator": null,
+    "identity_subtracted_denominator_status": "not_scale_invariant_for_delta_normalized_RW_fields",
+    "ratio_exclude_prescription": "large_continuum_scale_limit: (A*M1)/(A*M0-M_identity) -> M1/M0 as A->infinity",
+    "production_source": "runkel_watts_dense_part2.json"
+   },
+   {
+    "delta_ext": "0.875",
+    "momentum_external": "0.66143782776614764762540393841",
+    "continuum_nu0": "0.503447902979899294011444346518",
+    "continuum_nu1": "0.302471524791515100480585864858",
+    "identity_measure": "9.51292495118312040196492485107",
+    "p_cutoff": "4.5",
+    "q_order": 16,
+    "quadrature_order": 24,
+    "chiral_norm": "16.0",
+    "normalization": "Runkel-Watts delta(x-y) fields; c_RW=C_an/2 on support; x=2P Jacobian cancels repository diagonal-block factor 2",
+    "crossing_residual": null,
+    "promotion_status": "production",
+    "positivity": true,
+    "imaginary_residual": "0.0",
+    "convergence": {},
+    "ratio_include": "0.600800049024321004320348841072",
+    "ratio_exclude": "0.600800049024321004320348841072",
+    "identity_subtracted_drawable": true,
+    "minimum_spectral_weight": "1.47439977713643593283694138218e-51",
+    "support_intervals": [
+     [
+      "0.0",
+      "0.32287565553229529525080787682"
+     ],
+     [
+      "0.67712434446770470474919212318",
+      "1.0"
+     ],
+     [
+      "1.0",
+      "1.32287565553229529525080787682"
+     ],
+     [
+      "1.67712434446770470474919212318",
+      "2.0"
+     ],
+     [
+      "2.0",
+      "2.32287565553229529525080787682"
+     ],
+     [
+      "2.67712434446770470474919212318",
+      "3.0"
+     ],
+     [
+      "3.0",
+      "3.32287565553229529525080787682"
+     ],
+     [
+      "3.67712434446770470474919212318",
+      "4.0"
+     ],
+     [
+      "4.0",
+      "4.32287565553229529525080787682"
+     ]
+    ],
+    "unit_scale_identity_subtracted_denominator": "-9.00947704820322110795348050455",
+    "identity_subtracted_denominator": null,
+    "identity_subtracted_denominator_status": "not_scale_invariant_for_delta_normalized_RW_fields",
+    "ratio_exclude_prescription": "large_continuum_scale_limit: (A*M1)/(A*M0-M_identity) -> M1/M0 as A->infinity",
+    "production_source": "runkel_watts_dense_part2.json"
+   },
+   {
+    "delta_ext": "0.9",
+    "momentum_external": "0.670820393249936908922752100619",
+    "continuum_nu0": "0.553869295925598273633641230761",
+    "continuum_nu1": "0.328324014017806144238322806579",
+    "identity_measure": "10.0356045805933586434654683738",
+    "p_cutoff": "4.5",
+    "q_order": 16,
+    "quadrature_order": 24,
+    "chiral_norm": "16.0",
+    "normalization": "Runkel-Watts delta(x-y) fields; c_RW=C_an/2 on support; x=2P Jacobian cancels repository diagonal-block factor 2",
+    "crossing_residual": null,
+    "promotion_status": "production",
+    "positivity": true,
+    "imaginary_residual": "0.0",
+    "convergence": {},
+    "ratio_include": "0.592782478525240698665357518545",
+    "ratio_exclude": "0.592782478525240698665357518545",
+    "identity_subtracted_drawable": true,
+    "minimum_spectral_weight": "3.01084482065619135835555656241e-51",
+    "support_intervals": [
+     [
+      "0.0",
+      "0.341640786499873817845504201239"
+     ],
+     [
+      "0.658359213500126182154495798761",
+      "1.0"
+     ],
+     [
+      "1.0",
+      "1.34164078649987381784550420124"
+     ],
+     [
+      "1.65835921350012618215449579876",
+      "2.0"
+     ],
+     [
+      "2.0",
+      "2.34164078649987381784550420124"
+     ],
+     [
+      "2.65835921350012618215449579876",
+      "3.0"
+     ],
+     [
+      "3.0",
+      "3.34164078649987381784550420124"
+     ],
+     [
+      "3.65835921350012618215449579876",
+      "4.0"
+     ],
+     [
+      "4.0",
+      "4.34164078649987381784550420124"
+     ]
+    ],
+    "unit_scale_identity_subtracted_denominator": "-9.48173528466776036983182714299",
+    "identity_subtracted_denominator": null,
+    "identity_subtracted_denominator_status": "not_scale_invariant_for_delta_normalized_RW_fields",
+    "ratio_exclude_prescription": "large_continuum_scale_limit: (A*M1)/(A*M0-M_identity) -> M1/M0 as A->infinity",
+    "production_source": "runkel_watts_dense_part2.json"
+   },
+   {
+    "delta_ext": "0.925",
+    "momentum_external": "0.680073525436772167251496868603",
+    "continuum_nu0": "0.606272747450022313161411668385",
+    "continuum_nu1": "0.353039132297552957888186200584",
+    "identity_measure": "10.5912112729662954586521661124",
+    "p_cutoff": "4.5",
+    "q_order": 16,
+    "quadrature_order": 24,
+    "chiral_norm": "16.0",
+    "normalization": "Runkel-Watts delta(x-y) fields; c_RW=C_an/2 on support; x=2P Jacobian cancels repository diagonal-block factor 2",
+    "crossing_residual": null,
+    "promotion_status": "production",
+    "positivity": true,
+    "imaginary_residual": "0.0",
+    "convergence": {},
+    "ratio_include": "0.58231074014530976703998241081",
+    "ratio_exclude": "0.58231074014530976703998241081",
+    "identity_subtracted_drawable": true,
+    "minimum_spectral_weight": "6.36341351445880677064588210275e-51",
+    "support_intervals": [
+     [
+      "0.0",
+      "0.360147050873544334502993737206"
+     ],
+     [
+      "0.639852949126455665497006262794",
+      "1.0"
+     ],
+     [
+      "1.0",
+      "1.36014705087354433450299373721"
+     ],
+     [
+      "1.63985294912645566549700626279",
+      "2.0"
+     ],
+     [
+      "2.0",
+      "2.36014705087354433450299373721"
+     ],
+     [
+      "2.63985294912645566549700626279",
+      "3.0"
+     ],
+     [
+      "3.0",
+      "3.36014705087354433450299373721"
+     ],
+     [
+      "3.63985294912645566549700626279",
+      "4.0"
+     ],
+     [
+      "4.0",
+      "4.36014705087354433450299373721"
+     ]
+    ],
+    "unit_scale_identity_subtracted_denominator": "-9.98493852551627314549075444405",
+    "identity_subtracted_denominator": null,
+    "identity_subtracted_denominator_status": "not_scale_invariant_for_delta_normalized_RW_fields",
+    "ratio_exclude_prescription": "large_continuum_scale_limit: (A*M1)/(A*M0-M_identity) -> M1/M0 as A->infinity",
+    "production_source": "runkel_watts_dense_part2.json"
+   },
+   {
+    "delta_ext": "0.95",
+    "momentum_external": "0.689202437604511088397795627647",
+    "continuum_nu0": "0.660493814782992151213457301221",
+    "continuum_nu1": "0.376035995034315936949530792718",
+    "identity_measure": "11.1819195624061403925268000544",
+    "p_cutoff": "4.5",
+    "q_order": 16,
+    "quadrature_order": 24,
+    "chiral_norm": "16.0",
+    "normalization": "Runkel-Watts delta(x-y) fields; c_RW=C_an/2 on support; x=2P Jacobian cancels repository diagonal-block factor 2",
+    "crossing_residual": null,
+    "promotion_status": "production",
+    "positivity": true,
+    "imaginary_residual": "0.0",
+    "convergence": {},
+    "ratio_include": "0.569325535861170852517383754219",
+    "ratio_exclude": "0.569325535861170852517383754219",
+    "identity_subtracted_drawable": true,
+    "minimum_spectral_weight": "1.42517283205592505624010956148e-50",
+    "support_intervals": [
+     [
+      "0.0",
+      "0.378404875209022176795591255293"
+     ],
+     [
+      "0.621595124790977823204408744707",
+      "1.0"
+     ],
+     [
+      "1.0",
+      "1.37840487520902217679559125529"
+     ],
+     [
+      "1.62159512479097782320440874471",
+      "2.0"
+     ],
+     [
+      "2.0",
+      "2.37840487520902217679559125529"
+     ],
+     [
+      "2.62159512479097782320440874471",
+      "3.0"
+     ],
+     [
+      "3.0",
+      "3.37840487520902217679559125529"
+     ],
+     [
+      "3.62159512479097782320440874471",
+      "4.0"
+     ],
+     [
+      "4.0",
+      "4.37840487520902217679559125529"
+     ]
+    ],
+    "unit_scale_identity_subtracted_denominator": "-10.5214257476231482413133427531",
+    "identity_subtracted_denominator": null,
+    "identity_subtracted_denominator_status": "not_scale_invariant_for_delta_normalized_RW_fields",
+    "ratio_exclude_prescription": "large_continuum_scale_limit: (A*M1)/(A*M0-M_identity) -> M1/M0 as A->infinity",
+    "production_source": "runkel_watts_dense_part2.json"
+   },
+   {
+    "delta_ext": "0.975",
+    "momentum_external": "0.698212002188447058494196227054",
+    "continuum_nu0": "0.716322372892049274068179663845",
+    "continuum_nu1": "0.396712206676461929813364314561",
+    "identity_measure": "11.8100506031149457856229775338",
+    "p_cutoff": "4.5",
+    "q_order": 16,
+    "quadrature_order": 24,
+    "chiral_norm": "16.0",
+    "normalization": "Runkel-Watts delta(x-y) fields; c_RW=C_an/2 on support; x=2P Jacobian cancels repository diagonal-block factor 2",
+    "crossing_residual": null,
+    "promotion_status": "production",
+    "positivity": true,
+    "imaginary_residual": "0.0",
+    "convergence": {},
+    "ratio_include": "0.553817975941185606875225591611",
+    "ratio_exclude": "0.553817975941185606875225591611",
+    "identity_subtracted_drawable": true,
+    "minimum_spectral_weight": "3.49011626161186005830235517133e-50",
+    "support_intervals": [
+     [
+      "0.0",
+      "0.396424004376894116988392454109"
+     ],
+     [
+      "0.603575995623105883011607545891",
+      "1.0"
+     ],
+     [
+      "1.0",
+      "1.39642400437689411698839245411"
+     ],
+     [
+      "1.60357599562310588301160754589",
+      "2.0"
+     ],
+     [
+      "2.0",
+      "2.39642400437689411698839245411"
+     ],
+     [
+      "2.60357599562310588301160754589",
+      "3.0"
+     ],
+     [
+      "3.0",
+      "3.39642400437689411698839245411"
+     ],
+     [
+      "3.60357599562310588301160754589",
+      "4.0"
+     ],
+     [
+      "4.0",
+      "4.39642400437689411698839245411"
+     ]
+    ],
+    "unit_scale_identity_subtracted_denominator": "-11.09372823022289651155479787",
+    "identity_subtracted_denominator": null,
+    "identity_subtracted_denominator_status": "not_scale_invariant_for_delta_normalized_RW_fields",
+    "ratio_exclude_prescription": "large_continuum_scale_limit: (A*M1)/(A*M0-M_identity) -> M1/M0 as A->infinity",
+    "production_source": "runkel_watts_dense_part2.json"
+   },
+   {
+    "delta_ext": "1.0",
+    "momentum_external": "0.707106781186547524400844362105",
+    "continuum_nu0": "0.773502458531061729924652520926",
+    "continuum_nu1": "0.414485993603770702322856963284",
+    "identity_measure": "12.4780821079398238205684964594",
+    "p_cutoff": "4.5",
+    "q_order": 16,
+    "quadrature_order": 24,
+    "chiral_norm": "16.0",
+    "normalization": "Runkel-Watts delta(x-y) fields; c_RW=C_an/2 on support; x=2P Jacobian cancels repository diagonal-block factor 2",
+    "crossing_residual": null,
+    "promotion_status": "production",
+    "positivity": true,
+    "imaginary_residual": "0.0",
+    "convergence": {},
+    "ratio_include": "0.535856077808608652994323190297",
+    "ratio_exclude": "0.535856077808608652994323190297",
+    "identity_subtracted_drawable": true,
+    "minimum_spectral_weight": "9.78013172249795562725499682436e-50",
+    "support_intervals": [
+     [
+      "0.0",
+      "0.41421356237309504880168872421"
+     ],
+     [
+      "0.58578643762690495119831127579",
+      "1.0"
+     ],
+     [
+      "1.0",
+      "1.41421356237309504880168872421"
+     ],
+     [
+      "1.58578643762690495119831127579",
+      "2.0"
+     ],
+     [
+      "2.0",
+      "2.41421356237309504880168872421"
+     ],
+     [
+      "2.58578643762690495119831127579",
+      "3.0"
+     ],
+     [
+      "3.0",
+      "3.41421356237309504880168872421"
+     ],
+     [
+      "3.58578643762690495119831127579",
+      "4.0"
+     ],
+     [
+      "4.0",
+      "4.41421356237309504880168872421"
+     ]
+    ],
+    "unit_scale_identity_subtracted_denominator": "-11.7045796494087620906438439384",
+    "identity_subtracted_denominator": null,
+    "identity_subtracted_denominator_status": "not_scale_invariant_for_delta_normalized_RW_fields",
+    "ratio_exclude_prescription": "large_continuum_scale_limit: (A*M1)/(A*M0-M_identity) -> M1/M0 as A->infinity",
+    "production_source": "runkel_watts_dense_part2.json"
+   },
+   {
+    "delta_ext": "1.025",
+    "momentum_external": "0.715891053163817657721980061552",
+    "continuum_nu0": "0.831736396818000138685304692556",
+    "continuum_nu1": "0.428861669023675561052773416591",
+    "identity_measure": "13.188658958838819923503397702",
+    "p_cutoff": "4.5",
+    "q_order": 16,
+    "quadrature_order": 24,
+    "chiral_norm": "16.0",
+    "normalization": "Runkel-Watts delta(x-y) fields; c_RW=C_an/2 on support; x=2P Jacobian cancels repository diagonal-block factor 2",
+    "crossing_residual": null,
+    "promotion_status": "production",
+    "positivity": true,
+    "imaginary_residual": "0.0",
+    "convergence": {},
+    "ratio_include": "0.515622101743274692908312300559",
+    "ratio_exclude": "0.515622101743274692908312300559",
+    "identity_subtracted_drawable": true,
+    "minimum_spectral_weight": "3.37194589700048583204249100706e-49",
+    "support_intervals": [
+     [
+      "0.0",
+      "0.431782106327635315443960123103"
+     ],
+     [
+      "0.568217893672364684556039876897",
+      "1.0"
+     ],
+     [
+      "1.0",
+      "1.4317821063276353154439601231"
+     ],
+     [
+      "1.5682178936723646845560398769",
+      "2.0"
+     ],
+     [
+      "2.0",
+      "2.4317821063276353154439601231"
+     ],
+     [
+      "2.5682178936723646845560398769",
+      "3.0"
+     ],
+     [
+      "3.0",
+      "3.4317821063276353154439601231"
+     ],
+     [
+      "3.5682178936723646845560398769",
+      "4.0"
+     ],
+     [
+      "4.0",
+      "4.4317821063276353154439601231"
+     ]
+    ],
+    "unit_scale_identity_subtracted_denominator": "-12.3569225620208197848180930094",
+    "identity_subtracted_denominator": null,
+    "identity_subtracted_denominator_status": "not_scale_invariant_for_delta_normalized_RW_fields",
+    "ratio_exclude_prescription": "large_continuum_scale_limit: (A*M1)/(A*M0-M_identity) -> M1/M0 as A->infinity",
+    "production_source": "runkel_watts_dense_part2.json"
+   },
+   {
+    "delta_ext": "1.05",
+    "momentum_external": "0.724568837309471928685933207858",
+    "continuum_nu0": "0.890696147838596782078170881286",
+    "continuum_nu1": "0.439527215590346286994529893395",
+    "identity_measure": "13.9446045344757136598894484428",
+    "p_cutoff": "4.5",
+    "q_order": 16,
+    "quadrature_order": 24,
+    "chiral_norm": "16.0",
+    "normalization": "Runkel-Watts delta(x-y) fields; c_RW=C_an/2 on support; x=2P Jacobian cancels repository diagonal-block factor 2",
+    "crossing_residual": null,
+    "promotion_status": "production",
+    "positivity": true,
+    "imaginary_residual": "0.0",
+    "convergence": {},
+    "ratio_include": "0.493464821484770917762398224199",
+    "ratio_exclude": "0.493464821484770917762398224199",
+    "identity_subtracted_drawable": true,
+    "minimum_spectral_weight": "1.62992583226088209991900221849e-48",
+    "support_intervals": [
+     [
+      "0.0",
+      "0.449137674618943857371866415717"
+     ],
+     [
+      "0.550862325381056142628133584283",
+      "1.0"
+     ],
+     [
+      "1.0",
+      "1.44913767461894385737186641572"
+     ],
+     [
+      "1.55086232538105614262813358428",
+      "2.0"
+     ],
+     [
+      "2.0",
+      "2.44913767461894385737186641572"
+     ],
+     [
+      "2.55086232538105614262813358428",
+      "3.0"
+     ],
+     [
+      "3.0",
+      "3.44913767461894385737186641572"
+     ],
+     [
+      "3.55086232538105614262813358428",
+      "4.0"
+     ],
+     [
+      "4.0",
+      "4.44913767461894385737186641572"
+     ]
+    ],
+    "unit_scale_identity_subtracted_denominator": "-13.0539083866371168778112775615",
+    "identity_subtracted_denominator": null,
+    "identity_subtracted_denominator_status": "not_scale_invariant_for_delta_normalized_RW_fields",
+    "ratio_exclude_prescription": "large_continuum_scale_limit: (A*M1)/(A*M0-M_identity) -> M1/M0 as A->infinity",
+    "production_source": "runkel_watts_dense_part2.json"
+   },
+   {
+    "delta_ext": "1.075",
+    "momentum_external": "0.733143914930759007251124552349",
+    "continuum_nu0": "0.950046568098949936713962969826",
+    "continuum_nu1": "0.446495357091360002915935259866",
+    "identity_measure": "14.7489328031853321073034655384",
+    "p_cutoff": "4.5",
+    "q_order": 16,
+    "quadrature_order": 24,
+    "chiral_norm": "16.0",
+    "normalization": "Runkel-Watts delta(x-y) fields; c_RW=C_an/2 on support; x=2P Jacobian cancels repository diagonal-block factor 2",
+    "crossing_residual": null,
+    "promotion_status": "production",
+    "positivity": true,
+    "imaginary_residual": "0.0",
+    "convergence": {},
+    "ratio_include": "0.469972075142380068913913388986",
+    "ratio_exclude": "0.469972075142380068913913388986",
+    "identity_subtracted_drawable": true,
+    "minimum_spectral_weight": "1.46189904701796794077519608144e-47",
+    "support_intervals": [
+     [
+      "0.0",
+      "0.466287829861518014502249104697"
+     ],
+     [
+      "0.533712170138481985497750895303",
+      "1.0"
+     ],
+     [
+      "1.0",
+      "1.4662878298615180145022491047"
+     ],
+     [
+      "1.5337121701384819854977508953",
+      "2.0"
+     ],
+     [
+      "2.0",
+      "2.4662878298615180145022491047"
+     ],
+     [
+      "2.5337121701384819854977508953",
+      "3.0"
+     ],
+     [
+      "3.0",
+      "3.4662878298615180145022491047"
+     ],
+     [
+      "3.5337121701384819854977508953",
+      "4.0"
+     ],
+     [
+      "4.0",
+      "4.4662878298615180145022491047"
+     ]
+    ],
+    "unit_scale_identity_subtracted_denominator": "-13.7988862350863821705895025686",
+    "identity_subtracted_denominator": null,
+    "identity_subtracted_denominator_status": "not_scale_invariant_for_delta_normalized_RW_fields",
+    "ratio_exclude_prescription": "large_continuum_scale_limit: (A*M1)/(A*M0-M_identity) -> M1/M0 as A->infinity",
+    "production_source": "runkel_watts_dense_part2.json"
+   },
+   {
+    "delta_ext": "1.1",
+    "momentum_external": "0.74161984870956629487113974408",
+    "continuum_nu0": "1.00948797474622834782861800198",
+    "continuum_nu1": "0.450302185738882520776305967975",
+    "identity_measure": "15.6048612327853513118828897849",
+    "p_cutoff": "4.5",
+    "q_order": 16,
+    "quadrature_order": 24,
+    "chiral_norm": "16.0",
+    "normalization": "Runkel-Watts delta(x-y) fields; c_RW=C_an/2 on support; x=2P Jacobian cancels repository diagonal-block factor 2",
+    "crossing_residual": null,
+    "promotion_status": "production",
+    "positivity": true,
+    "imaginary_residual": "0.0",
+    "convergence": {},
+    "ratio_include": "0.446069885926162134533289543327",
+    "ratio_exclude": "0.446069885926162134533289543327",
+    "identity_subtracted_drawable": true,
+    "minimum_spectral_weight": "5.5387057242980236405253059896e-46",
+    "support_intervals": [
+     [
+      "0.0",
+      "0.48323969741913258974227948816"
+     ],
+     [
+      "0.51676030258086741025772051184",
+      "1.0"
+     ],
+     [
+      "1.0",
+      "1.48323969741913258974227948816"
+     ],
+     [
+      "1.51676030258086741025772051184",
+      "2.0"
+     ],
+     [
+      "2.0",
+      "2.48323969741913258974227948816"
+     ],
+     [
+      "2.51676030258086741025772051184",
+      "3.0"
+     ],
+     [
+      "3.0",
+      "3.48323969741913258974227948816"
+     ],
+     [
+      "3.51676030258086741025772051184",
+      "4.0"
+     ],
+     [
+      "4.0",
+      "4.48323969741913258974227948816"
+     ]
+    ],
+    "unit_scale_identity_subtracted_denominator": "-14.5953732580391229640542717829",
+    "identity_subtracted_denominator": null,
+    "identity_subtracted_denominator_status": "not_scale_invariant_for_delta_normalized_RW_fields",
+    "ratio_exclude_prescription": "large_continuum_scale_limit: (A*M1)/(A*M0-M_identity) -> M1/M0 as A->infinity",
+    "production_source": "runkel_watts_dense_part2.json"
+   },
+   {
+    "delta_ext": "1.11",
+    "momentum_external": "0.744983221287566985966590802306",
+    "continuum_nu0": "1.03324168918256772412440906038",
+    "continuum_nu1": "0.451204562935405354766307692057",
+    "identity_measure": "15.9624424025452279838468019345",
+    "p_cutoff": "4.0",
+    "q_order": 24,
+    "quadrature_order": 128,
+    "chiral_norm": "16.0",
+    "normalization": "Runkel-Watts delta(x-y) fields; c_RW=C_an/2 on support; x=2P Jacobian cancels repository diagonal-block factor 2",
+    "crossing_residual": null,
+    "promotion_status": "production",
+    "positivity": true,
+    "imaginary_residual": "0.0",
+    "convergence": {},
+    "ratio_include": "0.436688305997765605631261065504",
+    "ratio_exclude": "0.436688305997765605631261065504",
+    "identity_subtracted_drawable": true,
+    "canonical_delta_normalized_denominator_positive": false,
+    "ratio_exclude_prescription": "large_continuum_scale_limit: (A*M1)/(A*M0-M_identity) -> M1/M0 as A->infinity",
+    "minimum_spectral_weight": "7.20849811419644825336168573726e-47",
+    "support_intervals": [
+     [
+      "0.0",
+      "0.489966442575133971933181604612"
+     ],
+     [
+      "0.510033557424866028066818395388",
+      "1.0"
+     ],
+     [
+      "1.0",
+      "1.48996644257513397193318160461"
+     ],
+     [
+      "1.51003355742486602806681839539",
+      "2.0"
+     ],
+     [
+      "2.0",
+      "2.48996644257513397193318160461"
+     ],
+     [
+      "2.51003355742486602806681839539",
+      "3.0"
+     ],
+     [
+      "3.0",
+      "3.48996644257513397193318160461"
+     ],
+     [
+      "3.51003355742486602806681839539",
+      "4.0"
+     ]
+    ],
+    "unit_scale_identity_subtracted_denominator": "-14.9292007133626602597223928741",
+    "identity_subtracted_denominator": null,
+    "identity_subtracted_denominator_status": "not_scale_invariant_for_delta_normalized_RW_fields",
+    "production_source": "runkel_watts_validation_cusp_shoulders_q24_n128.json"
+   },
+   {
+    "delta_ext": "1.12",
+    "momentum_external": "0.748331477354788277116749746463",
+    "continuum_nu0": "1.0569731453772221074515424162",
+    "continuum_nu1": "0.451933277673397039271036342597",
+    "identity_measure": "16.3290565721957794724266159409",
+    "p_cutoff": "4.0",
+    "q_order": 24,
+    "quadrature_order": 128,
+    "chiral_norm": "16.0",
+    "normalization": "Runkel-Watts delta(x-y) fields; c_RW=C_an/2 on support; x=2P Jacobian cancels repository diagonal-block factor 2",
+    "crossing_residual": null,
+    "promotion_status": "production",
+    "positivity": true,
+    "imaginary_residual": "0.0",
+    "convergence": {},
+    "ratio_include": "0.427573093649514639082898102491",
+    "ratio_exclude": "0.427573093649514639082898102491",
+    "identity_subtracted_drawable": true,
+    "canonical_delta_normalized_denominator_positive": false,
+    "ratio_exclude_prescription": "large_continuum_scale_limit: (A*M1)/(A*M0-M_identity) -> M1/M0 as A->infinity",
+    "minimum_spectral_weight": "6.64838498179579928276730390315e-42",
+    "support_intervals": [
+     [
+      "0.0",
+      "0.496662954709576554233499492927"
+     ],
+     [
+      "0.503337045290423445766500507073",
+      "1.0"
+     ],
+     [
+      "1.0",
+      "1.49666295470957655423349949293"
+     ],
+     [
+      "1.50333704529042344576650050707",
+      "2.0"
+     ],
+     [
+      "2.0",
+      "2.49666295470957655423349949293"
+     ],
+     [
+      "2.50333704529042344576650050707",
+      "3.0"
+     ],
+     [
+      "3.0",
+      "3.49666295470957655423349949293"
+     ],
+     [
+      "3.50333704529042344576650050707",
+      "4.0"
+     ]
+    ],
+    "unit_scale_identity_subtracted_denominator": "-15.2720834268185573649750735247",
+    "identity_subtracted_denominator": null,
+    "identity_subtracted_denominator_status": "not_scale_invariant_for_delta_normalized_RW_fields",
+    "production_source": "runkel_watts_validation_cusp_shoulders_q24_n128.json"
+   },
+   {
+    "delta_ext": "1.124",
+    "momentum_external": "0.749666592559652480610199781283",
+    "continuum_nu0": "1.0664600692100337189790651589",
+    "continuum_nu1": "0.452212119576470861911417402162",
+    "identity_measure": "16.4782841589861809300752678907",
+    "p_cutoff": "4.0",
+    "q_order": 24,
+    "quadrature_order": 256,
+    "chiral_norm": "16.0",
+    "normalization": "Runkel-Watts delta(x-y) fields; c_RW=C_an/2 on support; x=2P Jacobian cancels repository diagonal-block factor 2",
+    "crossing_residual": null,
+    "promotion_status": "production",
+    "positivity": true,
+    "imaginary_residual": "0.0",
+    "convergence": {},
+    "ratio_include": "0.424030990594369882586297655998",
+    "ratio_exclude": "0.424030990594369882586297655998",
+    "identity_subtracted_drawable": true,
+    "minimum_spectral_weight": "7.70951057024934276739719579349e-41",
+    "support_intervals": [
+     [
+      "0.0",
+      "0.499333185119304961220399562566"
+     ],
+     [
+      "0.500666814880695038779600437434",
+      "1.0"
+     ],
+     [
+      "1.0",
+      "1.49933318511930496122039956257"
+     ],
+     [
+      "1.50066681488069503877960043743",
+      "2.0"
+     ],
+     [
+      "2.0",
+      "2.49933318511930496122039956257"
+     ],
+     [
+      "2.50066681488069503877960043743",
+      "3.0"
+     ],
+     [
+      "3.0",
+      "3.49933318511930496122039956257"
+     ],
+     [
+      "3.50066681488069503877960043743",
+      "4.0"
+     ]
+    ],
+    "unit_scale_identity_subtracted_denominator": "-15.4118240897761472110962027318",
+    "identity_subtracted_denominator": null,
+    "identity_subtracted_denominator_status": "not_scale_invariant_for_delta_normalized_RW_fields",
+    "ratio_exclude_prescription": "large_continuum_scale_limit: (A*M1)/(A*M0-M_identity) -> M1/M0 as A->infinity",
+    "production_source": "runkel_watts_validation_cusp_q24_n256.json"
+   },
+   {
+    "delta_ext": "1.125",
+    "momentum_external": "0.75",
+    "continuum_nu0": "1.06883139228522449653032058025",
+    "continuum_nu1": "0.452282992349116070963710301735",
+    "identity_measure": "16.5158245721616597954547751804",
+    "p_cutoff": "4.0",
+    "q_order": 24,
+    "quadrature_order": 64,
+    "chiral_norm": "16.0",
+    "normalization": "Runkel-Watts delta(x-y) fields; c_RW=C_an/2 on support; x=2P Jacobian cancels repository diagonal-block factor 2",
+    "crossing_residual": null,
+    "promotion_status": "production",
+    "positivity": true,
+    "imaginary_residual": "0.0",
+    "convergence": {},
+    "ratio_include": "0.423156538639933079619561026628",
+    "ratio_exclude": "0.423156538639933079619561026628",
+    "identity_subtracted_drawable": true,
+    "minimum_spectral_weight": "1.16588746832316442088127991691e-32",
+    "support_intervals": [
+     [
+      "0.0",
+      "0.5"
+     ],
+     [
+      "0.5",
+      "1.0"
+     ],
+     [
+      "1.0",
+      "1.5"
+     ],
+     [
+      "1.5",
+      "2.0"
+     ],
+     [
+      "2.0",
+      "2.5"
+     ],
+     [
+      "2.5",
+      "3.0"
+     ],
+     [
+      "3.0",
+      "3.5"
+     ],
+     [
+      "3.5",
+      "4.0"
+     ]
+    ],
+    "unit_scale_identity_subtracted_denominator": "-15.4469931798764352989244546001",
+    "identity_subtracted_denominator": null,
+    "identity_subtracted_denominator_status": "not_scale_invariant_for_delta_normalized_RW_fields",
+    "ratio_exclude_prescription": "large_continuum_scale_limit: (A*M1)/(A*M0-M_identity) -> M1/M0 as A->infinity",
+    "production_source": "runkel_watts_validation_cusp_q24_n64.json"
+   },
+   {
+    "delta_ext": "1.126",
+    "momentum_external": "0.75033325929216279143681201482",
+    "continuum_nu0": "1.07120257562536646421242611502",
+    "continuum_nu1": "0.453956541703370490695718943433",
+    "identity_measure": "16.5534588750250965401547664721",
+    "p_cutoff": "4.0",
+    "q_order": 24,
+    "quadrature_order": 256,
+    "chiral_norm": "16.0",
+    "normalization": "Runkel-Watts delta(x-y) fields; c_RW=C_an/2 on support; x=2P Jacobian cancels repository diagonal-block factor 2",
+    "crossing_residual": null,
+    "promotion_status": "production",
+    "positivity": true,
+    "imaginary_residual": "0.0",
+    "convergence": {},
+    "ratio_include": "0.423782160380216915985698967524",
+    "ratio_exclude": "0.423782160380216915985698967524",
+    "identity_subtracted_drawable": true,
+    "minimum_spectral_weight": "8.38127059989592279708344103857e-41",
+    "support_intervals": [
+     [
+      "0.0",
+      "0.499333481415674417126375970361"
+     ],
+     [
+      "0.500666518584325582873624029639",
+      "1.0"
+     ],
+     [
+      "1.0",
+      "1.49933348141567441712637597036"
+     ],
+     [
+      "1.50066651858432558287362402964",
+      "2.0"
+     ],
+     [
+      "2.0",
+      "2.49933348141567441712637597036"
+     ],
+     [
+      "2.50066651858432558287362402964",
+      "3.0"
+     ],
+     [
+      "3.0",
+      "3.49933348141567441712637597036"
+     ],
+     [
+      "3.50066651858432558287362402964",
+      "4.0"
+     ]
+    ],
+    "unit_scale_identity_subtracted_denominator": "-15.4822562993997300759423403571",
+    "identity_subtracted_denominator": null,
+    "identity_subtracted_denominator_status": "not_scale_invariant_for_delta_normalized_RW_fields",
+    "ratio_exclude_prescription": "large_continuum_scale_limit: (A*M1)/(A*M0-M_identity) -> M1/M0 as A->infinity",
+    "production_source": "runkel_watts_validation_cusp_q24_n256.json"
+   },
+   {
+    "delta_ext": "1.13",
+    "momentum_external": "0.751664818918645413543946528155",
+    "continuum_nu0": "1.08068616423077780719916226647",
+    "continuum_nu1": "0.460698296157787140680096578561",
+    "identity_measure": "16.7049398460094203405673790525",
+    "p_cutoff": "4.0",
+    "q_order": 24,
+    "quadrature_order": 128,
+    "chiral_norm": "16.0",
+    "normalization": "Runkel-Watts delta(x-y) fields; c_RW=C_an/2 on support; x=2P Jacobian cancels repository diagonal-block factor 2",
+    "crossing_residual": null,
+    "promotion_status": "production",
+    "positivity": true,
+    "imaginary_residual": "0.0",
+    "convergence": {},
+    "ratio_include": "0.426301651123393285553767473499",
+    "ratio_exclude": "0.426301651123393285553767473499",
+    "identity_subtracted_drawable": true,
+    "canonical_delta_normalized_denominator_positive": false,
+    "ratio_exclude_prescription": "large_continuum_scale_limit: (A*M1)/(A*M0-M_identity) -> M1/M0 as A->infinity",
+    "minimum_spectral_weight": "1.00893007515278944600430976068e-41",
+    "support_intervals": [
+     [
+      "0.0",
+      "0.49667036216270917291210694369"
+     ],
+     [
+      "0.50332963783729082708789305631",
+      "1.0"
+     ],
+     [
+      "1.0",
+      "1.49667036216270917291210694369"
+     ],
+     [
+      "1.50332963783729082708789305631",
+      "2.0"
+     ],
+     [
+      "2.0",
+      "2.49667036216270917291210694369"
+     ],
+     [
+      "2.50332963783729082708789305631",
+      "3.0"
+     ],
+     [
+      "3.0",
+      "3.49667036216270917291210694369"
+     ],
+     [
+      "3.50332963783729082708789305631",
+      "4.0"
+     ]
+    ],
+    "unit_scale_identity_subtracted_denominator": "-15.624253681778642533368216786",
+    "identity_subtracted_denominator": null,
+    "identity_subtracted_denominator_status": "not_scale_invariant_for_delta_normalized_RW_fields",
+    "production_source": "runkel_watts_validation_cusp_shoulders_q24_n128.json"
+   },
+   {
+    "delta_ext": "1.14",
+    "momentum_external": "0.754983443527074969723668480695",
+    "continuum_nu0": "1.10439111334499424592129440524",
+    "continuum_nu1": "0.47788716584553397870570572514",
+    "identity_measure": "17.0903345830564115044441564189",
+    "p_cutoff": "4.0",
+    "q_order": 24,
+    "quadrature_order": 128,
+    "chiral_norm": "16.0",
+    "normalization": "Runkel-Watts delta(x-y) fields; c_RW=C_an/2 on support; x=2P Jacobian cancels repository diagonal-block factor 2",
+    "crossing_residual": null,
+    "promotion_status": "production",
+    "positivity": true,
+    "imaginary_residual": "0.0",
+    "convergence": {},
+    "ratio_include": "0.43271551180641347392986957371",
+    "ratio_exclude": "0.43271551180641347392986957371",
+    "identity_subtracted_drawable": true,
+    "canonical_delta_normalized_denominator_positive": false,
+    "ratio_exclude_prescription": "large_continuum_scale_limit: (A*M1)/(A*M0-M_identity) -> M1/M0 as A->infinity",
+    "minimum_spectral_weight": "2.50737341357783939329563927946e-46",
+    "support_intervals": [
+     [
+      "0.0",
+      "0.490033112945850060552663038611"
+     ],
+     [
+      "0.509966887054149939447336961389",
+      "1.0"
+     ],
+     [
+      "1.0",
+      "1.49003311294585006055266303861"
+     ],
+     [
+      "1.50996688705414993944733696139",
+      "2.0"
+     ],
+     [
+      "2.0",
+      "2.49003311294585006055266303861"
+     ],
+     [
+      "2.50996688705414993944733696139",
+      "3.0"
+     ],
+     [
+      "3.0",
+      "3.49003311294585006055266303861"
+     ],
+     [
+      "3.50996688705414993944733696139",
+      "4.0"
+     ]
+    ],
+    "unit_scale_identity_subtracted_denominator": "-15.9859434697114172585228620136",
+    "identity_subtracted_denominator": null,
+    "identity_subtracted_denominator_status": "not_scale_invariant_for_delta_normalized_RW_fields",
+    "production_source": "runkel_watts_validation_cusp_shoulders_q24_n128.json"
+   },
+   {
+    "delta_ext": "1.15",
+    "momentum_external": "0.758287544405155055425682543628",
+    "continuum_nu0": "1.12809770139446438798009542681",
+    "continuum_nu1": "0.495556161805582577058752032942",
+    "identity_measure": "17.4854895632367138052831173543",
+    "p_cutoff": "4.5",
+    "q_order": 16,
+    "quadrature_order": 24,
+    "chiral_norm": "16.0",
+    "normalization": "Runkel-Watts delta(x-y) fields; c_RW=C_an/2 on support; x=2P Jacobian cancels repository diagonal-block factor 2",
+    "crossing_residual": null,
+    "promotion_status": "production",
+    "positivity": true,
+    "imaginary_residual": "0.0",
+    "convergence": {},
+    "ratio_include": "0.439284789954820031354943057254",
+    "ratio_exclude": "0.439284789954820031354943057254",
+    "identity_subtracted_drawable": true,
+    "minimum_spectral_weight": "2.08796272171864363076273522928e-54",
+    "support_intervals": [
+     [
+      "0.0",
+      "0.483424911189689889148634912744"
+     ],
+     [
+      "0.516575088810310110851365087256",
+      "1.0"
+     ],
+     [
+      "1.0",
+      "1.48342491118968988914863491274"
+     ],
+     [
+      "1.51657508881031011085136508726",
+      "2.0"
+     ],
+     [
+      "2.0",
+      "2.48342491118968988914863491274"
+     ],
+     [
+      "2.51657508881031011085136508726",
+      "3.0"
+     ],
+     [
+      "3.0",
+      "3.48342491118968988914863491274"
+     ],
+     [
+      "3.51657508881031011085136508726",
+      "4.0"
+     ],
+     [
+      "4.0",
+      "4.48342491118968988914863491274"
+     ]
+    ],
+    "unit_scale_identity_subtracted_denominator": "-16.3573918618422494173030219275",
+    "identity_subtracted_denominator": null,
+    "identity_subtracted_denominator_status": "not_scale_invariant_for_delta_normalized_RW_fields",
+    "ratio_exclude_prescription": "large_continuum_scale_limit: (A*M1)/(A*M0-M_identity) -> M1/M0 as A->infinity",
+    "production_source": "runkel_watts_dense_part2.json"
+   },
+   {
+    "delta_ext": "1.175",
+    "momentum_external": "0.766485485837794582827684099579",
+    "continuum_nu0": "1.18741428008189719080166524224",
+    "continuum_nu1": "0.541842305601566503518713914782",
+    "identity_measure": "18.5177706458594576949048540425",
+    "p_cutoff": "4.5",
+    "q_order": 16,
+    "quadrature_order": 24,
+    "chiral_norm": "16.0",
+    "normalization": "Runkel-Watts delta(x-y) fields; c_RW=C_an/2 on support; x=2P Jacobian cancels repository diagonal-block factor 2",
+    "crossing_residual": null,
+    "promotion_status": "production",
+    "positivity": true,
+    "imaginary_residual": "0.0",
+    "convergence": {},
+    "ratio_include": "0.456321196982905645519574365789",
+    "ratio_exclude": "0.456321196982905645519574365789",
+    "identity_subtracted_drawable": true,
+    "minimum_spectral_weight": "2.02674529737980966247071392576e-57",
+    "support_intervals": [
+     [
+      "0.0",
+      "0.467029028324410834344631800843"
+     ],
+     [
+      "0.532970971675589165655368199157",
+      "1.0"
+     ],
+     [
+      "1.0",
+      "1.46702902832441083434463180084"
+     ],
+     [
+      "1.53297097167558916565536819916",
+      "2.0"
+     ],
+     [
+      "2.0",
+      "2.46702902832441083434463180084"
+     ],
+     [
+      "2.53297097167558916565536819916",
+      "3.0"
+     ],
+     [
+      "3.0",
+      "3.46702902832441083434463180084"
+     ],
+     [
+      "3.53297097167558916565536819916",
+      "4.0"
+     ],
+     [
+      "4.0",
+      "4.46702902832441083434463180084"
+     ]
+    ],
+    "unit_scale_identity_subtracted_denominator": "-17.3303563657775605041031888003",
+    "identity_subtracted_denominator": null,
+    "identity_subtracted_denominator_status": "not_scale_invariant_for_delta_normalized_RW_fields",
+    "ratio_exclude_prescription": "large_continuum_scale_limit: (A*M1)/(A*M0-M_identity) -> M1/M0 as A->infinity",
+    "production_source": "runkel_watts_dense_part2.json"
+   },
+   {
+    "delta_ext": "1.2",
+    "momentum_external": "0.774596669241483377035853079956",
+    "continuum_nu0": "1.24682752535085787498478474899",
+    "continuum_nu1": "0.591131300719586061134615453822",
+    "identity_measure": "19.6168467223478923928751597363",
+    "p_cutoff": "4.5",
+    "q_order": 16,
+    "quadrature_order": 24,
+    "chiral_norm": "16.0",
+    "normalization": "Runkel-Watts delta(x-y) fields; c_RW=C_an/2 on support; x=2P Jacobian cancels repository diagonal-block factor 2",
+    "crossing_residual": null,
+    "promotion_status": "production",
+    "positivity": true,
+    "imaginary_residual": "0.0",
+    "convergence": {},
+    "ratio_include": "0.474108317871183846549843405766",
+    "ratio_exclude": "0.474108317871183846549843405766",
+    "identity_subtracted_drawable": true,
+    "minimum_spectral_weight": "4.36916681809358080352729966985e-59",
+    "support_intervals": [
+     [
+      "0.0",
+      "0.450806661517033245928293840087"
+     ],
+     [
+      "0.549193338482966754071706159913",
+      "1.0"
+     ],
+     [
+      "1.0",
+      "1.45080666151703324592829384009"
+     ],
+     [
+      "1.54919333848296675407170615991",
+      "2.0"
+     ],
+     [
+      "2.0",
+      "2.45080666151703324592829384009"
+     ],
+     [
+      "2.54919333848296675407170615991",
+      "3.0"
+     ],
+     [
+      "3.0",
+      "3.45080666151703324592829384009"
+     ],
+     [
+      "3.54919333848296675407170615991",
+      "4.0"
+     ],
+     [
+      "4.0",
+      "4.45080666151703324592829384009"
+     ]
+    ],
+    "unit_scale_identity_subtracted_denominator": "-18.3700191969970345178903749874",
+    "identity_subtracted_denominator": null,
+    "identity_subtracted_denominator_status": "not_scale_invariant_for_delta_normalized_RW_fields",
+    "ratio_exclude_prescription": "large_continuum_scale_limit: (A*M1)/(A*M0-M_identity) -> M1/M0 as A->infinity",
+    "production_source": "runkel_watts_dense_part2.json"
+   },
+   {
+    "delta_ext": "1.225",
+    "momentum_external": "0.782623792124926393743210784056",
+    "continuum_nu0": "1.30630391254145442649699283566",
+    "continuum_nu1": "0.643361816737142985230533962331",
+    "identity_measure": "20.7871790528889469860503877526",
+    "p_cutoff": "4.5",
+    "q_order": 16,
+    "quadrature_order": 24,
+    "chiral_norm": "16.0",
+    "normalization": "Runkel-Watts delta(x-y) fields; c_RW=C_an/2 on support; x=2P Jacobian cancels repository diagonal-block factor 2",
+    "crossing_residual": null,
+    "promotion_status": "production",
+    "positivity": true,
+    "imaginary_residual": "0.0",
+    "convergence": {},
+    "ratio_include": "0.492505465658035724213637529882",
+    "ratio_exclude": "0.492505465658035724213637529882",
+    "identity_subtracted_drawable": true,
+    "minimum_spectral_weight": "3.49801412896775086821586796487e-60",
+    "support_intervals": [
+     [
+      "0.0",
+      "0.434752415750147212513578431888"
+     ],
+     [
+      "0.565247584249852787486421568112",
+      "1.0"
+     ],
+     [
+      "1.0",
+      "1.43475241575014721251357843189"
+     ],
+     [
+      "1.56524758424985278748642156811",
+      "2.0"
+     ],
+     [
+      "2.0",
+      "2.43475241575014721251357843189"
+     ],
+     [
+      "2.56524758424985278748642156811",
+      "3.0"
+     ],
+     [
+      "3.0",
+      "3.43475241575014721251357843189"
+     ],
+     [
+      "3.56524758424985278748642156811",
+      "4.0"
+     ],
+     [
+      "4.0",
+      "4.43475241575014721251357843189"
+     ]
+    ],
+    "unit_scale_identity_subtracted_denominator": "-19.480875140347492559553394917",
+    "identity_subtracted_denominator": null,
+    "identity_subtracted_denominator_status": "not_scale_invariant_for_delta_normalized_RW_fields",
+    "ratio_exclude_prescription": "large_continuum_scale_limit: (A*M1)/(A*M0-M_identity) -> M1/M0 as A->infinity",
+    "production_source": "runkel_watts_dense_part2.json"
+   },
+   {
+    "delta_ext": "1.25",
+    "momentum_external": "0.790569415042094832999723386108",
+    "continuum_nu0": "1.36574171423376314335645473461",
+    "continuum_nu1": "0.698423183525790739386905563432",
+    "identity_measure": "22.0335303577738335984785435364",
+    "p_cutoff": "4.5",
+    "q_order": 16,
+    "quadrature_order": 24,
+    "chiral_norm": "16.0",
+    "normalization": "Runkel-Watts delta(x-y) fields; c_RW=C_an/2 on support; x=2P Jacobian cancels repository diagonal-block factor 2",
+    "crossing_residual": null,
+    "promotion_status": "production",
+    "positivity": true,
+    "imaginary_residual": "0.0",
+    "convergence": {},
+    "ratio_include": "0.511387457999431948032226083431",
+    "ratio_exclude": "0.511387457999431948032226083431",
+    "identity_subtracted_drawable": true,
+    "minimum_spectral_weight": "5.78079943681575090445827709188e-61",
+    "support_intervals": [
+     [
+      "0.0",
+      "0.418861169915810334000553227784"
+     ],
+     [
+      "0.581138830084189665999446772216",
+      "1.0"
+     ],
+     [
+      "1.0",
+      "1.41886116991581033400055322778"
+     ],
+     [
+      "1.58113883008418966599944677222",
+      "2.0"
+     ],
+     [
+      "2.0",
+      "2.41886116991581033400055322778"
+     ],
+     [
+      "2.58113883008418966599944677222",
+      "3.0"
+     ],
+     [
+      "3.0",
+      "3.41886116991581033400055322778"
+     ],
+     [
+      "3.58113883008418966599944677222",
+      "4.0"
+     ],
+     [
+      "4.0",
+      "4.41886116991581033400055322778"
+     ]
+    ],
+    "unit_scale_identity_subtracted_denominator": "-20.6677886435400704551220888018",
+    "identity_subtracted_denominator": null,
+    "identity_subtracted_denominator_status": "not_scale_invariant_for_delta_normalized_RW_fields",
+    "ratio_exclude_prescription": "large_continuum_scale_limit: (A*M1)/(A*M0-M_identity) -> M1/M0 as A->infinity",
+    "production_source": "runkel_watts_dense_part2.json"
+   },
+   {
+    "delta_ext": "1.275",
+    "momentum_external": "0.798435971133565599953512258849",
+    "continuum_nu0": "1.42497948187905388537266491881",
+    "continuum_nu1": "0.756157059489057123969377009502",
+    "identity_measure": "23.3609852075407103352017186069",
+    "p_cutoff": "4.5",
+    "q_order": 16,
+    "quadrature_order": 24,
+    "chiral_norm": "16.0",
+    "normalization": "Runkel-Watts delta(x-y) fields; c_RW=C_an/2 on support; x=2P Jacobian cancels repository diagonal-block factor 2",
+    "crossing_residual": null,
+    "promotion_status": "production",
+    "positivity": true,
+    "imaginary_residual": "0.0",
+    "convergence": {},
+    "ratio_include": "0.530644173551150454396522982979",
+    "ratio_exclude": "0.530644173551150454396522982979",
+    "identity_subtracted_drawable": true,
+    "minimum_spectral_weight": "1.50946552191089019302398853146e-61",
+    "support_intervals": [
+     [
+      "0.0",
+      "0.403128057732868800092975482302"
+     ],
+     [
+      "0.596871942267131199907024517698",
+      "1.0"
+     ],
+     [
+      "1.0",
+      "1.4031280577328688000929754823"
+     ],
+     [
+      "1.5968719422671311999070245177",
+      "2.0"
+     ],
+     [
+      "2.0",
+      "2.4031280577328688000929754823"
+     ],
+     [
+      "2.5968719422671311999070245177",
+      "3.0"
+     ],
+     [
+      "3.0",
+      "3.4031280577328688000929754823"
+     ],
+     [
+      "3.5968719422671311999070245177",
+      "4.0"
+     ],
+     [
+      "4.0",
+      "4.4031280577328688000929754823"
+     ]
+    ],
+    "unit_scale_identity_subtracted_denominator": "-21.9360057256616564498290536881",
+    "identity_subtracted_denominator": null,
+    "identity_subtracted_denominator_status": "not_scale_invariant_for_delta_normalized_RW_fields",
+    "ratio_exclude_prescription": "large_continuum_scale_limit: (A*M1)/(A*M0-M_identity) -> M1/M0 as A->infinity",
+    "production_source": "runkel_watts_dense_part2.json"
+   },
+   {
+    "delta_ext": "1.3",
+    "momentum_external": "0.80622577482985496523666132303",
+    "continuum_nu0": "1.48380097186961453225413858701",
+    "continuum_nu1": "0.816356584850136962173763403461",
+    "identity_measure": "24.7749717875317691329397565773",
+    "p_cutoff": "4.5",
+    "q_order": 16,
+    "quadrature_order": 24,
+    "chiral_norm": "16.0",
+    "normalization": "Runkel-Watts delta(x-y) fields; c_RW=C_an/2 on support; x=2P Jacobian cancels repository diagonal-block factor 2",
+    "crossing_residual": null,
+    "promotion_status": "production",
+    "positivity": true,
+    "imaginary_residual": "0.0",
+    "convergence": {},
+    "ratio_include": "0.550179303240052297236808757027",
+    "ratio_exclude": "0.550179303240052297236808757027",
+    "identity_subtracted_drawable": true,
+    "minimum_spectral_weight": "5.3899250374165547405183198558e-62",
+    "support_intervals": [
+     [
+      "0.0",
+      "0.387548450340290069526677353939"
+     ],
+     [
+      "0.612451549659709930473322646061",
+      "1.0"
+     ],
+     [
+      "1.0",
+      "1.38754845034029006952667735394"
+     ],
+     [
+      "1.61245154965970993047332264606",
+      "2.0"
+     ],
+     [
+      "2.0",
+      "2.38754845034029006952667735394"
+     ],
+     [
+      "2.61245154965970993047332264606",
+      "3.0"
+     ],
+     [
+      "3.0",
+      "3.38754845034029006952667735394"
+     ],
+     [
+      "3.61245154965970993047332264606",
+      "4.0"
+     ],
+     [
+      "4.0",
+      "4.38754845034029006952667735394"
+     ]
+    ],
+    "unit_scale_identity_subtracted_denominator": "-23.2911708156621546006856179903",
+    "identity_subtracted_denominator": null,
+    "identity_subtracted_denominator_status": "not_scale_invariant_for_delta_normalized_RW_fields",
+    "ratio_exclude_prescription": "large_continuum_scale_limit: (A*M1)/(A*M0-M_identity) -> M1/M0 as A->infinity",
+    "production_source": "runkel_watts_dense_part2.json"
+   },
+   {
+    "delta_ext": "1.325",
+    "momentum_external": "0.813941029804985319367650795499",
+    "continuum_nu0": "1.54193769379208131618012147844",
+    "continuum_nu1": "0.878764002064837353163954625749",
+    "identity_measure": "26.2812851291717875755135405596",
+    "p_cutoff": "4.5",
+    "q_order": 16,
+    "quadrature_order": 24,
+    "chiral_norm": "16.0",
+    "normalization": "Runkel-Watts delta(x-y) fields; c_RW=C_an/2 on support; x=2P Jacobian cancels repository diagonal-block factor 2",
+    "crossing_residual": null,
+    "promotion_status": "production",
+    "positivity": true,
+    "imaginary_residual": "0.0",
+    "convergence": {},
+    "ratio_include": "0.569908891651579314600630517579",
+    "ratio_exclude": "0.569908891651579314600630517579",
+    "identity_subtracted_drawable": true,
+    "minimum_spectral_weight": "2.41230539538231506039343983057e-62",
+    "support_intervals": [
+     [
+      "0.0",
+      "0.372117940390029361264698409002"
+     ],
+     [
+      "0.627882059609970638735301590998",
+      "1.0"
+     ],
+     [
+      "1.0",
+      "1.372117940390029361264698409"
+     ],
+     [
+      "1.627882059609970638735301591",
+      "2.0"
+     ],
+     [
+      "2.0",
+      "2.372117940390029361264698409"
+     ],
+     [
+      "2.627882059609970638735301591",
+      "3.0"
+     ],
+     [
+      "3.0",
+      "3.372117940390029361264698409"
+     ],
+     [
+      "3.627882059609970638735301591",
+      "4.0"
+     ],
+     [
+      "4.0",
+      "4.372117940390029361264698409"
+     ]
+    ],
+    "unit_scale_identity_subtracted_denominator": "-24.7393474353797062593334190812",
+    "identity_subtracted_denominator": null,
+    "identity_subtracted_denominator_status": "not_scale_invariant_for_delta_normalized_RW_fields",
+    "ratio_exclude_prescription": "large_continuum_scale_limit: (A*M1)/(A*M0-M_identity) -> M1/M0 as A->infinity",
+    "production_source": "runkel_watts_dense_part2.json"
+   },
+   {
+    "delta_ext": "1.35",
+    "momentum_external": "0.821583836257749170185454674201",
+    "continuum_nu0": "1.59906971528728702859626383045",
+    "continuum_nu1": "0.94306710276858581274244808216",
+    "identity_measure": "27.886111906464271996544571752",
+    "p_cutoff": "4.5",
+    "q_order": 16,
+    "quadrature_order": 24,
+    "chiral_norm": "16.0",
+    "normalization": "Runkel-Watts delta(x-y) fields; c_RW=C_an/2 on support; x=2P Jacobian cancels repository diagonal-block factor 2",
+    "crossing_residual": null,
+    "promotion_status": "production",
+    "positivity": true,
+    "imaginary_residual": "0.0",
+    "convergence": {},
+    "ratio_include": "0.589759842083655158289851672835",
+    "ratio_exclude": "0.589759842083655158289851672835",
+    "identity_subtracted_drawable": true,
+    "minimum_spectral_weight": "1.27861052176662340106326676308e-62",
+    "support_intervals": [
+     [
+      "0.0",
+      "0.356832327484501659629090651598"
+     ],
+     [
+      "0.643167672515498340370909348402",
+      "1.0"
+     ],
+     [
+      "1.0",
+      "1.3568323274845016596290906516"
+     ],
+     [
+      "1.6431676725154983403709093484",
+      "2.0"
+     ],
+     [
+      "2.0",
+      "2.3568323274845016596290906516"
+     ],
+     [
+      "2.6431676725154983403709093484",
+      "3.0"
+     ],
+     [
+      "3.0",
+      "3.3568323274845016596290906516"
+     ],
+     [
+      "3.6431676725154983403709093484",
+      "4.0"
+     ],
+     [
+      "4.0",
+      "4.3568323274845016596290906516"
+     ]
+    ],
+    "unit_scale_identity_subtracted_denominator": "-26.2870421911769849679483079216",
+    "identity_subtracted_denominator": null,
+    "identity_subtracted_denominator_status": "not_scale_invariant_for_delta_normalized_RW_fields",
+    "ratio_exclude_prescription": "large_continuum_scale_limit: (A*M1)/(A*M0-M_identity) -> M1/M0 as A->infinity",
+    "production_source": "runkel_watts_dense_part2.json"
+   },
+   {
+    "delta_ext": "1.375",
+    "momentum_external": "0.829156197588849962278733184168",
+    "continuum_nu0": "1.6548251552820036155156721113",
+    "continuum_nu1": "1.00889473972714996226762480785",
+    "identity_measure": "29.5960569028057682852931756411",
+    "p_cutoff": "4.5",
+    "q_order": 16,
+    "quadrature_order": 24,
+    "chiral_norm": "16.0",
+    "normalization": "Runkel-Watts delta(x-y) fields; c_RW=C_an/2 on support; x=2P Jacobian cancels repository diagonal-block factor 2",
+    "crossing_residual": null,
+    "promotion_status": "production",
+    "positivity": true,
+    "imaginary_residual": "0.0",
+    "convergence": {},
+    "ratio_include": "0.60966848159570141788888083856",
+    "ratio_exclude": "0.60966848159570141788888083856",
+    "identity_subtracted_drawable": true,
+    "minimum_spectral_weight": "7.71804353242442761195475026568e-63",
+    "support_intervals": [
+     [
+      "0.0",
+      "0.341687604822300075442533631665"
+     ],
+     [
+      "0.658312395177699924557466368335",
+      "1.0"
+     ],
+     [
+      "1.0",
+      "1.34168760482230007544253363166"
+     ],
+     [
+      "1.65831239517769992455746636834",
+      "2.0"
+     ],
+     [
+      "2.0",
+      "2.34168760482230007544253363166"
+     ],
+     [
+      "2.65831239517769992455746636834",
+      "3.0"
+     ],
+     [
+      "3.0",
+      "3.34168760482230007544253363166"
+     ],
+     [
+      "3.65831239517769992455746636834",
+      "4.0"
+     ],
+     [
+      "4.0",
+      "4.34168760482230007544253363166"
+     ]
+    ],
+    "unit_scale_identity_subtracted_denominator": "-27.9412317475237646697775035299",
+    "identity_subtracted_denominator": null,
+    "identity_subtracted_denominator_status": "not_scale_invariant_for_delta_normalized_RW_fields",
+    "ratio_exclude_prescription": "large_continuum_scale_limit: (A*M1)/(A*M0-M_identity) -> M1/M0 as A->infinity",
+    "production_source": "runkel_watts_dense_part2.json"
+   },
+   {
+    "delta_ext": "1.4",
+    "momentum_external": "0.836660026534075547978172025785",
+    "continuum_nu0": "1.708778662165371832856637215",
+    "continuum_nu1": "1.07581156409048702112809751821",
+    "identity_measure": "31.4181712602666931691268672161",
+    "p_cutoff": "4.5",
+    "q_order": 16,
+    "quadrature_order": 24,
+    "chiral_norm": "16.0",
+    "normalization": "Runkel-Watts delta(x-y) fields; c_RW=C_an/2 on support; x=2P Jacobian cancels repository diagonal-block factor 2",
+    "crossing_residual": null,
+    "promotion_status": "production",
+    "positivity": true,
+    "imaginary_residual": "0.0",
+    "convergence": {},
+    "ratio_include": "0.629579235690603648814442888062",
+    "ratio_exclude": "0.629579235690603648814442888062",
+    "identity_subtracted_drawable": true,
+    "minimum_spectral_weight": "5.15778530816796955608568581e-63",
+    "support_intervals": [
+     [
+      "0.0",
+      "0.32667994693184890404365594843"
+     ],
+     [
+      "0.67332005306815109595634405157",
+      "1.0"
+     ],
+     [
+      "1.0",
+      "1.32667994693184890404365594843"
+     ],
+     [
+      "1.67332005306815109595634405157",
+      "2.0"
+     ],
+     [
+      "2.0",
+      "2.32667994693184890404365594843"
+     ],
+     [
+      "2.67332005306815109595634405157",
+      "3.0"
+     ],
+     [
+      "3.0",
+      "3.32667994693184890404365594843"
+     ],
+     [
+      "3.67332005306815109595634405157",
+      "4.0"
+     ],
+     [
+      "4.0",
+      "4.32667994693184890404365594843"
+     ]
+    ],
+    "unit_scale_identity_subtracted_denominator": "-29.7093925981013213362702300011",
+    "identity_subtracted_denominator": null,
+    "identity_subtracted_denominator_status": "not_scale_invariant_for_delta_normalized_RW_fields",
+    "ratio_exclude_prescription": "large_continuum_scale_limit: (A*M1)/(A*M0-M_identity) -> M1/M0 as A->infinity",
+    "production_source": "runkel_watts_dense_part2.json"
+   },
+   {
+    "delta_ext": "1.425",
+    "momentum_external": "0.844097150806706609155844470476",
+    "continuum_nu0": "1.76044908175840832209095188166",
+    "continuum_nu1": "1.14331209701960015891908122297",
+    "identity_measure": "33.3599826310080009661012133848",
+    "p_cutoff": "4.5",
+    "q_order": 16,
+    "quadrature_order": 24,
+    "chiral_norm": "16.0",
+    "normalization": "Runkel-Watts delta(x-y) fields; c_RW=C_an/2 on support; x=2P Jacobian cancels repository diagonal-block factor 2",
+    "crossing_residual": null,
+    "promotion_status": "production",
+    "positivity": true,
+    "imaginary_residual": "0.0",
+    "convergence": {},
+    "ratio_include": "0.649443433988794166012378957509",
+    "ratio_exclude": "0.649443433988794166012378957509",
+    "identity_subtracted_drawable": true,
+    "minimum_spectral_weight": "3.73584268986425113578386838082e-63",
+    "support_intervals": [
+     [
+      "0.0",
+      "0.311805698386586781688311059048"
+     ],
+     [
+      "0.688194301613413218311688940952",
+      "1.0"
+     ],
+     [
+      "1.0",
+      "1.31180569838658678168831105905"
+     ],
+     [
+      "1.68819430161341321831168894095",
+      "2.0"
+     ],
+     [
+      "2.0",
+      "2.31180569838658678168831105905"
+     ],
+     [
+      "2.68819430161341321831168894095",
+      "3.0"
+     ],
+     [
+      "3.0",
+      "3.31180569838658678168831105905"
+     ],
+     [
+      "3.68819430161341321831168894095",
+      "4.0"
+     ],
+     [
+      "4.0",
+      "4.31180569838658678168831105905"
+     ]
+    ],
+    "unit_scale_identity_subtracted_denominator": "-31.5995335492495926440102615031",
+    "identity_subtracted_denominator": null,
+    "identity_subtracted_denominator_status": "not_scale_invariant_for_delta_normalized_RW_fields",
+    "ratio_exclude_prescription": "large_continuum_scale_limit: (A*M1)/(A*M0-M_identity) -> M1/M0 as A->infinity",
+    "production_source": "runkel_watts_dense_part2.json"
+   },
+   {
+    "delta_ext": "1.45",
+    "momentum_external": "0.851469318296320058306666091194",
+    "continuum_nu0": "1.80929645706159464209451278442",
+    "continuum_nu1": "1.21081421147111344103958771457",
+    "identity_measure": "35.4295273585290283947738514769",
+    "p_cutoff": "4.5",
+    "q_order": 16,
+    "quadrature_order": 24,
+    "chiral_norm": "16.0",
+    "normalization": "Runkel-Watts delta(x-y) fields; c_RW=C_an/2 on support; x=2P Jacobian cancels repository diagonal-block factor 2",
+    "crossing_residual": null,
+    "promotion_status": "production",
+    "positivity": true,
+    "imaginary_residual": "0.0",
+    "convergence": {},
+    "ratio_include": "0.669218251517248829915918602684",
+    "ratio_exclude": "0.669218251517248829915918602684",
+    "identity_subtracted_drawable": true,
+    "minimum_spectral_weight": "2.88483532793272782362973572358e-63",
+    "support_intervals": [
+     [
+      "0.0",
+      "0.297061363407359883386667817612"
+     ],
+     [
+      "0.702938636592640116613332182388",
+      "1.0"
+     ],
+     [
+      "1.0",
+      "1.29706136340735988338666781761"
+     ],
+     [
+      "1.70293863659264011661333218239",
+      "2.0"
+     ],
+     [
+      "2.0",
+      "2.29706136340735988338666781761"
+     ],
+     [
+      "2.70293863659264011661333218239",
+      "3.0"
+     ],
+     [
+      "3.0",
+      "3.29706136340735988338666781761"
+     ],
+     [
+      "3.70293863659264011661333218239",
+      "4.0"
+     ],
+     [
+      "4.0",
+      "4.29706136340735988338666781761"
+     ]
+    ],
+    "unit_scale_identity_subtracted_denominator": "-33.6202309014674337526793386925",
+    "identity_subtracted_denominator": null,
+    "identity_subtracted_denominator_status": "not_scale_invariant_for_delta_normalized_RW_fields",
+    "ratio_exclude_prescription": "large_continuum_scale_limit: (A*M1)/(A*M0-M_identity) -> M1/M0 as A->infinity",
+    "production_source": "runkel_watts_dense_part2.json"
+   },
+   {
+    "delta_ext": "1.475",
+    "momentum_external": "0.858778201865883412340042569522",
+    "continuum_nu0": "1.85471845830686213122051892083",
+    "continuum_nu1": "1.27765207883137210207065510389",
+    "identity_measure": "37.6353848250069909833569724478",
+    "p_cutoff": "4.5",
+    "q_order": 16,
+    "quadrature_order": 24,
+    "chiral_norm": "16.0",
+    "normalization": "Runkel-Watts delta(x-y) fields; c_RW=C_an/2 on support; x=2P Jacobian cancels repository diagonal-block factor 2",
+    "crossing_residual": null,
+    "promotion_status": "production",
+    "positivity": true,
+    "imaginary_residual": "0.0",
+    "convergence": {},
+    "ratio_include": "0.68886578073834281131007137302",
+    "ratio_exclude": "0.68886578073834281131007137302",
+    "identity_subtracted_drawable": true,
+    "minimum_spectral_weight": "2.34377639432100248040125116938e-63",
+    "support_intervals": [
+     [
+      "0.0",
+      "0.282443596268233175319914860957"
+     ],
+     [
+      "0.717556403731766824680085139043",
+      "1.0"
+     ],
+     [
+      "1.0",
+      "1.28244359626823317531991486096"
+     ],
+     [
+      "1.71755640373176682468008513904",
+      "2.0"
+     ],
+     [
+      "2.0",
+      "2.28244359626823317531991486096"
+     ],
+     [
+      "2.71755640373176682468008513904",
+      "3.0"
+     ],
+     [
+      "3.0",
+      "3.28244359626823317531991486096"
+     ],
+     [
+      "3.71755640373176682468008513904",
+      "4.0"
+     ],
+     [
+      "4.0",
+      "4.28244359626823317531991486096"
+     ]
+    ],
+    "unit_scale_identity_subtracted_denominator": "-35.780666366700128852136453527",
+    "identity_subtracted_denominator": null,
+    "identity_subtracted_denominator_status": "not_scale_invariant_for_delta_normalized_RW_fields",
+    "ratio_exclude_prescription": "large_continuum_scale_limit: (A*M1)/(A*M0-M_identity) -> M1/M0 as A->infinity",
+    "production_source": "runkel_watts_dense_part2.json"
+   },
+   {
+    "delta_ext": "1.5",
+    "momentum_external": "0.866025403784438646763723170753",
+    "continuum_nu0": "1.89604631158649681694130001396",
+    "continuum_nu1": "1.34306862247864625268853489023",
+    "identity_measure": "39.9867141101291824932516722327",
+    "p_cutoff": "4.0",
+    "q_order": 24,
+    "quadrature_order": 64,
+    "chiral_norm": "16.0",
+    "normalization": "Runkel-Watts delta(x-y) fields; c_RW=C_an/2 on support; x=2P Jacobian cancels repository diagonal-block factor 2",
+    "crossing_residual": null,
+    "promotion_status": "production",
+    "positivity": true,
+    "imaginary_residual": "0.0",
+    "convergence": {},
+    "ratio_include": "0.708352224453234849163672854789",
+    "ratio_exclude": "0.708352224453234849163672854789",
+    "identity_subtracted_drawable": true,
+    "minimum_spectral_weight": "2.62839176672187818502205737673e-50",
+    "support_intervals": [
+     [
+      "0.0",
+      "0.267949192431122706472553658494"
+     ],
+     [
+      "0.732050807568877293527446341506",
+      "1.0"
+     ],
+     [
+      "1.0",
+      "1.26794919243112270647255365849"
+     ],
+     [
+      "1.73205080756887729352744634151",
+      "2.0"
+     ],
+     [
+      "2.0",
+      "2.26794919243112270647255365849"
+     ],
+     [
+      "2.73205080756887729352744634151",
+      "3.0"
+     ],
+     [
+      "3.0",
+      "3.26794919243112270647255365849"
+     ],
+     [
+      "3.73205080756887729352744634151",
+      "4.0"
+     ]
+    ],
+    "unit_scale_identity_subtracted_denominator": "-38.0906677985426856763103722187",
+    "identity_subtracted_denominator": null,
+    "identity_subtracted_denominator_status": "not_scale_invariant_for_delta_normalized_RW_fields",
+    "ratio_exclude_prescription": "large_continuum_scale_limit: (A*M1)/(A*M0-M_identity) -> M1/M0 as A->infinity",
+    "production_source": "runkel_watts_validation_cusp_q24_n64.json"
+   },
+   {
+    "delta_ext": "1.525",
+    "momentum_external": "0.873212459828649032316052181547",
+    "continuum_nu0": "1.93254027317294318569077282602",
+    "continuum_nu1": "1.40620751381056047607285779427",
+    "identity_measure": "42.493293116573758413106888117",
+    "p_cutoff": "4.5",
+    "q_order": 16,
+    "quadrature_order": 24,
+    "chiral_norm": "16.0",
+    "normalization": "Runkel-Watts delta(x-y) fields; c_RW=C_an/2 on support; x=2P Jacobian cancels repository diagonal-block factor 2",
+    "crossing_residual": null,
+    "promotion_status": "production",
+    "positivity": true,
+    "imaginary_residual": "0.0",
+    "convergence": {},
+    "ratio_include": "0.727647197489849595325872046722",
+    "ratio_exclude": "0.727647197489849595325872046722",
+    "identity_subtracted_drawable": true,
+    "minimum_spectral_weight": "1.72735425484676991007786398124e-63",
+    "support_intervals": [
+     [
+      "0.0",
+      "0.253575080342701935367895636906"
+     ],
+     [
+      "0.746424919657298064632104363094",
+      "1.0"
+     ],
+     [
+      "1.0",
+      "1.25357508034270193536789563691"
+     ],
+     [
+      "1.74642491965729806463210436309",
+      "2.0"
+     ],
+     [
+      "2.0",
+      "2.25357508034270193536789563691"
+     ],
+     [
+      "2.74642491965729806463210436309",
+      "3.0"
+     ],
+     [
+      "3.0",
+      "3.25357508034270193536789563691"
+     ],
+     [
+      "3.74642491965729806463210436309",
+      "4.0"
+     ],
+     [
+      "4.0",
+      "4.25357508034270193536789563691"
+     ]
+    ],
+    "unit_scale_identity_subtracted_denominator": "-40.560752843400815227416115291",
+    "identity_subtracted_denominator": null,
+    "identity_subtracted_denominator_status": "not_scale_invariant_for_delta_normalized_RW_fields",
+    "ratio_exclude_prescription": "large_continuum_scale_limit: (A*M1)/(A*M0-M_identity) -> M1/M0 as A->infinity",
+    "production_source": "runkel_watts_dense_part2.json"
+   },
+   {
+    "delta_ext": "1.55",
+    "momentum_external": "0.880340843082950457288461408825",
+    "continuum_nu0": "1.96338468182838141657621664646",
+    "continuum_nu1": "1.4661047442413285890214885097",
+    "identity_measure": "45.1655603277055072294301503245",
+    "p_cutoff": "4.5",
+    "q_order": 16,
+    "quadrature_order": 24,
+    "chiral_norm": "16.0",
+    "normalization": "Runkel-Watts delta(x-y) fields; c_RW=C_an/2 on support; x=2P Jacobian cancels repository diagonal-block factor 2",
+    "crossing_residual": null,
+    "promotion_status": "production",
+    "positivity": true,
+    "imaginary_residual": "0.0",
+    "convergence": {},
+    "ratio_include": "0.74672312451578969477804539993",
+    "ratio_exclude": "0.74672312451578969477804539993",
+    "identity_subtracted_drawable": true,
+    "minimum_spectral_weight": "1.53962723629174009259040568387e-63",
+    "support_intervals": [
+     [
+      "0.0",
+      "0.23931831383409908542307718235"
+     ],
+     [
+      "0.76068168616590091457692281765",
+      "1.0"
+     ],
+     [
+      "1.0",
+      "1.23931831383409908542307718235"
+     ],
+     [
+      "1.76068168616590091457692281765",
+      "2.0"
+     ],
+     [
+      "2.0",
+      "2.23931831383409908542307718235"
+     ],
+     [
+      "2.76068168616590091457692281765",
+      "3.0"
+     ],
+     [
+      "3.0",
+      "3.23931831383409908542307718235"
+     ],
+     [
+      "3.76068168616590091457692281765",
+      "4.0"
+     ],
+     [
+      "4.0",
+      "4.23931831383409908542307718235"
+     ]
+    ],
+    "unit_scale_identity_subtracted_denominator": "-43.202175645877125812853933678",
+    "identity_subtracted_denominator": null,
+    "identity_subtracted_denominator_status": "not_scale_invariant_for_delta_normalized_RW_fields",
+    "ratio_exclude_prescription": "large_continuum_scale_limit: (A*M1)/(A*M0-M_identity) -> M1/M0 as A->infinity",
+    "production_source": "runkel_watts_dense_part2.json"
+   },
+   {
+    "delta_ext": "1.575",
+    "momentum_external": "0.887411967464942406385099243734",
+    "continuum_nu0": "1.98768261107187421864464292013",
+    "continuum_nu1": "1.52167980814096949080162379406",
+    "identity_measure": "48.0146593741634614936289468779",
+    "p_cutoff": "4.5",
+    "q_order": 16,
+    "quadrature_order": 24,
+    "chiral_norm": "16.0",
+    "normalization": "Runkel-Watts delta(x-y) fields; c_RW=C_an/2 on support; x=2P Jacobian cancels repository diagonal-block factor 2",
+    "crossing_residual": null,
+    "promotion_status": "production",
+    "positivity": true,
+    "imaginary_residual": "0.0",
+    "convergence": {},
+    "ratio_include": "0.765554721696936877489209665211",
+    "ratio_exclude": "0.765554721696936877489209665211",
+    "identity_subtracted_drawable": true,
+    "minimum_spectral_weight": "1.39268859427670214770854844472e-63",
+    "support_intervals": [
+     [
+      "0.0",
+      "0.225176065070115187229801512532"
+     ],
+     [
+      "0.774823934929884812770198487468",
+      "1.0"
+     ],
+     [
+      "1.0",
+      "1.22517606507011518722980151253"
+     ],
+     [
+      "1.77482393492988481277019848747",
+      "2.0"
+     ],
+     [
+      "2.0",
+      "2.22517606507011518722980151253"
+     ],
+     [
+      "2.77482393492988481277019848747",
+      "3.0"
+     ],
+     [
+      "3.0",
+      "3.22517606507011518722980151253"
+     ],
+     [
+      "3.77482393492988481277019848747",
+      "4.0"
+     ],
+     [
+      "4.0",
+      "4.22517606507011518722980151253"
+     ]
+    ],
+    "unit_scale_identity_subtracted_denominator": "-46.0269767630915872749843039577",
+    "identity_subtracted_denominator": null,
+    "identity_subtracted_denominator_status": "not_scale_invariant_for_delta_normalized_RW_fields",
+    "ratio_exclude_prescription": "large_continuum_scale_limit: (A*M1)/(A*M0-M_identity) -> M1/M0 as A->infinity",
+    "production_source": "runkel_watts_dense_part2.json"
+   },
+   {
+    "delta_ext": "1.6",
+    "momentum_external": "0.894427190999915878563669467493",
+    "continuum_nu0": "2.00445013625781976875885585603",
+    "continuum_nu1": "1.57172653601447017209955780778",
+    "identity_measure": "51.0524865978748450090669706594",
+    "p_cutoff": "4.5",
+    "q_order": 16,
+    "quadrature_order": 24,
+    "chiral_norm": "16.0",
+    "normalization": "Runkel-Watts delta(x-y) fields; c_RW=C_an/2 on support; x=2P Jacobian cancels repository diagonal-block factor 2",
+    "crossing_residual": null,
+    "promotion_status": "production",
+    "positivity": true,
+    "imaginary_residual": "0.0",
+    "convergence": {},
+    "ratio_include": "0.784118550810539548712453146937",
+    "ratio_exclude": "0.784118550810539548712453146937",
+    "identity_subtracted_drawable": true,
+    "minimum_spectral_weight": "1.26938838787126309685815326609e-63",
+    "support_intervals": [
+     [
+      "0.0",
+      "0.211145618000168242872661065015"
+     ],
+     [
+      "0.788854381999831757127338934985",
+      "1.0"
+     ],
+     [
+      "1.0",
+      "1.21114561800016824287266106501"
+     ],
+     [
+      "1.78885438199983175712733893499",
+      "2.0"
+     ],
+     [
+      "2.0",
+      "2.21114561800016824287266106501"
+     ],
+     [
+      "2.78885438199983175712733893499",
+      "3.0"
+     ],
+     [
+      "3.0",
+      "3.21114561800016824287266106501"
+     ],
+     [
+      "3.78885438199983175712733893499",
+      "4.0"
+     ],
+     [
+      "4.0",
+      "4.21114561800016824287266106501"
+     ]
+    ],
+    "unit_scale_identity_subtracted_denominator": "-49.0480364616170252403081148034",
+    "identity_subtracted_denominator": null,
+    "identity_subtracted_denominator_status": "not_scale_invariant_for_delta_normalized_RW_fields",
+    "ratio_exclude_prescription": "large_continuum_scale_limit: (A*M1)/(A*M0-M_identity) -> M1/M0 as A->infinity",
+    "production_source": "runkel_watts_dense_part2.json"
+   },
+   {
+    "delta_ext": "1.625",
+    "momentum_external": "0.901387818865997323279805316868",
+    "continuum_nu0": "2.01261022655326684776443152183",
+    "continuum_nu1": "1.61490362400703987707382213645",
+    "identity_measure": "54.2917418146851180636740787116",
+    "p_cutoff": "4.5",
+    "q_order": 16,
+    "quadrature_order": 24,
+    "chiral_norm": "16.0",
+    "normalization": "Runkel-Watts delta(x-y) fields; c_RW=C_an/2 on support; x=2P Jacobian cancels repository diagonal-block factor 2",
+    "crossing_residual": null,
+    "promotion_status": "production",
+    "positivity": true,
+    "imaginary_residual": "0.0",
+    "convergence": {},
+    "ratio_include": "0.802392635544078087645051893859",
+    "ratio_exclude": "0.802392635544078087645051893859",
+    "identity_subtracted_drawable": true,
+    "minimum_spectral_weight": "1.1576463251186044402750563463e-63",
+    "support_intervals": [
+     [
+      "0.0",
+      "0.197224362268005353440389366265"
+     ],
+     [
+      "0.802775637731994646559610633735",
+      "1.0"
+     ],
+     [
+      "1.0",
+      "1.19722436226800535344038936626"
+     ],
+     [
+      "1.80277563773199464655961063374",
+      "2.0"
+     ],
+     [
+      "2.0",
+      "2.19722436226800535344038936626"
+     ],
+     [
+      "2.80277563773199464655961063374",
+      "3.0"
+     ],
+     [
+      "3.0",
+      "3.19722436226800535344038936626"
+     ],
+     [
+      "3.80277563773199464655961063374",
+      "4.0"
+     ],
+     [
+      "4.0",
+      "4.19722436226800535344038936626"
+     ]
+    ],
+    "unit_scale_identity_subtracted_denominator": "-52.2791315881318512159096471897",
+    "identity_subtracted_denominator": null,
+    "identity_subtracted_denominator_status": "not_scale_invariant_for_delta_normalized_RW_fields",
+    "ratio_exclude_prescription": "large_continuum_scale_limit: (A*M1)/(A*M0-M_identity) -> M1/M0 as A->infinity",
+    "production_source": "runkel_watts_dense_part2.json"
+   },
+   {
+    "delta_ext": "1.65",
+    "momentum_external": "0.908295106229247499626759842915",
+    "continuum_nu0": "2.01098626888305874445886959696",
+    "continuum_nu1": "1.64972491484151475719919642941",
+    "identity_measure": "57.7459824903006706344563672221",
+    "p_cutoff": "4.5",
+    "q_order": 16,
+    "quadrature_order": 24,
+    "chiral_norm": "16.0",
+    "normalization": "Runkel-Watts delta(x-y) fields; c_RW=C_an/2 on support; x=2P Jacobian cancels repository diagonal-block factor 2",
+    "crossing_residual": null,
+    "promotion_status": "production",
+    "positivity": true,
+    "imaginary_residual": "0.0",
+    "convergence": {},
+    "ratio_include": "0.820356130903770100847937332681",
+    "ratio_exclude": "0.820356130903770100847937332681",
+    "identity_subtracted_drawable": true,
+    "minimum_spectral_weight": "1.04869993103666649118589008256e-63",
+    "support_intervals": [
+     [
+      "0.0",
+      "0.183409787541505000746480314169"
+     ],
+     [
+      "0.816590212458494999253519685831",
+      "1.0"
+     ],
+     [
+      "1.0",
+      "1.18340978754150500074648031417"
+     ],
+     [
+      "1.81659021245849499925351968583",
+      "2.0"
+     ],
+     [
+      "2.0",
+      "2.18340978754150500074648031417"
+     ],
+     [
+      "2.81659021245849499925351968583",
+      "3.0"
+     ],
+     [
+      "3.0",
+      "3.18340978754150500074648031417"
+     ],
+     [
+      "3.81659021245849499925351968583",
+      "4.0"
+     ],
+     [
+      "4.0",
+      "4.18340978754150500074648031417"
+     ]
+    ],
+    "unit_scale_identity_subtracted_denominator": "-55.7349962214176118899974976252",
+    "identity_subtracted_denominator": null,
+    "identity_subtracted_denominator_status": "not_scale_invariant_for_delta_normalized_RW_fields",
+    "ratio_exclude_prescription": "large_continuum_scale_limit: (A*M1)/(A*M0-M_identity) -> M1/M0 as A->infinity",
+    "production_source": "runkel_watts_dense_part2.json"
+   },
+   {
+    "delta_ext": "1.675",
+    "momentum_external": "0.91515026088615633416021045081",
+    "continuum_nu0": "1.99829522922441790192882856571",
+    "continuum_nu1": "1.67454949642700999249064573155",
+    "identity_measure": "61.4296815586565471612361631014",
+    "p_cutoff": "4.5",
+    "q_order": 16,
+    "quadrature_order": 24,
+    "chiral_norm": "16.0",
+    "normalization": "Runkel-Watts delta(x-y) fields; c_RW=C_an/2 on support; x=2P Jacobian cancels repository diagonal-block factor 2",
+    "crossing_residual": null,
+    "promotion_status": "production",
+    "positivity": true,
+    "imaginary_residual": "0.0",
+    "convergence": {},
+    "ratio_include": "0.837989037824475659989037156143",
+    "ratio_exclude": "0.837989037824475659989037156143",
+    "identity_subtracted_drawable": true,
+    "minimum_spectral_weight": "9.36372374868501845496561565315e-64",
+    "support_intervals": [
+     [
+      "0.0",
+      "0.169699478227687331679579098379"
+     ],
+     [
+      "0.830300521772312668320420901621",
+      "1.0"
+     ],
+     [
+      "1.0",
+      "1.16969947822768733167957909838"
+     ],
+     [
+      "1.83030052177231266832042090162",
+      "2.0"
+     ],
+     [
+      "2.0",
+      "2.16969947822768733167957909838"
+     ],
+     [
+      "2.83030052177231266832042090162",
+      "3.0"
+     ],
+     [
+      "3.0",
+      "3.16969947822768733167957909838"
+     ],
+     [
+      "3.83030052177231266832042090162",
+      "4.0"
+     ],
+     [
+      "4.0",
+      "4.16969947822768733167957909838"
+     ]
+    ],
+    "unit_scale_identity_subtracted_denominator": "-59.4313863294321292593073345357",
+    "identity_subtracted_denominator": null,
+    "identity_subtracted_denominator_status": "not_scale_invariant_for_delta_normalized_RW_fields",
+    "ratio_exclude_prescription": "large_continuum_scale_limit: (A*M1)/(A*M0-M_identity) -> M1/M0 as A->infinity",
+    "production_source": "runkel_watts_dense_part2.json"
+   },
+   {
+    "delta_ext": "1.7",
+    "momentum_external": "0.921954445729288731000227428176",
+    "continuum_nu0": "1.97314045598621958952612664566",
+    "continuum_nu1": "1.68757169757987810878392953596",
+    "identity_measure": "65.3582891272079157896778169843",
+    "p_cutoff": "4.5",
+    "q_order": 16,
+    "quadrature_order": 24,
+    "chiral_norm": "16.0",
+    "normalization": "Runkel-Watts delta(x-y) fields; c_RW=C_an/2 on support; x=2P Jacobian cancels repository diagonal-block factor 2",
+    "crossing_residual": null,
+    "promotion_status": "production",
+    "positivity": true,
+    "imaginary_residual": "0.0",
+    "convergence": {},
+    "ratio_include": "0.85527195616512365879273095114",
+    "ratio_exclude": "0.85527195616512365879273095114",
+    "identity_subtracted_drawable": true,
+    "minimum_spectral_weight": "8.16964149892894639728357880921e-64",
+    "support_intervals": [
+     [
+      "0.0",
+      "0.156091108541422537999545143647"
+     ],
+     [
+      "0.843908891458577462000454856353",
+      "1.0"
+     ],
+     [
+      "1.0",
+      "1.15609110854142253799954514365"
+     ],
+     [
+      "1.84390889145857746200045485635",
+      "2.0"
+     ],
+     [
+      "2.0",
+      "2.15609110854142253799954514365"
+     ],
+     [
+      "2.84390889145857746200045485635",
+      "3.0"
+     ],
+     [
+      "3.0",
+      "3.15609110854142253799954514365"
+     ],
+     [
+      "3.84390889145857746200045485635",
+      "4.0"
+     ],
+     [
+      "4.0",
+      "4.15609110854142253799954514365"
+     ]
+    ],
+    "unit_scale_identity_subtracted_denominator": "-63.3851486712216962001516903386",
+    "identity_subtracted_denominator": null,
+    "identity_subtracted_denominator_status": "not_scale_invariant_for_delta_normalized_RW_fields",
+    "ratio_exclude_prescription": "large_continuum_scale_limit: (A*M1)/(A*M0-M_identity) -> M1/M0 as A->infinity",
+    "production_source": "runkel_watts_dense_part2.json"
+   },
+   {
+    "delta_ext": "1.725",
+    "momentum_external": "0.928708781050335498549284384114",
+    "continuum_nu0": "1.93400413039970824023739222152",
+    "continuum_nu1": "1.68681107557273853961452727143",
+    "identity_measure": "69.5482983300664393146444436593",
+    "p_cutoff": "4.5",
+    "q_order": 16,
+    "quadrature_order": 24,
+    "chiral_norm": "16.0",
+    "normalization": "Runkel-Watts delta(x-y) fields; c_RW=C_an/2 on support; x=2P Jacobian cancels repository diagonal-block factor 2",
+    "crossing_residual": null,
+    "promotion_status": "production",
+    "positivity": true,
+    "imaginary_residual": "0.0",
+    "convergence": {},
+    "ratio_include": "0.872185870267049874526465615548",
+    "ratio_exclude": "0.872185870267049874526465615548",
+    "identity_subtracted_drawable": true,
+    "minimum_spectral_weight": "6.89504876579885937585317624024e-64",
+    "support_intervals": [
+     [
+      "0.0",
+      "0.142582437899329002901431231772"
+     ],
+     [
+      "0.857417562100670997098568768228",
+      "1.0"
+     ],
+     [
+      "1.0",
+      "1.14258243789932900290143123177"
+     ],
+     [
+      "1.85741756210067099709856876823",
+      "2.0"
+     ],
+     [
+      "2.0",
+      "2.14258243789932900290143123177"
+     ],
+     [
+      "2.85741756210067099709856876823",
+      "3.0"
+     ],
+     [
+      "3.0",
+      "3.14258243789932900290143123177"
+     ],
+     [
+      "3.85741756210067099709856876823",
+      "4.0"
+     ],
+     [
+      "4.0",
+      "4.14258243789932900290143123177"
+     ]
+    ],
+    "unit_scale_identity_subtracted_denominator": "-67.6142941996667310744070514378",
+    "identity_subtracted_denominator": null,
+    "identity_subtracted_denominator_status": "not_scale_invariant_for_delta_normalized_RW_fields",
+    "ratio_exclude_prescription": "large_continuum_scale_limit: (A*M1)/(A*M0-M_identity) -> M1/M0 as A->infinity",
+    "production_source": "runkel_watts_dense_part2.json"
+   },
+   {
+    "delta_ext": "1.75",
+    "momentum_external": "0.935414346693485346395937183079",
+    "continuum_nu0": "1.87923936973375116025587325509",
+    "continuum_nu1": "1.67010250760646836667715200076",
+    "identity_measure": "74.0173156074313459124858169396",
+    "p_cutoff": "4.5",
+    "q_order": 16,
+    "quadrature_order": 24,
+    "chiral_norm": "16.0",
+    "normalization": "Runkel-Watts delta(x-y) fields; c_RW=C_an/2 on support; x=2P Jacobian cancels repository diagonal-block factor 2",
+    "crossing_residual": null,
+    "promotion_status": "production",
+    "positivity": true,
+    "imaginary_residual": "0.0",
+    "convergence": {},
+    "ratio_include": "0.888711962139813458390669853456",
+    "ratio_exclude": "0.888711962139813458390669853456",
+    "identity_subtracted_drawable": true,
+    "minimum_spectral_weight": "5.56104822613634300262414221456e-64",
+    "support_intervals": [
+     [
+      "0.0",
+      "0.129171306613029307208125633842"
+     ],
+     [
+      "0.870828693386970692791874366158",
+      "1.0"
+     ],
+     [
+      "1.0",
+      "1.12917130661302930720812563384"
+     ],
+     [
+      "1.87082869338697069279187436616",
+      "2.0"
+     ],
+     [
+      "2.0",
+      "2.12917130661302930720812563384"
+     ],
+     [
+      "2.87082869338697069279187436616",
+      "3.0"
+     ],
+     [
+      "3.0",
+      "3.12917130661302930720812563384"
+     ],
+     [
+      "3.87082869338697069279187436616",
+      "4.0"
+     ],
+     [
+      "4.0",
+      "4.12917130661302930720812563384"
+     ]
+    ],
+    "unit_scale_identity_subtracted_denominator": "-72.1380762376975947522299436845",
+    "identity_subtracted_denominator": null,
+    "identity_subtracted_denominator_status": "not_scale_invariant_for_delta_normalized_RW_fields",
+    "ratio_exclude_prescription": "large_continuum_scale_limit: (A*M1)/(A*M0-M_identity) -> M1/M0 as A->infinity",
+    "production_source": "runkel_watts_dense_part2.json"
+   },
+   {
+    "delta_ext": "1.775",
+    "momentum_external": "0.942072184070838597223130564878",
+    "continuum_nu0": "1.80706199062706200154283781315",
+    "continuum_nu1": "1.63508651782679326833371308239",
+    "identity_measure": "78.7841357084746824049855070931",
+    "p_cutoff": "4.5",
+    "q_order": 16,
+    "quadrature_order": 24,
+    "chiral_norm": "16.0",
+    "normalization": "Runkel-Watts delta(x-y) fields; c_RW=C_an/2 on support; x=2P Jacobian cancels repository diagonal-block factor 2",
+    "crossing_residual": null,
+    "promotion_status": "production",
+    "positivity": true,
+    "imaginary_residual": "0.0",
+    "convergence": {},
+    "ratio_include": "0.904831448122821646763159531805",
+    "ratio_exclude": "0.904831448122821646763159531805",
+    "identity_subtracted_drawable": true,
+    "minimum_spectral_weight": "4.22081430289339033627602577444e-64",
+    "support_intervals": [
+     [
+      "0.0",
+      "0.115855631858322805553738870244"
+     ],
+     [
+      "0.884144368141677194446261129756",
+      "1.0"
+     ],
+     [
+      "1.0",
+      "1.11585563185832280555373887024"
+     ],
+     [
+      "1.88414436814167719444626112976",
+      "2.0"
+     ],
+     [
+      "2.0",
+      "2.11585563185832280555373887024"
+     ],
+     [
+      "2.88414436814167719444626112976",
+      "3.0"
+     ],
+     [
+      "3.0",
+      "3.11585563185832280555373887024"
+     ],
+     [
+      "3.88414436814167719444626112976",
+      "4.0"
+     ],
+     [
+      "4.0",
+      "4.11585563185832280555373887024"
+     ]
+    ],
+    "unit_scale_identity_subtracted_denominator": "-76.9770737178476204034426692799",
+    "identity_subtracted_denominator": null,
+    "identity_subtracted_denominator_status": "not_scale_invariant_for_delta_normalized_RW_fields",
+    "ratio_exclude_prescription": "large_continuum_scale_limit: (A*M1)/(A*M0-M_identity) -> M1/M0 as A->infinity",
+    "production_source": "runkel_watts_dense_part2.json"
+   },
+   {
+    "delta_ext": "1.8",
+    "momentum_external": "0.94868329805051379959966806333",
+    "continuum_nu0": "1.71554194182801946337824048537",
+    "continuum_nu1": "1.57919999322175727322557747886",
+    "identity_measure": "83.8688217348109003647246721645",
+    "p_cutoff": "4.5",
+    "q_order": 16,
+    "quadrature_order": 24,
+    "chiral_norm": "16.0",
+    "normalization": "Runkel-Watts delta(x-y) fields; c_RW=C_an/2 on support; x=2P Jacobian cancels repository diagonal-block factor 2",
+    "crossing_residual": null,
+    "promotion_status": "production",
+    "positivity": true,
+    "imaginary_residual": "0.0",
+    "convergence": {},
+    "ratio_include": "0.920525435559458756507086379177",
+    "ratio_exclude": "0.920525435559458756507086379177",
+    "identity_subtracted_drawable": true,
+    "minimum_spectral_weight": "2.95471573214025842056646766464e-64",
+    "support_intervals": [
+     [
+      "0.0",
+      "0.10263340389897240080066387334"
+     ],
+     [
+      "0.89736659610102759919933612666",
+      "1.0"
+     ],
+     [
+      "1.0",
+      "1.10263340389897240080066387334"
+     ],
+     [
+      "1.89736659610102759919933612666",
+      "2.0"
+     ],
+     [
+      "2.0",
+      "2.10263340389897240080066387334"
+     ],
+     [
+      "2.89736659610102759919933612666",
+      "3.0"
+     ],
+     [
+      "3.0",
+      "3.10263340389897240080066387334"
+     ],
+     [
+      "3.89736659610102759919933612666",
+      "4.0"
+     ],
+     [
+      "4.0",
+      "4.10263340389897240080066387334"
+     ]
+    ],
+    "unit_scale_identity_subtracted_denominator": "-82.1532797929828809013464316791",
+    "identity_subtracted_denominator": null,
+    "identity_subtracted_denominator_status": "not_scale_invariant_for_delta_normalized_RW_fields",
+    "ratio_exclude_prescription": "large_continuum_scale_limit: (A*M1)/(A*M0-M_identity) -> M1/M0 as A->infinity",
+    "production_source": "runkel_watts_dense_part2.json"
+   },
+   {
+    "delta_ext": "1.825",
+    "momentum_external": "0.955248658727140008958414787625",
+    "continuum_nu0": "1.60259441809343350524203651871",
+    "continuum_nu1": "1.49966746566220457187830538764",
+    "identity_measure": "89.2927905629979551969809892082",
+    "p_cutoff": "4.5",
+    "q_order": 16,
+    "quadrature_order": 24,
+    "chiral_norm": "16.0",
+    "normalization": "Runkel-Watts delta(x-y) fields; c_RW=C_an/2 on support; x=2P Jacobian cancels repository diagonal-block factor 2",
+    "crossing_residual": null,
+    "promotion_status": "production",
+    "positivity": true,
+    "imaginary_residual": "0.0",
+    "convergence": {},
+    "ratio_include": "0.93577479662404006483477436089",
+    "ratio_exclude": "0.93577479662404006483477436089",
+    "identity_subtracted_drawable": true,
+    "minimum_spectral_weight": "1.85579886583698231185298169839e-64",
+    "support_intervals": [
+     [
+      "0.0",
+      "0.0895026825457199820831704247503"
+     ],
+     [
+      "0.91049731745428001791682957525",
+      "1.0"
+     ],
+     [
+      "1.0",
+      "1.08950268254571998208317042475"
+     ],
+     [
+      "1.91049731745428001791682957525",
+      "2.0"
+     ],
+     [
+      "2.0",
+      "2.08950268254571998208317042475"
+     ],
+     [
+      "2.91049731745428001791682957525",
+      "3.0"
+     ],
+     [
+      "3.0",
+      "3.08950268254571998208317042475"
+     ],
+     [
+      "3.91049731745428001791682957525",
+      "4.0"
+     ],
+     [
+      "4.0",
+      "4.08950268254571998208317042475"
+     ]
+    ],
+    "unit_scale_identity_subtracted_denominator": "-87.6901961449045216917389526894",
+    "identity_subtracted_denominator": null,
+    "identity_subtracted_denominator_status": "not_scale_invariant_for_delta_normalized_RW_fields",
+    "ratio_exclude_prescription": "large_continuum_scale_limit: (A*M1)/(A*M0-M_identity) -> M1/M0 as A->infinity",
+    "production_source": "runkel_watts_dense_part2.json"
+   },
+   {
+    "delta_ext": "1.85",
+    "momentum_external": "0.961769203083567237592768146061",
+    "continuum_nu0": "1.46597066987490292715533067484",
+    "continuum_nu1": "1.39349316347624135631871811872",
+    "identity_measure": "95.0789040072716823425216902382",
+    "p_cutoff": "4.5",
+    "q_order": 16,
+    "quadrature_order": 24,
+    "chiral_norm": "16.0",
+    "normalization": "Runkel-Watts delta(x-y) fields; c_RW=C_an/2 on support; x=2P Jacobian cancels repository diagonal-block factor 2",
+    "crossing_residual": null,
+    "promotion_status": "production",
+    "positivity": true,
+    "imaginary_residual": "0.0",
+    "convergence": {},
+    "ratio_include": "0.950560056972458826211737799887",
+    "ratio_exclude": "0.950560056972458826211737799887",
+    "identity_subtracted_drawable": true,
+    "minimum_spectral_weight": "1.00496288955994078458490884887e-64",
+    "support_intervals": [
+     [
+      "0.0",
+      "0.0764615938328655248144637078787"
+     ],
+     [
+      "0.923538406167134475185536292121",
+      "1.0"
+     ],
+     [
+      "1.0",
+      "1.07646159383286552481446370788"
+     ],
+     [
+      "1.92353840616713447518553629212",
+      "2.0"
+     ],
+     [
+      "2.0",
+      "2.07646159383286552481446370788"
+     ],
+     [
+      "2.92353840616713447518553629212",
+      "3.0"
+     ],
+     [
+      "3.0",
+      "3.07646159383286552481446370788"
+     ],
+     [
+      "3.92353840616713447518553629212",
+      "4.0"
+     ],
+     [
+      "4.0",
+      "4.07646159383286552481446370788"
+     ]
+    ],
+    "unit_scale_identity_subtracted_denominator": "-93.6129333373967794153663595633",
+    "identity_subtracted_denominator": null,
+    "identity_subtracted_denominator_status": "not_scale_invariant_for_delta_normalized_RW_fields",
+    "ratio_exclude_prescription": "large_continuum_scale_limit: (A*M1)/(A*M0-M_identity) -> M1/M0 as A->infinity",
+    "production_source": "runkel_watts_dense_part2.json"
+   },
+   {
+    "delta_ext": "1.875",
+    "momentum_external": "0.968245836551854221294816349946",
+    "continuum_nu0": "1.30324852667377201585153581929",
+    "continuum_nu1": "1.25745406422453007707389502913",
+    "identity_measure": "101.251566108004755420944607191",
+    "p_cutoff": "4.5",
+    "q_order": 16,
+    "quadrature_order": 24,
+    "chiral_norm": "16.0",
+    "normalization": "Runkel-Watts delta(x-y) fields; c_RW=C_an/2 on support; x=2P Jacobian cancels repository diagonal-block factor 2",
+    "crossing_residual": null,
+    "promotion_status": "production",
+    "positivity": true,
+    "imaginary_residual": "0.0",
+    "convergence": {},
+    "ratio_include": "0.964861297356597613168382072978",
+    "ratio_exclude": "0.964861297356597613168382072978",
+    "identity_subtracted_drawable": true,
+    "minimum_spectral_weight": "4.41388225563462092613459871442e-65",
+    "support_intervals": [
+     [
+      "0.0",
+      "0.0635083268962915574103673001088"
+     ],
+     [
+      "0.936491673103708442589632699891",
+      "1.0"
+     ],
+     [
+      "1.0",
+      "1.06350832689629155741036730011"
+     ],
+     [
+      "1.93649167310370844258963269989",
+      "2.0"
+     ],
+     [
+      "2.0",
+      "2.06350832689629155741036730011"
+     ],
+     [
+      "2.93649167310370844258963269989",
+      "3.0"
+     ],
+     [
+      "3.0",
+      "3.06350832689629155741036730011"
+     ],
+     [
+      "3.93649167310370844258963269989",
+      "4.0"
+     ],
+     [
+      "4.0",
+      "4.06350832689629155741036730011"
+     ]
+    ],
+    "unit_scale_identity_subtracted_denominator": "-99.9483175813309834050930713721",
+    "identity_subtracted_denominator": null,
+    "identity_subtracted_denominator_status": "not_scale_invariant_for_delta_normalized_RW_fields",
+    "ratio_exclude_prescription": "large_continuum_scale_limit: (A*M1)/(A*M0-M_identity) -> M1/M0 as A->infinity",
+    "production_source": "runkel_watts_dense_part2.json"
+   },
+   {
+    "delta_ext": "1.9",
+    "momentum_external": "0.97467943448089639068384131999",
+    "continuum_nu0": "1.11182265553126603840619572012",
+    "continuum_nu1": "1.08809421064411770059362529127",
+    "identity_measure": "107.836826957310066888720030528",
+    "p_cutoff": "4.5",
+    "q_order": 16,
+    "quadrature_order": 24,
+    "chiral_norm": "16.0",
+    "normalization": "Runkel-Watts delta(x-y) fields; c_RW=C_an/2 on support; x=2P Jacobian cancels repository diagonal-block factor 2",
+    "crossing_residual": null,
+    "promotion_status": "production",
+    "positivity": true,
+    "imaginary_residual": "0.0",
+    "convergence": {},
+    "ratio_include": "0.978658066761726407266684716608",
+    "ratio_exclude": "0.978658066761726407266684716608",
+    "identity_subtracted_drawable": true,
+    "minimum_spectral_weight": "1.42010382916404850341214236171e-65",
+    "support_intervals": [
+     [
+      "0.0",
+      "0.0506411310382072186323173600201"
+     ],
+     [
+      "0.94935886896179278136768263998",
+      "1.0"
+     ],
+     [
+      "1.0",
+      "1.05064113103820721863231736002"
+     ],
+     [
+      "1.94935886896179278136768263998",
+      "2.0"
+     ],
+     [
+      "2.0",
+      "2.05064113103820721863231736002"
+     ],
+     [
+      "2.94935886896179278136768263998",
+      "3.0"
+     ],
+     [
+      "3.0",
+      "3.05064113103820721863231736002"
+     ],
+     [
+      "3.94935886896179278136768263998",
+      "4.0"
+     ],
+     [
+      "4.0",
+      "4.05064113103820721863231736002"
+     ]
+    ],
+    "unit_scale_identity_subtracted_denominator": "-106.725004301778800850313834808",
+    "identity_subtracted_denominator": null,
+    "identity_subtracted_denominator_status": "not_scale_invariant_for_delta_normalized_RW_fields",
+    "ratio_exclude_prescription": "large_continuum_scale_limit: (A*M1)/(A*M0-M_identity) -> M1/M0 as A->infinity",
+    "production_source": "runkel_watts_dense_part2.json"
+   },
+   {
+    "delta_ext": "1.925",
+    "momentum_external": "0.981070843517429173426300189459",
+    "continuum_nu0": "0.888894579992723504179851016365",
+    "continuum_nu1": "0.881720583844525044297156594718",
+    "identity_measure": "114.862493500887031631543042949",
+    "p_cutoff": "4.5",
+    "q_order": 16,
+    "quadrature_order": 24,
+    "chiral_norm": "16.0",
+    "normalization": "Runkel-Watts delta(x-y) fields; c_RW=C_an/2 on support; x=2P Jacobian cancels repository diagonal-block factor 2",
+    "crossing_residual": null,
+    "promotion_status": "production",
+    "positivity": true,
+    "imaginary_residual": "0.0",
+    "convergence": {},
+    "ratio_include": "0.991929306005828963144528669864",
+    "ratio_exclude": "0.991929306005828963144528669864",
+    "identity_subtracted_drawable": true,
+    "minimum_spectral_weight": "2.76708068797325365319770182507e-66",
+    "support_intervals": [
+     [
+      "0.0",
+      "0.0378583129651416531473996210818"
+     ],
+     [
+      "0.962141687034858346852600378918",
+      "1.0"
+     ],
+     [
+      "1.0",
+      "1.03785831296514165314739962108"
+     ],
+     [
+      "1.96214168703485834685260037892",
+      "2.0"
+     ],
+     [
+      "2.0",
+      "2.03785831296514165314739962108"
+     ],
+     [
+      "2.96214168703485834685260037892",
+      "3.0"
+     ],
+     [
+      "3.0",
+      "3.03785831296514165314739962108"
+     ],
+     [
+      "3.96214168703485834685260037892",
+      "4.0"
+     ],
+     [
+      "4.0",
+      "4.03785831296514165314739962108"
+     ]
+    ],
+    "unit_scale_identity_subtracted_denominator": "-113.973598920894308127363191932",
+    "identity_subtracted_denominator": null,
+    "identity_subtracted_denominator_status": "not_scale_invariant_for_delta_normalized_RW_fields",
+    "ratio_exclude_prescription": "large_continuum_scale_limit: (A*M1)/(A*M0-M_identity) -> M1/M0 as A->infinity",
+    "production_source": "runkel_watts_dense_part2.json"
+   },
+   {
+    "delta_ext": "1.95",
+    "momentum_external": "0.987420882906574950871923052186",
+    "continuum_nu0": "0.631462488989098193329463552661",
+    "continuum_nu1": "0.634400861448132176566566370889",
+    "identity_measure": "122.358247784756803445421930421",
+    "p_cutoff": "4.5",
+    "q_order": 16,
+    "quadrature_order": 24,
+    "chiral_norm": "16.0",
+    "normalization": "Runkel-Watts delta(x-y) fields; c_RW=C_an/2 on support; x=2P Jacobian cancels repository diagonal-block factor 2",
+    "crossing_residual": null,
+    "promotion_status": "production",
+    "positivity": true,
+    "imaginary_residual": "0.0",
+    "convergence": {},
+    "ratio_include": "1.00465328108996306890357387281",
+    "ratio_exclude": "1.00465328108996306890357387281",
+    "identity_subtracted_drawable": true,
+    "minimum_spectral_weight": "2.1318007099007879854312031858e-67",
+    "support_intervals": [
+     [
+      "0.0",
+      "0.0251582341868500982561538956277"
+     ],
+     [
+      "0.974841765813149901743846104372",
+      "1.0"
+     ],
+     [
+      "1.0",
+      "1.02515823418685009825615389563"
+     ],
+     [
+      "1.97484176581314990174384610437",
+      "2.0"
+     ],
+     [
+      "2.0",
+      "2.02515823418685009825615389563"
+     ],
+     [
+      "2.97484176581314990174384610437",
+      "3.0"
+     ],
+     [
+      "3.0",
+      "3.02515823418685009825615389563"
+     ],
+     [
+      "3.97484176581314990174384610437",
+      "4.0"
+     ],
+     [
+      "4.0",
+      "4.02515823418685009825615389563"
+     ]
+    ],
+    "unit_scale_identity_subtracted_denominator": "-121.726785295767705252092466869",
+    "identity_subtracted_denominator": null,
+    "identity_subtracted_denominator_status": "not_scale_invariant_for_delta_normalized_RW_fields",
+    "ratio_exclude_prescription": "large_continuum_scale_limit: (A*M1)/(A*M0-M_identity) -> M1/M0 as A->infinity",
+    "production_source": "runkel_watts_dense_part2.json"
+   },
+   {
+    "delta_ext": "1.975",
+    "momentum_external": "0.993730345717589526002179832886",
+    "continuum_nu0": "0.336310869348195455125511509578",
+    "continuum_nu1": "0.341963423001449055922382677451",
+    "identity_measure": "130.355773147075515246599548475",
+    "p_cutoff": "4.5",
+    "q_order": 16,
+    "quadrature_order": 24,
+    "chiral_norm": "16.0",
+    "normalization": "Runkel-Watts delta(x-y) fields; c_RW=C_an/2 on support; x=2P Jacobian cancels repository diagonal-block factor 2",
+    "crossing_residual": null,
+    "promotion_status": "production",
+    "positivity": true,
+    "imaginary_residual": "0.0",
+    "convergence": {},
+    "ratio_include": "1.01680752591853133554281386788",
+    "ratio_exclude": "1.01680752591853133554281386788",
+    "identity_subtracted_drawable": true,
+    "minimum_spectral_weight": "1.66743933899674371760153156928e-69",
+    "support_intervals": [
+     [
+      "0.0",
+      "0.0125393085648209479956403342277"
+     ],
+     [
+      "0.987460691435179052004359665772",
+      "1.0"
+     ],
+     [
+      "1.0",
+      "1.01253930856482094799564033423"
+     ],
+     [
+      "1.98746069143517905200435966577",
+      "2.0"
+     ],
+     [
+      "2.0",
+      "2.01253930856482094799564033423"
+     ],
+     [
+      "2.98746069143517905200435966577",
+      "3.0"
+     ],
+     [
+      "3.0",
+      "3.01253930856482094799564033423"
+     ],
+     [
+      "3.98746069143517905200435966577",
+      "4.0"
+     ],
+     [
+      "4.0",
+      "4.01253930856482094799564033423"
+     ]
+    ],
+    "unit_scale_identity_subtracted_denominator": "-130.019462277727319791474036965",
+    "identity_subtracted_denominator": null,
+    "identity_subtracted_denominator_status": "not_scale_invariant_for_delta_normalized_RW_fields",
+    "ratio_exclude_prescription": "large_continuum_scale_limit: (A*M1)/(A*M0-M_identity) -> M1/M0 as A->infinity",
+    "production_source": "runkel_watts_dense_part2.json"
+   },
+   {
+    "delta_ext": "1.99",
+    "momentum_external": "0.997496867163000166582694111707",
+    "continuum_nu0": "0.139693243981501279706432131229",
+    "continuum_nu1": "0.14302031316219479445085405502",
+    "identity_measure": "135.409114216592391261475881869",
+    "p_cutoff": "4.5",
+    "q_order": 16,
+    "quadrature_order": 32,
+    "chiral_norm": "16.0",
+    "normalization": "Runkel-Watts delta(x-y) fields; c_RW=C_an/2 on support; x=2P Jacobian cancels repository diagonal-block factor 2",
+    "crossing_residual": null,
+    "promotion_status": "production",
+    "positivity": true,
+    "imaginary_residual": "0.0",
+    "convergence": {},
+    "ratio_include": "1.02381696555872163816694137874",
+    "ratio_exclude": "1.02381696555872163816694137874",
+    "identity_subtracted_drawable": true,
+    "minimum_spectral_weight": "1.90568815444730629250863998542e-75",
+    "support_intervals": [
+     [
+      "0.0",
+      "0.00500626567399966683461177658615"
+     ],
+     [
+      "0.994993734326000333165388223414",
+      "1.0"
+     ],
+     [
+      "1.0",
+      "1.00500626567399966683461177659"
+     ],
+     [
+      "1.99499373432600033316538822341",
+      "2.0"
+     ],
+     [
+      "2.0",
+      "2.00500626567399966683461177659"
+     ],
+     [
+      "2.99499373432600033316538822341",
+      "3.0"
+     ],
+     [
+      "3.0",
+      "3.00500626567399966683461177659"
+     ],
+     [
+      "3.99499373432600033316538822341",
+      "4.0"
+     ],
+     [
+      "4.0",
+      "4.00500626567399966683461177659"
+     ]
+    ],
+    "unit_scale_identity_subtracted_denominator": "-135.269420972610889981769449737",
+    "identity_subtracted_denominator": null,
+    "identity_subtracted_denominator_status": "not_scale_invariant_for_delta_normalized_RW_fields",
+    "ratio_exclude_prescription": "large_continuum_scale_limit: (A*M1)/(A*M0-M_identity) -> M1/M0 as A->infinity",
+    "production_source": "runkel_watts_dense_refinement.json"
+   },
+   {
+    "delta_ext": "1.995",
+    "momentum_external": "0.998749217771908945789019116403",
+    "continuum_nu0": "0.0707278242374851647251031623104",
+    "continuum_nu1": "0.0725741827049934519358282947172",
+    "identity_measure": "137.137719793647152588505006897",
+    "p_cutoff": "4.5",
+    "q_order": 16,
+    "quadrature_order": 32,
+    "chiral_norm": "16.0",
+    "normalization": "Runkel-Watts delta(x-y) fields; c_RW=C_an/2 on support; x=2P Jacobian cancels repository diagonal-block factor 2",
+    "crossing_residual": null,
+    "promotion_status": "production",
+    "positivity": true,
+    "imaginary_residual": "0.0",
+    "convergence": {},
+    "ratio_include": "1.02610512181611451889225789929",
+    "ratio_exclude": "1.02610512181611451889225789929",
+    "identity_subtracted_drawable": true,
+    "minimum_spectral_weight": "8.58204355367036160890961720825e-78",
+    "support_intervals": [
+     [
+      "0.0",
+      "0.00250156445618210842196176719417"
+     ],
+     [
+      "0.997498435543817891578038232806",
+      "1.0"
+     ],
+     [
+      "1.0",
+      "1.00250156445618210842196176719"
+     ],
+     [
+      "1.99749843554381789157803823281",
+      "2.0"
+     ],
+     [
+      "2.0",
+      "2.00250156445618210842196176719"
+     ],
+     [
+      "2.99749843554381789157803823281",
+      "3.0"
+     ],
+     [
+      "3.0",
+      "3.00250156445618210842196176719"
+     ],
+     [
+      "3.99749843554381789157803823281",
+      "4.0"
+     ],
+     [
+      "4.0",
+      "4.00250156445618210842196176719"
+     ]
+    ],
+    "unit_scale_identity_subtracted_denominator": "-137.066991969409667423779903735",
+    "identity_subtracted_denominator": null,
+    "identity_subtracted_denominator_status": "not_scale_invariant_for_delta_normalized_RW_fields",
+    "ratio_exclude_prescription": "large_continuum_scale_limit: (A*M1)/(A*M0-M_identity) -> M1/M0 as A->infinity",
+    "production_source": "runkel_watts_dense_refinement.json"
+   },
+   {
+    "delta_ext": "1.999",
+    "momentum_external": "0.999749968742185057738937251994",
+    "continuum_nu0": "0.0142879993130639837492089140831",
+    "continuum_nu1": "0.0146868920761382871269696467048",
+    "identity_measure": "138.536835822889620659433067042",
+    "p_cutoff": "4.0",
+    "q_order": 24,
+    "quadrature_order": 64,
+    "chiral_norm": "16.0",
+    "normalization": "Runkel-Watts delta(x-y) fields; c_RW=C_an/2 on support; x=2P Jacobian cancels repository diagonal-block factor 2",
+    "crossing_residual": null,
+    "promotion_status": "production",
+    "positivity": true,
+    "imaginary_residual": "0.0",
+    "convergence": {},
+    "ratio_include": "1.02791802787319444474744332425",
+    "ratio_exclude": "1.02791802787319444474744332425",
+    "identity_subtracted_drawable": true,
+    "minimum_spectral_weight": "2.21916960619878031372969257331e-60",
+    "support_intervals": [
+     [
+      "0.0",
+      "0.000500062515629884522125496012969"
+     ],
+     [
+      "0.999499937484370115477874503987",
+      "1.0"
+     ],
+     [
+      "1.0",
+      "1.00050006251562988452212549601"
+     ],
+     [
+      "1.99949993748437011547787450399",
+      "2.0"
+     ],
+     [
+      "2.0",
+      "2.00050006251562988452212549601"
+     ],
+     [
+      "2.99949993748437011547787450399",
+      "3.0"
+     ],
+     [
+      "3.0",
+      "3.00050006251562988452212549601"
+     ],
+     [
+      "3.99949993748437011547787450399",
+      "4.0"
+     ]
+    ],
+    "unit_scale_identity_subtracted_denominator": "-138.522547823576556675683858128",
+    "identity_subtracted_denominator": null,
+    "identity_subtracted_denominator_status": "not_scale_invariant_for_delta_normalized_RW_fields",
+    "ratio_exclude_prescription": "large_continuum_scale_limit: (A*M1)/(A*M0-M_identity) -> M1/M0 as A->infinity",
+    "production_source": "runkel_watts_validation_cusp_q24_n64.json"
+   },
+   {
+    "delta_ext": "2.0",
+    "ratio_include": null,
+    "ratio_exclude": null,
+    "promotion_status": "excluded_external",
+    "reason": "positive-integer x=sqrt(2*Delta_ext) is absent"
+   }
+  ],
+  "analytic_liouville": []
+ }
+}

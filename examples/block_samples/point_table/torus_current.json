@@ -1,0 +1,59 @@
+{
+  "surface": "torus",
+  "central_charge": "10.0",
+  "basis": "torus_G",
+  "label": "delta_j",
+  "spin": 1,
+  "spin_pair_symmetrized": true,
+  "variable_minus_x": "1.0",
+  "variable": "point",
+  "nome_convention": "modular_2pi",
+  "crossing_point_tau": "i",
+  "exp_base": "0.001867442731707988814430212934827030393423",
+  "order": null,
+  "lambda": 2,
+  "npoles": null,
+  "coordinates": [
+    "vvb"
+  ],
+  "pole_list_x": [],
+  "regularization_policy": "irreducible",
+  "kac_limit": "irreducible",
+  "point_value": "1.0",
+  "sample_points_x": [
+    "0.0"
+  ],
+  "index_names": [
+    "coordinate",
+    "m",
+    "n",
+    "monomial_degree"
+  ],
+  "derivs": [
+    [
+      [
+        [
+          "0.414982746293670284599446179872554685832035557"
+        ]
+      ],
+      [
+        [
+          "-0.439483695080295243003910596501686878861580456"
+        ],
+        [
+          "-16.1862822677859886116083951488934633141111933"
+        ]
+      ],
+      [
+        [
+          "7.88088862421127912419025905779210715261460667"
+        ]
+      ]
+    ]
+  ],
+  "precision_input": 40,
+  "precision_actual": 40,
+  "verified_digits": "39.9",
+  "verified_digits_largest_entry": "40.9",
+  "args": "virasoro_blocks point-table --surface torus --family torus-character --central-charge 10 --exchange-delta 1 --exchange-spin 1 --lambda 2 --precision 40 --output-template torus_current.json -o examples/block_samples/point_table"
+}

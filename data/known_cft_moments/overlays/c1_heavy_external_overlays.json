@@ -1,0 +1,1250 @@
+{
+ "schema": "c1_heavy_external_overlays_v1",
+ "c": "1",
+ "quantity": "nu1/nu0 at z=zbar=1/2 (repository zzb blocks, chiral_norm 16); ratio_include keeps the unit Virasoro identity in nu0, ratio_exclude removes it",
+ "delta_ext_range": "2 < Delta_ext <= 4",
+ "kac_limit": [
+  "irreducible: recomputed 2026-10-13 in the library default (the irreducible-module block on c = 1 Kac weights, a9257786); the c_limit originals are in pre_kac_flip_climit/"
+ ],
+ "series": {
+  "circle_vertex_curve": [
+   {
+    "delta_ext": "2001/1000",
+    "ratio_include": "0.99121065453694158705",
+    "ratio_exclude": "2.1464736439148576888",
+    "last_cut_rel_drift": "0.0",
+    "crossing_residual_last_cut": "5.77e-29",
+    "cuts": [
+     20,
+     28
+    ]
+   },
+   {
+    "delta_ext": "201/100",
+    "ratio_include": "0.99350262376490122287",
+    "ratio_exclude": "2.146654905947846986",
+    "last_cut_rel_drift": "4.07e-37",
+    "crossing_residual_last_cut": "6.25e-29",
+    "cuts": [
+     20,
+     28
+    ]
+   },
+   {
+    "delta_ext": "101/50",
+    "ratio_include": "0.99605081868289323448",
+    "ratio_exclude": "2.1468886436221759961",
+    "last_cut_rel_drift": "2.74e-35",
+    "crossing_residual_last_cut": "6.82e-29",
+    "cuts": [
+     20,
+     28
+    ]
+   },
+   {
+    "delta_ext": "41/20",
+    "ratio_include": "1.0037056037815490169",
+    "ratio_exclude": "2.1477887774915273295",
+    "last_cut_rel_drift": "7.74e-33",
+    "crossing_residual_last_cut": "8.86e-29",
+    "cuts": [
+     20,
+     28
+    ]
+   },
+   {
+    "delta_ext": "21/10",
+    "ratio_include": "1.0164994727310154063",
+    "ratio_exclude": "2.1499206420125180829",
+    "last_cut_rel_drift": "6.26e-31",
+    "crossing_residual_last_cut": "1.36e-28",
+    "cuts": [
+     20,
+     28
+    ]
+   },
+   {
+    "delta_ext": "43/20",
+    "ratio_include": "1.0293412846960101882",
+    "ratio_exclude": "2.1527879499992552235",
+    "last_cut_rel_drift": "8.9e-30",
+    "crossing_residual_last_cut": "2.05e-28",
+    "cuts": [
+     20,
+     28
+    ]
+   },
+   {
+    "delta_ext": "11/5",
+    "ratio_include": "1.0422341132375055499",
+    "ratio_exclude": "2.1563321122684066897",
+    "last_cut_rel_drift": "6.16e-29",
+    "crossing_residual_last_cut": "3.13e-28",
+    "cuts": [
+     20,
+     28
+    ]
+   },
+   {
+    "delta_ext": "9/4",
+    "ratio_include": "1.0551805355597295689",
+    "ratio_exclude": "2.1604986675259056662",
+    "last_cut_rel_drift": "2.86e-28",
+    "crossing_residual_last_cut": "1.15e-27",
+    "cuts": [
+     20,
+     28
+    ]
+   },
+   {
+    "delta_ext": "23/10",
+    "ratio_include": "1.0681826574477972582",
+    "ratio_exclude": "2.1652370832437273883",
+    "last_cut_rel_drift": "1.03e-27",
+    "crossing_residual_last_cut": "6.68e-27",
+    "cuts": [
+     20,
+     28
+    ]
+   },
+   {
+    "delta_ext": "47/20",
+    "ratio_include": "1.0812421307974114148",
+    "ratio_exclude": "2.1705005281566914502",
+    "last_cut_rel_drift": "3.09e-27",
+    "crossing_residual_last_cut": "3.06e-26",
+    "cuts": [
+     20,
+     28
+    ]
+   },
+   {
+    "delta_ext": "12/5",
+    "ratio_include": "1.0943601662791129839",
+    "ratio_exclude": "2.1762456310735288547",
+    "last_cut_rel_drift": "8.12e-27",
+    "crossing_residual_last_cut": "1.18e-25",
+    "cuts": [
+     20,
+     28
+    ]
+   },
+   {
+    "delta_ext": "49/20",
+    "ratio_include": "1.1075375431041495927",
+    "ratio_exclude": "2.1824322364297723649",
+    "last_cut_rel_drift": "1.92e-26",
+    "crossing_residual_last_cut": "3.93e-25",
+    "cuts": [
+     20,
+     28
+    ]
+   },
+   {
+    "delta_ext": "5/2",
+    "ratio_include": "1.1207746173841859524",
+    "ratio_exclude": "2.1890231638185844653",
+    "last_cut_rel_drift": "4.17e-26",
+    "crossing_residual_last_cut": "1.17e-24",
+    "cuts": [
+     20,
+     28
+    ]
+   },
+   {
+    "delta_ext": "51/20",
+    "ratio_include": "1.1340713301890029501",
+    "ratio_exclude": "2.1959839763617771246",
+    "last_cut_rel_drift": "8.45e-26",
+    "crossing_residual_last_cut": "3.2e-24",
+    "cuts": [
+     20,
+     28
+    ]
+   },
+   {
+    "delta_ext": "13/5",
+    "ratio_include": "1.1474272160922951565",
+    "ratio_exclude": "2.2032827610296756475",
+    "last_cut_rel_drift": "1.61e-25",
+    "crossing_residual_last_cut": "8.05e-24",
+    "cuts": [
+     20,
+     28
+    ]
+   },
+   {
+    "delta_ext": "53/20",
+    "ratio_include": "1.1608414127442197657",
+    "ratio_exclude": "2.2108899227343577785",
+    "last_cut_rel_drift": "2.93e-25",
+    "crossing_residual_last_cut": "1.89e-23",
+    "cuts": [
+     20,
+     28
+    ]
+   },
+   {
+    "delta_ext": "27/10",
+    "ratio_include": "1.174312671810342336",
+    "ratio_exclude": "2.2187779930911455791",
+    "last_cut_rel_drift": "5.08e-25",
+    "crossing_residual_last_cut": "4.2e-23",
+    "cuts": [
+     20,
+     28
+    ]
+   },
+   {
+    "delta_ext": "11/4",
+    "ratio_include": "1.187839371461234277",
+    "ratio_exclude": "2.2269214540804220321",
+    "last_cut_rel_drift": "8.46e-25",
+    "crossing_residual_last_cut": "8.84e-23",
+    "cuts": [
+     20,
+     28
+    ]
+   },
+   {
+    "delta_ext": "14/5",
+    "ratio_include": "1.2014195304775909434",
+    "ratio_exclude": "2.2352965763792053044",
+    "last_cut_rel_drift": "1.36e-24",
+    "crossing_residual_last_cut": "1.78e-22",
+    "cuts": [
+     20,
+     28
+    ]
+   },
+   {
+    "delta_ext": "57/20",
+    "ratio_include": "1.2150508239458558161",
+    "ratio_exclude": "2.2438812718187400612",
+    "last_cut_rel_drift": "2.12e-24",
+    "crossing_residual_last_cut": "3.42e-22",
+    "cuts": [
+     20,
+     28
+    ]
+   },
+   {
+    "delta_ext": "29/10",
+    "ratio_include": "1.2287306004534462854",
+    "ratio_exclude": "2.2526549592221423749",
+    "last_cut_rel_drift": "3.2e-24",
+    "crossing_residual_last_cut": "6.34e-22",
+    "cuts": [
+     20,
+     28
+    ]
+   },
+   {
+    "delta_ext": "59/20",
+    "ratio_include": "1.2424559006461432672",
+    "ratio_exclude": "2.2615984427556366405",
+    "last_cut_rel_drift": "4.7e-24",
+    "crossing_residual_last_cut": "1.13e-21",
+    "cuts": [
+     20,
+     28
+    ]
+   },
+   {
+    "delta_ext": "3",
+    "ratio_include": "1.2562234769791517339",
+    "ratio_exclude": "2.2706938018660028843",
+    "last_cut_rel_drift": "6.73e-24",
+    "crossing_residual_last_cut": "1.96e-21",
+    "cuts": [
+     20,
+     28
+    ]
+   },
+   {
+    "delta_ext": "61/20",
+    "ratio_include": "1.2700298144745361898",
+    "ratio_exclude": "2.2799242918587603438",
+    "last_cut_rel_drift": "9.41e-24",
+    "crossing_residual_last_cut": "3.28e-21",
+    "cuts": [
+     20,
+     28
+    ]
+   },
+   {
+    "delta_ext": "31/10",
+    "ratio_include": "1.2838711522885154512",
+    "ratio_exclude": "2.2892742541837114822",
+    "last_cut_rel_drift": "1.29e-23",
+    "crossing_residual_last_cut": "5.34e-21",
+    "cuts": [
+     20,
+     28
+    ]
+   },
+   {
+    "delta_ext": "78/25",
+    "ratio_include": "1.289416601969840123",
+    "ratio_exclude": "2.293044376960708524",
+    "last_cut_rel_drift": "1.45e-23",
+    "crossing_residual_last_cut": "6.44e-21",
+    "cuts": [
+     20,
+     28
+    ]
+   },
+   {
+    "delta_ext": "25/8",
+    "ratio_include": "1.2908037100229112769",
+    "ratio_exclude": "2.2939894224250601453",
+    "last_cut_rel_drift": "4.1e-16",
+    "crossing_residual_last_cut": "2.61e-20",
+    "cuts": [
+     20,
+     28
+    ]
+   },
+   {
+    "delta_ext": "313/100",
+    "ratio_include": "1.2921911061956433919",
+    "ratio_exclude": "2.2949354429388150908",
+    "last_cut_rel_drift": "1.53e-23",
+    "crossing_residual_last_cut": "7.06e-21",
+    "cuts": [
+     20,
+     28
+    ]
+   },
+   {
+    "delta_ext": "63/20",
+    "ratio_include": "1.2977435058902690318",
+    "ratio_exclude": "2.2987290355272600912",
+    "last_cut_rel_drift": "1.72e-23",
+    "crossing_residual_last_cut": "8.46e-21",
+    "cuts": [
+     20,
+     28
+    ]
+   },
+   {
+    "delta_ext": "16/5",
+    "ratio_include": "1.3116426896576663713",
+    "ratio_exclude": "2.3082749148572910571",
+    "last_cut_rel_drift": "2.25e-23",
+    "crossing_residual_last_cut": "1.3e-20",
+    "cuts": [
+     20,
+     28
+    ]
+   },
+   {
+    "delta_ext": "13/4",
+    "ratio_include": "1.3255643397032187767",
+    "ratio_exclude": "2.3178990376210759405",
+    "last_cut_rel_drift": "2.88e-23",
+    "crossing_residual_last_cut": "1.96e-20",
+    "cuts": [
+     20,
+     28
+    ]
+   },
+   {
+    "delta_ext": "33/10",
+    "ratio_include": "1.3395039367543913668",
+    "ratio_exclude": "2.327589356355757526",
+    "last_cut_rel_drift": "3.62e-23",
+    "crossing_residual_last_cut": "2.87e-20",
+    "cuts": [
+     20,
+     28
+    ]
+   },
+   {
+    "delta_ext": "67/20",
+    "ratio_include": "1.3534568289252512467",
+    "ratio_exclude": "2.337334577031637825",
+    "last_cut_rel_drift": "4.46e-23",
+    "crossing_residual_last_cut": "4.1e-20",
+    "cuts": [
+     20,
+     28
+    ]
+   },
+   {
+    "delta_ext": "17/5",
+    "ratio_include": "1.367418254230515094",
+    "ratio_exclude": "2.3471241105087240206",
+    "last_cut_rel_drift": "5.39e-23",
+    "crossing_residual_last_cut": "5.73e-20",
+    "cuts": [
+     20,
+     28
+    ]
+   },
+   {
+    "delta_ext": "69/20",
+    "ratio_include": "1.3813833627078010785",
+    "ratio_exclude": "2.3569480285453638845",
+    "last_cut_rel_drift": "6.38e-23",
+    "crossing_residual_last_cut": "7.82e-20",
+    "cuts": [
+     20,
+     28
+    ]
+   },
+   {
+    "delta_ext": "7/2",
+    "ratio_include": "1.3953472380288251498",
+    "ratio_exclude": "2.3667970238533773903",
+    "last_cut_rel_drift": "7.41e-23",
+    "crossing_residual_last_cut": "1.04e-19",
+    "cuts": [
+     20,
+     28
+    ]
+   },
+   {
+    "delta_ext": "71/20",
+    "ratio_include": "1.4093049184950569595",
+    "ratio_exclude": "2.3766623737462637757",
+    "last_cut_rel_drift": "8.44e-23",
+    "crossing_residual_last_cut": "1.35e-19",
+    "cuts": [
+     20,
+     28
+    ]
+   },
+   {
+    "delta_ext": "18/5",
+    "ratio_include": "1.4232514173277009245",
+    "ratio_exclude": "2.3865359069754922278",
+    "last_cut_rel_drift": "9.41e-23",
+    "crossing_residual_last_cut": "1.72e-19",
+    "cuts": [
+     20,
+     28
+    ]
+   },
+   {
+    "delta_ext": "73/20",
+    "ratio_include": "1.4371817421755996885",
+    "ratio_exclude": "2.3964099733944207675",
+    "last_cut_rel_drift": "1.03e-22",
+    "crossing_residual_last_cut": "2.13e-19",
+    "cuts": [
+     20,
+     28
+    ]
+   },
+   {
+    "delta_ext": "37/10",
+    "ratio_include": "1.4510909137776346962",
+    "ratio_exclude": "2.4062774161300227048",
+    "last_cut_rel_drift": "1.1e-22",
+    "crossing_residual_last_cut": "2.57e-19",
+    "cuts": [
+     20,
+     28
+    ]
+   },
+   {
+    "delta_ext": "15/4",
+    "ratio_include": "1.4649739837283322251",
+    "ratio_exclude": "2.4161315459794239235",
+    "last_cut_rel_drift": "1.14e-22",
+    "crossing_residual_last_cut": "3.02e-19",
+    "cuts": [
+     20,
+     28
+    ]
+   },
+   {
+    "delta_ext": "19/5",
+    "ratio_include": "1.4788260513066201938",
+    "ratio_exclude": "2.4259661177814269419",
+    "last_cut_rel_drift": "1.16e-22",
+    "crossing_residual_last_cut": "3.45e-19",
+    "cuts": [
+     20,
+     28
+    ]
+   },
+   {
+    "delta_ext": "77/20",
+    "ratio_include": "1.4926422793379974293",
+    "ratio_exclude": "2.4357753085429245165",
+    "last_cut_rel_drift": "1.15e-22",
+    "crossing_residual_last_cut": "3.83e-19",
+    "cuts": [
+     20,
+     28
+    ]
+   },
+   {
+    "delta_ext": "39/10",
+    "ratio_include": "1.5064179090697712916",
+    "ratio_exclude": "2.4455536971266196199",
+    "last_cut_rel_drift": "1.1e-22",
+    "crossing_residual_last_cut": "4.1e-19",
+    "cuts": [
+     20,
+     28
+    ]
+   },
+   {
+    "delta_ext": "79/20",
+    "ratio_include": "1.5201482740475071815",
+    "ratio_exclude": "2.455296245330017435",
+    "last_cut_rel_drift": "1.01e-22",
+    "crossing_residual_last_cut": "4.23e-19",
+    "cuts": [
+     20,
+     28
+    ]
+   },
+   {
+    "delta_ext": "4",
+    "ratio_include": "1.5338288129884428702",
+    "ratio_exclude": "2.464998280206490529",
+    "last_cut_rel_drift": "9.01e-23",
+    "crossing_residual_last_cut": "4.18e-19",
+    "cuts": [
+     20,
+     28
+    ]
+   }
+  ],
+  "runkel_watts": [
+   {
+    "delta_ext": "2001/1000",
+    "ratio_include": "1.0288185736264891149",
+    "ratio_exclude": "1.0288185736264891149",
+    "check_rel_diff": "1.01e-15",
+    "crossing_residual_z037": "2.15e-16",
+    "p_cutoff_final": "6.75",
+    "q_order": 24,
+    "quadrature_order": 64
+   },
+   {
+    "delta_ext": "201/100",
+    "ratio_include": "1.0328219060219397658",
+    "ratio_exclude": "1.0328219060219397658",
+    "check_rel_diff": "1.02e-15",
+    "crossing_residual_z037": "2.17e-16",
+    "p_cutoff_final": "6.75",
+    "q_order": 24,
+    "quadrature_order": 64
+   },
+   {
+    "delta_ext": "101/50",
+    "ratio_include": "1.037174722862270663",
+    "ratio_exclude": "1.037174722862270663",
+    "check_rel_diff": "1.03e-15",
+    "crossing_residual_z037": "2.18e-16",
+    "p_cutoff_final": "6.75",
+    "q_order": 24,
+    "quadrature_order": 64
+   },
+   {
+    "delta_ext": "41/20",
+    "ratio_include": "1.0496152965021643715",
+    "ratio_exclude": "1.0496152965021643715",
+    "check_rel_diff": "1.08e-15",
+    "crossing_residual_z037": "2.23e-16",
+    "p_cutoff_final": "6.75",
+    "q_order": 24,
+    "quadrature_order": 64
+   },
+   {
+    "delta_ext": "21/10",
+    "ratio_include": "1.0681900177836000996",
+    "ratio_exclude": "1.0681900177836000996",
+    "check_rel_diff": "1.18e-15",
+    "crossing_residual_z037": "2.31e-16",
+    "p_cutoff_final": "6.75",
+    "q_order": 24,
+    "quadrature_order": 64
+   },
+   {
+    "delta_ext": "43/20",
+    "ratio_include": "1.0838763951264436015",
+    "ratio_exclude": "1.0838763951264436015",
+    "check_rel_diff": "1.31e-15",
+    "crossing_residual_z037": "2.4e-16",
+    "p_cutoff_final": "6.75",
+    "q_order": 24,
+    "quadrature_order": 64
+   },
+   {
+    "delta_ext": "11/5",
+    "ratio_include": "1.0964446466741977704",
+    "ratio_exclude": "1.0964446466741977704",
+    "check_rel_diff": "1.48e-15",
+    "crossing_residual_z037": "2.49e-16",
+    "p_cutoff_final": "6.75",
+    "q_order": 24,
+    "quadrature_order": 64
+   },
+   {
+    "delta_ext": "9/4",
+    "ratio_include": "1.1056535438793722652",
+    "ratio_exclude": "1.1056535438793722652",
+    "check_rel_diff": "1.71e-15",
+    "crossing_residual_z037": "2.58e-16",
+    "p_cutoff_final": "6.75",
+    "q_order": 24,
+    "quadrature_order": 64
+   },
+   {
+    "delta_ext": "23/10",
+    "ratio_include": "1.1112537958507426504",
+    "ratio_exclude": "1.1112537958507426504",
+    "check_rel_diff": "2.02e-15",
+    "crossing_residual_z037": "2.68e-16",
+    "p_cutoff_final": "6.75",
+    "q_order": 24,
+    "quadrature_order": 64
+   },
+   {
+    "delta_ext": "47/20",
+    "ratio_include": "1.1129936096074020456",
+    "ratio_exclude": "1.1129936096074020456",
+    "check_rel_diff": "2.45e-15",
+    "crossing_residual_z037": "2.78e-16",
+    "p_cutoff_final": "6.75",
+    "q_order": 24,
+    "quadrature_order": 64
+   },
+   {
+    "delta_ext": "12/5",
+    "ratio_include": "1.110627165104498532",
+    "ratio_exclude": "1.110627165104498532",
+    "check_rel_diff": "3.06e-15",
+    "crossing_residual_z037": "2.89e-16",
+    "p_cutoff_final": "6.75",
+    "q_order": 24,
+    "quadrature_order": 64
+   },
+   {
+    "delta_ext": "49/20",
+    "ratio_include": "1.1039269399003286998",
+    "ratio_exclude": "1.1039269399003286998",
+    "check_rel_diff": "3.9e-15",
+    "crossing_residual_z037": "3.01e-16",
+    "p_cutoff_final": "6.75",
+    "q_order": 24,
+    "quadrature_order": 64
+   },
+   {
+    "delta_ext": "5/2",
+    "ratio_include": "1.0927010176455622929",
+    "ratio_exclude": "1.0927010176455622929",
+    "check_rel_diff": "5.08e-15",
+    "crossing_residual_z037": "3.13e-16",
+    "p_cutoff_final": "6.75",
+    "q_order": 24,
+    "quadrature_order": 64
+   },
+   {
+    "delta_ext": "51/20",
+    "ratio_include": "1.0768166778656378071",
+    "ratio_exclude": "1.0768166778656378071",
+    "check_rel_diff": "6.72e-15",
+    "crossing_residual_z037": "3.27e-16",
+    "p_cutoff_final": "6.75",
+    "q_order": 24,
+    "quadrature_order": 64
+   },
+   {
+    "delta_ext": "13/5",
+    "ratio_include": "1.0562316161106290082",
+    "ratio_exclude": "1.0562316161106290082",
+    "check_rel_diff": "9.02e-15",
+    "crossing_residual_z037": "3.41e-16",
+    "p_cutoff_final": "6.75",
+    "q_order": 24,
+    "quadrature_order": 64
+   },
+   {
+    "delta_ext": "53/20",
+    "ratio_include": "1.0310339508805197588",
+    "ratio_exclude": "1.0310339508805197588",
+    "check_rel_diff": "1.22e-14",
+    "crossing_residual_z037": "3.57e-16",
+    "p_cutoff_final": "6.75",
+    "q_order": 24,
+    "quadrature_order": 64
+   },
+   {
+    "delta_ext": "27/10",
+    "ratio_include": "1.001491521318286552",
+    "ratio_exclude": "1.001491521318286552",
+    "check_rel_diff": "1.66e-14",
+    "crossing_residual_z037": "3.73e-16",
+    "p_cutoff_final": "6.75",
+    "q_order": 24,
+    "quadrature_order": 64
+   },
+   {
+    "delta_ext": "11/4",
+    "ratio_include": "0.96810954277660364705",
+    "ratio_exclude": "0.96810954277660364705",
+    "check_rel_diff": "2.26e-14",
+    "crossing_residual_z037": "3.91e-16",
+    "p_cutoff_final": "6.75",
+    "q_order": 24,
+    "quadrature_order": 64
+   },
+   {
+    "delta_ext": "14/5",
+    "ratio_include": "0.93169301986955921545",
+    "ratio_exclude": "0.93169301986955921545",
+    "check_rel_diff": "3.09e-14",
+    "crossing_residual_z037": "4.11e-16",
+    "p_cutoff_final": "6.75",
+    "q_order": 24,
+    "quadrature_order": 64
+   },
+   {
+    "delta_ext": "57/20",
+    "ratio_include": "0.89340588585080629451",
+    "ratio_exclude": "0.89340588585080629451",
+    "check_rel_diff": "4.2e-14",
+    "crossing_residual_z037": "4.32e-16",
+    "p_cutoff_final": "6.75",
+    "q_order": 24,
+    "quadrature_order": 64
+   },
+   {
+    "delta_ext": "29/10",
+    "ratio_include": "0.85481217251125405117",
+    "ratio_exclude": "0.85481217251125405117",
+    "check_rel_diff": "5.68e-14",
+    "crossing_residual_z037": "4.55e-16",
+    "p_cutoff_final": "6.75",
+    "q_order": 24,
+    "quadrature_order": 64
+   },
+   {
+    "delta_ext": "59/20",
+    "ratio_include": "0.81787560225225470209",
+    "ratio_exclude": "0.81787560225225470209",
+    "check_rel_diff": "7.62e-14",
+    "crossing_residual_z037": "4.81e-16",
+    "p_cutoff_final": "6.75",
+    "q_order": 24,
+    "quadrature_order": 64
+   },
+   {
+    "delta_ext": "3",
+    "ratio_include": "0.78488420014419095365",
+    "ratio_exclude": "0.78488420014419095365",
+    "check_rel_diff": "1.01e-13",
+    "crossing_residual_z037": "5.09e-16",
+    "p_cutoff_final": "6.75",
+    "q_order": 24,
+    "quadrature_order": 64
+   },
+   {
+    "delta_ext": "61/20",
+    "ratio_include": "0.758260753226406472",
+    "ratio_exclude": "0.758260753226406472",
+    "check_rel_diff": "7.54e-12",
+    "crossing_residual_z037": "8.57e-16",
+    "p_cutoff_final": "6.75",
+    "q_order": 24,
+    "quadrature_order": 12,
+    "graded_quadrature": "per-cell panels at (width/2) ratio^k from both ends, (ratio, depth) = (0.25,7); quadrature orders are per panel"
+   },
+   {
+    "delta_ext": "31/10",
+    "ratio_include": "0.74023198879093354835",
+    "ratio_exclude": "0.74023198879093354835",
+    "check_rel_diff": "4.64e-12",
+    "crossing_residual_z037": "4.64e-16",
+    "p_cutoff_final": "6.75",
+    "q_order": 24,
+    "quadrature_order": 12,
+    "graded_quadrature": "per-cell panels at (width/2) ratio^k from both ends, (ratio, depth) = (0.25,7); quadrature orders are per panel"
+   },
+   {
+    "delta_ext": "78/25",
+    "ratio_include": "0.73581543885028955755",
+    "ratio_exclude": "0.73581543885028955755",
+    "check_rel_diff": "1.08e-12",
+    "crossing_residual_z037": "1.15e-16",
+    "p_cutoff_final": "6.75",
+    "q_order": 24,
+    "quadrature_order": 12,
+    "graded_quadrature": "per-cell panels at (width/2) ratio^k from both ends, (ratio, depth) = (0.25,7); quadrature orders are per panel"
+   },
+   {
+    "delta_ext": "25/8",
+    "ratio_include": "0.73497562722267045055",
+    "ratio_exclude": "0.73497562722267045055",
+    "check_rel_diff": "1.95e-13",
+    "crossing_residual_z037": "9.44e-18",
+    "p_cutoff_final": "6.75",
+    "q_order": 24,
+    "quadrature_order": 12,
+    "graded_quadrature": "per-cell panels at (width/2) ratio^k from both ends, (ratio, depth) = (0.25,7); quadrature orders are per panel"
+   },
+   {
+    "delta_ext": "313/100",
+    "ratio_include": "0.73430043443227969892",
+    "ratio_exclude": "0.73430043443227969892",
+    "check_rel_diff": "1.04e-12",
+    "crossing_residual_z037": "1.11e-16",
+    "p_cutoff_final": "6.75",
+    "q_order": 24,
+    "quadrature_order": 12,
+    "graded_quadrature": "per-cell panels at (width/2) ratio^k from both ends, (ratio, depth) = (0.25,7); quadrature orders are per panel"
+   },
+   {
+    "delta_ext": "63/20",
+    "ratio_include": "0.73264438791214907005",
+    "ratio_exclude": "0.73264438791214907005",
+    "check_rel_diff": "4.0e-12",
+    "crossing_residual_z037": "4.17e-16",
+    "p_cutoff_final": "6.75",
+    "q_order": 24,
+    "quadrature_order": 12,
+    "graded_quadrature": "per-cell panels at (width/2) ratio^k from both ends, (ratio, depth) = (0.25,7); quadrature orders are per panel"
+   },
+   {
+    "delta_ext": "16/5",
+    "ratio_include": "0.73543622783686909211",
+    "ratio_exclude": "0.73543622783686909211",
+    "check_rel_diff": "3.85e-12",
+    "crossing_residual_z037": "5.7e-16",
+    "p_cutoff_final": "6.75",
+    "q_order": 24,
+    "quadrature_order": 12,
+    "graded_quadrature": "per-cell panels at (width/2) ratio^k from both ends, (ratio, depth) = (0.25,7); quadrature orders are per panel"
+   },
+   {
+    "delta_ext": "13/4",
+    "ratio_include": "0.74707828451670184098",
+    "ratio_exclude": "0.74707828451670184098",
+    "check_rel_diff": "3.54e-13",
+    "crossing_residual_z037": "5.56e-16",
+    "p_cutoff_final": "6.75",
+    "q_order": 24,
+    "quadrature_order": 64
+   },
+   {
+    "delta_ext": "33/10",
+    "ratio_include": "0.76613120922807393072",
+    "ratio_exclude": "0.76613120922807393072",
+    "check_rel_diff": "4.5e-13",
+    "crossing_residual_z037": "5.45e-16",
+    "p_cutoff_final": "6.75",
+    "q_order": 24,
+    "quadrature_order": 64
+   },
+   {
+    "delta_ext": "67/20",
+    "ratio_include": "0.79117909753243493958",
+    "ratio_exclude": "0.79117909753243493958",
+    "check_rel_diff": "5.69e-13",
+    "crossing_residual_z037": "5.37e-16",
+    "p_cutoff_final": "6.75",
+    "q_order": 24,
+    "quadrature_order": 64
+   },
+   {
+    "delta_ext": "17/5",
+    "ratio_include": "0.82092859204425048591",
+    "ratio_exclude": "0.82092859204425048591",
+    "check_rel_diff": "7.18e-13",
+    "crossing_residual_z037": "5.3e-16",
+    "p_cutoff_final": "6.75",
+    "q_order": 24,
+    "quadrature_order": 64
+   },
+   {
+    "delta_ext": "69/20",
+    "ratio_include": "0.85424707839021087163",
+    "ratio_exclude": "0.85424707839021087163",
+    "check_rel_diff": "9.06e-13",
+    "crossing_residual_z037": "5.24e-16",
+    "p_cutoff_final": "6.75",
+    "q_order": 24,
+    "quadrature_order": 64
+   },
+   {
+    "delta_ext": "7/2",
+    "ratio_include": "0.89016826605048885968",
+    "ratio_exclude": "0.89016826605048885968",
+    "check_rel_diff": "1.14e-12",
+    "crossing_residual_z037": "5.21e-16",
+    "p_cutoff_final": "6.75",
+    "q_order": 24,
+    "quadrature_order": 64
+   },
+   {
+    "delta_ext": "71/20",
+    "ratio_include": "0.9278814905823864504",
+    "ratio_exclude": "0.9278814905823864504",
+    "check_rel_diff": "1.44e-12",
+    "crossing_residual_z037": "5.18e-16",
+    "p_cutoff_final": "6.75",
+    "q_order": 24,
+    "quadrature_order": 64
+   },
+   {
+    "delta_ext": "18/5",
+    "ratio_include": "0.96671397649163950986",
+    "ratio_exclude": "0.96671397649163950986",
+    "check_rel_diff": "1.81e-12",
+    "crossing_residual_z037": "5.17e-16",
+    "p_cutoff_final": "6.75",
+    "q_order": 24,
+    "quadrature_order": 64
+   },
+   {
+    "delta_ext": "73/20",
+    "ratio_include": "1.0061111096165635284",
+    "ratio_exclude": "1.0061111096165635284",
+    "check_rel_diff": "2.27e-12",
+    "crossing_residual_z037": "5.18e-16",
+    "p_cutoff_final": "6.75",
+    "q_order": 24,
+    "quadrature_order": 64
+   },
+   {
+    "delta_ext": "37/10",
+    "ratio_include": "1.0456173249199278478",
+    "ratio_exclude": "1.0456173249199278478",
+    "check_rel_diff": "2.85e-12",
+    "crossing_residual_z037": "5.22e-16",
+    "p_cutoff_final": "6.75",
+    "q_order": 24,
+    "quadrature_order": 64
+   },
+   {
+    "delta_ext": "15/4",
+    "ratio_include": "1.0848588199194155682",
+    "ratio_exclude": "1.0848588199194155682",
+    "check_rel_diff": "3.57e-12",
+    "crossing_residual_z037": "5.28e-16",
+    "p_cutoff_final": "6.75",
+    "q_order": 24,
+    "quadrature_order": 64
+   },
+   {
+    "delta_ext": "19/5",
+    "ratio_include": "1.1235285305916669508",
+    "ratio_exclude": "1.1235285305916669508",
+    "check_rel_diff": "4.46e-12",
+    "crossing_residual_z037": "5.37e-16",
+    "p_cutoff_final": "6.75",
+    "q_order": 24,
+    "quadrature_order": 64
+   },
+   {
+    "delta_ext": "77/20",
+    "ratio_include": "1.1613733979540974736",
+    "ratio_exclude": "1.1613733979540974736",
+    "check_rel_diff": "5.56e-12",
+    "crossing_residual_z037": "5.5e-16",
+    "p_cutoff_final": "6.75",
+    "q_order": 24,
+    "quadrature_order": 64
+   },
+   {
+    "delta_ext": "39/10",
+    "ratio_include": "1.1981837547123455387",
+    "ratio_exclude": "1.1981837547123455387",
+    "check_rel_diff": "6.94e-12",
+    "crossing_residual_z037": "5.69e-16",
+    "p_cutoff_final": "6.75",
+    "q_order": 24,
+    "quadrature_order": 64
+   },
+   {
+    "delta_ext": "79/20",
+    "ratio_include": "1.2337845800568147397",
+    "ratio_exclude": "1.2337845800568147397",
+    "check_rel_diff": "8.63e-12",
+    "crossing_residual_z037": "5.94e-16",
+    "p_cutoff_final": "6.75",
+    "q_order": 24,
+    "quadrature_order": 64
+   },
+   {
+    "delta_ext": "4",
+    "ratio_include": "1.2680283526396075115",
+    "ratio_exclude": "1.2680283526396075115",
+    "check_rel_diff": "1.07e-11",
+    "crossing_residual_z037": "6.28e-16",
+    "p_cutoff_final": "6.75",
+    "q_order": 24,
+    "quadrature_order": 64
+   }
+  ],
+  "momentum_winding_mixtures": [
+   {
+    "delta_ext": "5/2",
+    "mutual_locality_parity": 1,
+    "realized_by": "circle R^2=5 (m,w)=(5,1) and R^2=1/5; orbifold rho^2=5/2 (5,1) and rho^2=1/10 (1,5); no named theory",
+    "ratio_range_over_t_in_[0,1]": {
+     "include": {
+      "min": "0.64220911288669238327",
+      "t_at_min": "0.5",
+      "max": "1.1207746173841859524",
+      "t_at_max": "0.0",
+      "quadratic_interpolation_check": "3.15e-41"
+     },
+     "exclude": {
+      "min": "2.1890231638185844653",
+      "t_at_min": "0.0",
+      "max": "4.9118934348532582645",
+      "t_at_max": "0.5",
+      "quadratic_interpolation_check": "2.52e-41"
+     }
+    },
+    "rows": [
+     {
+      "momentum_fraction": "0",
+      "ratio_include": "1.1207746173841859524",
+      "ratio_exclude": "2.1890231638185844653",
+      "last_cut_rel_drift": "4.17e-26",
+      "crossing_residual_last_cut": "1.17e-24"
+     },
+     {
+      "momentum_fraction": "1/10",
+      "ratio_include": "1.0059188963047874958",
+      "ratio_exclude": "2.392213316585160231",
+      "last_cut_rel_drift": "3.55e-26",
+      "crossing_residual_last_cut": "8.14e-23"
+     },
+     {
+      "momentum_fraction": "1/4",
+      "ratio_include": "0.82049822240536645806",
+      "ratio_exclude": "3.007903739101838544",
+      "last_cut_rel_drift": "2.15e-26",
+      "crossing_residual_last_cut": "1.69e-22"
+     },
+     {
+      "momentum_fraction": "1/3",
+      "ratio_include": "0.72936001945652348053",
+      "ratio_exclude": "3.643612145234793531",
+      "last_cut_rel_drift": "1.19e-26",
+      "crossing_residual_last_cut": "2.0e-22"
+     },
+     {
+      "momentum_fraction": "1/2",
+      "ratio_include": "0.64220911288669238327",
+      "ratio_exclude": "4.9118934348532582645",
+      "last_cut_rel_drift": "0.0",
+      "crossing_residual_last_cut": "2.25e-22"
+     },
+     {
+      "momentum_fraction": "1",
+      "ratio_include": "1.1207746173841859524",
+      "ratio_exclude": "2.1890231638185844653",
+      "last_cut_rel_drift": "4.17e-26",
+      "crossing_residual_last_cut": "1.17e-24"
+     }
+    ]
+   },
+   {
+    "delta_ext": "3",
+    "mutual_locality_parity": 0,
+    "realized_by": "N=2_{k=1}: circle R^2=3/2 (m,w)=(3,2) and R^2=6 (6,1); orbifold rho^2=3/4 (3,2) and rho^2=3 (6,1); also their T-duals",
+    "ratio_range_over_t_in_[0,1]": {
+     "include": {
+      "min": "0.72582064298850796672",
+      "t_at_min": "0.5",
+      "max": "1.2562234769791517339",
+      "t_at_max": "0.0",
+      "quadratic_interpolation_check": "4.05e-41"
+     },
+     "exclude": {
+      "min": "2.2706938018660028843",
+      "t_at_min": "1.0",
+      "max": "4.553756724675017933",
+      "t_at_max": "0.5",
+      "quadratic_interpolation_check": "3.07e-41"
+     }
+    },
+    "rows": [
+     {
+      "momentum_fraction": "0",
+      "ratio_include": "1.2562234769791517339",
+      "ratio_exclude": "2.2706938018660028843",
+      "last_cut_rel_drift": "6.73e-24",
+      "crossing_residual_last_cut": "1.96e-21"
+     },
+     {
+      "momentum_fraction": "1/10",
+      "ratio_include": "1.1341504894027210761",
+      "ratio_exclude": "2.4517424430796728178",
+      "last_cut_rel_drift": "5.18e-15",
+      "crossing_residual_last_cut": "1.96e-21"
+     },
+     {
+      "momentum_fraction": "1/4",
+      "ratio_include": "0.93025920710566919303",
+      "ratio_exclude": "2.9893350711889936057",
+      "last_cut_rel_drift": "1.7e-14",
+      "crossing_residual_last_cut": "1.96e-21"
+     },
+     {
+      "momentum_fraction": "1/3",
+      "ratio_include": "0.82681454753704705036",
+      "ratio_exclude": "3.5276492943302459895",
+      "last_cut_rel_drift": "2.53e-14",
+      "crossing_residual_last_cut": "1.96e-21"
+     },
+     {
+      "momentum_fraction": "1/2",
+      "ratio_include": "0.72582064298850796672",
+      "ratio_exclude": "4.553756724675017933",
+      "last_cut_rel_drift": "3.58e-14",
+      "crossing_residual_last_cut": "1.96e-21"
+     },
+     {
+      "momentum_fraction": "1",
+      "ratio_include": "1.2562234769791517339",
+      "ratio_exclude": "2.2706938018660028843",
+      "last_cut_rel_drift": "6.73e-24",
+      "crossing_residual_last_cut": "1.96e-21"
+     }
+    ]
+   },
+   {
+    "delta_ext": "7/2",
+    "mutual_locality_parity": 1,
+    "realized_by": "circle R^2=7 (7,1) and R^2=1/7; orbifold rho^2=7/2 (7,1) and rho^2=1/14 (1,7); no named theory",
+    "ratio_range_over_t_in_[0,1]": {
+     "include": {
+      "min": "0.91638379971005014145",
+      "t_at_min": "0.5",
+      "max": "1.3953472380288251498",
+      "t_at_max": "0.0",
+      "quadratic_interpolation_check": "4.55e-41"
+     },
+     "exclude": {
+      "min": "2.3667970238533773903",
+      "t_at_min": "0.0",
+      "max": "4.4947154773529956742",
+      "t_at_max": "0.5",
+      "quadratic_interpolation_check": "3.81e-41"
+     }
+    },
+    "rows": [
+     {
+      "momentum_fraction": "0",
+      "ratio_include": "1.3953472380288251498",
+      "ratio_exclude": "2.3667970238533773903",
+      "last_cut_rel_drift": "7.41e-23",
+      "crossing_residual_last_cut": "1.04e-19"
+     },
+     {
+      "momentum_fraction": "1/10",
+      "ratio_include": "1.2876722328774002828",
+      "ratio_exclude": "2.5607539231999029888",
+      "last_cut_rel_drift": "6.26e-23",
+      "crossing_residual_last_cut": "1.08e-19"
+     },
+     {
+      "momentum_fraction": "1/4",
+      "ratio_include": "1.1044570060434181569",
+      "ratio_exclude": "3.1083407414570491971",
+      "last_cut_rel_drift": "3.72e-23",
+      "crossing_residual_last_cut": "1.12e-19"
+     },
+     {
+      "momentum_fraction": "1/3",
+      "ratio_include": "1.0098492623787585764",
+      "ratio_exclude": "3.6177100768449416531",
+      "last_cut_rel_drift": "2.03e-23",
+      "crossing_residual_last_cut": "1.14e-19"
+     },
+     {
+      "momentum_fraction": "1/2",
+      "ratio_include": "0.91638379971005014145",
+      "ratio_exclude": "4.4947154773529956742",
+      "last_cut_rel_drift": "0.0",
+      "crossing_residual_last_cut": "1.15e-19"
+     },
+     {
+      "momentum_fraction": "1",
+      "ratio_include": "1.3953472380288251498",
+      "ratio_exclude": "2.3667970238533773903",
+      "last_cut_rel_drift": "7.41e-23",
+      "crossing_residual_last_cut": "1.04e-19"
+     }
+    ]
+   },
+   {
+    "delta_ext": "4",
+    "mutual_locality_parity": 0,
+    "realized_by": "free Dirac circle R^2=2 (m,w)=(4,2); Ising^2 = orbifold rho^2=1 (4,2); circle R^2=8 (8,1); orbifold rho^2=4 (8,1); plus T-duals",
+    "ratio_range_over_t_in_[0,1]": {
+     "include": {
+      "min": "1.13118516265431258",
+      "t_at_min": "0.5",
+      "max": "1.5338288129884428702",
+      "t_at_max": "0.0",
+      "quadratic_interpolation_check": "1.9e-41"
+     },
+     "exclude": {
+      "min": "2.464998280206490529",
+      "t_at_min": "0.0",
+      "max": "4.4164147641109628869",
+      "t_at_max": "0.5",
+      "quadratic_interpolation_check": "2.49e-41"
+     }
+    },
+    "rows": [
+     {
+      "momentum_fraction": "0",
+      "ratio_include": "1.5338288129884428702",
+      "ratio_exclude": "2.464998280206490529",
+      "last_cut_rel_drift": "9.01e-23",
+      "crossing_residual_last_cut": "4.18e-19"
+     },
+     {
+      "momentum_fraction": "1/10",
+      "ratio_include": "1.444367379483626093",
+      "ratio_exclude": "2.6703095309819670487",
+      "last_cut_rel_drift": "2.45e-14",
+      "crossing_residual_last_cut": "4.18e-19"
+     },
+     {
+      "momentum_fraction": "1/4",
+      "ratio_include": "1.2907438839066600318",
+      "ratio_exclude": "3.2170975106295577166",
+      "last_cut_rel_drift": "7.51e-14",
+      "crossing_residual_last_cut": "4.18e-19"
+     },
+     {
+      "momentum_fraction": "1/3",
+      "ratio_include": "1.2107178231472637213",
+      "ratio_exclude": "3.6861715873359022238",
+      "last_cut_rel_drift": "1.07e-13",
+      "crossing_residual_last_cut": "4.18e-19"
+     },
+     {
+      "momentum_fraction": "1/2",
+      "ratio_include": "1.13118516265431258",
+      "ratio_exclude": "4.4164147641109628869",
+      "last_cut_rel_drift": "1.43e-13",
+      "crossing_residual_last_cut": "4.18e-19"
+     },
+     {
+      "momentum_fraction": "1",
+      "ratio_include": "1.5338288129884428702",
+      "ratio_exclude": "2.464998280206490529",
+      "last_cut_rel_drift": "9.01e-23",
+      "crossing_residual_last_cut": "4.18e-19"
+     }
+    ]
+   }
+  ]
+ }
+}

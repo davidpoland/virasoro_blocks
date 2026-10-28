@@ -1,0 +1,147 @@
+{
+  "_comment": [
+    "Default IdenticalScalarGapSpec profiles, one per derivative order. They were",
+    "validated on the problems they were tuned for; perform convergence checks for a new problem."
+  ],
+  "defaults": {
+    "_comment": [
+      "Cross-profile selectors. contribution_optimal is the default for fixed-spin",
+      "and large-spin blocks. The keys remain separate so applications can override",
+      "a block family without changing the others. Global pools are q-order-defined."
+    ],
+    "pole_selection": "contribution_optimal",
+    "large_spin_pole_selection": "contribution_optimal",
+    "global_pole_selection": "contribution_optimal"
+  },
+  "lambda7": {
+    "_comment": [
+      "Baseline Lambda=7 profile.",
+      "dps is set from a measured block-table floor, not from guard room over an",
+      "untested value (a scan of the precision floor). It is kept",
+      "monotonic in Lambda across the profiles."
+    ],
+    "lam": 7,
+    "spin_list": [
+      0,
+      2,
+      4,
+      6,
+      8,
+      10
+    ],
+    "q_order": 40,
+    "npoles": 20,
+    "dps": 120,
+    "large_spin_double_twists": 10,
+    "large_spin_twists": [],
+    "large_spin_npoles": 12,
+    "sdpb_precision": 1024,
+    "cert_extra_spins": 8,
+    "cert_extra_twists": 2,
+    "adaptive_cert_extra_spins": 20,
+    "adaptive_cert_extra_twists": 2,
+    "physical_moment_blocks": true,
+    "moment_cert_q_order": 60
+  },
+  "lambda7_gap_legacy_fast": {
+    "_comment": [
+      "Lower-cost Lambda=7 profile retained for comparisons."
+    ],
+    "lam": 7,
+    "spin_list": [
+      0,
+      2,
+      4,
+      6,
+      8,
+      10
+    ],
+    "q_order": 40,
+    "npoles": 12,
+    "dps": 120,
+    "large_spin_double_twists": 5,
+    "large_spin_twists": [
+      0
+    ],
+    "sdpb_precision": 768
+  },
+  "lambda11": {
+    "_comment": [
+      "Baseline Lambda=11 profile."
+    ],
+    "lam": 11,
+    "spin_list": [
+      0,
+      2,
+      4,
+      6,
+      8,
+      10,
+      12,
+      14
+    ],
+    "q_order": 60,
+    "npoles": 32,
+    "dps": 160,
+    "large_spin_double_twists": 16,
+    "large_spin_twists": [
+      0
+    ],
+    "large_spin_npoles": 12,
+    "_large_spin_npoles_note": "Tower pole count is independent of fixed-spin npoles. The inverted spin geometry generally favors a modest count; perform a convergence check when changing it.",
+    "sdpb_precision": 768
+  },
+  "lambda15": {
+    "_comment": [
+      "Intermediate Lambda=15 profile. Set convergence controls explicitly for a new study."
+    ],
+    "lam": 15,
+    "spin_list": [
+      0,
+      2,
+      4,
+      6,
+      8,
+      10,
+      12,
+      14,
+      16
+    ],
+    "q_order": 80,
+    "npoles": 60,
+    "dps": 180,
+    "large_spin_double_twists": 5,
+    "large_spin_twists": [
+      0
+    ],
+    "large_spin_npoles": 8,
+    "sdpb_precision": 1024
+  },
+  "lambda19": {
+    "_comment": [
+      "Baseline Lambda=19 profile."
+    ],
+    "lam": 19,
+    "spin_list": [
+      0,
+      2,
+      4,
+      6,
+      8,
+      10,
+      12,
+      14,
+      16,
+      18
+    ],
+    "q_order": 80,
+    "npoles": 60,
+    "dps": 200,
+    "large_spin_double_twists": 5,
+    "large_spin_twists": [
+      0
+    ],
+    "large_spin_npoles": 8,
+    "sdpb_precision": 1024
+  }
+}

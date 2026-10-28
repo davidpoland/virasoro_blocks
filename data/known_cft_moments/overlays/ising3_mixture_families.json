@@ -1,0 +1,3050 @@
+{
+ "model": "Ising^3 scalar mixing families",
+ "central_charge": "3/2",
+ "normalization": "four identical unit-normalized real scalar operators",
+ "identity_excluded": "ordinary Virasoro identity only",
+ "family_count": 17,
+ "rows": [
+  {
+   "model": "Ising^3 scalar mixing family",
+   "kind": "ising3_mixture",
+   "full_cft": "Ising^3",
+   "family_key": "sigma:pair-1",
+   "family_kind": "pair_slice",
+   "family_label": "$\\sigma_i$ pair mixtures (orbit 1)",
+   "basis": [
+    [
+     "sigma",
+     "1",
+     "1"
+    ],
+    [
+     "1",
+     "sigma",
+     "1"
+    ]
+   ],
+   "coefficients": [
+    "0.0",
+    "1.0"
+   ],
+   "delta_ext": "1/8",
+   "parameter": "0",
+   "ratio_include": "0.163417143089709316772050927967",
+   "ratio_exclude": "1.05498547789018484042075502391",
+   "crossing_residual": "1.58897438317e-12",
+   "delta_cut": 14,
+   "lam": 7,
+   "q_order": 45,
+   "dps": 70,
+   "n_operators": 29,
+   "converged": true
+  },
+  {
+   "model": "Ising^3 scalar mixing family",
+   "kind": "ising3_mixture",
+   "full_cft": "Ising^3",
+   "family_key": "sigma:pair-1",
+   "family_kind": "pair_slice",
+   "family_label": "$\\sigma_i$ pair mixtures (orbit 1)",
+   "basis": [
+    [
+     "sigma",
+     "1",
+     "1"
+    ],
+    [
+     "1",
+     "sigma",
+     "1"
+    ]
+   ],
+   "coefficients": [
+    "0.408248290463863016366214012451",
+    "0.912870929175276855761616304668"
+   ],
+   "delta_ext": "1/8",
+   "parameter": "1/6",
+   "ratio_include": "0.163715187252175825415996108313",
+   "ratio_exclude": "0.419595256645006827009403318394",
+   "crossing_residual": "6.74930594191e-12",
+   "delta_cut": 14,
+   "lam": 7,
+   "q_order": 45,
+   "dps": 70,
+   "n_operators": 57,
+   "converged": true
+  },
+  {
+   "model": "Ising^3 scalar mixing family",
+   "kind": "ising3_mixture",
+   "full_cft": "Ising^3",
+   "family_key": "sigma:pair-1",
+   "family_kind": "pair_slice",
+   "family_label": "$\\sigma_i$ pair mixtures (orbit 1)",
+   "basis": [
+    [
+     "sigma",
+     "1",
+     "1"
+    ],
+    [
+     "1",
+     "sigma",
+     "1"
+    ]
+   ],
+   "coefficients": [
+    "0.577350269189625764509148780502",
+    "0.816496580927726032732428024902"
+   ],
+   "delta_ext": "1/8",
+   "parameter": "1/3",
+   "ratio_include": "0.163825759035479976709935235214",
+   "ratio_exclude": "0.343120251403548659466090307516",
+   "crossing_residual": "9.94834137657e-12",
+   "delta_cut": 14,
+   "lam": 7,
+   "q_order": 45,
+   "dps": 70,
+   "n_operators": 57,
+   "converged": true
+  },
+  {
+   "model": "Ising^3 scalar mixing family",
+   "kind": "ising3_mixture",
+   "full_cft": "Ising^3",
+   "family_key": "sigma:pair-1",
+   "family_kind": "pair_slice",
+   "family_label": "$\\sigma_i$ pair mixtures (orbit 1)",
+   "basis": [
+    [
+     "sigma",
+     "1",
+     "1"
+    ],
+    [
+     "1",
+     "sigma",
+     "1"
+    ]
+   ],
+   "coefficients": [
+    "0.707106781186547524400844362105",
+    "0.707106781186547524400844362105"
+   ],
+   "delta_ext": "1/8",
+   "parameter": "1/2",
+   "ratio_include": "0.163855902739380253134819770243",
+   "ratio_exclude": "0.326891975440103799682155701908",
+   "crossing_residual": "1.10146865215e-11",
+   "delta_cut": 14,
+   "lam": 7,
+   "q_order": 45,
+   "dps": 70,
+   "n_operators": 57,
+   "converged": true
+  },
+  {
+   "model": "Ising^3 scalar mixing family",
+   "kind": "ising3_mixture",
+   "full_cft": "Ising^3",
+   "family_key": "sigma:pair-1",
+   "family_kind": "pair_slice",
+   "family_label": "$\\sigma_i$ pair mixtures (orbit 1)",
+   "basis": [
+    [
+     "sigma",
+     "1",
+     "1"
+    ],
+    [
+     "1",
+     "sigma",
+     "1"
+    ]
+   ],
+   "coefficients": [
+    "0.816496580927726032732428024902",
+    "0.577350269189625764509148780502"
+   ],
+   "delta_ext": "1/8",
+   "parameter": "2/3",
+   "ratio_include": "0.163825759035479976709935235214",
+   "ratio_exclude": "0.343120251403548659466090307516",
+   "crossing_residual": "9.94834137657e-12",
+   "delta_cut": 14,
+   "lam": 7,
+   "q_order": 45,
+   "dps": 70,
+   "n_operators": 57,
+   "converged": true
+  },
+  {
+   "model": "Ising^3 scalar mixing family",
+   "kind": "ising3_mixture",
+   "full_cft": "Ising^3",
+   "family_key": "sigma:pair-1",
+   "family_kind": "pair_slice",
+   "family_label": "$\\sigma_i$ pair mixtures (orbit 1)",
+   "basis": [
+    [
+     "sigma",
+     "1",
+     "1"
+    ],
+    [
+     "1",
+     "sigma",
+     "1"
+    ]
+   ],
+   "coefficients": [
+    "0.912870929175276855761616304668",
+    "0.408248290463863016366214012451"
+   ],
+   "delta_ext": "1/8",
+   "parameter": "5/6",
+   "ratio_include": "0.163715187252175825415996108313",
+   "ratio_exclude": "0.419595256645006827009403318394",
+   "crossing_residual": "6.74930594191e-12",
+   "delta_cut": 14,
+   "lam": 7,
+   "q_order": 45,
+   "dps": 70,
+   "n_operators": 57,
+   "converged": true
+  },
+  {
+   "model": "Ising^3 scalar mixing family",
+   "kind": "ising3_mixture",
+   "full_cft": "Ising^3",
+   "family_key": "sigma:pair-1",
+   "family_kind": "pair_slice",
+   "family_label": "$\\sigma_i$ pair mixtures (orbit 1)",
+   "basis": [
+    [
+     "sigma",
+     "1",
+     "1"
+    ],
+    [
+     "1",
+     "sigma",
+     "1"
+    ]
+   ],
+   "coefficients": [
+    "1.0",
+    "0.0"
+   ],
+   "delta_ext": "1/8",
+   "parameter": "1",
+   "ratio_include": "0.163417143089709316772050927967",
+   "ratio_exclude": "1.05498547789018484042075502391",
+   "crossing_residual": "1.58897438317e-12",
+   "delta_cut": 14,
+   "lam": 7,
+   "q_order": 45,
+   "dps": 70,
+   "n_operators": 29,
+   "converged": true
+  },
+  {
+   "model": "Ising^3 scalar mixing family",
+   "kind": "ising3_mixture",
+   "full_cft": "Ising^3",
+   "family_key": "sigma:symmetric",
+   "family_kind": "symmetric_direction",
+   "family_label": "$\\sigma_i$ symmetric direction",
+   "basis": [
+    [
+     "sigma",
+     "1",
+     "1"
+    ],
+    [
+     "1",
+     "sigma",
+     "1"
+    ],
+    [
+     "1",
+     "1",
+     "sigma"
+    ]
+   ],
+   "coefficients": [
+    "0.577350269189625764509148780502",
+    "0.577350269189625764509148780502",
+    "0.577350269189625764509148780502"
+   ],
+   "delta_ext": "1/8",
+   "parameter": null,
+   "ratio_include": "0.163931841627650181448809282016",
+   "ratio_exclude": "0.292109663328450090600043667571",
+   "crossing_residual": "1.42137219561e-11",
+   "delta_cut": 14,
+   "lam": 7,
+   "q_order": 45,
+   "dps": 70,
+   "n_operators": 56,
+   "converged": true
+  },
+  {
+   "model": "Ising^3 scalar mixing family",
+   "kind": "ising3_mixture",
+   "full_cft": "Ising^3",
+   "family_key": "sigma2:pair-1",
+   "family_kind": "pair_slice",
+   "family_label": "$\\sigma_i\\sigma_j$ pair mixtures (orbit 1)",
+   "basis": [
+    [
+     "sigma",
+     "sigma",
+     "1"
+    ],
+    [
+     "sigma",
+     "1",
+     "sigma"
+    ]
+   ],
+   "coefficients": [
+    "0.0",
+    "1.0"
+   ],
+   "delta_ext": "1/4",
+   "parameter": "0",
+   "ratio_include": "0.311208590868211917199404787914",
+   "ratio_exclude": "1.11681071935030154896438145704",
+   "crossing_residual": "6.05012872407e-12",
+   "delta_cut": 14,
+   "lam": 7,
+   "q_order": 45,
+   "dps": 70,
+   "n_operators": 51,
+   "converged": true
+  },
+  {
+   "model": "Ising^3 scalar mixing family",
+   "kind": "ising3_mixture",
+   "full_cft": "Ising^3",
+   "family_key": "sigma2:pair-1",
+   "family_kind": "pair_slice",
+   "family_label": "$\\sigma_i\\sigma_j$ pair mixtures (orbit 1)",
+   "basis": [
+    [
+     "sigma",
+     "sigma",
+     "1"
+    ],
+    [
+     "sigma",
+     "1",
+     "sigma"
+    ]
+   ],
+   "coefficients": [
+    "0.408248290463863016366214012451",
+    "0.912870929175276855761616304668"
+   ],
+   "delta_ext": "1/4",
+   "parameter": "1/6",
+   "ratio_include": "0.309476553033548815805466417135",
+   "ratio_exclude": "0.645444219189467039196779795696",
+   "crossing_residual": "1.56462410103e-11",
+   "delta_cut": 14,
+   "lam": 7,
+   "q_order": 45,
+   "dps": 70,
+   "n_operators": 107,
+   "converged": true
+  },
+  {
+   "model": "Ising^3 scalar mixing family",
+   "kind": "ising3_mixture",
+   "full_cft": "Ising^3",
+   "family_key": "sigma2:pair-1",
+   "family_kind": "pair_slice",
+   "family_label": "$\\sigma_i\\sigma_j$ pair mixtures (orbit 1)",
+   "basis": [
+    [
+     "sigma",
+     "sigma",
+     "1"
+    ],
+    [
+     "sigma",
+     "1",
+     "sigma"
+    ]
+   ],
+   "coefficients": [
+    "0.577350269189625764509148780502",
+    "0.816496580927726032732428024902"
+   ],
+   "delta_ext": "1/4",
+   "parameter": "1/3",
+   "ratio_include": "0.308833982112031503934463121161",
+   "ratio_exclude": "0.557481299905586736352293597112",
+   "crossing_residual": "2.1403908382e-11",
+   "delta_cut": 14,
+   "lam": 7,
+   "q_order": 45,
+   "dps": 70,
+   "n_operators": 107,
+   "converged": true
+  },
+  {
+   "model": "Ising^3 scalar mixing family",
+   "kind": "ising3_mixture",
+   "full_cft": "Ising^3",
+   "family_key": "sigma2:pair-1",
+   "family_kind": "pair_slice",
+   "family_label": "$\\sigma_i\\sigma_j$ pair mixtures (orbit 1)",
+   "basis": [
+    [
+     "sigma",
+     "sigma",
+     "1"
+    ],
+    [
+     "sigma",
+     "1",
+     "sigma"
+    ]
+   ],
+   "coefficients": [
+    "0.707106781186547524400844362105",
+    "0.707106781186547524400844362105"
+   ],
+   "delta_ext": "1/4",
+   "parameter": "1/2",
+   "ratio_include": "0.308658806610521631791796006103",
+   "ratio_exclude": "0.53746017001134591832250563838",
+   "crossing_residual": "2.33231308393e-11",
+   "delta_cut": 14,
+   "lam": 7,
+   "q_order": 45,
+   "dps": 70,
+   "n_operators": 107,
+   "converged": true
+  },
+  {
+   "model": "Ising^3 scalar mixing family",
+   "kind": "ising3_mixture",
+   "full_cft": "Ising^3",
+   "family_key": "sigma2:pair-1",
+   "family_kind": "pair_slice",
+   "family_label": "$\\sigma_i\\sigma_j$ pair mixtures (orbit 1)",
+   "basis": [
+    [
+     "sigma",
+     "sigma",
+     "1"
+    ],
+    [
+     "sigma",
+     "1",
+     "sigma"
+    ]
+   ],
+   "coefficients": [
+    "0.816496580927726032732428024902",
+    "0.577350269189625764509148780502"
+   ],
+   "delta_ext": "1/4",
+   "parameter": "2/3",
+   "ratio_include": "0.308833982112031503934463121161",
+   "ratio_exclude": "0.557481299905586736352293597112",
+   "crossing_residual": "2.1403908382e-11",
+   "delta_cut": 14,
+   "lam": 7,
+   "q_order": 45,
+   "dps": 70,
+   "n_operators": 107,
+   "converged": true
+  },
+  {
+   "model": "Ising^3 scalar mixing family",
+   "kind": "ising3_mixture",
+   "full_cft": "Ising^3",
+   "family_key": "sigma2:pair-1",
+   "family_kind": "pair_slice",
+   "family_label": "$\\sigma_i\\sigma_j$ pair mixtures (orbit 1)",
+   "basis": [
+    [
+     "sigma",
+     "sigma",
+     "1"
+    ],
+    [
+     "sigma",
+     "1",
+     "sigma"
+    ]
+   ],
+   "coefficients": [
+    "0.912870929175276855761616304668",
+    "0.408248290463863016366214012451"
+   ],
+   "delta_ext": "1/4",
+   "parameter": "5/6",
+   "ratio_include": "0.309476553033548815805466417135",
+   "ratio_exclude": "0.645444219189467039196779795696",
+   "crossing_residual": "1.56462410103e-11",
+   "delta_cut": 14,
+   "lam": 7,
+   "q_order": 45,
+   "dps": 70,
+   "n_operators": 107,
+   "converged": true
+  },
+  {
+   "model": "Ising^3 scalar mixing family",
+   "kind": "ising3_mixture",
+   "full_cft": "Ising^3",
+   "family_key": "sigma2:pair-1",
+   "family_kind": "pair_slice",
+   "family_label": "$\\sigma_i\\sigma_j$ pair mixtures (orbit 1)",
+   "basis": [
+    [
+     "sigma",
+     "sigma",
+     "1"
+    ],
+    [
+     "sigma",
+     "1",
+     "sigma"
+    ]
+   ],
+   "coefficients": [
+    "1.0",
+    "0.0"
+   ],
+   "delta_ext": "1/4",
+   "parameter": "1",
+   "ratio_include": "0.311208590868211917199404787914",
+   "ratio_exclude": "1.11681071935030154896438145704",
+   "crossing_residual": "6.05012872407e-12",
+   "delta_cut": 14,
+   "lam": 7,
+   "q_order": 45,
+   "dps": 70,
+   "n_operators": 51,
+   "converged": true
+  },
+  {
+   "model": "Ising^3 scalar mixing family",
+   "kind": "ising3_mixture",
+   "full_cft": "Ising^3",
+   "family_key": "sigma2:symmetric",
+   "family_kind": "symmetric_direction",
+   "family_label": "$\\sigma_i\\sigma_j$ symmetric direction",
+   "basis": [
+    [
+     "sigma",
+     "sigma",
+     "1"
+    ],
+    [
+     "sigma",
+     "1",
+     "sigma"
+    ],
+    [
+     "1",
+     "sigma",
+     "sigma"
+    ]
+   ],
+   "coefficients": [
+    "0.577350269189625764509148780502",
+    "0.577350269189625764509148780502",
+    "0.577350269189625764509148780502"
+   ],
+   "delta_ext": "1/4",
+   "parameter": null,
+   "ratio_include": "0.308217499434708215875386676936",
+   "ratio_exclude": "0.492786419132184256444176211022",
+   "crossing_residual": "2.9080798211e-11",
+   "delta_cut": 14,
+   "lam": 7,
+   "q_order": 45,
+   "dps": 70,
+   "n_operators": 105,
+   "converged": true
+  },
+  {
+   "model": "Ising^3 scalar mixing family",
+   "kind": "ising3_mixture",
+   "full_cft": "Ising^3",
+   "family_key": "eps:pair-1",
+   "family_kind": "pair_slice",
+   "family_label": "$\\epsilon_i$ pair mixtures (orbit 1)",
+   "basis": [
+    [
+     "eps",
+     "1",
+     "1"
+    ],
+    [
+     "1",
+     "eps",
+     "1"
+    ]
+   ],
+   "coefficients": [
+    "0.0",
+    "1.0"
+   ],
+   "delta_ext": "1",
+   "parameter": "0",
+   "ratio_include": "0.898115953718469386205919602826",
+   "ratio_exclude": "2.2654092032853331555010950401",
+   "crossing_residual": "2.66915024126e-10",
+   "delta_cut": 14,
+   "lam": 7,
+   "q_order": 45,
+   "dps": 70,
+   "n_operators": 19,
+   "converged": true
+  },
+  {
+   "model": "Ising^3 scalar mixing family",
+   "kind": "ising3_mixture",
+   "full_cft": "Ising^3",
+   "family_key": "eps:pair-1",
+   "family_kind": "pair_slice",
+   "family_label": "$\\epsilon_i$ pair mixtures (orbit 1)",
+   "basis": [
+    [
+     "eps",
+     "1",
+     "1"
+    ],
+    [
+     "1",
+     "eps",
+     "1"
+    ]
+   ],
+   "coefficients": [
+    "0.408248290463863016366214012451",
+    "0.912870929175276855761616304668"
+   ],
+   "delta_ext": "1",
+   "parameter": "1/6",
+   "ratio_include": "0.913255516663108614226766651854",
+   "ratio_exclude": "2.30359726250697599269370693137",
+   "crossing_residual": "2.64045629533e-10",
+   "delta_cut": 14,
+   "lam": 7,
+   "q_order": 45,
+   "dps": 70,
+   "n_operators": 35,
+   "converged": true
+  },
+  {
+   "model": "Ising^3 scalar mixing family",
+   "kind": "ising3_mixture",
+   "full_cft": "Ising^3",
+   "family_key": "eps:pair-1",
+   "family_kind": "pair_slice",
+   "family_label": "$\\epsilon_i$ pair mixtures (orbit 1)",
+   "basis": [
+    [
+     "eps",
+     "1",
+     "1"
+    ],
+    [
+     "1",
+     "eps",
+     "1"
+    ]
+   ],
+   "coefficients": [
+    "0.577350269189625764509148780502",
+    "0.816496580927726032732428024902"
+   ],
+   "delta_ext": "1",
+   "parameter": "1/3",
+   "ratio_include": "0.922339254429892150303179722896",
+   "ratio_exclude": "2.32651009803996169032586103396",
+   "crossing_residual": "2.62323992777e-10",
+   "delta_cut": 14,
+   "lam": 7,
+   "q_order": 45,
+   "dps": 70,
+   "n_operators": 35,
+   "converged": true
+  },
+  {
+   "model": "Ising^3 scalar mixing family",
+   "kind": "ising3_mixture",
+   "full_cft": "Ising^3",
+   "family_key": "eps:pair-1",
+   "family_kind": "pair_slice",
+   "family_label": "$\\epsilon_i$ pair mixtures (orbit 1)",
+   "basis": [
+    [
+     "eps",
+     "1",
+     "1"
+    ],
+    [
+     "1",
+     "eps",
+     "1"
+    ]
+   ],
+   "coefficients": [
+    "0.707106781186547524400844362105",
+    "0.707106781186547524400844362105"
+   ],
+   "delta_ext": "1",
+   "parameter": "1/2",
+   "ratio_include": "0.925367167018819995539301553515",
+   "ratio_exclude": "2.33414770988429025542267689612",
+   "crossing_residual": "2.61750113859e-10",
+   "delta_cut": 14,
+   "lam": 7,
+   "q_order": 45,
+   "dps": 70,
+   "n_operators": 35,
+   "converged": true
+  },
+  {
+   "model": "Ising^3 scalar mixing family",
+   "kind": "ising3_mixture",
+   "full_cft": "Ising^3",
+   "family_key": "eps:pair-1",
+   "family_kind": "pair_slice",
+   "family_label": "$\\epsilon_i$ pair mixtures (orbit 1)",
+   "basis": [
+    [
+     "eps",
+     "1",
+     "1"
+    ],
+    [
+     "1",
+     "eps",
+     "1"
+    ]
+   ],
+   "coefficients": [
+    "0.816496580927726032732428024902",
+    "0.577350269189625764509148780502"
+   ],
+   "delta_ext": "1",
+   "parameter": "2/3",
+   "ratio_include": "0.922339254429892150303179722896",
+   "ratio_exclude": "2.32651009803996169032586103396",
+   "crossing_residual": "2.62323992777e-10",
+   "delta_cut": 14,
+   "lam": 7,
+   "q_order": 45,
+   "dps": 70,
+   "n_operators": 35,
+   "converged": true
+  },
+  {
+   "model": "Ising^3 scalar mixing family",
+   "kind": "ising3_mixture",
+   "full_cft": "Ising^3",
+   "family_key": "eps:pair-1",
+   "family_kind": "pair_slice",
+   "family_label": "$\\epsilon_i$ pair mixtures (orbit 1)",
+   "basis": [
+    [
+     "eps",
+     "1",
+     "1"
+    ],
+    [
+     "1",
+     "eps",
+     "1"
+    ]
+   ],
+   "coefficients": [
+    "0.912870929175276855761616304668",
+    "0.408248290463863016366214012451"
+   ],
+   "delta_ext": "1",
+   "parameter": "5/6",
+   "ratio_include": "0.913255516663108614226766651854",
+   "ratio_exclude": "2.30359726250697599269370693137",
+   "crossing_residual": "2.64045629533e-10",
+   "delta_cut": 14,
+   "lam": 7,
+   "q_order": 45,
+   "dps": 70,
+   "n_operators": 35,
+   "converged": true
+  },
+  {
+   "model": "Ising^3 scalar mixing family",
+   "kind": "ising3_mixture",
+   "full_cft": "Ising^3",
+   "family_key": "eps:pair-1",
+   "family_kind": "pair_slice",
+   "family_label": "$\\epsilon_i$ pair mixtures (orbit 1)",
+   "basis": [
+    [
+     "eps",
+     "1",
+     "1"
+    ],
+    [
+     "1",
+     "eps",
+     "1"
+    ]
+   ],
+   "coefficients": [
+    "1.0",
+    "0.0"
+   ],
+   "delta_ext": "1",
+   "parameter": "1",
+   "ratio_include": "0.898115953718469386205919602826",
+   "ratio_exclude": "2.2654092032853331555010950401",
+   "crossing_residual": "2.66915024126e-10",
+   "delta_cut": 14,
+   "lam": 7,
+   "q_order": 45,
+   "dps": 70,
+   "n_operators": 19,
+   "converged": true
+  },
+  {
+   "model": "Ising^3 scalar mixing family",
+   "kind": "ising3_mixture",
+   "full_cft": "Ising^3",
+   "family_key": "eps:symmetric",
+   "family_kind": "symmetric_direction",
+   "family_label": "$\\epsilon_i$ symmetric direction",
+   "basis": [
+    [
+     "eps",
+     "1",
+     "1"
+    ],
+    [
+     "1",
+     "eps",
+     "1"
+    ],
+    [
+     "1",
+     "1",
+     "eps"
+    ]
+   ],
+   "coefficients": [
+    "0.577350269189625764509148780502",
+    "0.577350269189625764509148780502",
+    "0.577350269189625764509148780502"
+   ],
+   "delta_ext": "1",
+   "parameter": null,
+   "ratio_include": "0.934450904785603530879619466183",
+   "ratio_exclude": "2.35706054541727594837141796653",
+   "crossing_residual": "2.60028477103e-10",
+   "delta_cut": 14,
+   "lam": 7,
+   "q_order": 45,
+   "dps": 70,
+   "n_operators": 34,
+   "converged": true
+  },
+  {
+   "model": "Ising^3 scalar mixing family",
+   "kind": "ising3_mixture",
+   "full_cft": "Ising^3",
+   "family_key": "eps_sigma:pair-1",
+   "family_kind": "pair_slice",
+   "family_label": "$\\epsilon_i\\sigma_j$ pair mixtures (orbit 1)",
+   "basis": [
+    [
+     "eps",
+     "sigma",
+     "1"
+    ],
+    [
+     "eps",
+     "1",
+     "sigma"
+    ]
+   ],
+   "coefficients": [
+    "0.0",
+    "1.0"
+   ],
+   "delta_ext": "9/8",
+   "parameter": "0",
+   "ratio_include": "0.928165744302803017141337437043",
+   "ratio_exclude": "2.0530418670133484102968054718",
+   "crossing_residual": "3.6568431603e-9",
+   "delta_cut": 14,
+   "lam": 7,
+   "q_order": 45,
+   "dps": 70,
+   "n_operators": 35,
+   "converged": true
+  },
+  {
+   "model": "Ising^3 scalar mixing family",
+   "kind": "ising3_mixture",
+   "full_cft": "Ising^3",
+   "family_key": "eps_sigma:pair-1",
+   "family_kind": "pair_slice",
+   "family_label": "$\\epsilon_i\\sigma_j$ pair mixtures (orbit 1)",
+   "basis": [
+    [
+     "eps",
+     "sigma",
+     "1"
+    ],
+    [
+     "eps",
+     "1",
+     "sigma"
+    ]
+   ],
+   "coefficients": [
+    "0.408248290463863016366214012451",
+    "0.912870929175276855761616304668"
+   ],
+   "delta_ext": "9/8",
+   "parameter": "1/6",
+   "ratio_include": "0.790184523203837663313455337719",
+   "ratio_exclude": "1.30689117703324808560542411838",
+   "crossing_residual": "1.44268577621e-12",
+   "delta_cut": 18,
+   "lam": 7,
+   "q_order": 55,
+   "dps": 60,
+   "n_operators": 99,
+   "converged": true
+  },
+  {
+   "model": "Ising^3 scalar mixing family",
+   "kind": "ising3_mixture",
+   "full_cft": "Ising^3",
+   "family_key": "eps_sigma:pair-1",
+   "family_kind": "pair_slice",
+   "family_label": "$\\epsilon_i\\sigma_j$ pair mixtures (orbit 1)",
+   "basis": [
+    [
+     "eps",
+     "sigma",
+     "1"
+    ],
+    [
+     "eps",
+     "1",
+     "sigma"
+    ]
+   ],
+   "coefficients": [
+    "0.577350269189625764509148780502",
+    "0.816496580927726032732428024902"
+   ],
+   "delta_ext": "9/8",
+   "parameter": "1/3",
+   "ratio_include": "0.738994694309878126485088810286",
+   "ratio_exclude": "1.11762509450479886423620270151",
+   "crossing_residual": "2.07221151176e-12",
+   "delta_cut": 18,
+   "lam": 7,
+   "q_order": 55,
+   "dps": 60,
+   "n_operators": 99,
+   "converged": true
+  },
+  {
+   "model": "Ising^3 scalar mixing family",
+   "kind": "ising3_mixture",
+   "full_cft": "Ising^3",
+   "family_key": "eps_sigma:pair-1",
+   "family_kind": "pair_slice",
+   "family_label": "$\\epsilon_i\\sigma_j$ pair mixtures (orbit 1)",
+   "basis": [
+    [
+     "eps",
+     "sigma",
+     "1"
+    ],
+    [
+     "eps",
+     "1",
+     "sigma"
+    ]
+   ],
+   "coefficients": [
+    "0.707106781186547524400844362105",
+    "0.707106781186547524400844362105"
+   ],
+   "delta_ext": "9/8",
+   "parameter": "1/2",
+   "ratio_include": "0.725039497072615165608616832424",
+   "ratio_exclude": "1.07151960440262707940351007965",
+   "crossing_residual": "2.28205342361e-12",
+   "delta_cut": 18,
+   "lam": 7,
+   "q_order": 55,
+   "dps": 60,
+   "n_operators": 99,
+   "converged": true
+  },
+  {
+   "model": "Ising^3 scalar mixing family",
+   "kind": "ising3_mixture",
+   "full_cft": "Ising^3",
+   "family_key": "eps_sigma:pair-1",
+   "family_kind": "pair_slice",
+   "family_label": "$\\epsilon_i\\sigma_j$ pair mixtures (orbit 1)",
+   "basis": [
+    [
+     "eps",
+     "sigma",
+     "1"
+    ],
+    [
+     "eps",
+     "1",
+     "sigma"
+    ]
+   ],
+   "coefficients": [
+    "0.816496580927726032732428024902",
+    "0.577350269189625764509148780502"
+   ],
+   "delta_ext": "9/8",
+   "parameter": "2/3",
+   "ratio_include": "0.738994694309878126485088810286",
+   "ratio_exclude": "1.11762509450479886423620270151",
+   "crossing_residual": "2.07221151176e-12",
+   "delta_cut": 18,
+   "lam": 7,
+   "q_order": 55,
+   "dps": 60,
+   "n_operators": 99,
+   "converged": true
+  },
+  {
+   "model": "Ising^3 scalar mixing family",
+   "kind": "ising3_mixture",
+   "full_cft": "Ising^3",
+   "family_key": "eps_sigma:pair-1",
+   "family_kind": "pair_slice",
+   "family_label": "$\\epsilon_i\\sigma_j$ pair mixtures (orbit 1)",
+   "basis": [
+    [
+     "eps",
+     "sigma",
+     "1"
+    ],
+    [
+     "eps",
+     "1",
+     "sigma"
+    ]
+   ],
+   "coefficients": [
+    "0.912870929175276855761616304668",
+    "0.408248290463863016366214012451"
+   ],
+   "delta_ext": "9/8",
+   "parameter": "5/6",
+   "ratio_include": "0.790184523203837663313455337719",
+   "ratio_exclude": "1.30689117703324808560542411838",
+   "crossing_residual": "1.44268577621e-12",
+   "delta_cut": 18,
+   "lam": 7,
+   "q_order": 55,
+   "dps": 60,
+   "n_operators": 99,
+   "converged": true
+  },
+  {
+   "model": "Ising^3 scalar mixing family",
+   "kind": "ising3_mixture",
+   "full_cft": "Ising^3",
+   "family_key": "eps_sigma:pair-1",
+   "family_kind": "pair_slice",
+   "family_label": "$\\epsilon_i\\sigma_j$ pair mixtures (orbit 1)",
+   "basis": [
+    [
+     "eps",
+     "sigma",
+     "1"
+    ],
+    [
+     "eps",
+     "1",
+     "sigma"
+    ]
+   ],
+   "coefficients": [
+    "1.0",
+    "0.0"
+   ],
+   "delta_ext": "9/8",
+   "parameter": "1",
+   "ratio_include": "0.928165744302803017141337437043",
+   "ratio_exclude": "2.0530418670133484102968054718",
+   "crossing_residual": "3.6568431603e-9",
+   "delta_cut": 14,
+   "lam": 7,
+   "q_order": 45,
+   "dps": 70,
+   "n_operators": 35,
+   "converged": true
+  },
+  {
+   "model": "Ising^3 scalar mixing family",
+   "kind": "ising3_mixture",
+   "full_cft": "Ising^3",
+   "family_key": "eps_sigma:pair-2",
+   "family_kind": "pair_slice",
+   "family_label": "$\\epsilon_i\\sigma_j$ pair mixtures (orbit 2)",
+   "basis": [
+    [
+     "eps",
+     "sigma",
+     "1"
+    ],
+    [
+     "sigma",
+     "eps",
+     "1"
+    ]
+   ],
+   "coefficients": [
+    "0.0",
+    "1.0"
+   ],
+   "delta_ext": "9/8",
+   "parameter": "0",
+   "ratio_include": "0.928165744302803017141337437043",
+   "ratio_exclude": "2.0530418670133484102968054718",
+   "crossing_residual": "3.6568431603e-9",
+   "delta_cut": 14,
+   "lam": 7,
+   "q_order": 45,
+   "dps": 70,
+   "n_operators": 35,
+   "converged": true
+  },
+  {
+   "model": "Ising^3 scalar mixing family",
+   "kind": "ising3_mixture",
+   "full_cft": "Ising^3",
+   "family_key": "eps_sigma:pair-2",
+   "family_kind": "pair_slice",
+   "family_label": "$\\epsilon_i\\sigma_j$ pair mixtures (orbit 2)",
+   "basis": [
+    [
+     "eps",
+     "sigma",
+     "1"
+    ],
+    [
+     "sigma",
+     "eps",
+     "1"
+    ]
+   ],
+   "coefficients": [
+    "0.408248290463863016366214012451",
+    "0.912870929175276855761616304668"
+   ],
+   "delta_ext": "9/8",
+   "parameter": "1/6",
+   "ratio_include": "0.924673322454655930550633215459",
+   "ratio_exclude": "2.08376846712944893849011250106",
+   "crossing_residual": "1.56584294571e-12",
+   "delta_cut": 18,
+   "lam": 7,
+   "q_order": 55,
+   "dps": 60,
+   "n_operators": 99,
+   "converged": true
+  },
+  {
+   "model": "Ising^3 scalar mixing family",
+   "kind": "ising3_mixture",
+   "full_cft": "Ising^3",
+   "family_key": "eps_sigma:pair-2",
+   "family_kind": "pair_slice",
+   "family_label": "$\\epsilon_i\\sigma_j$ pair mixtures (orbit 2)",
+   "basis": [
+    [
+     "eps",
+     "sigma",
+     "1"
+    ],
+    [
+     "sigma",
+     "eps",
+     "1"
+    ]
+   ],
+   "coefficients": [
+    "0.577350269189625764509148780502",
+    "0.816496580927726032732428024902"
+   ],
+   "delta_ext": "9/8",
+   "parameter": "1/3",
+   "ratio_include": "0.922526350087831552082535690889",
+   "ratio_exclude": "2.1032378237531610635602780123",
+   "crossing_residual": "2.26926298296e-12",
+   "delta_cut": 18,
+   "lam": 7,
+   "q_order": 55,
+   "dps": 60,
+   "n_operators": 99,
+   "converged": true
+  },
+  {
+   "model": "Ising^3 scalar mixing family",
+   "kind": "ising3_mixture",
+   "full_cft": "Ising^3",
+   "family_key": "eps_sigma:pair-2",
+   "family_kind": "pair_slice",
+   "family_label": "$\\epsilon_i\\sigma_j$ pair mixtures (orbit 2)",
+   "basis": [
+    [
+     "eps",
+     "sigma",
+     "1"
+    ],
+    [
+     "sigma",
+     "eps",
+     "1"
+    ]
+   ],
+   "coefficients": [
+    "0.707106781186547524400844362105",
+    "0.707106781186547524400844362105"
+   ],
+   "delta_ext": "9/8",
+   "parameter": "1/2",
+   "ratio_include": "0.921801867857781358336213164747",
+   "ratio_exclude": "2.10991077968285540195755941263",
+   "crossing_residual": "2.50373632871e-12",
+   "delta_cut": 18,
+   "lam": 7,
+   "q_order": 55,
+   "dps": 60,
+   "n_operators": 99,
+   "converged": true
+  },
+  {
+   "model": "Ising^3 scalar mixing family",
+   "kind": "ising3_mixture",
+   "full_cft": "Ising^3",
+   "family_key": "eps_sigma:pair-2",
+   "family_kind": "pair_slice",
+   "family_label": "$\\epsilon_i\\sigma_j$ pair mixtures (orbit 2)",
+   "basis": [
+    [
+     "eps",
+     "sigma",
+     "1"
+    ],
+    [
+     "sigma",
+     "eps",
+     "1"
+    ]
+   ],
+   "coefficients": [
+    "0.816496580927726032732428024902",
+    "0.577350269189625764509148780502"
+   ],
+   "delta_ext": "9/8",
+   "parameter": "2/3",
+   "ratio_include": "0.922526350087831552082535690889",
+   "ratio_exclude": "2.1032378237531610635602780123",
+   "crossing_residual": "2.26926298296e-12",
+   "delta_cut": 18,
+   "lam": 7,
+   "q_order": 55,
+   "dps": 60,
+   "n_operators": 99,
+   "converged": true
+  },
+  {
+   "model": "Ising^3 scalar mixing family",
+   "kind": "ising3_mixture",
+   "full_cft": "Ising^3",
+   "family_key": "eps_sigma:pair-2",
+   "family_kind": "pair_slice",
+   "family_label": "$\\epsilon_i\\sigma_j$ pair mixtures (orbit 2)",
+   "basis": [
+    [
+     "eps",
+     "sigma",
+     "1"
+    ],
+    [
+     "sigma",
+     "eps",
+     "1"
+    ]
+   ],
+   "coefficients": [
+    "0.912870929175276855761616304668",
+    "0.408248290463863016366214012451"
+   ],
+   "delta_ext": "9/8",
+   "parameter": "5/6",
+   "ratio_include": "0.924673322454655930550633215459",
+   "ratio_exclude": "2.08376846712944893849011250106",
+   "crossing_residual": "1.56584294571e-12",
+   "delta_cut": 18,
+   "lam": 7,
+   "q_order": 55,
+   "dps": 60,
+   "n_operators": 99,
+   "converged": true
+  },
+  {
+   "model": "Ising^3 scalar mixing family",
+   "kind": "ising3_mixture",
+   "full_cft": "Ising^3",
+   "family_key": "eps_sigma:pair-2",
+   "family_kind": "pair_slice",
+   "family_label": "$\\epsilon_i\\sigma_j$ pair mixtures (orbit 2)",
+   "basis": [
+    [
+     "eps",
+     "sigma",
+     "1"
+    ],
+    [
+     "sigma",
+     "eps",
+     "1"
+    ]
+   ],
+   "coefficients": [
+    "1.0",
+    "0.0"
+   ],
+   "delta_ext": "9/8",
+   "parameter": "1",
+   "ratio_include": "0.928165744302803017141337437043",
+   "ratio_exclude": "2.0530418670133484102968054718",
+   "crossing_residual": "3.6568431603e-9",
+   "delta_cut": 14,
+   "lam": 7,
+   "q_order": 45,
+   "dps": 70,
+   "n_operators": 35,
+   "converged": true
+  },
+  {
+   "model": "Ising^3 scalar mixing family",
+   "kind": "ising3_mixture",
+   "full_cft": "Ising^3",
+   "family_key": "eps_sigma:pair-3",
+   "family_kind": "pair_slice",
+   "family_label": "$\\epsilon_i\\sigma_j$ pair mixtures (orbit 3)",
+   "basis": [
+    [
+     "eps",
+     "sigma",
+     "1"
+    ],
+    [
+     "1",
+     "eps",
+     "sigma"
+    ]
+   ],
+   "coefficients": [
+    "0.0",
+    "1.0"
+   ],
+   "delta_ext": "9/8",
+   "parameter": "0",
+   "ratio_include": "0.928165744302803017141337437043",
+   "ratio_exclude": "2.0530418670133484102968054718",
+   "crossing_residual": "3.6568431603e-9",
+   "delta_cut": 14,
+   "lam": 7,
+   "q_order": 45,
+   "dps": 70,
+   "n_operators": 35,
+   "converged": true
+  },
+  {
+   "model": "Ising^3 scalar mixing family",
+   "kind": "ising3_mixture",
+   "full_cft": "Ising^3",
+   "family_key": "eps_sigma:pair-3",
+   "family_kind": "pair_slice",
+   "family_label": "$\\epsilon_i\\sigma_j$ pair mixtures (orbit 3)",
+   "basis": [
+    [
+     "eps",
+     "sigma",
+     "1"
+    ],
+    [
+     "1",
+     "eps",
+     "sigma"
+    ]
+   ],
+   "coefficients": [
+    "0.408248290463863016366214012451",
+    "0.912870929175276855761616304668"
+   ],
+   "delta_ext": "9/8",
+   "parameter": "1/6",
+   "ratio_include": "0.937477489896403497282361783289",
+   "ratio_exclude": "2.19674121207090407077037456205",
+   "crossing_residual": "3.77584252723e-9",
+   "delta_cut": 14,
+   "lam": 7,
+   "q_order": 45,
+   "dps": 70,
+   "n_operators": 63,
+   "converged": true
+  },
+  {
+   "model": "Ising^3 scalar mixing family",
+   "kind": "ising3_mixture",
+   "full_cft": "Ising^3",
+   "family_key": "eps_sigma:pair-3",
+   "family_kind": "pair_slice",
+   "family_label": "$\\epsilon_i\\sigma_j$ pair mixtures (orbit 3)",
+   "basis": [
+    [
+     "eps",
+     "sigma",
+     "1"
+    ],
+    [
+     "1",
+     "eps",
+     "sigma"
+    ]
+   ],
+   "coefficients": [
+    "0.577350269189625764509148780502",
+    "0.816496580927726032732428024902"
+   ],
+   "delta_ext": "9/8",
+   "parameter": "1/3",
+   "ratio_include": "0.94348967512932681337835085469",
+   "ratio_exclude": "2.29894702113243500985692424653",
+   "crossing_residual": "3.84724214739e-9",
+   "delta_cut": 14,
+   "lam": 7,
+   "q_order": 45,
+   "dps": 70,
+   "n_operators": 63,
+   "converged": true
+  },
+  {
+   "model": "Ising^3 scalar mixing family",
+   "kind": "ising3_mixture",
+   "full_cft": "Ising^3",
+   "family_key": "eps_sigma:pair-3",
+   "family_kind": "pair_slice",
+   "family_label": "$\\epsilon_i\\sigma_j$ pair mixtures (orbit 3)",
+   "basis": [
+    [
+     "eps",
+     "sigma",
+     "1"
+    ],
+    [
+     "1",
+     "eps",
+     "sigma"
+    ]
+   ],
+   "coefficients": [
+    "0.707106781186547524400844362105",
+    "0.707106781186547524400844362105"
+   ],
+   "delta_ext": "9/8",
+   "parameter": "1/2",
+   "ratio_include": "0.945570717101535211428551317089",
+   "ratio_exclude": "2.3362489354717369839927233915",
+   "crossing_residual": "3.87104202078e-9",
+   "delta_cut": 14,
+   "lam": 7,
+   "q_order": 45,
+   "dps": 70,
+   "n_operators": 63,
+   "converged": true
+  },
+  {
+   "model": "Ising^3 scalar mixing family",
+   "kind": "ising3_mixture",
+   "full_cft": "Ising^3",
+   "family_key": "eps_sigma:pair-3",
+   "family_kind": "pair_slice",
+   "family_label": "$\\epsilon_i\\sigma_j$ pair mixtures (orbit 3)",
+   "basis": [
+    [
+     "eps",
+     "sigma",
+     "1"
+    ],
+    [
+     "1",
+     "eps",
+     "sigma"
+    ]
+   ],
+   "coefficients": [
+    "0.816496580927726032732428024902",
+    "0.577350269189625764509148780502"
+   ],
+   "delta_ext": "9/8",
+   "parameter": "2/3",
+   "ratio_include": "0.94348967512932681337835085469",
+   "ratio_exclude": "2.29894702113243500985692424653",
+   "crossing_residual": "3.84724214739e-9",
+   "delta_cut": 14,
+   "lam": 7,
+   "q_order": 45,
+   "dps": 70,
+   "n_operators": 63,
+   "converged": true
+  },
+  {
+   "model": "Ising^3 scalar mixing family",
+   "kind": "ising3_mixture",
+   "full_cft": "Ising^3",
+   "family_key": "eps_sigma:pair-3",
+   "family_kind": "pair_slice",
+   "family_label": "$\\epsilon_i\\sigma_j$ pair mixtures (orbit 3)",
+   "basis": [
+    [
+     "eps",
+     "sigma",
+     "1"
+    ],
+    [
+     "1",
+     "eps",
+     "sigma"
+    ]
+   ],
+   "coefficients": [
+    "0.912870929175276855761616304668",
+    "0.408248290463863016366214012451"
+   ],
+   "delta_ext": "9/8",
+   "parameter": "5/6",
+   "ratio_include": "0.937477489896403497282361783289",
+   "ratio_exclude": "2.19674121207090407077037456205",
+   "crossing_residual": "3.77584252723e-9",
+   "delta_cut": 14,
+   "lam": 7,
+   "q_order": 45,
+   "dps": 70,
+   "n_operators": 63,
+   "converged": true
+  },
+  {
+   "model": "Ising^3 scalar mixing family",
+   "kind": "ising3_mixture",
+   "full_cft": "Ising^3",
+   "family_key": "eps_sigma:pair-3",
+   "family_kind": "pair_slice",
+   "family_label": "$\\epsilon_i\\sigma_j$ pair mixtures (orbit 3)",
+   "basis": [
+    [
+     "eps",
+     "sigma",
+     "1"
+    ],
+    [
+     "1",
+     "eps",
+     "sigma"
+    ]
+   ],
+   "coefficients": [
+    "1.0",
+    "0.0"
+   ],
+   "delta_ext": "9/8",
+   "parameter": "1",
+   "ratio_include": "0.928165744302803017141337437043",
+   "ratio_exclude": "2.0530418670133484102968054718",
+   "crossing_residual": "3.6568431603e-9",
+   "delta_cut": 14,
+   "lam": 7,
+   "q_order": 45,
+   "dps": 70,
+   "n_operators": 35,
+   "converged": true
+  },
+  {
+   "model": "Ising^3 scalar mixing family",
+   "kind": "ising3_mixture",
+   "full_cft": "Ising^3",
+   "family_key": "eps_sigma:pair-4",
+   "family_kind": "pair_slice",
+   "family_label": "$\\epsilon_i\\sigma_j$ pair mixtures (orbit 4)",
+   "basis": [
+    [
+     "eps",
+     "sigma",
+     "1"
+    ],
+    [
+     "1",
+     "sigma",
+     "eps"
+    ]
+   ],
+   "coefficients": [
+    "0.0",
+    "1.0"
+   ],
+   "delta_ext": "9/8",
+   "parameter": "0",
+   "ratio_include": "0.928165744302803017141337437043",
+   "ratio_exclude": "2.0530418670133484102968054718",
+   "crossing_residual": "3.6568431603e-9",
+   "delta_cut": 14,
+   "lam": 7,
+   "q_order": 45,
+   "dps": 70,
+   "n_operators": 35,
+   "converged": true
+  },
+  {
+   "model": "Ising^3 scalar mixing family",
+   "kind": "ising3_mixture",
+   "full_cft": "Ising^3",
+   "family_key": "eps_sigma:pair-4",
+   "family_kind": "pair_slice",
+   "family_label": "$\\epsilon_i\\sigma_j$ pair mixtures (orbit 4)",
+   "basis": [
+    [
+     "eps",
+     "sigma",
+     "1"
+    ],
+    [
+     "1",
+     "sigma",
+     "eps"
+    ]
+   ],
+   "coefficients": [
+    "0.408248290463863016366214012451",
+    "0.912870929175276855761616304668"
+   ],
+   "delta_ext": "9/8",
+   "parameter": "1/6",
+   "ratio_include": "0.950446560458737541249391859925",
+   "ratio_exclude": "2.10232557380831793543991461819",
+   "crossing_residual": "3.2948869735e-9",
+   "delta_cut": 14,
+   "lam": 7,
+   "q_order": 45,
+   "dps": 70,
+   "n_operators": 63,
+   "converged": true
+  },
+  {
+   "model": "Ising^3 scalar mixing family",
+   "kind": "ising3_mixture",
+   "full_cft": "Ising^3",
+   "family_key": "eps_sigma:pair-4",
+   "family_kind": "pair_slice",
+   "family_label": "$\\epsilon_i\\sigma_j$ pair mixtures (orbit 4)",
+   "basis": [
+    [
+     "eps",
+     "sigma",
+     "1"
+    ],
+    [
+     "1",
+     "sigma",
+     "eps"
+    ]
+   ],
+   "coefficients": [
+    "0.577350269189625764509148780502",
+    "0.816496580927726032732428024902"
+   ],
+   "delta_ext": "9/8",
+   "parameter": "1/3",
+   "ratio_include": "0.963815050152298192472222858744",
+   "ratio_exclude": "2.1318957978852993411045223585",
+   "crossing_residual": "3.16696463349e-9",
+   "delta_cut": 14,
+   "lam": 7,
+   "q_order": 45,
+   "dps": 70,
+   "n_operators": 63,
+   "converged": true
+  },
+  {
+   "model": "Ising^3 scalar mixing family",
+   "kind": "ising3_mixture",
+   "full_cft": "Ising^3",
+   "family_key": "eps_sigma:pair-4",
+   "family_kind": "pair_slice",
+   "family_label": "$\\epsilon_i\\sigma_j$ pair mixtures (orbit 4)",
+   "basis": [
+    [
+     "eps",
+     "sigma",
+     "1"
+    ],
+    [
+     "1",
+     "sigma",
+     "eps"
+    ]
+   ],
+   "coefficients": [
+    "0.707106781186547524400844362105",
+    "0.707106781186547524400844362105"
+   ],
+   "delta_ext": "9/8",
+   "parameter": "1/2",
+   "ratio_include": "0.968271213383485065672832915865",
+   "ratio_exclude": "2.14175253924429309142251531402",
+   "crossing_residual": "3.16803522851e-9",
+   "delta_cut": 14,
+   "lam": 7,
+   "q_order": 45,
+   "dps": 70,
+   "n_operators": 62,
+   "converged": true
+  },
+  {
+   "model": "Ising^3 scalar mixing family",
+   "kind": "ising3_mixture",
+   "full_cft": "Ising^3",
+   "family_key": "eps_sigma:pair-4",
+   "family_kind": "pair_slice",
+   "family_label": "$\\epsilon_i\\sigma_j$ pair mixtures (orbit 4)",
+   "basis": [
+    [
+     "eps",
+     "sigma",
+     "1"
+    ],
+    [
+     "1",
+     "sigma",
+     "eps"
+    ]
+   ],
+   "coefficients": [
+    "0.816496580927726032732428024902",
+    "0.577350269189625764509148780502"
+   ],
+   "delta_ext": "9/8",
+   "parameter": "2/3",
+   "ratio_include": "0.963815050152298192472222858744",
+   "ratio_exclude": "2.1318957978852993411045223585",
+   "crossing_residual": "3.16696463349e-9",
+   "delta_cut": 14,
+   "lam": 7,
+   "q_order": 45,
+   "dps": 70,
+   "n_operators": 63,
+   "converged": true
+  },
+  {
+   "model": "Ising^3 scalar mixing family",
+   "kind": "ising3_mixture",
+   "full_cft": "Ising^3",
+   "family_key": "eps_sigma:pair-4",
+   "family_kind": "pair_slice",
+   "family_label": "$\\epsilon_i\\sigma_j$ pair mixtures (orbit 4)",
+   "basis": [
+    [
+     "eps",
+     "sigma",
+     "1"
+    ],
+    [
+     "1",
+     "sigma",
+     "eps"
+    ]
+   ],
+   "coefficients": [
+    "0.912870929175276855761616304668",
+    "0.408248290463863016366214012451"
+   ],
+   "delta_ext": "9/8",
+   "parameter": "5/6",
+   "ratio_include": "0.950446560458737541249391859925",
+   "ratio_exclude": "2.10232557380831793543991461819",
+   "crossing_residual": "3.2948869735e-9",
+   "delta_cut": 14,
+   "lam": 7,
+   "q_order": 45,
+   "dps": 70,
+   "n_operators": 63,
+   "converged": true
+  },
+  {
+   "model": "Ising^3 scalar mixing family",
+   "kind": "ising3_mixture",
+   "full_cft": "Ising^3",
+   "family_key": "eps_sigma:pair-4",
+   "family_kind": "pair_slice",
+   "family_label": "$\\epsilon_i\\sigma_j$ pair mixtures (orbit 4)",
+   "basis": [
+    [
+     "eps",
+     "sigma",
+     "1"
+    ],
+    [
+     "1",
+     "sigma",
+     "eps"
+    ]
+   ],
+   "coefficients": [
+    "1.0",
+    "0.0"
+   ],
+   "delta_ext": "9/8",
+   "parameter": "1",
+   "ratio_include": "0.928165744302803017141337437043",
+   "ratio_exclude": "2.0530418670133484102968054718",
+   "crossing_residual": "3.6568431603e-9",
+   "delta_cut": 14,
+   "lam": 7,
+   "q_order": 45,
+   "dps": 70,
+   "n_operators": 35,
+   "converged": true
+  },
+  {
+   "model": "Ising^3 scalar mixing family",
+   "kind": "ising3_mixture",
+   "full_cft": "Ising^3",
+   "family_key": "eps_sigma:symmetric",
+   "family_kind": "symmetric_direction",
+   "family_label": "$\\epsilon_i\\sigma_j$ symmetric direction",
+   "basis": [
+    [
+     "eps",
+     "sigma",
+     "1"
+    ],
+    [
+     "eps",
+     "1",
+     "sigma"
+    ],
+    [
+     "sigma",
+     "eps",
+     "1"
+    ],
+    [
+     "1",
+     "eps",
+     "sigma"
+    ],
+    [
+     "sigma",
+     "1",
+     "eps"
+    ],
+    [
+     "1",
+     "sigma",
+     "eps"
+    ]
+   ],
+   "coefficients": [
+    "0.408248290463863016366214012451",
+    "0.408248290463863016366214012451",
+    "0.408248290463863016366214012451",
+    "0.408248290463863016366214012451",
+    "0.408248290463863016366214012451",
+    "0.408248290463863016366214012451"
+   ],
+   "delta_ext": "9/8",
+   "parameter": null,
+   "ratio_include": "0.829359225634477690138013400667",
+   "ratio_exclude": "1.41720177677649295240794932641",
+   "crossing_residual": "1.75600360806e-12",
+   "delta_cut": 18,
+   "lam": 7,
+   "q_order": 55,
+   "dps": 60,
+   "n_operators": 185,
+   "converged": true
+  },
+  {
+   "model": "Ising^3 scalar mixing family",
+   "kind": "ising3_mixture",
+   "full_cft": "Ising^3",
+   "family_key": "eps_sigma2:pair-1",
+   "family_kind": "pair_slice",
+   "family_label": "$\\epsilon_i\\sigma_j\\sigma_k$ pair mixtures (orbit 1)",
+   "basis": [
+    [
+     "eps",
+     "sigma",
+     "sigma"
+    ],
+    [
+     "sigma",
+     "eps",
+     "sigma"
+    ]
+   ],
+   "coefficients": [
+    "0.0",
+    "1.0"
+   ],
+   "delta_ext": "5/4",
+   "parameter": "0",
+   "ratio_include": "0.945483661228849638196954749564",
+   "ratio_exclude": "1.89399826583056450883995566541",
+   "crossing_residual": "1.28155117559e-12",
+   "delta_cut": 18,
+   "lam": 7,
+   "q_order": 55,
+   "dps": 60,
+   "n_operators": 79,
+   "converged": true
+  },
+  {
+   "model": "Ising^3 scalar mixing family",
+   "kind": "ising3_mixture",
+   "full_cft": "Ising^3",
+   "family_key": "eps_sigma2:pair-1",
+   "family_kind": "pair_slice",
+   "family_label": "$\\epsilon_i\\sigma_j\\sigma_k$ pair mixtures (orbit 1)",
+   "basis": [
+    [
+     "eps",
+     "sigma",
+     "sigma"
+    ],
+    [
+     "sigma",
+     "eps",
+     "sigma"
+    ]
+   ],
+   "coefficients": [
+    "0.408248290463863016366214012451",
+    "0.912870929175276855761616304668"
+   ],
+   "delta_ext": "5/4",
+   "parameter": "1/6",
+   "ratio_include": "0.944164484561030168441294883114",
+   "ratio_exclude": "1.92069392281870513431146461734",
+   "crossing_residual": "3.03403867405e-12",
+   "delta_cut": 18,
+   "lam": 7,
+   "q_order": 55,
+   "dps": 60,
+   "n_operators": 169,
+   "converged": true
+  },
+  {
+   "model": "Ising^3 scalar mixing family",
+   "kind": "ising3_mixture",
+   "full_cft": "Ising^3",
+   "family_key": "eps_sigma2:pair-1",
+   "family_kind": "pair_slice",
+   "family_label": "$\\epsilon_i\\sigma_j\\sigma_k$ pair mixtures (orbit 1)",
+   "basis": [
+    [
+     "eps",
+     "sigma",
+     "sigma"
+    ],
+    [
+     "sigma",
+     "eps",
+     "sigma"
+    ]
+   ],
+   "coefficients": [
+    "0.577350269189625764509148780502",
+    "0.816496580927726032732428024902"
+   ],
+   "delta_ext": "5/4",
+   "parameter": "1/3",
+   "ratio_include": "0.943353518424884491266176214873",
+   "ratio_exclude": "1.93752014331021647458636788157",
+   "crossing_residual": "4.08553117312e-12",
+   "delta_cut": 18,
+   "lam": 7,
+   "q_order": 55,
+   "dps": 60,
+   "n_operators": 169,
+   "converged": true
+  },
+  {
+   "model": "Ising^3 scalar mixing family",
+   "kind": "ising3_mixture",
+   "full_cft": "Ising^3",
+   "family_key": "eps_sigma2:pair-1",
+   "family_kind": "pair_slice",
+   "family_label": "$\\epsilon_i\\sigma_j\\sigma_k$ pair mixtures (orbit 1)",
+   "basis": [
+    [
+     "eps",
+     "sigma",
+     "sigma"
+    ],
+    [
+     "sigma",
+     "eps",
+     "sigma"
+    ]
+   ],
+   "coefficients": [
+    "0.707106781186547524400844362105",
+    "0.707106781186547524400844362105"
+   ],
+   "delta_ext": "5/4",
+   "parameter": "1/2",
+   "ratio_include": "0.943079863037470709515576903684",
+   "ratio_exclude": "1.94327139458338161571418807986",
+   "crossing_residual": "4.43602867281e-12",
+   "delta_cut": 18,
+   "lam": 7,
+   "q_order": 55,
+   "dps": 60,
+   "n_operators": 169,
+   "converged": true
+  },
+  {
+   "model": "Ising^3 scalar mixing family",
+   "kind": "ising3_mixture",
+   "full_cft": "Ising^3",
+   "family_key": "eps_sigma2:pair-1",
+   "family_kind": "pair_slice",
+   "family_label": "$\\epsilon_i\\sigma_j\\sigma_k$ pair mixtures (orbit 1)",
+   "basis": [
+    [
+     "eps",
+     "sigma",
+     "sigma"
+    ],
+    [
+     "sigma",
+     "eps",
+     "sigma"
+    ]
+   ],
+   "coefficients": [
+    "0.816496580927726032732428024902",
+    "0.577350269189625764509148780502"
+   ],
+   "delta_ext": "5/4",
+   "parameter": "2/3",
+   "ratio_include": "0.943353518424884491266176214873",
+   "ratio_exclude": "1.93752014331021647458636788157",
+   "crossing_residual": "4.08553117312e-12",
+   "delta_cut": 18,
+   "lam": 7,
+   "q_order": 55,
+   "dps": 60,
+   "n_operators": 169,
+   "converged": true
+  },
+  {
+   "model": "Ising^3 scalar mixing family",
+   "kind": "ising3_mixture",
+   "full_cft": "Ising^3",
+   "family_key": "eps_sigma2:pair-1",
+   "family_kind": "pair_slice",
+   "family_label": "$\\epsilon_i\\sigma_j\\sigma_k$ pair mixtures (orbit 1)",
+   "basis": [
+    [
+     "eps",
+     "sigma",
+     "sigma"
+    ],
+    [
+     "sigma",
+     "eps",
+     "sigma"
+    ]
+   ],
+   "coefficients": [
+    "0.912870929175276855761616304668",
+    "0.408248290463863016366214012451"
+   ],
+   "delta_ext": "5/4",
+   "parameter": "5/6",
+   "ratio_include": "0.944164484561030168441294883114",
+   "ratio_exclude": "1.92069392281870513431146461734",
+   "crossing_residual": "3.03403867405e-12",
+   "delta_cut": 18,
+   "lam": 7,
+   "q_order": 55,
+   "dps": 60,
+   "n_operators": 169,
+   "converged": true
+  },
+  {
+   "model": "Ising^3 scalar mixing family",
+   "kind": "ising3_mixture",
+   "full_cft": "Ising^3",
+   "family_key": "eps_sigma2:pair-1",
+   "family_kind": "pair_slice",
+   "family_label": "$\\epsilon_i\\sigma_j\\sigma_k$ pair mixtures (orbit 1)",
+   "basis": [
+    [
+     "eps",
+     "sigma",
+     "sigma"
+    ],
+    [
+     "sigma",
+     "eps",
+     "sigma"
+    ]
+   ],
+   "coefficients": [
+    "1.0",
+    "0.0"
+   ],
+   "delta_ext": "5/4",
+   "parameter": "1",
+   "ratio_include": "0.945483661228849638196954749564",
+   "ratio_exclude": "1.89399826583056450883995566541",
+   "crossing_residual": "1.28155117559e-12",
+   "delta_cut": 18,
+   "lam": 7,
+   "q_order": 55,
+   "dps": 60,
+   "n_operators": 79,
+   "converged": true
+  },
+  {
+   "model": "Ising^3 scalar mixing family",
+   "kind": "ising3_mixture",
+   "full_cft": "Ising^3",
+   "family_key": "eps_sigma2:symmetric",
+   "family_kind": "symmetric_direction",
+   "family_label": "$\\epsilon_i\\sigma_j\\sigma_k$ symmetric direction",
+   "basis": [
+    [
+     "eps",
+     "sigma",
+     "sigma"
+    ],
+    [
+     "sigma",
+     "eps",
+     "sigma"
+    ],
+    [
+     "sigma",
+     "sigma",
+     "eps"
+    ]
+   ],
+   "coefficients": [
+    "0.577350269189625764509148780502",
+    "0.577350269189625764509148780502",
+    "0.577350269189625764509148780502"
+   ],
+   "delta_ext": "5/4",
+   "parameter": null,
+   "ratio_include": "0.942248679041674564246536102968",
+   "ratio_exclude": "1.96097206144915239619633130189",
+   "crossing_residual": "5.48752117188e-12",
+   "delta_cut": 18,
+   "lam": 7,
+   "q_order": 55,
+   "dps": 60,
+   "n_operators": 167,
+   "converged": true
+  },
+  {
+   "model": "Ising^3 scalar mixing family",
+   "kind": "ising3_mixture",
+   "full_cft": "Ising^3",
+   "family_key": "eps2:pair-1",
+   "family_kind": "pair_slice",
+   "family_label": "$\\epsilon_i\\epsilon_j$ pair mixtures (orbit 1)",
+   "basis": [
+    [
+     "eps",
+     "eps",
+     "1"
+    ],
+    [
+     "eps",
+     "1",
+     "eps"
+    ]
+   ],
+   "coefficients": [
+    "0.0",
+    "1.0"
+   ],
+   "delta_ext": "2",
+   "parameter": "0",
+   "ratio_include": "1.2596368960513953269777612742",
+   "ratio_exclude": "3.00277846914338199663613718394",
+   "crossing_residual": "6.54874119893e-11",
+   "delta_cut": 18,
+   "lam": 7,
+   "q_order": 55,
+   "dps": 60,
+   "n_operators": 29,
+   "converged": true
+  },
+  {
+   "model": "Ising^3 scalar mixing family",
+   "kind": "ising3_mixture",
+   "full_cft": "Ising^3",
+   "family_key": "eps2:pair-1",
+   "family_kind": "pair_slice",
+   "family_label": "$\\epsilon_i\\epsilon_j$ pair mixtures (orbit 1)",
+   "basis": [
+    [
+     "eps",
+     "eps",
+     "1"
+    ],
+    [
+     "eps",
+     "1",
+     "eps"
+    ]
+   ],
+   "coefficients": [
+    "0.408248290463863016366214012451",
+    "0.912870929175276855761616304668"
+   ],
+   "delta_ext": "2",
+   "parameter": "1/6",
+   "ratio_include": "1.29948662459342400666646229382",
+   "ratio_exclude": "3.09777402480097812385830866463",
+   "crossing_residual": "6.30740082421e-11",
+   "delta_cut": 18,
+   "lam": 7,
+   "q_order": 55,
+   "dps": 60,
+   "n_operators": 54,
+   "converged": true
+  },
+  {
+   "model": "Ising^3 scalar mixing family",
+   "kind": "ising3_mixture",
+   "full_cft": "Ising^3",
+   "family_key": "eps2:pair-1",
+   "family_kind": "pair_slice",
+   "family_label": "$\\epsilon_i\\epsilon_j$ pair mixtures (orbit 1)",
+   "basis": [
+    [
+     "eps",
+     "eps",
+     "1"
+    ],
+    [
+     "eps",
+     "1",
+     "eps"
+    ]
+   ],
+   "coefficients": [
+    "0.577350269189625764509148780502",
+    "0.816496580927726032732428024902"
+   ],
+   "delta_ext": "2",
+   "parameter": "1/3",
+   "ratio_include": "1.32339646171864121262045292541",
+   "ratio_exclude": "3.15477135819553578962613832278",
+   "crossing_residual": "6.16259659938e-11",
+   "delta_cut": 18,
+   "lam": 7,
+   "q_order": 55,
+   "dps": 60,
+   "n_operators": 54,
+   "converged": true
+  },
+  {
+   "model": "Ising^3 scalar mixing family",
+   "kind": "ising3_mixture",
+   "full_cft": "Ising^3",
+   "family_key": "eps2:pair-1",
+   "family_kind": "pair_slice",
+   "family_label": "$\\epsilon_i\\epsilon_j$ pair mixtures (orbit 1)",
+   "basis": [
+    [
+     "eps",
+     "eps",
+     "1"
+    ],
+    [
+     "eps",
+     "1",
+     "eps"
+    ]
+   ],
+   "coefficients": [
+    "0.707106781186547524400844362105",
+    "0.707106781186547524400844362105"
+   ],
+   "delta_ext": "2",
+   "parameter": "1/2",
+   "ratio_include": "1.33136640742704694762857813925",
+   "ratio_exclude": "3.17377046932705500978783600378",
+   "crossing_residual": "6.11432852443e-11",
+   "delta_cut": 18,
+   "lam": 7,
+   "q_order": 55,
+   "dps": 60,
+   "n_operators": 54,
+   "converged": true
+  },
+  {
+   "model": "Ising^3 scalar mixing family",
+   "kind": "ising3_mixture",
+   "full_cft": "Ising^3",
+   "family_key": "eps2:pair-1",
+   "family_kind": "pair_slice",
+   "family_label": "$\\epsilon_i\\epsilon_j$ pair mixtures (orbit 1)",
+   "basis": [
+    [
+     "eps",
+     "eps",
+     "1"
+    ],
+    [
+     "eps",
+     "1",
+     "eps"
+    ]
+   ],
+   "coefficients": [
+    "0.816496580927726032732428024902",
+    "0.577350269189625764509148780502"
+   ],
+   "delta_ext": "2",
+   "parameter": "2/3",
+   "ratio_include": "1.32339646171864121262045292541",
+   "ratio_exclude": "3.15477135819553578962613832278",
+   "crossing_residual": "6.16259659938e-11",
+   "delta_cut": 18,
+   "lam": 7,
+   "q_order": 55,
+   "dps": 60,
+   "n_operators": 54,
+   "converged": true
+  },
+  {
+   "model": "Ising^3 scalar mixing family",
+   "kind": "ising3_mixture",
+   "full_cft": "Ising^3",
+   "family_key": "eps2:pair-1",
+   "family_kind": "pair_slice",
+   "family_label": "$\\epsilon_i\\epsilon_j$ pair mixtures (orbit 1)",
+   "basis": [
+    [
+     "eps",
+     "eps",
+     "1"
+    ],
+    [
+     "eps",
+     "1",
+     "eps"
+    ]
+   ],
+   "coefficients": [
+    "0.912870929175276855761616304668",
+    "0.408248290463863016366214012451"
+   ],
+   "delta_ext": "2",
+   "parameter": "5/6",
+   "ratio_include": "1.29948662459342400666646229382",
+   "ratio_exclude": "3.09777402480097812385830866463",
+   "crossing_residual": "6.30740082421e-11",
+   "delta_cut": 18,
+   "lam": 7,
+   "q_order": 55,
+   "dps": 60,
+   "n_operators": 54,
+   "converged": true
+  },
+  {
+   "model": "Ising^3 scalar mixing family",
+   "kind": "ising3_mixture",
+   "full_cft": "Ising^3",
+   "family_key": "eps2:pair-1",
+   "family_kind": "pair_slice",
+   "family_label": "$\\epsilon_i\\epsilon_j$ pair mixtures (orbit 1)",
+   "basis": [
+    [
+     "eps",
+     "eps",
+     "1"
+    ],
+    [
+     "eps",
+     "1",
+     "eps"
+    ]
+   ],
+   "coefficients": [
+    "1.0",
+    "0.0"
+   ],
+   "delta_ext": "2",
+   "parameter": "1",
+   "ratio_include": "1.2596368960513953269777612742",
+   "ratio_exclude": "3.00277846914338199663613718394",
+   "crossing_residual": "6.54874119893e-11",
+   "delta_cut": 18,
+   "lam": 7,
+   "q_order": 55,
+   "dps": 60,
+   "n_operators": 29,
+   "converged": true
+  },
+  {
+   "model": "Ising^3 scalar mixing family",
+   "kind": "ising3_mixture",
+   "full_cft": "Ising^3",
+   "family_key": "eps2:symmetric",
+   "family_kind": "symmetric_direction",
+   "family_label": "$\\epsilon_i\\epsilon_j$ symmetric direction",
+   "basis": [
+    [
+     "eps",
+     "eps",
+     "1"
+    ],
+    [
+     "eps",
+     "1",
+     "eps"
+    ],
+    [
+     "1",
+     "eps",
+     "eps"
+    ]
+   ],
+   "coefficients": [
+    "0.577350269189625764509148780502",
+    "0.577350269189625764509148780502",
+    "0.577350269189625764509148780502"
+   ],
+   "delta_ext": "2",
+   "parameter": null,
+   "ratio_include": "1.35527624455226415172333879067",
+   "ratio_exclude": "3.23076780272161266499019243167",
+   "crossing_residual": "5.9695242996e-11",
+   "delta_cut": 18,
+   "lam": 7,
+   "q_order": 55,
+   "dps": 60,
+   "n_operators": 53,
+   "converged": true
+  },
+  {
+   "model": "Ising^3 scalar mixing family",
+   "kind": "ising3_mixture",
+   "full_cft": "Ising^3",
+   "family_key": "eps_sigma:cyclic-3",
+   "family_kind": "cyclic_direction",
+   "family_label": "$\\epsilon_i\\sigma_{i+1}$ cyclic mixture",
+   "basis": [
+    [
+     "eps",
+     "sigma",
+     "1"
+    ],
+    [
+     "1",
+     "eps",
+     "sigma"
+    ],
+    [
+     "sigma",
+     "1",
+     "eps"
+    ]
+   ],
+   "coefficients": [
+    "0.577350269189625764509148780502",
+    "0.577350269189625764509148780502",
+    "0.577350269189625764509148780502"
+   ],
+   "delta_ext": "9/8",
+   "parameter": null,
+   "ratio_include": "0.952060768309345705547004801733",
+   "ratio_exclude": "2.45958908804504652335350114233",
+   "crossing_residual": "3.94244164094e-9",
+   "delta_cut": 14,
+   "lam": 7,
+   "q_order": 45,
+   "dps": 70,
+   "n_operators": 62,
+   "converged": true
+  },
+  {
+   "model": "Ising^3 scalar mixing family",
+   "kind": "ising3_mixture",
+   "full_cft": "Ising^3",
+   "family_key": "eps_sigma:orientation-slice",
+   "family_kind": "orientation_slice",
+   "family_label": "$T$: clockwise/counter-clockwise $\\epsilon\\sigma$ mixtures",
+   "basis": [
+    [
+     "eps",
+     "sigma",
+     "1"
+    ],
+    [
+     "1",
+     "eps",
+     "sigma"
+    ],
+    [
+     "sigma",
+     "1",
+     "eps"
+    ],
+    [
+     "eps",
+     "1",
+     "sigma"
+    ],
+    [
+     "sigma",
+     "eps",
+     "1"
+    ],
+    [
+     "1",
+     "sigma",
+     "eps"
+    ]
+   ],
+   "coefficients": [
+    "0.0",
+    "0.0",
+    "0.0",
+    "0.577350269189625764509148780502",
+    "0.577350269189625764509148780502",
+    "0.577350269189625764509148780502"
+   ],
+   "delta_ext": "9/8",
+   "parameter": "0",
+   "ratio_include": "0.952060768310377569406390951456",
+   "ratio_exclude": "2.45958908804743016368732113112",
+   "crossing_residual": "4.11825545572e-13",
+   "delta_cut": 18,
+   "lam": 7,
+   "q_order": 55,
+   "dps": 80,
+   "n_operators": 98,
+   "converged": true
+  },
+  {
+   "model": "Ising^3 scalar mixing family",
+   "kind": "ising3_mixture",
+   "full_cft": "Ising^3",
+   "family_key": "eps_sigma:orientation-slice",
+   "family_kind": "orientation_slice",
+   "family_label": "$T$: clockwise/counter-clockwise $\\epsilon\\sigma$ mixtures",
+   "basis": [
+    [
+     "eps",
+     "sigma",
+     "1"
+    ],
+    [
+     "1",
+     "eps",
+     "sigma"
+    ],
+    [
+     "sigma",
+     "1",
+     "eps"
+    ],
+    [
+     "eps",
+     "1",
+     "sigma"
+    ],
+    [
+     "sigma",
+     "eps",
+     "1"
+    ],
+    [
+     "1",
+     "sigma",
+     "eps"
+    ]
+   ],
+   "coefficients": [
+    "0.204124145231931508183107006225",
+    "0.204124145231931508183107006225",
+    "0.204124145231931508183107006225",
+    "0.540061724867321685913830619674",
+    "0.540061724867321685913830619674",
+    "0.540061724867321685913830619674"
+   ],
+   "delta_ext": "9/8",
+   "parameter": "1/8",
+   "ratio_include": "0.886448598987284414825987317996",
+   "ratio_exclude": "1.79797519083907096337153846801",
+   "crossing_residual": "9.99903447911e-13",
+   "delta_cut": 18,
+   "lam": 7,
+   "q_order": 55,
+   "dps": 80,
+   "n_operators": 186,
+   "converged": true
+  },
+  {
+   "model": "Ising^3 scalar mixing family",
+   "kind": "ising3_mixture",
+   "full_cft": "Ising^3",
+   "family_key": "eps_sigma:orientation-slice",
+   "family_kind": "orientation_slice",
+   "family_label": "$T$: clockwise/counter-clockwise $\\epsilon\\sigma$ mixtures",
+   "basis": [
+    [
+     "eps",
+     "sigma",
+     "1"
+    ],
+    [
+     "1",
+     "eps",
+     "sigma"
+    ],
+    [
+     "sigma",
+     "1",
+     "eps"
+    ],
+    [
+     "eps",
+     "1",
+     "sigma"
+    ],
+    [
+     "sigma",
+     "eps",
+     "1"
+    ],
+    [
+     "1",
+     "sigma",
+     "eps"
+    ]
+   ],
+   "coefficients": [
+    "0.288675134594812882254574390251",
+    "0.288675134594812882254574390251",
+    "0.288675134594812882254574390251",
+    "0.5",
+    "0.5",
+    "0.5"
+   ],
+   "delta_ext": "9/8",
+   "parameter": "1/4",
+   "ratio_include": "0.851943839661401842070363057227",
+   "ratio_exclude": "1.5525417884235143009321197743",
+   "crossing_residual": "1.41995909244e-12",
+   "delta_cut": 18,
+   "lam": 7,
+   "q_order": 55,
+   "dps": 80,
+   "n_operators": 186,
+   "converged": true
+  },
+  {
+   "model": "Ising^3 scalar mixing family",
+   "kind": "ising3_mixture",
+   "full_cft": "Ising^3",
+   "family_key": "eps_sigma:orientation-slice",
+   "family_kind": "orientation_slice",
+   "family_label": "$T$: clockwise/counter-clockwise $\\epsilon\\sigma$ mixtures",
+   "basis": [
+    [
+     "eps",
+     "sigma",
+     "1"
+    ],
+    [
+     "1",
+     "eps",
+     "sigma"
+    ],
+    [
+     "sigma",
+     "1",
+     "eps"
+    ],
+    [
+     "eps",
+     "1",
+     "sigma"
+    ],
+    [
+     "sigma",
+     "eps",
+     "1"
+    ],
+    [
+     "1",
+     "sigma",
+     "eps"
+    ]
+   ],
+   "coefficients": [
+    "0.353553390593273762200422181052",
+    "0.353553390593273762200422181052",
+    "0.353553390593273762200422181052",
+    "0.456435464587638427880808152334",
+    "0.456435464587638427880808152334",
+    "0.456435464587638427880808152334"
+   ],
+   "delta_ext": "9/8",
+   "parameter": "3/8",
+   "ratio_include": "0.834656109851823154212234688265",
+   "ratio_exclude": "1.44740719372087051797054199311",
+   "crossing_residual": "1.67199247916e-12",
+   "delta_cut": 18,
+   "lam": 7,
+   "q_order": 55,
+   "dps": 80,
+   "n_operators": 186,
+   "converged": true
+  },
+  {
+   "model": "Ising^3 scalar mixing family",
+   "kind": "ising3_mixture",
+   "full_cft": "Ising^3",
+   "family_key": "eps_sigma:orientation-slice",
+   "family_kind": "orientation_slice",
+   "family_label": "$T$: clockwise/counter-clockwise $\\epsilon\\sigma$ mixtures",
+   "basis": [
+    [
+     "eps",
+     "sigma",
+     "1"
+    ],
+    [
+     "1",
+     "eps",
+     "sigma"
+    ],
+    [
+     "sigma",
+     "1",
+     "eps"
+    ],
+    [
+     "eps",
+     "1",
+     "sigma"
+    ],
+    [
+     "sigma",
+     "eps",
+     "1"
+    ],
+    [
+     "1",
+     "sigma",
+     "eps"
+    ]
+   ],
+   "coefficients": [
+    "0.408248290463863016366214012451",
+    "0.408248290463863016366214012451",
+    "0.408248290463863016366214012451",
+    "0.408248290463863016366214012451",
+    "0.408248290463863016366214012451",
+    "0.408248290463863016366214012451"
+   ],
+   "delta_ext": "9/8",
+   "parameter": "1/2",
+   "ratio_include": "0.829359225634477690138013400667",
+   "ratio_exclude": "1.41720177677649295240794932641",
+   "crossing_residual": "1.75600360806e-12",
+   "delta_cut": 18,
+   "lam": 7,
+   "q_order": 55,
+   "dps": 80,
+   "n_operators": 185,
+   "converged": true
+  },
+  {
+   "model": "Ising^3 scalar mixing family",
+   "kind": "ising3_mixture",
+   "full_cft": "Ising^3",
+   "family_key": "eps_sigma:orientation-slice",
+   "family_kind": "orientation_slice",
+   "family_label": "$T$: clockwise/counter-clockwise $\\epsilon\\sigma$ mixtures",
+   "basis": [
+    [
+     "eps",
+     "sigma",
+     "1"
+    ],
+    [
+     "1",
+     "eps",
+     "sigma"
+    ],
+    [
+     "sigma",
+     "1",
+     "eps"
+    ],
+    [
+     "eps",
+     "1",
+     "sigma"
+    ],
+    [
+     "sigma",
+     "eps",
+     "1"
+    ],
+    [
+     "1",
+     "sigma",
+     "eps"
+    ]
+   ],
+   "coefficients": [
+    "0.456435464587638427880808152334",
+    "0.456435464587638427880808152334",
+    "0.456435464587638427880808152334",
+    "0.353553390593273762200422181052",
+    "0.353553390593273762200422181052",
+    "0.353553390593273762200422181052"
+   ],
+   "delta_ext": "9/8",
+   "parameter": "5/8",
+   "ratio_include": "0.834656109851823154212234688265",
+   "ratio_exclude": "1.44740719372087051797054199311",
+   "crossing_residual": "1.67199247916e-12",
+   "delta_cut": 18,
+   "lam": 7,
+   "q_order": 55,
+   "dps": 80,
+   "n_operators": 186,
+   "converged": true
+  },
+  {
+   "model": "Ising^3 scalar mixing family",
+   "kind": "ising3_mixture",
+   "full_cft": "Ising^3",
+   "family_key": "eps_sigma:orientation-slice",
+   "family_kind": "orientation_slice",
+   "family_label": "$T$: clockwise/counter-clockwise $\\epsilon\\sigma$ mixtures",
+   "basis": [
+    [
+     "eps",
+     "sigma",
+     "1"
+    ],
+    [
+     "1",
+     "eps",
+     "sigma"
+    ],
+    [
+     "sigma",
+     "1",
+     "eps"
+    ],
+    [
+     "eps",
+     "1",
+     "sigma"
+    ],
+    [
+     "sigma",
+     "eps",
+     "1"
+    ],
+    [
+     "1",
+     "sigma",
+     "eps"
+    ]
+   ],
+   "coefficients": [
+    "0.5",
+    "0.5",
+    "0.5",
+    "0.288675134594812882254574390251",
+    "0.288675134594812882254574390251",
+    "0.288675134594812882254574390251"
+   ],
+   "delta_ext": "9/8",
+   "parameter": "3/4",
+   "ratio_include": "0.851943839661401842070363057227",
+   "ratio_exclude": "1.5525417884235143009321197743",
+   "crossing_residual": "1.41995909244e-12",
+   "delta_cut": 18,
+   "lam": 7,
+   "q_order": 55,
+   "dps": 80,
+   "n_operators": 186,
+   "converged": true
+  },
+  {
+   "model": "Ising^3 scalar mixing family",
+   "kind": "ising3_mixture",
+   "full_cft": "Ising^3",
+   "family_key": "eps_sigma:orientation-slice",
+   "family_kind": "orientation_slice",
+   "family_label": "$T$: clockwise/counter-clockwise $\\epsilon\\sigma$ mixtures",
+   "basis": [
+    [
+     "eps",
+     "sigma",
+     "1"
+    ],
+    [
+     "1",
+     "eps",
+     "sigma"
+    ],
+    [
+     "sigma",
+     "1",
+     "eps"
+    ],
+    [
+     "eps",
+     "1",
+     "sigma"
+    ],
+    [
+     "sigma",
+     "eps",
+     "1"
+    ],
+    [
+     "1",
+     "sigma",
+     "eps"
+    ]
+   ],
+   "coefficients": [
+    "0.540061724867321685913830619674",
+    "0.540061724867321685913830619674",
+    "0.540061724867321685913830619674",
+    "0.204124145231931508183107006225",
+    "0.204124145231931508183107006225",
+    "0.204124145231931508183107006225"
+   ],
+   "delta_ext": "9/8",
+   "parameter": "7/8",
+   "ratio_include": "0.886448598987284414825987317996",
+   "ratio_exclude": "1.79797519083907096337153846801",
+   "crossing_residual": "9.99903447911e-13",
+   "delta_cut": 18,
+   "lam": 7,
+   "q_order": 55,
+   "dps": 80,
+   "n_operators": 186,
+   "converged": true
+  },
+  {
+   "model": "Ising^3 scalar mixing family",
+   "kind": "ising3_mixture",
+   "full_cft": "Ising^3",
+   "family_key": "eps_sigma:orientation-slice",
+   "family_kind": "orientation_slice",
+   "family_label": "$T$: clockwise/counter-clockwise $\\epsilon\\sigma$ mixtures",
+   "basis": [
+    [
+     "eps",
+     "sigma",
+     "1"
+    ],
+    [
+     "1",
+     "eps",
+     "sigma"
+    ],
+    [
+     "sigma",
+     "1",
+     "eps"
+    ],
+    [
+     "eps",
+     "1",
+     "sigma"
+    ],
+    [
+     "sigma",
+     "eps",
+     "1"
+    ],
+    [
+     "1",
+     "sigma",
+     "eps"
+    ]
+   ],
+   "coefficients": [
+    "0.577350269189625764509148780502",
+    "0.577350269189625764509148780502",
+    "0.577350269189625764509148780502",
+    "0.0",
+    "0.0",
+    "0.0"
+   ],
+   "delta_ext": "9/8",
+   "parameter": "1",
+   "ratio_include": "0.952060768310377569406390951456",
+   "ratio_exclude": "2.45958908804743016368732113112",
+   "crossing_residual": "4.11825545572e-13",
+   "delta_cut": 18,
+   "lam": 7,
+   "q_order": 55,
+   "dps": 80,
+   "n_operators": 98,
+   "converged": true
+  }
+ ]
+}

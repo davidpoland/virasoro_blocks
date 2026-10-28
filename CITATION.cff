@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use virasoro_blocks, please cite the accompanying paper and this software."
+title: "virasoro_blocks"
+type: software
+version: "0.1.0"
+repository-code: "https://github.com/davidpoland/virasoro_blocks"
+authors:
+  - family-names: Poland
+    given-names: David
+    affiliation: "Yale University"
+license: MIT
+abstract: "High-precision two-dimensional Virasoro, global, N=1 superconformal, and torus conformal blocks as derivative tables for numerical bootstrap calculations, with tools that build and solve bootstrap problems with SDPB."
+keywords:
+  - conformal bootstrap
+  - Virasoro blocks
+  - two-dimensional conformal field theory
+  - SDPB
+preferred-citation:
+  type: article
+  title: "virasoro_blocks: Software for the 2d bootstrap"
+  authors:
+    - family-names: Poland
+      given-names: David
+      affiliation: "Yale University"
+  status: in-preparation

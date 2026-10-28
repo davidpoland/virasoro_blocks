@@ -1,0 +1,122 @@
+{
+ "schema": "known_cft_moments/1",
+ "generated": "2026-10-27",
+ "normalization": "nu_n as defined in the accompanying paper (eq. moments); ratios nu_1/nu_0 with the Virasoro identity included or excluded",
+ "files": {
+  "points.json": {
+   "sha256": "9ee811e67aac1c6de14b194f1317134a5a9da1c0a5e36b93ccce8a7813997d42",
+   "rows": 318,
+   "source": "registered known-theory points"
+  },
+  "mixture_intervals.json": {
+   "sha256": "259e06a37d29442f26651a70d499eeec801a1e8e05c14461c5f636459c341481",
+   "rows": 702,
+   "source": "registered mixture intervals"
+  },
+  "overlays/liouville_scalar_moments_l19.json": {
+   "sha256": "c42d478cf8c254eb0000974e72dd6bee15a472502b20bbb66480c7bb4d0e0f47",
+   "overlay": "liouville",
+   "source": "liouville_scalar_moments_l19_all.json"
+  },
+  "overlays/c1_runkel_watts_continuum.json": {
+   "sha256": "99760a5c8a1ea0913a363fddad84773fe11f8eb434b78426ecda03901f226d83",
+   "overlay": "c1_continuum",
+   "source": "runkel_watts_production.json"
+  },
+  "overlays/c1_finite_c_dozz_reference.json": {
+   "sha256": "1df6f6cd3475379f125020f95eabc75127904d9363308c4d2fca155515d1e791",
+   "overlay": "c1_finite_dozz",
+   "source": "finite_c_dozz_reference_c1.01_for_c1.000001.json"
+  },
+  "overlays/c1_model_catalogue.json": {
+   "sha256": "a9efe20eb61d70ed77be5ac5330d9a68d0901ea5347067b353b7b58cd065e4fd",
+   "overlay": "c1_models",
+   "source": "c1_model_points_complete_v16.json"
+  },
+  "overlays/ising_x_u1_radius_sweep.json": {
+   "sha256": "8a6f9c570f39b04fed4567db0ebc2eb4a0c92777d2eb40c57fadb7bdcd538e4b",
+   "overlay": "ising_u1",
+   "source": "ising_u1_scalar_spectrum.json"
+  },
+  "overlays/ising_x_orbifold_twist_curves.json": {
+   "sha256": "e603c346106194017beac423cc96abe306cf0c956f804670c79e29149d1845ff",
+   "overlay": "ising_orbifold",
+   "source": "ising_orbifold_twist_moments.json"
+  },
+  "overlays/ising_x_c1_enhanced_points.json": {
+   "sha256": "abcf5ae5254d98135741a39e1cf6d03297d805ac9a5e32530d96541ab6a9df17",
+   "overlay": "ising_enhanced",
+   "source": "enhanced_moments.json"
+  },
+  "overlays/ising_x_orbifold_twist_mixtures.json": {
+   "sha256": "39e56ad4a8e4479cfba0f59f8c53002484dab0725c527316a46aeb3a569a9dfc",
+   "overlay": "ising_orbifold_mixture",
+   "source": "ising_orbifold_twist_mixture_moments_9over8_full_probe.json"
+  },
+  "overlays/n2_k2_delta_two_mixtures.json": {
+   "sha256": "a6939c08927bb488573a2934f34943b892070c32fc813f77b7b15ac85b30a0b3",
+   "overlay": "n2_delta_two_mixture",
+   "source": "n2_k2_delta_two_mixture_moments.json"
+  },
+  "overlays/n2_k2_ramond_mixtures.json": {
+   "sha256": "805027ce00b0f984bed3d50b73beea80e51f5f3dc8de47e4864662a3585b229b",
+   "overlay": "n2_ramond_mixture",
+   "source": "n2_k2_ramond_mixture_moments.json"
+  },
+  "overlays/super_affine_mixtures.json": {
+   "sha256": "225c4cf4da310a7a0c1a506bd276cf4b2e6a06e6f607e54743f21e54d41de593",
+   "overlay": "super_affine_mixture",
+   "source": "super_affine_mixture_moments.json"
+  },
+  "overlays/c3_twist_mixtures_0.json": {
+   "sha256": "962a32c9f4590d319249536c2630f2b642e4a5d0259598f3cb19919dd0a2557b",
+   "overlay": "c3_twist_mixture",
+   "source": "ising_z4_mixed_twist_moments.json"
+  },
+  "overlays/c3_twist_mixtures_1.json": {
+   "sha256": "d9cc26284e7d04cade73d1c52e56fe3f8b3edd5c836af22eaa9505303fa04ed7",
+   "overlay": "c3_twist_mixture",
+   "source": "orbifold_prime_ramond_moments.json"
+  },
+  "overlays/c3_product_mixtures.json": {
+   "sha256": "602f986ac9789edd76f1dcb191ff02fe792549a8a240e4d6a260850e0c57a30e",
+   "overlay": "c3_product_mixture",
+   "source": "c3_product_mixture_moments.json"
+  },
+  "overlays/c6_product_mixtures.json": {
+   "sha256": "3c9dccf878b17ef4b35fb51cdf580f6ab89cad9388aca341adc108de84d320ef",
+   "overlay": "c6_product_mixture",
+   "source": "c6_product_mixture_moments.json"
+  },
+  "overlays/c6_su3_current_mixtures.json": {
+   "sha256": "06b37a1df18210882c1f807cbdc12f7e6356d9e9ca29f973e3f107080a882407",
+   "overlay": "c6_su3_mixture",
+   "source": "c6_su3_mixture_moments.json"
+  },
+  "overlays/ising3_mixture_families.json": {
+   "sha256": "37366c9b57caaae75958e6bcc1dc8ee34709d48fab088ee17e6b08d23a597425",
+   "overlay": "ising3_mixture_data",
+   "source": "ising3_mixture_family_moments.json"
+  },
+  "overlays/ising_x_z4_parafermion.json": {
+   "sha256": "4eecf9d6ce0f2aec2ee12ddce175325448790081238ad36c188396fd22c82337",
+   "overlay": "ising_z4_data",
+   "source": "ising_z4_parafermion_moments.json"
+  },
+  "overlays/ising_x_free_dirac.json": {
+   "sha256": "a04e17fd16a1b0868ce564652d0f49dbe42a3fe96d3e7ed28767e1f2ec07150e",
+   "overlay": "ising_free_dirac_data",
+   "source": "ising_free_dirac_moments.json"
+  },
+  "overlays/heavy_external_moments.json": {
+   "sha256": "2cbe16b6a6d2cba1cd4e4984513eb714f16f3e8e5e86096495c166fafd16c09b",
+   "overlay": "heavy_external",
+   "source": "summary_heavy_external_moments.json"
+  },
+  "overlays/c1_heavy_external_overlays.json": {
+   "sha256": "3dc31c471d51993035ed97dc9be5ea5d70d6612bab6a7fc8b1ddab5fb6c69cb1",
+   "overlay": "c1_heavy_external",
+   "source": "summary_c1_heavy_external_overlays.json"
+  }
+ }
+}

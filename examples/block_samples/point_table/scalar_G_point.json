@@ -1,0 +1,110 @@
+{
+  "central_charge": "10.0",
+  "chiral_normalization_N": "16.0",
+  "h_external": [
+    "0.075",
+    "0.075",
+    "0.075",
+    "0.075"
+  ],
+  "hbar_external": [
+    "0.075",
+    "0.075",
+    "0.075",
+    "0.075"
+  ],
+  "delta_external": [
+    "0.15",
+    "0.15",
+    "0.15",
+    "0.15"
+  ],
+  "spin_external": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "basis": "scalar_G",
+  "parity_projection": null,
+  "parity_basis": null,
+  "parity_external": null,
+  "parity_exchanged": null,
+  "parity_smoothing": "p_plus",
+  "label": "delta_l",
+  "spin": 2,
+  "variable_minus_x": "2.5",
+  "variable": "point",
+  "scalar_G_spin0": "single",
+  "scalar_G_odd": "even",
+  "regularization_policy": "direct",
+  "z_center": "0.5",
+  "zbar_center": "0.5",
+  "z_shift": "0.0",
+  "zbar_shift": "0.0",
+  "point_value": "2.5",
+  "exp_base": "0.0428932188134524755991556378951509607151640623115259634116601",
+  "order": 20,
+  "lambda": 4,
+  "npoles": 0,
+  "coordinates": [
+    "zzb"
+  ],
+  "pole_list_x": [],
+  "sample_points_x": [
+    "0.0"
+  ],
+  "index_names": [
+    "coordinate_index",
+    "deriv_0",
+    "deriv_1",
+    "monomial_degree"
+  ],
+  "derivs": [
+    [
+      [
+        [
+          "0.00077921800988752581039978665263051452761572218177359513980190560802"
+        ]
+      ],
+      [
+        [
+          "0.002804590324516663056654767834993257740913657990633512590130437182"
+        ],
+        [
+          "0.0037050707219233062125998173511417317487333109144848722787234155159"
+        ]
+      ],
+      [
+        [
+          "0.0069835790387808665910012799974196181305941311090075959390641280947"
+        ],
+        [
+          "0.005106881803951926709814687394653244622872005451317736889720623002"
+        ],
+        [
+          "-0.0001952960168456577362715650893387382277643082838712264284204461685"
+        ]
+      ],
+      [
+        [
+          "0.013470499188640607664439682500000193481652140952812856126110210177"
+        ],
+        [
+          "0.011690980756555856162415424359960783612362419054488025959048882702"
+        ]
+      ],
+      [
+        [
+          "0.023233859039300477916451529899172095052784927254882939660766382864"
+        ]
+      ]
+    ]
+  ],
+  "precision_input": 60,
+  "precision_actual": 60,
+  "verified_digits": "59.3",
+  "verified_digits_largest_entry": "60.5",
+  "q_truncation_digits": "19.1",
+  "args": "virasoro_blocks point-table --family virasoro --basis scalar_G --central-charge 10 --delta-ext 0.15 0.15 0.15 0.15 --exchange-delta 2.5 --exchange-spin 2 --lambda 4 --order 20 --precision 60 --format both --output-template scalar_G_point.json -o examples/block_samples/point_table"
+}

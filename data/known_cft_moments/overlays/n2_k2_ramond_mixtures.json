@@ -1,0 +1,2080 @@
+{
+ "model": "N=2 k=2 Ramond mixing families",
+ "central_charge": "3/2",
+ "normalization": "four identical unit-normalized real scalar operators",
+ "identity_excluded": "ordinary Virasoro identity only",
+ "rows": [
+  {
+   "model": "N=2 k=2 Ramond mixing family",
+   "kind": "n2_k2_ramond_mixture",
+   "full_cft": "N=2 k=2 minimal model",
+   "family_key": "ramond-light",
+   "family_label": "sqrt(t) \\sigma\\otimes1 + sqrt(1-t) 1\\otimes\\operatorname{Re}V_1",
+   "basis": [
+    [
+     "sigma",
+     0
+    ],
+    [
+     "1",
+     1
+    ]
+   ],
+   "delta_ext": "1/8",
+   "mixture_fraction": "0",
+   "ratio_include": "0.163404702033784557098660047009",
+   "ratio_exclude": "0.544870951708972919384080877278",
+   "crossing_residual": "2.4153827363e-13",
+   "delta_cut": 14,
+   "lam": 5,
+   "q_order": 40,
+   "dps": 80,
+   "n_operators": 51,
+   "converged": true
+  },
+  {
+   "model": "N=2 k=2 Ramond mixing family",
+   "kind": "n2_k2_ramond_mixture",
+   "full_cft": "N=2 k=2 minimal model",
+   "family_key": "ramond-light",
+   "family_label": "sqrt(t) \\sigma\\otimes1 + sqrt(1-t) 1\\otimes\\operatorname{Re}V_1",
+   "basis": [
+    [
+     "sigma",
+     0
+    ],
+    [
+     "1",
+     1
+    ]
+   ],
+   "delta_ext": "1/8",
+   "mixture_fraction": "532711406276834620352882431687/100000000000000000000000000000000",
+   "ratio_include": "0.163417880533664879029359151114",
+   "ratio_exclude": "0.532163717228697040503008973482",
+   "crossing_residual": "2.48081777818e-13",
+   "delta_cut": 14,
+   "lam": 5,
+   "q_order": 40,
+   "dps": 80,
+   "n_operators": 89,
+   "converged": true
+  },
+  {
+   "model": "N=2 k=2 Ramond mixing family",
+   "kind": "n2_k2_ramond_mixture",
+   "full_cft": "N=2 k=2 minimal model",
+   "family_key": "ramond-light",
+   "family_label": "sqrt(t) \\sigma\\otimes1 + sqrt(1-t) 1\\otimes\\operatorname{Re}V_1",
+   "basis": [
+    [
+     "sigma",
+     0
+    ],
+    [
+     "1",
+     1
+    ]
+   ],
+   "delta_ext": "1/8",
+   "mixture_fraction": "1/32",
+   "ratio_include": "0.163476538183545201625634515711",
+   "ratio_exclude": "0.482275191491568121509091170838",
+   "crossing_residual": "2.78766245731e-13",
+   "delta_cut": 14,
+   "lam": 5,
+   "q_order": 40,
+   "dps": 80,
+   "n_operators": 89,
+   "converged": true
+  },
+  {
+   "model": "N=2 k=2 Ramond mixing family",
+   "kind": "n2_k2_ramond_mixture",
+   "full_cft": "N=2 k=2 minimal model",
+   "family_key": "ramond-light",
+   "family_label": "sqrt(t) \\sigma\\otimes1 + sqrt(1-t) 1\\otimes\\operatorname{Re}V_1",
+   "basis": [
+    [
+     "sigma",
+     0
+    ],
+    [
+     "1",
+     1
+    ]
+   ],
+   "delta_ext": "1/8",
+   "mixture_fraction": "1/16",
+   "ratio_include": "0.163536900462881566552083765486",
+   "ratio_exclude": "0.440119028270183524635082368871",
+   "crossing_residual": "3.13203164019e-13",
+   "delta_cut": 14,
+   "lam": 5,
+   "q_order": 40,
+   "dps": 80,
+   "n_operators": 89,
+   "converged": true
+  },
+  {
+   "model": "N=2 k=2 Ramond mixing family",
+   "kind": "n2_k2_ramond_mixture",
+   "full_cft": "N=2 k=2 minimal model",
+   "family_key": "ramond-light",
+   "family_label": "sqrt(t) \\sigma\\otimes1 + sqrt(1-t) 1\\otimes\\operatorname{Re}V_1",
+   "basis": [
+    [
+     "sigma",
+     0
+    ],
+    [
+     "1",
+     1
+    ]
+   ],
+   "delta_ext": "1/8",
+   "mixture_fraction": "341851381414825124077816958291/5000000000000000000000000000000",
+   "ratio_include": "0.163547154998347156526678825806",
+   "ratio_exclude": "0.433712695031119889085170574576",
+   "crossing_residual": "3.19360706878e-13",
+   "delta_cut": 14,
+   "lam": 5,
+   "q_order": 40,
+   "dps": 80,
+   "n_operators": 89,
+   "converged": true
+  },
+  {
+   "model": "N=2 k=2 Ramond mixing family",
+   "kind": "n2_k2_ramond_mixture",
+   "full_cft": "N=2 k=2 minimal model",
+   "family_key": "ramond-light",
+   "family_label": "sqrt(t) \\sigma\\otimes1 + sqrt(1-t) 1\\otimes\\operatorname{Re}V_1",
+   "basis": [
+    [
+     "sigma",
+     0
+    ],
+    [
+     "1",
+     1
+    ]
+   ],
+   "delta_ext": "1/8",
+   "mixture_fraction": "3/32",
+   "ratio_include": "0.163588059285554166822762856552",
+   "ratio_exclude": "0.410020442274958637092576245912",
+   "crossing_residual": "3.44849028494e-13",
+   "delta_cut": 14,
+   "lam": 5,
+   "q_order": 40,
+   "dps": 80,
+   "n_operators": 89,
+   "converged": true
+  },
+  {
+   "model": "N=2 k=2 Ramond mixing family",
+   "kind": "n2_k2_ramond_mixture",
+   "full_cft": "N=2 k=2 minimal model",
+   "family_key": "ramond-light",
+   "family_label": "sqrt(t) \\sigma\\otimes1 + sqrt(1-t) 1\\otimes\\operatorname{Re}V_1",
+   "basis": [
+    [
+     "sigma",
+     0
+    ],
+    [
+     "1",
+     1
+    ]
+   ],
+   "delta_ext": "1/8",
+   "mixture_fraction": "1/8",
+   "ratio_include": "0.163631699139585480032155109338",
+   "ratio_exclude": "0.387652264054133794324109108489",
+   "crossing_residual": "3.73703839156e-13",
+   "delta_cut": 14,
+   "lam": 5,
+   "q_order": 40,
+   "dps": 80,
+   "n_operators": 89,
+   "converged": true
+  },
+  {
+   "model": "N=2 k=2 Ramond mixing family",
+   "kind": "n2_k2_ramond_mixture",
+   "full_cft": "N=2 k=2 minimal model",
+   "family_key": "ramond-light",
+   "family_label": "sqrt(t) \\sigma\\otimes1 + sqrt(1-t) 1\\otimes\\operatorname{Re}V_1",
+   "basis": [
+    [
+     "sigma",
+     0
+    ],
+    [
+     "1",
+     1
+    ]
+   ],
+   "delta_ext": "1/8",
+   "mixture_fraction": "5/32",
+   "ratio_include": "0.163669093125767555376152519063",
+   "ratio_exclude": "0.370557954222181865776578115161",
+   "crossing_residual": "3.99767596006e-13",
+   "delta_cut": 14,
+   "lam": 5,
+   "q_order": 40,
+   "dps": 80,
+   "n_operators": 89,
+   "converged": true
+  },
+  {
+   "model": "N=2 k=2 Ramond mixing family",
+   "kind": "n2_k2_ramond_mixture",
+   "full_cft": "N=2 k=2 minimal model",
+   "family_key": "ramond-light",
+   "family_label": "sqrt(t) \\sigma\\otimes1 + sqrt(1-t) 1\\otimes\\operatorname{Re}V_1",
+   "basis": [
+    [
+     "sigma",
+     0
+    ],
+    [
+     "1",
+     1
+    ]
+   ],
+   "delta_ext": "1/8",
+   "mixture_fraction": "3/16",
+   "ratio_include": "0.163701218159493912968106648462",
+   "ratio_exclude": "0.357242515215961081363387285451",
+   "crossing_residual": "4.23040299043e-13",
+   "delta_cut": 14,
+   "lam": 5,
+   "q_order": 40,
+   "dps": 80,
+   "n_operators": 89,
+   "converged": true
+  },
+  {
+   "model": "N=2 k=2 Ramond mixing family",
+   "kind": "n2_k2_ramond_mixture",
+   "full_cft": "N=2 k=2 minimal model",
+   "family_key": "ramond-light",
+   "family_label": "sqrt(t) \\sigma\\otimes1 + sqrt(1-t) 1\\otimes\\operatorname{Re}V_1",
+   "basis": [
+    [
+     "sigma",
+     0
+    ],
+    [
+     "1",
+     1
+    ]
+   ],
+   "delta_ext": "1/8",
+   "mixture_fraction": "7/32",
+   "ratio_include": "0.163728833024447657485781279677",
+   "ratio_exclude": "0.346747184970888124792992195969",
+   "crossing_residual": "4.43521948266e-13",
+   "delta_cut": 14,
+   "lam": 5,
+   "q_order": 40,
+   "dps": 80,
+   "n_operators": 89,
+   "converged": true
+  },
+  {
+   "model": "N=2 k=2 Ramond mixing family",
+   "kind": "n2_k2_ramond_mixture",
+   "full_cft": "N=2 k=2 minimal model",
+   "family_key": "ramond-light",
+   "family_label": "sqrt(t) \\sigma\\otimes1 + sqrt(1-t) 1\\otimes\\operatorname{Re}V_1",
+   "basis": [
+    [
+     "sigma",
+     0
+    ],
+    [
+     "1",
+     1
+    ]
+   ],
+   "delta_ext": "1/8",
+   "mixture_fraction": "1/4",
+   "ratio_include": "0.163752532446780309601338448449",
+   "ratio_exclude": "0.338432158844078112589914324271",
+   "crossing_residual": "4.61212543678e-13",
+   "delta_cut": 14,
+   "lam": 5,
+   "q_order": 40,
+   "dps": 80,
+   "n_operators": 89,
+   "converged": true
+  },
+  {
+   "model": "N=2 k=2 Ramond mixing family",
+   "kind": "n2_k2_ramond_mixture",
+   "full_cft": "N=2 k=2 minimal model",
+   "family_key": "ramond-light",
+   "family_label": "sqrt(t) \\sigma\\otimes1 + sqrt(1-t) 1\\otimes\\operatorname{Re}V_1",
+   "basis": [
+    [
+     "sigma",
+     0
+    ],
+    [
+     "1",
+     1
+    ]
+   ],
+   "delta_ext": "1/8",
+   "mixture_fraction": "9/32",
+   "ratio_include": "0.163772785259449382054376310305",
+   "ratio_exclude": "0.331857730335029386749686628653",
+   "crossing_residual": "4.76112085276e-13",
+   "delta_cut": 14,
+   "lam": 5,
+   "q_order": 40,
+   "dps": 80,
+   "n_operators": 89,
+   "converged": true
+  },
+  {
+   "model": "N=2 k=2 Ramond mixing family",
+   "kind": "n2_k2_ramond_mixture",
+   "full_cft": "N=2 k=2 minimal model",
+   "family_key": "ramond-light",
+   "family_label": "sqrt(t) \\sigma\\otimes1 + sqrt(1-t) 1\\otimes\\operatorname{Re}V_1",
+   "basis": [
+    [
+     "sigma",
+     0
+    ],
+    [
+     "1",
+     1
+    ]
+   ],
+   "delta_ext": "1/8",
+   "mixture_fraction": "5/16",
+   "ratio_include": "0.163789961740450248896879547312",
+   "ratio_exclude": "0.326715668783067061617381456601",
+   "crossing_residual": "4.88220573061e-13",
+   "delta_cut": 14,
+   "lam": 5,
+   "q_order": 40,
+   "dps": 80,
+   "n_operators": 89,
+   "converged": true
+  },
+  {
+   "model": "N=2 k=2 Ramond mixing family",
+   "kind": "n2_k2_ramond_mixture",
+   "full_cft": "N=2 k=2 minimal model",
+   "family_key": "ramond-light",
+   "family_label": "sqrt(t) \\sigma\\otimes1 + sqrt(1-t) 1\\otimes\\operatorname{Re}V_1",
+   "basis": [
+    [
+     "sigma",
+     0
+    ],
+    [
+     "1",
+     1
+    ]
+   ],
+   "delta_ext": "1/8",
+   "mixture_fraction": "11/32",
+   "ratio_include": "0.163804353403975463544810360996",
+   "ratio_exclude": "0.322787902144642151110780464867",
+   "crossing_residual": "4.97538007034e-13",
+   "delta_cut": 14,
+   "lam": 5,
+   "q_order": 40,
+   "dps": 80,
+   "n_operators": 89,
+   "converged": true
+  },
+  {
+   "model": "N=2 k=2 Ramond mixing family",
+   "kind": "n2_k2_ramond_mixture",
+   "full_cft": "N=2 k=2 minimal model",
+   "family_key": "ramond-light",
+   "family_label": "sqrt(t) \\sigma\\otimes1 + sqrt(1-t) 1\\otimes\\operatorname{Re}V_1",
+   "basis": [
+    [
+     "sigma",
+     0
+    ],
+    [
+     "1",
+     1
+    ]
+   ],
+   "delta_ext": "1/8",
+   "mixture_fraction": "3/8",
+   "ratio_include": "0.163816187400579938665237462109",
+   "ratio_exclude": "0.319920871620540477938692898797",
+   "crossing_residual": "5.04064387193e-13",
+   "delta_cut": 14,
+   "lam": 5,
+   "q_order": 40,
+   "dps": 80,
+   "n_operators": 89,
+   "converged": true
+  },
+  {
+   "model": "N=2 k=2 Ramond mixing family",
+   "kind": "n2_k2_ramond_mixture",
+   "full_cft": "N=2 k=2 minimal model",
+   "family_key": "ramond-light",
+   "family_label": "sqrt(t) \\sigma\\otimes1 + sqrt(1-t) 1\\otimes\\operatorname{Re}V_1",
+   "basis": [
+    [
+     "sigma",
+     0
+    ],
+    [
+     "1",
+     1
+    ]
+   ],
+   "delta_ext": "1/8",
+   "mixture_fraction": "13/32",
+   "ratio_include": "0.163825636963873135374980212729",
+   "ratio_exclude": "0.318009350382440929092705380742",
+   "crossing_residual": "5.0779971354e-13",
+   "delta_cut": 14,
+   "lam": 5,
+   "q_order": 40,
+   "dps": 80,
+   "n_operators": 89,
+   "converged": true
+  },
+  {
+   "model": "N=2 k=2 Ramond mixing family",
+   "kind": "n2_k2_ramond_mixture",
+   "full_cft": "N=2 k=2 minimal model",
+   "family_key": "ramond-light",
+   "family_label": "sqrt(t) \\sigma\\otimes1 + sqrt(1-t) 1\\otimes\\operatorname{Re}V_1",
+   "basis": [
+    [
+     "sigma",
+     0
+    ],
+    [
+     "1",
+     1
+    ]
+   ],
+   "delta_ext": "1/8",
+   "mixture_fraction": "7/16",
+   "ratio_include": "0.163832828867987281427922150006",
+   "ratio_exclude": "0.316986289770194447356004710301",
+   "crossing_residual": "5.08743986074e-13",
+   "delta_cut": 14,
+   "lam": 5,
+   "q_order": 40,
+   "dps": 80,
+   "n_operators": 89,
+   "converged": true
+  },
+  {
+   "model": "N=2 k=2 Ramond mixing family",
+   "kind": "n2_k2_ramond_mixture",
+   "full_cft": "N=2 k=2 minimal model",
+   "family_key": "ramond-light",
+   "family_label": "sqrt(t) \\sigma\\otimes1 + sqrt(1-t) 1\\otimes\\operatorname{Re}V_1",
+   "basis": [
+    [
+     "sigma",
+     0
+    ],
+    [
+     "1",
+     1
+    ]
+   ],
+   "delta_ext": "1/8",
+   "mixture_fraction": "18375631766768481994128195521/40000000000000000000000000000",
+   "ratio_include": "0.163836569513550011364515790401",
+   "ratio_exclude": "0.316778892545935454201382996938",
+   "crossing_residual": "5.07743083958e-13",
+   "delta_cut": 14,
+   "lam": 5,
+   "q_order": 40,
+   "dps": 80,
+   "n_operators": 89,
+   "converged": true
+  },
+  {
+   "model": "N=2 k=2 Ramond mixing family",
+   "kind": "n2_k2_ramond_mixture",
+   "full_cft": "N=2 k=2 minimal model",
+   "family_key": "ramond-light",
+   "family_label": "sqrt(t) \\sigma\\otimes1 + sqrt(1-t) 1\\otimes\\operatorname{Re}V_1",
+   "basis": [
+    [
+     "sigma",
+     0
+    ],
+    [
+     "1",
+     1
+    ]
+   ],
+   "delta_ext": "1/8",
+   "mixture_fraction": "15/32",
+   "ratio_include": "0.163837848537837314995460370816",
+   "ratio_exclude": "0.316816758538256878563359646776",
+   "crossing_residual": "5.06897204796e-13",
+   "delta_cut": 14,
+   "lam": 5,
+   "q_order": 40,
+   "dps": 80,
+   "n_operators": 89,
+   "converged": true
+  },
+  {
+   "model": "N=2 k=2 Ramond mixing family",
+   "kind": "n2_k2_ramond_mixture",
+   "full_cft": "N=2 k=2 minimal model",
+   "family_key": "ramond-light",
+   "family_label": "sqrt(t) \\sigma\\otimes1 + sqrt(1-t) 1\\otimes\\operatorname{Re}V_1",
+   "basis": [
+    [
+     "sigma",
+     0
+    ],
+    [
+     "1",
+     1
+    ]
+   ],
+   "delta_ext": "1/8",
+   "mixture_fraction": "1/2",
+   "ratio_include": "0.163840743225184867236657949479",
+   "ratio_exclude": "0.317494913040728693989722866925",
+   "crossing_residual": "5.02259369704e-13",
+   "delta_cut": 14,
+   "lam": 5,
+   "q_order": 40,
+   "dps": 80,
+   "n_operators": 89,
+   "converged": true
+  },
+  {
+   "model": "N=2 k=2 Ramond mixing family",
+   "kind": "n2_k2_ramond_mixture",
+   "full_cft": "N=2 k=2 minimal model",
+   "family_key": "ramond-light",
+   "family_label": "sqrt(t) \\sigma\\otimes1 + sqrt(1-t) 1\\otimes\\operatorname{Re}V_1",
+   "basis": [
+    [
+     "sigma",
+     0
+    ],
+    [
+     "1",
+     1
+    ]
+   ],
+   "delta_ext": "1/8",
+   "mixture_fraction": "527113311328859754659904139199/1000000000000000000000000000000",
+   "ratio_include": "0.163841542184781668461939946249",
+   "ratio_exclude": "0.318786944149266682025233660693",
+   "crossing_residual": "4.9597415069e-13",
+   "delta_cut": 14,
+   "lam": 5,
+   "q_order": 40,
+   "dps": 80,
+   "n_operators": 89,
+   "converged": true
+  },
+  {
+   "model": "N=2 k=2 Ramond mixing family",
+   "kind": "n2_k2_ramond_mixture",
+   "full_cft": "N=2 k=2 minimal model",
+   "family_key": "ramond-light",
+   "family_label": "sqrt(t) \\sigma\\otimes1 + sqrt(1-t) 1\\otimes\\operatorname{Re}V_1",
+   "basis": [
+    [
+     "sigma",
+     0
+    ],
+    [
+     "1",
+     1
+    ]
+   ],
+   "delta_ext": "1/8",
+   "mixture_fraction": "17/32",
+   "ratio_include": "0.163841523490657146868448265958",
+   "ratio_exclude": "0.319043495679733360823800864053",
+   "crossing_residual": "4.948304808e-13",
+   "delta_cut": 14,
+   "lam": 5,
+   "q_order": 40,
+   "dps": 80,
+   "n_operators": 89,
+   "converged": true
+  },
+  {
+   "model": "N=2 k=2 Ramond mixing family",
+   "kind": "n2_k2_ramond_mixture",
+   "full_cft": "N=2 k=2 minimal model",
+   "family_key": "ramond-light",
+   "family_label": "sqrt(t) \\sigma\\otimes1 + sqrt(1-t) 1\\otimes\\operatorname{Re}V_1",
+   "basis": [
+    [
+     "sigma",
+     0
+    ],
+    [
+     "1",
+     1
+    ]
+   ],
+   "delta_ext": "1/8",
+   "mixture_fraction": "9/16",
+   "ratio_include": "0.163840163089688893563648986603",
+   "ratio_exclude": "0.321515780048044181621406241233",
+   "crossing_residual": "4.84610538082e-13",
+   "delta_cut": 14,
+   "lam": 5,
+   "q_order": 40,
+   "dps": 80,
+   "n_operators": 89,
+   "converged": true
+  },
+  {
+   "model": "N=2 k=2 Ramond mixing family",
+   "kind": "n2_k2_ramond_mixture",
+   "full_cft": "N=2 k=2 minimal model",
+   "family_key": "ramond-light",
+   "family_label": "sqrt(t) \\sigma\\otimes1 + sqrt(1-t) 1\\otimes\\operatorname{Re}V_1",
+   "basis": [
+    [
+     "sigma",
+     0
+    ],
+    [
+     "1",
+     1
+    ]
+   ],
+   "delta_ext": "1/8",
+   "mixture_fraction": "19/32",
+   "ratio_include": "0.163836597229358876010656029017",
+   "ratio_exclude": "0.325000280468714718078304665362",
+   "crossing_residual": "4.71599541552e-13",
+   "delta_cut": 14,
+   "lam": 5,
+   "q_order": 40,
+   "dps": 80,
+   "n_operators": 89,
+   "converged": true
+  },
+  {
+   "model": "N=2 k=2 Ramond mixing family",
+   "kind": "n2_k2_ramond_mixture",
+   "full_cft": "N=2 k=2 minimal model",
+   "family_key": "ramond-light",
+   "family_label": "sqrt(t) \\sigma\\otimes1 + sqrt(1-t) 1\\otimes\\operatorname{Re}V_1",
+   "basis": [
+    [
+     "sigma",
+     0
+    ],
+    [
+     "1",
+     1
+    ]
+   ],
+   "delta_ext": "1/8",
+   "mixture_fraction": "5/8",
+   "ratio_include": "0.16383071902576265776276950599",
+   "ratio_exclude": "0.329629028720944956748938992971",
+   "crossing_residual": "4.55797491209e-13",
+   "delta_cut": 14,
+   "lam": 5,
+   "q_order": 40,
+   "dps": 80,
+   "n_operators": 89,
+   "converged": true
+  },
+  {
+   "model": "N=2 k=2 Ramond mixing family",
+   "kind": "n2_k2_ramond_mixture",
+   "full_cft": "N=2 k=2 minimal model",
+   "family_key": "ramond-light",
+   "family_label": "sqrt(t) \\sigma\\otimes1 + sqrt(1-t) 1\\otimes\\operatorname{Re}V_1",
+   "basis": [
+    [
+     "sigma",
+     0
+    ],
+    [
+     "1",
+     1
+    ]
+   ],
+   "delta_ext": "1/8",
+   "mixture_fraction": "21/32",
+   "ratio_include": "0.163822373828859877135032648791",
+   "ratio_exclude": "0.335590934513019988872743450838",
+   "crossing_residual": "4.37204387054e-13",
+   "delta_cut": 14,
+   "lam": 5,
+   "q_order": 40,
+   "dps": 80,
+   "n_operators": 89,
+   "converged": true
+  },
+  {
+   "model": "N=2 k=2 Ramond mixing family",
+   "kind": "n2_k2_ramond_mixture",
+   "full_cft": "N=2 k=2 minimal model",
+   "family_key": "ramond-light",
+   "family_label": "sqrt(t) \\sigma\\otimes1 + sqrt(1-t) 1\\otimes\\operatorname{Re}V_1",
+   "basis": [
+    [
+     "sigma",
+     0
+    ],
+    [
+     "1",
+     1
+    ]
+   ],
+   "delta_ext": "1/8",
+   "mixture_fraction": "11/16",
+   "ratio_include": "0.163811350869119710628647389768",
+   "ratio_exclude": "0.34315293168884574147131114874",
+   "crossing_residual": "4.15820229085e-13",
+   "delta_cut": 14,
+   "lam": 5,
+   "q_order": 40,
+   "dps": 80,
+   "n_operators": 89,
+   "converged": true
+  },
+  {
+   "model": "N=2 k=2 Ramond mixing family",
+   "kind": "n2_k2_ramond_mixture",
+   "full_cft": "N=2 k=2 minimal model",
+   "family_key": "ramond-light",
+   "family_label": "sqrt(t) \\sigma\\otimes1 + sqrt(1-t) 1\\otimes\\operatorname{Re}V_1",
+   "basis": [
+    [
+     "sigma",
+     0
+    ],
+    [
+     "1",
+     1
+    ]
+   ],
+   "delta_ext": "1/8",
+   "mixture_fraction": "23/32",
+   "ratio_include": "0.163797371382094873047840689727",
+   "ratio_exclude": "0.352693741011513573007740369107",
+   "crossing_residual": "3.91645017304e-13",
+   "delta_cut": 14,
+   "lam": 5,
+   "q_order": 40,
+   "dps": 80,
+   "n_operators": 89,
+   "converged": true
+  },
+  {
+   "model": "N=2 k=2 Ramond mixing family",
+   "kind": "n2_k2_ramond_mixture",
+   "full_cft": "N=2 k=2 minimal model",
+   "family_key": "ramond-light",
+   "family_label": "sqrt(t) \\sigma\\otimes1 + sqrt(1-t) 1\\otimes\\operatorname{Re}V_1",
+   "basis": [
+    [
+     "sigma",
+     0
+    ],
+    [
+     "1",
+     1
+    ]
+   ],
+   "delta_ext": "1/8",
+   "mixture_fraction": "3/4",
+   "ratio_include": "0.163780071927340400126830490538",
+   "ratio_exclude": "0.364759146088474963743763073137",
+   "crossing_residual": "3.64678751709e-13",
+   "delta_cut": 14,
+   "lam": 5,
+   "q_order": 40,
+   "dps": 80,
+   "n_operators": 89,
+   "converged": true
+  },
+  {
+   "model": "N=2 k=2 Ramond mixing family",
+   "kind": "n2_k2_ramond_mixture",
+   "full_cft": "N=2 k=2 minimal model",
+   "family_key": "ramond-light",
+   "family_label": "sqrt(t) \\sigma\\otimes1 + sqrt(1-t) 1\\otimes\\operatorname{Re}V_1",
+   "basis": [
+    [
+     "sigma",
+     0
+    ],
+    [
+     "1",
+     1
+    ]
+   ],
+   "delta_ext": "1/8",
+   "mixture_fraction": "25/32",
+   "ratio_include": "0.163758980944626523471349395817",
+   "ratio_exclude": "0.380155922218646087756902869505",
+   "crossing_residual": "3.34921432302e-13",
+   "delta_cut": 14,
+   "lam": 5,
+   "q_order": 40,
+   "dps": 80,
+   "n_operators": 89,
+   "converged": true
+  },
+  {
+   "model": "N=2 k=2 Ramond mixing family",
+   "kind": "n2_k2_ramond_mixture",
+   "full_cft": "N=2 k=2 minimal model",
+   "family_key": "ramond-light",
+   "family_label": "sqrt(t) \\sigma\\otimes1 + sqrt(1-t) 1\\otimes\\operatorname{Re}V_1",
+   "basis": [
+    [
+     "sigma",
+     0
+    ],
+    [
+     "1",
+     1
+    ]
+   ],
+   "delta_ext": "1/8",
+   "mixture_fraction": "13/16",
+   "ratio_include": "0.163733485525202427963304985921",
+   "ratio_exclude": "0.400119413888034315468441173963",
+   "crossing_residual": "3.02373059082e-13",
+   "delta_cut": 14,
+   "lam": 5,
+   "q_order": 40,
+   "dps": 80,
+   "n_operators": 89,
+   "converged": true
+  },
+  {
+   "model": "N=2 k=2 Ramond mixing family",
+   "kind": "n2_k2_ramond_mixture",
+   "full_cft": "N=2 k=2 minimal model",
+   "family_key": "ramond-light",
+   "family_label": "sqrt(t) \\sigma\\otimes1 + sqrt(1-t) 1\\otimes\\operatorname{Re}V_1",
+   "basis": [
+    [
+     "sigma",
+     0
+    ],
+    [
+     "1",
+     1
+    ]
+   ],
+   "delta_ext": "1/8",
+   "mixture_fraction": "27/32",
+   "ratio_include": "0.163702783638894840605872634968",
+   "ratio_exclude": "0.426631578809446621884245222156",
+   "crossing_residual": "2.6703363205e-13",
+   "delta_cut": 14,
+   "lam": 5,
+   "q_order": 40,
+   "dps": 80,
+   "n_operators": 89,
+   "converged": true
+  },
+  {
+   "model": "N=2 k=2 Ramond mixing family",
+   "kind": "n2_k2_ramond_mixture",
+   "full_cft": "N=2 k=2 minimal model",
+   "family_key": "ramond-light",
+   "family_label": "sqrt(t) \\sigma\\otimes1 + sqrt(1-t) 1\\otimes\\operatorname{Re}V_1",
+   "basis": [
+    [
+     "sigma",
+     0
+    ],
+    [
+     "1",
+     1
+    ]
+   ],
+   "delta_ext": "1/8",
+   "mixture_fraction": "7/8",
+   "ratio_include": "0.163665814134913961281210761485",
+   "ratio_exclude": "0.463074151105576219980148989047",
+   "crossing_residual": "2.28903151204e-13",
+   "delta_cut": 14,
+   "lam": 5,
+   "q_order": 40,
+   "dps": 80,
+   "n_operators": 89,
+   "converged": true
+  },
+  {
+   "model": "N=2 k=2 Ramond mixing family",
+   "kind": "n2_k2_ramond_mixture",
+   "full_cft": "N=2 k=2 minimal model",
+   "family_key": "ramond-light",
+   "family_label": "sqrt(t) \\sigma\\otimes1 + sqrt(1-t) 1\\otimes\\operatorname{Re}V_1",
+   "basis": [
+    [
+     "sigma",
+     0
+    ],
+    [
+     "1",
+     1
+    ]
+   ],
+   "delta_ext": "1/8",
+   "mixture_fraction": "29/32",
+   "ratio_include": "0.163621151745029325142712563374",
+   "ratio_exclude": "0.515715857347581845693129164815",
+   "crossing_residual": "1.87981616546e-13",
+   "delta_cut": 14,
+   "lam": 5,
+   "q_order": 40,
+   "dps": 80,
+   "n_operators": 89,
+   "converged": true
+  },
+  {
+   "model": "N=2 k=2 Ramond mixing family",
+   "kind": "n2_k2_ramond_mixture",
+   "full_cft": "N=2 k=2 minimal model",
+   "family_key": "ramond-light",
+   "family_label": "sqrt(t) \\sigma\\otimes1 + sqrt(1-t) 1\\otimes\\operatorname{Re}V_1",
+   "basis": [
+    [
+     "sigma",
+     0
+    ],
+    [
+     "1",
+     1
+    ]
+   ],
+   "delta_ext": "1/8",
+   "mixture_fraction": "15/16",
+   "ratio_include": "0.163566845112267442220860144908",
+   "ratio_exclude": "0.597611196947225558578379998985",
+   "crossing_residual": "1.44269028074e-13",
+   "delta_cut": 14,
+   "lam": 5,
+   "q_order": 40,
+   "dps": 80,
+   "n_operators": 89,
+   "converged": true
+  },
+  {
+   "model": "N=2 k=2 Ramond mixing family",
+   "kind": "n2_k2_ramond_mixture",
+   "full_cft": "N=2 k=2 minimal model",
+   "family_key": "ramond-light",
+   "family_label": "sqrt(t) \\sigma\\otimes1 + sqrt(1-t) 1\\otimes\\operatorname{Re}V_1",
+   "basis": [
+    [
+     "sigma",
+     0
+    ],
+    [
+     "1",
+     1
+    ]
+   ],
+   "delta_ext": "1/8",
+   "mixture_fraction": "31/32",
+   "ratio_include": "0.163500158476504301024218933404",
+   "ratio_exclude": "0.741161090273250186607341211232",
+   "crossing_residual": "1.00076026737e-13",
+   "delta_cut": 14,
+   "lam": 5,
+   "q_order": 40,
+   "dps": 80,
+   "n_operators": 89,
+   "converged": true
+  },
+  {
+   "model": "N=2 k=2 Ramond mixing family",
+   "kind": "n2_k2_ramond_mixture",
+   "full_cft": "N=2 k=2 minimal model",
+   "family_key": "ramond-light",
+   "family_label": "sqrt(t) \\sigma\\otimes1 + sqrt(1-t) 1\\otimes\\operatorname{Re}V_1",
+   "basis": [
+    [
+     "sigma",
+     0
+    ],
+    [
+     "1",
+     1
+    ]
+   ],
+   "delta_ext": "1/8",
+   "mixture_fraction": "1",
+   "ratio_include": "0.163417143089709316772050927967",
+   "ratio_exclude": "1.05498547789018484042075502391",
+   "crossing_residual": "5.43958897016e-14",
+   "delta_cut": 14,
+   "lam": 5,
+   "q_order": 40,
+   "dps": 80,
+   "n_operators": 29,
+   "converged": true
+  },
+  {
+   "model": "N=2 k=2 Ramond mixing family",
+   "kind": "n2_k2_ramond_mixture",
+   "full_cft": "N=2 k=2 minimal model",
+   "family_key": "ramond-heavy",
+   "family_label": "sqrt(t) \\epsilon\\otimes\\operatorname{Re}V_1 + sqrt(1-t) 1\\otimes\\operatorname{Re}V_3",
+   "basis": [
+    [
+     "eps",
+     1
+    ],
+    [
+     "1",
+     3
+    ]
+   ],
+   "delta_ext": "9/8",
+   "mixture_fraction": "0",
+   "ratio_include": "1.00011923681538155276277471585",
+   "ratio_exclude": "2.30621710244369470056207042514",
+   "crossing_residual": "2.23281790623e-9",
+   "delta_cut": 14,
+   "lam": 5,
+   "q_order": 40,
+   "dps": 80,
+   "n_operators": 44,
+   "converged": true
+  },
+  {
+   "model": "N=2 k=2 Ramond mixing family",
+   "kind": "n2_k2_ramond_mixture",
+   "full_cft": "N=2 k=2 minimal model",
+   "family_key": "ramond-heavy",
+   "family_label": "sqrt(t) \\epsilon\\otimes\\operatorname{Re}V_1 + sqrt(1-t) 1\\otimes\\operatorname{Re}V_3",
+   "basis": [
+    [
+     "eps",
+     1
+    ],
+    [
+     "1",
+     3
+    ]
+   ],
+   "delta_ext": "9/8",
+   "mixture_fraction": "532711406276834620352882431687/100000000000000000000000000000000",
+   "ratio_include": "1.00012934642276311514648319416",
+   "ratio_exclude": "2.30747828418861951089384161569",
+   "crossing_residual": "2.21740701748e-9",
+   "delta_cut": 14,
+   "lam": 5,
+   "q_order": 40,
+   "dps": 80,
+   "n_operators": 100,
+   "converged": true
+  },
+  {
+   "model": "N=2 k=2 Ramond mixing family",
+   "kind": "n2_k2_ramond_mixture",
+   "full_cft": "N=2 k=2 minimal model",
+   "family_key": "ramond-heavy",
+   "family_label": "sqrt(t) \\epsilon\\otimes\\operatorname{Re}V_1 + sqrt(1-t) 1\\otimes\\operatorname{Re}V_3",
+   "basis": [
+    [
+     "eps",
+     1
+    ],
+    [
+     "1",
+     3
+    ]
+   ],
+   "delta_ext": "9/8",
+   "mixture_fraction": "1/32",
+   "ratio_include": "0.999889435940295944005473604243",
+   "ratio_exclude": "2.31217577676317674678952963368",
+   "crossing_residual": "2.14464499708e-9",
+   "delta_cut": 14,
+   "lam": 5,
+   "q_order": 40,
+   "dps": 80,
+   "n_operators": 100,
+   "converged": true
+  },
+  {
+   "model": "N=2 k=2 Ramond mixing family",
+   "kind": "n2_k2_ramond_mixture",
+   "full_cft": "N=2 k=2 minimal model",
+   "family_key": "ramond-heavy",
+   "family_label": "sqrt(t) \\epsilon\\otimes\\operatorname{Re}V_1 + sqrt(1-t) 1\\otimes\\operatorname{Re}V_3",
+   "basis": [
+    [
+     "eps",
+     1
+    ],
+    [
+     "1",
+     3
+    ]
+   ],
+   "delta_ext": "9/8",
+   "mixture_fraction": "1/16",
+   "ratio_include": "0.998960603717455379084103853024",
+   "ratio_exclude": "2.31462104062712294456018631388",
+   "crossing_residual": "2.06185026982e-9",
+   "delta_cut": 14,
+   "lam": 5,
+   "q_order": 40,
+   "dps": 80,
+   "n_operators": 100,
+   "converged": true
+  },
+  {
+   "model": "N=2 k=2 Ramond mixing family",
+   "kind": "n2_k2_ramond_mixture",
+   "full_cft": "N=2 k=2 minimal model",
+   "family_key": "ramond-heavy",
+   "family_label": "sqrt(t) \\epsilon\\otimes\\operatorname{Re}V_1 + sqrt(1-t) 1\\otimes\\operatorname{Re}V_3",
+   "basis": [
+    [
+     "eps",
+     1
+    ],
+    [
+     "1",
+     3
+    ]
+   ],
+   "delta_ext": "9/8",
+   "mixture_fraction": "341851381414825124077816958291/5000000000000000000000000000000",
+   "ratio_include": "0.998707976869188279168088265699",
+   "ratio_exclude": "2.31468398800136267208429383931",
+   "crossing_residual": "2.04689740933e-9",
+   "delta_cut": 14,
+   "lam": 5,
+   "q_order": 40,
+   "dps": 80,
+   "n_operators": 100,
+   "converged": true
+  },
+  {
+   "model": "N=2 k=2 Ramond mixing family",
+   "kind": "n2_k2_ramond_mixture",
+   "full_cft": "N=2 k=2 minimal model",
+   "family_key": "ramond-heavy",
+   "family_label": "sqrt(t) \\epsilon\\otimes\\operatorname{Re}V_1 + sqrt(1-t) 1\\otimes\\operatorname{Re}V_3",
+   "basis": [
+    [
+     "eps",
+     1
+    ],
+    [
+     "1",
+     3
+    ]
+   ],
+   "delta_ext": "9/8",
+   "mixture_fraction": "3/32",
+   "ratio_include": "0.997331351750177914894009612765",
+   "ratio_exclude": "2.31350499133297869467929823352",
+   "crossing_residual": "1.98443372446e-9",
+   "delta_cut": 14,
+   "lam": 5,
+   "q_order": 40,
+   "dps": 80,
+   "n_operators": 100,
+   "converged": true
+  },
+  {
+   "model": "N=2 k=2 Ramond mixing family",
+   "kind": "n2_k2_ramond_mixture",
+   "full_cft": "N=2 k=2 minimal model",
+   "family_key": "ramond-heavy",
+   "family_label": "sqrt(t) \\epsilon\\otimes\\operatorname{Re}V_1 + sqrt(1-t) 1\\otimes\\operatorname{Re}V_3",
+   "basis": [
+    [
+     "eps",
+     1
+    ],
+    [
+     "1",
+     3
+    ]
+   ],
+   "delta_ext": "9/8",
+   "mixture_fraction": "1/8",
+   "ratio_include": "0.995002977993523120181865434023",
+   "ratio_exclude": "2.30881096793553606514762810563",
+   "crossing_residual": "1.912395361e-9",
+   "delta_cut": 14,
+   "lam": 5,
+   "q_order": 40,
+   "dps": 80,
+   "n_operators": 100,
+   "converged": true
+  },
+  {
+   "model": "N=2 k=2 Ramond mixing family",
+   "kind": "n2_k2_ramond_mixture",
+   "full_cft": "N=2 k=2 minimal model",
+   "family_key": "ramond-heavy",
+   "family_label": "sqrt(t) \\epsilon\\otimes\\operatorname{Re}V_1 + sqrt(1-t) 1\\otimes\\operatorname{Re}V_3",
+   "basis": [
+    [
+     "eps",
+     1
+    ],
+    [
+     "1",
+     3
+    ]
+   ],
+   "delta_ext": "9/8",
+   "mixture_fraction": "5/32",
+   "ratio_include": "0.991979470159758183671153840173",
+   "ratio_exclude": "2.30055411483416409655602331121",
+   "crossing_residual": "1.84573517942e-9",
+   "delta_cut": 14,
+   "lam": 5,
+   "q_order": 40,
+   "dps": 80,
+   "n_operators": 100,
+   "converged": true
+  },
+  {
+   "model": "N=2 k=2 Ramond mixing family",
+   "kind": "n2_k2_ramond_mixture",
+   "full_cft": "N=2 k=2 minimal model",
+   "family_key": "ramond-heavy",
+   "family_label": "sqrt(t) \\epsilon\\otimes\\operatorname{Re}V_1 + sqrt(1-t) 1\\otimes\\operatorname{Re}V_3",
+   "basis": [
+    [
+     "eps",
+     1
+    ],
+    [
+     "1",
+     3
+    ]
+   ],
+   "delta_ext": "9/8",
+   "mixture_fraction": "3/16",
+   "ratio_include": "0.988267483318750493379024786615",
+   "ratio_exclude": "2.28878124269313794863952825527",
+   "crossing_residual": "1.78445317975e-9",
+   "delta_cut": 14,
+   "lam": 5,
+   "q_order": 40,
+   "dps": 80,
+   "n_operators": 100,
+   "converged": true
+  },
+  {
+   "model": "N=2 k=2 Ramond mixing family",
+   "kind": "n2_k2_ramond_mixture",
+   "full_cft": "N=2 k=2 minimal model",
+   "family_key": "ramond-heavy",
+   "family_label": "sqrt(t) \\epsilon\\otimes\\operatorname{Re}V_1 + sqrt(1-t) 1\\otimes\\operatorname{Re}V_3",
+   "basis": [
+    [
+     "eps",
+     1
+    ],
+    [
+     "1",
+     3
+    ]
+   ],
+   "delta_ext": "9/8",
+   "mixture_fraction": "7/32",
+   "ratio_include": "0.983876291951980004593858318246",
+   "ratio_exclude": "2.27356998837691867190034188626",
+   "crossing_residual": "1.72854936197e-9",
+   "delta_cut": 14,
+   "lam": 5,
+   "q_order": 40,
+   "dps": 80,
+   "n_operators": 100,
+   "converged": true
+  },
+  {
+   "model": "N=2 k=2 Ramond mixing family",
+   "kind": "n2_k2_ramond_mixture",
+   "full_cft": "N=2 k=2 minimal model",
+   "family_key": "ramond-heavy",
+   "family_label": "sqrt(t) \\epsilon\\otimes\\operatorname{Re}V_1 + sqrt(1-t) 1\\otimes\\operatorname{Re}V_3",
+   "basis": [
+    [
+     "eps",
+     1
+    ],
+    [
+     "1",
+     3
+    ]
+   ],
+   "delta_ext": "9/8",
+   "mixture_fraction": "1/4",
+   "ratio_include": "0.978817717174549069722259247218",
+   "ratio_exclude": "2.25502730439770411189199257953",
+   "crossing_residual": "1.67802372608e-9",
+   "delta_cut": 14,
+   "lam": 5,
+   "q_order": 40,
+   "dps": 80,
+   "n_operators": 100,
+   "converged": true
+  },
+  {
+   "model": "N=2 k=2 Ramond mixing family",
+   "kind": "n2_k2_ramond_mixture",
+   "full_cft": "N=2 k=2 minimal model",
+   "family_key": "ramond-heavy",
+   "family_label": "sqrt(t) \\epsilon\\otimes\\operatorname{Re}V_1 + sqrt(1-t) 1\\otimes\\operatorname{Re}V_3",
+   "basis": [
+    [
+     "eps",
+     1
+    ],
+    [
+     "1",
+     3
+    ]
+   ],
+   "delta_ext": "9/8",
+   "mixture_fraction": "9/32",
+   "ratio_include": "0.973106030277247778159462804943",
+   "ratio_exclude": "2.2332873353457129036132456778",
+   "crossing_residual": "1.63287627209e-9",
+   "delta_cut": 14,
+   "lam": 5,
+   "q_order": 40,
+   "dps": 80,
+   "n_operators": 100,
+   "converged": true
+  },
+  {
+   "model": "N=2 k=2 Ramond mixing family",
+   "kind": "n2_k2_ramond_mixture",
+   "full_cft": "N=2 k=2 minimal model",
+   "family_key": "ramond-heavy",
+   "family_label": "sqrt(t) \\epsilon\\otimes\\operatorname{Re}V_1 + sqrt(1-t) 1\\otimes\\operatorname{Re}V_3",
+   "basis": [
+    [
+     "eps",
+     1
+    ],
+    [
+     "1",
+     3
+    ]
+   ],
+   "delta_ext": "9/8",
+   "mixture_fraction": "5/16",
+   "ratio_include": "0.966757834148068432349551335864",
+   "ratio_exclude": "2.20850876217813820436161501043",
+   "crossing_residual": "1.593107e-9",
+   "delta_cut": 14,
+   "lam": 5,
+   "q_order": 40,
+   "dps": 80,
+   "n_operators": 100,
+   "converged": true
+  },
+  {
+   "model": "N=2 k=2 Ramond mixing family",
+   "kind": "n2_k2_ramond_mixture",
+   "full_cft": "N=2 k=2 minimal model",
+   "family_key": "ramond-heavy",
+   "family_label": "sqrt(t) \\epsilon\\otimes\\operatorname{Re}V_1 + sqrt(1-t) 1\\otimes\\operatorname{Re}V_3",
+   "basis": [
+    [
+     "eps",
+     1
+    ],
+    [
+     "1",
+     3
+    ]
+   ],
+   "delta_ext": "9/8",
+   "mixture_fraction": "11/32",
+   "ratio_include": "0.959791924498405239313596065059",
+   "ratio_exclude": "2.1808717136808310618215961577",
+   "crossing_residual": "1.5587159098e-9",
+   "delta_cut": 14,
+   "lam": 5,
+   "q_order": 40,
+   "dps": 80,
+   "n_operators": 100,
+   "converged": true
+  },
+  {
+   "model": "N=2 k=2 Ramond mixing family",
+   "kind": "n2_k2_ramond_mixture",
+   "full_cft": "N=2 k=2 minimal model",
+   "family_key": "ramond-heavy",
+   "family_label": "sqrt(t) \\epsilon\\otimes\\operatorname{Re}V_1 + sqrt(1-t) 1\\otimes\\operatorname{Re}V_3",
+   "basis": [
+    [
+     "eps",
+     1
+    ],
+    [
+     "1",
+     3
+    ]
+   ],
+   "delta_ext": "9/8",
+   "mixture_fraction": "3/8",
+   "ratio_include": "0.952229133134011290075293725507",
+   "ratio_exclude": "2.15057435693259217913595896739",
+   "crossing_residual": "1.52970300149e-9",
+   "delta_cut": 14,
+   "lam": 5,
+   "q_order": 40,
+   "dps": 80,
+   "n_operators": 99,
+   "converged": true
+  },
+  {
+   "model": "N=2 k=2 Ramond mixing family",
+   "kind": "n2_k2_ramond_mixture",
+   "full_cft": "N=2 k=2 minimal model",
+   "family_key": "ramond-heavy",
+   "family_label": "sqrt(t) \\epsilon\\otimes\\operatorname{Re}V_1 + sqrt(1-t) 1\\otimes\\operatorname{Re}V_3",
+   "basis": [
+    [
+     "eps",
+     1
+    ],
+    [
+     "1",
+     3
+    ]
+   ],
+   "delta_ext": "9/8",
+   "mixture_fraction": "13/32",
+   "ratio_include": "0.944092155767089532612498117812",
+   "ratio_exclude": "2.11782928475003859138133164121",
+   "crossing_residual": "1.50606827508e-9",
+   "delta_cut": 14,
+   "lam": 5,
+   "q_order": 40,
+   "dps": 80,
+   "n_operators": 100,
+   "converged": true
+  },
+  {
+   "model": "N=2 k=2 Ramond mixing family",
+   "kind": "n2_k2_ramond_mixture",
+   "full_cft": "N=2 k=2 minimal model",
+   "family_key": "ramond-heavy",
+   "family_label": "sqrt(t) \\epsilon\\otimes\\operatorname{Re}V_1 + sqrt(1-t) 1\\otimes\\operatorname{Re}V_3",
+   "basis": [
+    [
+     "eps",
+     1
+    ],
+    [
+     "1",
+     3
+    ]
+   ],
+   "delta_ext": "9/8",
+   "mixture_fraction": "7/16",
+   "ratio_include": "0.935405367058378105781822567183",
+   "ratio_exclude": "2.08285981794112890692117649576",
+   "crossing_residual": "1.48781173056e-9",
+   "delta_cut": 14,
+   "lam": 5,
+   "q_order": 40,
+   "dps": 80,
+   "n_operators": 100,
+   "converged": true
+  },
+  {
+   "model": "N=2 k=2 Ramond mixing family",
+   "kind": "n2_k2_ramond_mixture",
+   "full_cft": "N=2 k=2 minimal model",
+   "family_key": "ramond-heavy",
+   "family_label": "sqrt(t) \\epsilon\\otimes\\operatorname{Re}V_1 + sqrt(1-t) 1\\otimes\\operatorname{Re}V_3",
+   "basis": [
+    [
+     "eps",
+     1
+    ],
+    [
+     "1",
+     3
+    ]
+   ],
+   "delta_ext": "9/8",
+   "mixture_fraction": "18375631766768481994128195521/40000000000000000000000000000",
+   "ratio_include": "0.929006563704179819833132654344",
+   "ratio_exclude": "2.05716199235273294415554628948",
+   "crossing_residual": "1.47822620306e-9",
+   "delta_cut": 14,
+   "lam": 5,
+   "q_order": 40,
+   "dps": 80,
+   "n_operators": 100,
+   "converged": true
+  },
+  {
+   "model": "N=2 k=2 Ramond mixing family",
+   "kind": "n2_k2_ramond_mixture",
+   "full_cft": "N=2 k=2 minimal model",
+   "family_key": "ramond-heavy",
+   "family_label": "sqrt(t) \\epsilon\\otimes\\operatorname{Re}V_1 + sqrt(1-t) 1\\otimes\\operatorname{Re}V_3",
+   "basis": [
+    [
+     "eps",
+     1
+    ],
+    [
+     "1",
+     3
+    ]
+   ],
+   "delta_ext": "9/8",
+   "mixture_fraction": "15/32",
+   "ratio_include": "0.926194625703828995018357970338",
+   "ratio_exclude": "2.04589633428301479936929621302",
+   "crossing_residual": "1.47493336794e-9",
+   "delta_cut": 14,
+   "lam": 5,
+   "q_order": 40,
+   "dps": 80,
+   "n_operators": 100,
+   "converged": true
+  },
+  {
+   "model": "N=2 k=2 Ramond mixing family",
+   "kind": "n2_k2_ramond_mixture",
+   "full_cft": "N=2 k=2 minimal model",
+   "family_key": "ramond-heavy",
+   "family_label": "sqrt(t) \\epsilon\\otimes\\operatorname{Re}V_1 + sqrt(1-t) 1\\otimes\\operatorname{Re}V_3",
+   "basis": [
+    [
+     "eps",
+     1
+    ],
+    [
+     "1",
+     3
+    ]
+   ],
+   "delta_ext": "9/8",
+   "mixture_fraction": "1/2",
+   "ratio_include": "0.916487072438925392643082412327",
+   "ratio_exclude": "2.00717272537272669428163175771",
+   "crossing_residual": "1.46743318722e-9",
+   "delta_cut": 14,
+   "lam": 5,
+   "q_order": 40,
+   "dps": 80,
+   "n_operators": 100,
+   "converged": true
+  },
+  {
+   "model": "N=2 k=2 Ramond mixing family",
+   "kind": "n2_k2_ramond_mixture",
+   "full_cft": "N=2 k=2 minimal model",
+   "family_key": "ramond-heavy",
+   "family_label": "sqrt(t) \\epsilon\\otimes\\operatorname{Re}V_1 + sqrt(1-t) 1\\otimes\\operatorname{Re}V_3",
+   "basis": [
+    [
+     "eps",
+     1
+    ],
+    [
+     "1",
+     3
+    ]
+   ],
+   "delta_ext": "9/8",
+   "mixture_fraction": "527113311328859754659904139199/1000000000000000000000000000000",
+   "ratio_include": "0.907683858869956761855863426285",
+   "ratio_exclude": "1.97233040050298427190561310822",
+   "crossing_residual": "1.46528324075e-9",
+   "delta_cut": 14,
+   "lam": 5,
+   "q_order": 40,
+   "dps": 80,
+   "n_operators": 100,
+   "converged": true
+  },
+  {
+   "model": "N=2 k=2 Ramond mixing family",
+   "kind": "n2_k2_ramond_mixture",
+   "full_cft": "N=2 k=2 minimal model",
+   "family_key": "ramond-heavy",
+   "family_label": "sqrt(t) \\epsilon\\otimes\\operatorname{Re}V_1 + sqrt(1-t) 1\\otimes\\operatorname{Re}V_3",
+   "basis": [
+    [
+     "eps",
+     1
+    ],
+    [
+     "1",
+     3
+    ]
+   ],
+   "delta_ext": "9/8",
+   "mixture_fraction": "17/32",
+   "ratio_include": "0.906310923826565583316619073796",
+   "ratio_exclude": "1.96692306803645252391775109925",
+   "crossing_residual": "1.46531118839e-9",
+   "delta_cut": 14,
+   "lam": 5,
+   "q_order": 40,
+   "dps": 80,
+   "n_operators": 100,
+   "converged": true
+  },
+  {
+   "model": "N=2 k=2 Ramond mixing family",
+   "kind": "n2_k2_ramond_mixture",
+   "full_cft": "N=2 k=2 minimal model",
+   "family_key": "ramond-heavy",
+   "family_label": "sqrt(t) \\epsilon\\otimes\\operatorname{Re}V_1 + sqrt(1-t) 1\\otimes\\operatorname{Re}V_3",
+   "basis": [
+    [
+     "eps",
+     1
+    ],
+    [
+     "1",
+     3
+    ]
+   ],
+   "delta_ext": "9/8",
+   "mixture_fraction": "9/16",
+   "ratio_include": "0.895695264625560602164562961462",
+   "ratio_exclude": "1.9253785801045326480729259834",
+   "crossing_residual": "1.46856737145e-9",
+   "delta_cut": 14,
+   "lam": 5,
+   "q_order": 40,
+   "dps": 80,
+   "n_operators": 100,
+   "converged": true
+  },
+  {
+   "model": "N=2 k=2 Ramond mixing family",
+   "kind": "n2_k2_ramond_mixture",
+   "full_cft": "N=2 k=2 minimal model",
+   "family_key": "ramond-heavy",
+   "family_label": "sqrt(t) \\epsilon\\otimes\\operatorname{Re}V_1 + sqrt(1-t) 1\\otimes\\operatorname{Re}V_3",
+   "basis": [
+    [
+     "eps",
+     1
+    ],
+    [
+     "1",
+     3
+    ]
+   ],
+   "delta_ext": "9/8",
+   "mixture_fraction": "19/32",
+   "ratio_include": "0.884669841411737644002405959141",
+   "ratio_exclude": "1.88276491234092242142273469759",
+   "crossing_residual": "1.47720173641e-9",
+   "delta_cut": 14,
+   "lam": 5,
+   "q_order": 40,
+   "dps": 80,
+   "n_operators": 100,
+   "converged": true
+  },
+  {
+   "model": "N=2 k=2 Ramond mixing family",
+   "kind": "n2_k2_ramond_mixture",
+   "full_cft": "N=2 k=2 minimal model",
+   "family_key": "ramond-heavy",
+   "family_label": "sqrt(t) \\epsilon\\otimes\\operatorname{Re}V_1 + sqrt(1-t) 1\\otimes\\operatorname{Re}V_3",
+   "basis": [
+    [
+     "eps",
+     1
+    ],
+    [
+     "1",
+     3
+    ]
+   ],
+   "delta_ext": "9/8",
+   "mixture_fraction": "5/8",
+   "ratio_include": "0.873264859949440143776623925602",
+   "ratio_exclude": "1.83929981032598034306031737879",
+   "crossing_residual": "1.49121428326e-9",
+   "delta_cut": 14,
+   "lam": 5,
+   "q_order": 40,
+   "dps": 80,
+   "n_operators": 100,
+   "converged": true
+  },
+  {
+   "model": "N=2 k=2 Ramond mixing family",
+   "kind": "n2_k2_ramond_mixture",
+   "full_cft": "N=2 k=2 minimal model",
+   "family_key": "ramond-heavy",
+   "family_label": "sqrt(t) \\epsilon\\otimes\\operatorname{Re}V_1 + sqrt(1-t) 1\\otimes\\operatorname{Re}V_3",
+   "basis": [
+    [
+     "eps",
+     1
+    ],
+    [
+     "1",
+     3
+    ]
+   ],
+   "delta_ext": "9/8",
+   "mixture_fraction": "21/32",
+   "ratio_include": "0.861510788595953624759082443331",
+   "ratio_exclude": "1.79519116311380890159540264463",
+   "crossing_residual": "1.51060501201e-9",
+   "delta_cut": 14,
+   "lam": 5,
+   "q_order": 40,
+   "dps": 80,
+   "n_operators": 100,
+   "converged": true
+  },
+  {
+   "model": "N=2 k=2 Ramond mixing family",
+   "kind": "n2_k2_ramond_mixture",
+   "full_cft": "N=2 k=2 minimal model",
+   "family_key": "ramond-heavy",
+   "family_label": "sqrt(t) \\epsilon\\otimes\\operatorname{Re}V_1 + sqrt(1-t) 1\\otimes\\operatorname{Re}V_3",
+   "basis": [
+    [
+     "eps",
+     1
+    ],
+    [
+     "1",
+     3
+    ]
+   ],
+   "delta_ext": "9/8",
+   "mixture_fraction": "11/16",
+   "ratio_include": "0.849438169773806454008560746672",
+   "ratio_exclude": "1.75063544027388305063534950416",
+   "crossing_residual": "1.53537392266e-9",
+   "delta_cut": 14,
+   "lam": 5,
+   "q_order": 40,
+   "dps": 80,
+   "n_operators": 100,
+   "converged": true
+  },
+  {
+   "model": "N=2 k=2 Ramond mixing family",
+   "kind": "n2_k2_ramond_mixture",
+   "full_cft": "N=2 k=2 minimal model",
+   "family_key": "ramond-heavy",
+   "family_label": "sqrt(t) \\epsilon\\otimes\\operatorname{Re}V_1 + sqrt(1-t) 1\\otimes\\operatorname{Re}V_3",
+   "basis": [
+    [
+     "eps",
+     1
+    ],
+    [
+     "1",
+     3
+    ]
+   ],
+   "delta_ext": "9/8",
+   "mixture_fraction": "23/32",
+   "ratio_include": "0.837077441275006416060133231946",
+   "ratio_exclude": "1.70581650598952605588745123005",
+   "crossing_residual": "1.56552101519e-9",
+   "delta_cut": 14,
+   "lam": 5,
+   "q_order": 40,
+   "dps": 80,
+   "n_operators": 100,
+   "converged": true
+  },
+  {
+   "model": "N=2 k=2 Ramond mixing family",
+   "kind": "n2_k2_ramond_mixture",
+   "full_cft": "N=2 k=2 minimal model",
+   "family_key": "ramond-heavy",
+   "family_label": "sqrt(t) \\epsilon\\otimes\\operatorname{Re}V_1 + sqrt(1-t) 1\\otimes\\operatorname{Re}V_3",
+   "basis": [
+    [
+     "eps",
+     1
+    ],
+    [
+     "1",
+     3
+    ]
+   ],
+   "delta_ext": "9/8",
+   "mixture_fraction": "3/4",
+   "ratio_include": "0.824458768875991659655099651775",
+   "ratio_exclude": "1.66090478849471919264701700275",
+   "crossing_residual": "1.60104628963e-9",
+   "delta_cut": 14,
+   "lam": 5,
+   "q_order": 40,
+   "dps": 80,
+   "n_operators": 100,
+   "converged": true
+  },
+  {
+   "model": "N=2 k=2 Ramond mixing family",
+   "kind": "n2_k2_ramond_mixture",
+   "full_cft": "N=2 k=2 minimal model",
+   "family_key": "ramond-heavy",
+   "family_label": "sqrt(t) \\epsilon\\otimes\\operatorname{Re}V_1 + sqrt(1-t) 1\\otimes\\operatorname{Re}V_3",
+   "basis": [
+    [
+     "eps",
+     1
+    ],
+    [
+     "1",
+     3
+    ]
+   ],
+   "delta_ext": "9/8",
+   "mixture_fraction": "25/32",
+   "ratio_include": "0.811611891450896467048723422001",
+   "ratio_exclude": "1.61605677534906057622086217736",
+   "crossing_residual": "1.64194974596e-9",
+   "delta_cut": 14,
+   "lam": 5,
+   "q_order": 40,
+   "dps": 80,
+   "n_operators": 100,
+   "converged": true
+  },
+  {
+   "model": "N=2 k=2 Ramond mixing family",
+   "kind": "n2_k2_ramond_mixture",
+   "full_cft": "N=2 k=2 minimal model",
+   "family_key": "ramond-heavy",
+   "family_label": "sqrt(t) \\epsilon\\otimes\\operatorname{Re}V_1 + sqrt(1-t) 1\\otimes\\operatorname{Re}V_3",
+   "basis": [
+    [
+     "eps",
+     1
+    ],
+    [
+     "1",
+     3
+    ]
+   ],
+   "delta_ext": "9/8",
+   "mixture_fraction": "13/16",
+   "ratio_include": "0.798565979481475001852026265939",
+   "ratio_exclude": "1.57141479977268267541435550679",
+   "crossing_residual": "1.68823138418e-9",
+   "delta_cut": 14,
+   "lam": 5,
+   "q_order": 40,
+   "dps": 80,
+   "n_operators": 100,
+   "converged": true
+  },
+  {
+   "model": "N=2 k=2 Ramond mixing family",
+   "kind": "n2_k2_ramond_mixture",
+   "full_cft": "N=2 k=2 minimal model",
+   "family_key": "ramond-heavy",
+   "family_label": "sqrt(t) \\epsilon\\otimes\\operatorname{Re}V_1 + sqrt(1-t) 1\\otimes\\operatorname{Re}V_3",
+   "basis": [
+    [
+     "eps",
+     1
+    ],
+    [
+     "1",
+     3
+    ]
+   ],
+   "delta_ext": "9/8",
+   "mixture_fraction": "27/32",
+   "ratio_include": "0.785349507581618965898467231945",
+   "ratio_exclude": "1.52710708025822099434535486418",
+   "crossing_residual": "1.7398912043e-9",
+   "delta_cut": 14,
+   "lam": 5,
+   "q_order": 40,
+   "dps": 80,
+   "n_operators": 100,
+   "converged": true
+  },
+  {
+   "model": "N=2 k=2 Ramond mixing family",
+   "kind": "n2_k2_ramond_mixture",
+   "full_cft": "N=2 k=2 minimal model",
+   "family_key": "ramond-heavy",
+   "family_label": "sqrt(t) \\epsilon\\otimes\\operatorname{Re}V_1 + sqrt(1-t) 1\\otimes\\operatorname{Re}V_3",
+   "basis": [
+    [
+     "eps",
+     1
+    ],
+    [
+     "1",
+     3
+    ]
+   ],
+   "delta_ext": "9/8",
+   "mixture_fraction": "7/8",
+   "ratio_include": "0.77199014138874721959667692426",
+   "ratio_exclude": "1.48324797463440255017218800349",
+   "crossing_residual": "1.79692920631e-9",
+   "delta_cut": 14,
+   "lam": 5,
+   "q_order": 40,
+   "dps": 80,
+   "n_operators": 100,
+   "converged": true
+  },
+  {
+   "model": "N=2 k=2 Ramond mixing family",
+   "kind": "n2_k2_ramond_mixture",
+   "full_cft": "N=2 k=2 minimal model",
+   "family_key": "ramond-heavy",
+   "family_label": "sqrt(t) \\epsilon\\otimes\\operatorname{Re}V_1 + sqrt(1-t) 1\\otimes\\operatorname{Re}V_3",
+   "basis": [
+    [
+     "eps",
+     1
+    ],
+    [
+     "1",
+     3
+    ]
+   ],
+   "delta_ext": "9/8",
+   "mixture_fraction": "29/32",
+   "ratio_include": "0.758514638928224763621955633569",
+   "ratio_exclude": "1.43993841032320309249950537205",
+   "crossing_residual": "1.85934539022e-9",
+   "delta_cut": 14,
+   "lam": 5,
+   "q_order": 40,
+   "dps": 80,
+   "n_operators": 100,
+   "converged": true
+  },
+  {
+   "model": "N=2 k=2 Ramond mixing family",
+   "kind": "n2_k2_ramond_mixture",
+   "full_cft": "N=2 k=2 minimal model",
+   "family_key": "ramond-heavy",
+   "family_label": "sqrt(t) \\epsilon\\otimes\\operatorname{Re}V_1 + sqrt(1-t) 1\\otimes\\operatorname{Re}V_3",
+   "basis": [
+    [
+     "eps",
+     1
+    ],
+    [
+     "1",
+     3
+    ]
+   ],
+   "delta_ext": "9/8",
+   "mixture_fraction": "15/16",
+   "ratio_include": "0.744948766334036570143655451737",
+   "ratio_exclude": "1.39726645434906738012991258335",
+   "crossing_residual": "1.92713975602e-9",
+   "delta_cut": 14,
+   "lam": 5,
+   "q_order": 40,
+   "dps": 80,
+   "n_operators": 100,
+   "converged": true
+  },
+  {
+   "model": "N=2 k=2 Ramond mixing family",
+   "kind": "n2_k2_ramond_mixture",
+   "full_cft": "N=2 k=2 minimal model",
+   "family_key": "ramond-heavy",
+   "family_label": "sqrt(t) \\epsilon\\otimes\\operatorname{Re}V_1 + sqrt(1-t) 1\\otimes\\operatorname{Re}V_3",
+   "basis": [
+    [
+     "eps",
+     1
+    ],
+    [
+     "1",
+     3
+    ]
+   ],
+   "delta_ext": "9/8",
+   "mixture_fraction": "31/32",
+   "ratio_include": "0.731317227611738265010968997601",
+   "ratio_exclude": "1.35530798938014399129647863541",
+   "crossing_residual": "2.00031230372e-9",
+   "delta_cut": 14,
+   "lam": 5,
+   "q_order": 40,
+   "dps": 80,
+   "n_operators": 100,
+   "converged": true
+  },
+  {
+   "model": "N=2 k=2 Ramond mixing family",
+   "kind": "n2_k2_ramond_mixture",
+   "full_cft": "N=2 k=2 minimal model",
+   "family_key": "ramond-heavy",
+   "family_label": "sqrt(t) \\epsilon\\otimes\\operatorname{Re}V_1 + sqrt(1-t) 1\\otimes\\operatorname{Re}V_3",
+   "basis": [
+    [
+     "eps",
+     1
+    ],
+    [
+     "1",
+     3
+    ]
+   ],
+   "delta_ext": "9/8",
+   "mixture_fraction": "1",
+   "ratio_include": "0.717643607959723720741725219837",
+   "ratio_exclude": "1.31412746539725479248405084754",
+   "crossing_residual": "2.07886303331e-9",
+   "delta_cut": 14,
+   "lam": 5,
+   "q_order": 40,
+   "dps": 80,
+   "n_operators": 51,
+   "converged": true
+  }
+ ]
+}

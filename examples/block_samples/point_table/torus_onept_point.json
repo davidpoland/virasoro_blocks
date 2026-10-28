@@ -1,0 +1,60 @@
+{
+  "surface": "torus",
+  "central_charge": "10.0",
+  "basis": "torus_onept_G",
+  "label": "delta_j",
+  "spin": 0,
+  "spin_pair_symmetrized": true,
+  "variable_minus_x": "2.5",
+  "variable": "point",
+  "nome_convention": "modular_2pi",
+  "crossing_point_tau": "i",
+  "exp_base": "0.001867442731707988814430212934827030393423",
+  "order": 10,
+  "lambda": 2,
+  "npoles": 0,
+  "coordinates": [
+    "vvb"
+  ],
+  "pole_list_x": [],
+  "regularization_policy": "direct",
+  "point_value": "2.5",
+  "onept_d_ext": "0.5",
+  "sample_points_x": [
+    "0.0"
+  ],
+  "index_names": [
+    "coordinate",
+    "m",
+    "n",
+    "monomial_degree"
+  ],
+  "derivs": [
+    [
+      [
+        [
+          "0.0000167694931240566769270488400949410725755876717"
+        ]
+      ],
+      [
+        [
+          "-0.000167581059470746009618578284553151549983503976"
+        ],
+        [
+          "0.00165790315712144489639672597428523215181504921"
+        ]
+      ],
+      [
+        [
+          "0.000661119460103364457705264896804385708695812052"
+        ]
+      ]
+    ]
+  ],
+  "precision_input": 40,
+  "precision_actual": 40,
+  "verified_digits": "40.8",
+  "verified_digits_largest_entry": "41.1",
+  "q_truncation_digits": "28.8",
+  "args": "virasoro_blocks point-table --surface torus --family torus-onepoint --central-charge 10 --torus-onept-ext 0.5 --exchange-delta 2.5 --exchange-spin 0 --lambda 2 --order 10 --precision 40 --output-template torus_onept_point.json -o examples/block_samples/point_table"
+}

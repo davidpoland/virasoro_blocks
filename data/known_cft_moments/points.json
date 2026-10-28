@@ -1,0 +1,3185 @@
+{
+ "schema": "known_cft_moments/1",
+ "points": [
+  {
+   "c": "6/5",
+   "delta_ext": "1/5",
+   "nu1_over_nu0_include_identity": "0.2463526153240837",
+   "nu1_over_nu0_exclude_identity": "0.4689064246109204",
+   "label": "$\\sigma_I\\!\\otimes\\!\\sigma_T$",
+   "series": "Ising $\\times$ TIM",
+   "status": "certified",
+   "crossing_residual": "4.2e-14"
+  },
+  {
+   "c": "6/5",
+   "delta_ext": "1/8",
+   "nu1_over_nu0_include_identity": "0.1612932995586629",
+   "nu1_over_nu0_exclude_identity": "1.048409107585567",
+   "label": "$\\sigma_I$",
+   "series": "Ising $\\times$ TIM",
+   "status": "certified",
+   "crossing_residual": "4.8e-15"
+  },
+  {
+   "c": "6/5",
+   "delta_ext": "3/40",
+   "nu1_over_nu0_include_identity": "0.09881590750828965",
+   "nu1_over_nu0_exclude_identity": "0.2229316614923409",
+   "label": "$\\sigma_T$",
+   "series": "Ising $\\times$ TIM",
+   "status": "certified",
+   "crossing_residual": "3.1e-15"
+  },
+  {
+   "c": "6/5",
+   "delta_ext": "7/8",
+   "nu1_over_nu0_include_identity": "0.7471801921237271",
+   "nu1_over_nu0_exclude_identity": "2.559309176304663",
+   "label": "$\\sigma'_T$",
+   "series": "Ising $\\times$ TIM",
+   "status": "certified",
+   "crossing_residual": "5.6e-13"
+  },
+  {
+   "c": "6/5",
+   "delta_ext": "1/5",
+   "nu1_over_nu0_include_identity": "0.248658705464477",
+   "nu1_over_nu0_exclude_identity": "1.24266934017277",
+   "label": "$\\epsilon_T$",
+   "series": "Ising $\\times$ TIM",
+   "status": "certified",
+   "crossing_residual": "7.0e-15"
+  },
+  {
+   "c": "6/5",
+   "delta_ext": "13/40",
+   "nu1_over_nu0_include_identity": "0.376496305875604",
+   "nu1_over_nu0_exclude_identity": "1.2159805536677",
+   "label": "$\\sigma_I\\!\\otimes\\!\\epsilon_T$",
+   "series": "Ising $\\times$ TIM",
+   "status": "certified",
+   "crossing_residual": "2.0e-14"
+  },
+  {
+   "c": "6/5",
+   "delta_ext": "1",
+   "nu1_over_nu0_include_identity": "0.7543408011046918",
+   "nu1_over_nu0_exclude_identity": "2.140556778264003",
+   "label": "$\\sigma_I\\!\\otimes\\!\\sigma'_T$",
+   "series": "Ising $\\times$ TIM",
+   "status": "certified",
+   "crossing_residual": "1.9e-12"
+  },
+  {
+   "c": "6/5",
+   "delta_ext": "1",
+   "nu1_over_nu0_include_identity": "0.7851252342496751",
+   "nu1_over_nu0_exclude_identity": "2.227912290437027",
+   "label": "$\\epsilon_I$",
+   "series": "Ising $\\times$ TIM",
+   "status": "certified",
+   "crossing_residual": "5.4e-13"
+  },
+  {
+   "c": "6/5",
+   "delta_ext": "43/40",
+   "nu1_over_nu0_include_identity": "0.4940137963453808",
+   "nu1_over_nu0_exclude_identity": "0.7966418366914552",
+   "label": "$\\epsilon_I\\!\\otimes\\!\\sigma_T$",
+   "series": "Ising $\\times$ TIM",
+   "status": "certified",
+   "crossing_residual": "2.2e-11"
+  },
+  {
+   "c": "6/5",
+   "delta_ext": "6/5",
+   "nu1_over_nu0_include_identity": "0.8158076859311897",
+   "nu1_over_nu0_exclude_identity": "2.005390179276575",
+   "label": "$\\epsilon'_T$ / $\\epsilon_I\\!\\otimes\\!\\epsilon_T$",
+   "series": "Ising $\\times$ TIM",
+   "status": "certified",
+   "crossing_residual": "1.8e-11"
+  },
+  {
+   "c": "6/5",
+   "delta_ext": "53/40",
+   "nu1_over_nu0_include_identity": "0.7712778569307845",
+   "nu1_over_nu0_exclude_identity": "1.727299041626729",
+   "label": "$\\sigma_I\\!\\otimes\\!\\epsilon'_T$",
+   "series": "Ising $\\times$ TIM",
+   "status": "certified",
+   "crossing_residual": "2.5e-10"
+  },
+  {
+   "c": "6/5",
+   "delta_ext": "15/8",
+   "nu1_over_nu0_include_identity": "0.9612654383930564",
+   "nu1_over_nu0_exclude_identity": "3.757521018362055",
+   "label": "$\\epsilon_I\\!\\otimes\\!\\sigma'_T$",
+   "series": "Ising $\\times$ TIM",
+   "status": "certified",
+   "crossing_residual": "3.6e-10"
+  },
+  {
+   "c": "6/5",
+   "delta_ext": "1/8",
+   "nu1_over_nu0_include_identity": "0.1620837605",
+   "nu1_over_nu0_exclude_identity": "0.2527668782",
+   "label": "$W_3(5,6)/\\!\\!/C:\\ \\sigma_{(12)}$",
+   "series": "$W_3(5,6)/\\!\\!/C$",
+   "status": "certified",
+   "crossing_residual": "two-variable cover on the conjugate-diagonal nome grid; cut-14 fit 1.43e-15, held-out 1.10e-13; cut-12/14 drift 8.33e-17 (include), 1.11e-16 (exclude); the earlier Cartesian-grid cut-10 values 0.162083994999155 / 0.252767422655968 sit 2.3e-7 / 5.4e-7 away"
+  },
+  {
+   "c": "6/5",
+   "delta_ext": "7/8",
+   "nu1_over_nu0_include_identity": "0.6580882431",
+   "nu1_over_nu0_exclude_identity": "1.6026855459",
+   "label": "$W_3(5,6)/\\!\\!/C:\\ \\Delta=7/8$",
+   "series": "$W_3(5,6)/\\!\\!/C$",
+   "status": "certified",
+   "crossing_residual": "two-variable cocycle-corrected cover; cut-14 fit 2.08e-16, held-out 5.77e-12; cut-12/14 drift 3.13e-11 (include), 7.62e-11 (exclude); inside the Lambda=19 bound bracket [0.650144, 0.771015]"
+  },
+  {
+   "c": "6/5",
+   "delta_ext": "15/8",
+   "nu1_over_nu0_include_identity": "1.0626478348",
+   "nu1_over_nu0_exclude_identity": "1.9806897866",
+   "label": "$W_3(5,6)/\\!\\!/C:\\ \\Delta=15/8$",
+   "series": "$W_3(5,6)/\\!\\!/C$",
+   "status": "certified",
+   "crossing_residual": "two-variable cocycle-corrected cover with the exact Z3 tower pinned, including the derived 2/9 coupling 2 sqrt3 / 3^13 (repo units; the earlier sector-rules zero was a resolution-limited pin); cut-18 fit 3.66e-16, held-out 1.04e-9; cut-14/16/18 ladder 1.0626478327, 1.0626478285, 1.0626478348 (include), adjacent drift 6.30e-9 / 1.20e-8 at the 1e-8 noise floor of the grid fit; the structured two-class peel (w3_c_cover_structured_moments) gives 1.0626478272 / 1.9806897724 at cut 18 (cut-16/18 drift 5.7e-11 / 1.1e-10), 7.6e-9 / 1.4e-8 from the registry values; inside the Lambda=19 bound bracket [0.888980, 1.151857]"
+  },
+  {
+   "c": "6/5",
+   "delta_ext": "3/40",
+   "nu1_over_nu0_include_identity": "0.0989351767",
+   "nu1_over_nu0_exclude_identity": "0.1455749772",
+   "label": "$W_3(5,6)/\\!\\!/C:\\ \\Delta=3/40$",
+   "series": "$W_3(5,6)/\\!\\!/C$",
+   "status": "certified",
+   "crossing_residual": "exact den-divided class sum; cut-10 fit 6.89e-16, held-out 4.16e-13; cut-8/10 drift 3.80e-8 (include), 8.34e-8 (exclude); inside the Lambda=19 bound bracket [0.0979020, 0.0991567]"
+  },
+  {
+   "c": "6/5",
+   "delta_ext": "13/40",
+   "nu1_over_nu0_include_identity": "0.3719557531",
+   "nu1_over_nu0_exclude_identity": "0.6459787437",
+   "label": "$W_3(5,6)/\\!\\!/C:\\ \\Delta=13/40$",
+   "series": "$W_3(5,6)/\\!\\!/C$",
+   "status": "certified",
+   "crossing_residual": "exact den-divided class sum; cut-10 fit 7.99e-16, held-out 4.64e-12; cut-8/10 drift 1.04e-6 (include), 2.66e-6 (exclude); inside the Lambda=19 include bound [0.367398, 0.378052]"
+  },
+  {
+   "c": "6/5",
+   "delta_ext": "43/40",
+   "nu1_over_nu0_include_identity": "0.6330306537",
+   "nu1_over_nu0_exclude_identity": "1.2395945600",
+   "label": "$W_3(5,6)/\\!\\!/C:\\ \\Delta=43/40$",
+   "series": "$W_3(5,6)/\\!\\!/C$",
+   "status": "certified",
+   "crossing_residual": "exact den-divided class sum; cut-16 fit 3.43e-16, held-out 1.38e-10; cut-14/16 drift 2.9e-8 (include), 3.8e-8 (exclude) (cut-12/14: 1.3e-7 / 2.5e-7); inside the Lambda=19 include bound [0.341651, 0.893535]"
+  },
+  {
+   "c": "6/5",
+   "delta_ext": "53/40",
+   "nu1_over_nu0_include_identity": "0.7239087666",
+   "nu1_over_nu0_exclude_identity": "1.5045673850",
+   "label": "$W_3(5,6)/\\!\\!/C:\\ \\Delta=53/40$",
+   "series": "$W_3(5,6)/\\!\\!/C$",
+   "status": "certified",
+   "crossing_residual": "exact den-divided class sum (computed disconnected class), identity pinned; cut-18 fit 2.51e-16, held-out 8.70e-11; cut-16/18 drift 2.2e-6 (include), 4.6e-6 (exclude) (12/14: 1.3e-6 / 2.8e-6, 14/16: 3.9e-7 / 8.0e-7); inside the Lambda=19 include bound [0.337739, 1.012927]"
+  },
+  {
+   "c": "6/5",
+   "delta_ext": "6/5",
+   "nu1_over_nu0_include_identity": "0.81490676446988130987",
+   "nu1_over_nu0_exclude_identity": "1.97942291919764628461",
+   "label": "$W_3(5,6):\\ (f,0)$",
+   "series": "$W_3(5,6)$",
+   "status": "certified",
+   "crossing_residual": "1.9e-11"
+  },
+  {
+   "c": "6/5",
+   "delta_ext": "2/9",
+   "nu1_over_nu0_include_identity": "0.269321979370767269",
+   "nu1_over_nu0_exclude_identity": "0.554263328614090867",
+   "label": "$W_3(5,6):\\ (0,f)$",
+   "series": "$W_3(5,6)$",
+   "status": "certified",
+   "crossing_residual": "7.5e-10"
+  },
+  {
+   "c": "6/5",
+   "delta_ext": "4/45",
+   "nu1_over_nu0_include_identity": "0.116908486428069742081819347669",
+   "nu1_over_nu0_exclude_identity": "0.186403014861237593757750107355",
+   "label": "$W_3(5,6):\\ \\mathrm{Re}(0,1;0,1)$",
+   "series": "$W_3(5,6)$",
+   "status": "certified",
+   "crossing_residual": "2.5e-11 at cut 12 (Lambda=5); exact su(3) coset construction (fund_2 -> fund_3), cut-10/12 drift 2e-13"
+  },
+  {
+   "c": "6/5",
+   "delta_ext": "1/5",
+   "nu1_over_nu0_include_identity": "0.24595095162970684478135087283157",
+   "nu1_over_nu0_exclude_identity": "0.42257288986718988677127622194783",
+   "label": "$W_3(5,6):\\ \\mathrm{Re}(0,1;1,1)$",
+   "series": "$W_3(5,6)$",
+   "status": "certified",
+   "crossing_residual": "1.4e-10 at cut 12 (Lambda=5); exact adjoint coset construction"
+  },
+  {
+   "c": "6/5",
+   "delta_ext": "34/45",
+   "nu1_over_nu0_include_identity": "0.66295303348785581246926458182393",
+   "nu1_over_nu0_exclude_identity": "1.3827332023113337123579258772621",
+   "label": "$W_3(5,6):\\ \\mathrm{Re}(0,1;1,0)$",
+   "series": "$W_3(5,6)$",
+   "status": "certified",
+   "crossing_residual": "6.9e-9 at cut 12 (Lambda=7); exact coset construction"
+  },
+  {
+   "c": "6/5",
+   "delta_ext": "1",
+   "nu1_over_nu0_include_identity": "0.7440793233801894386958",
+   "nu1_over_nu0_exclude_identity": "2.1114382741639898463242",
+   "label": "$W_3(5,6): (0,0;1,1)$",
+   "series": "$W_3(5,6)$",
+   "status": "certified",
+   "crossing_residual": "9.6e-9 at cut 12 (Lambda=5); exact su(3) coset construction (sextet_2 x fund_1 -> adjoint_3), cut-10/12 drift 7e-9"
+  },
+  {
+   "c": "6/5",
+   "delta_ext": "64/45",
+   "nu1_over_nu0_include_identity": "0.7073074090218373792394",
+   "nu1_over_nu0_exclude_identity": "1.4853783636340911814487",
+   "label": "$W_3(5,6): \\mathrm{Re}(0,1;2,0)$",
+   "series": "$W_3(5,6)$",
+   "status": "certified",
+   "crossing_residual": "6.6e-9 at cut 14 (Lambda=5); exact su(3) coset construction (adjoint_2 x antifund_1 -> antifund_3), cut-12/14 drift 6e-9 / 1e-8"
+  },
+  {
+   "c": "6/5",
+   "delta_ext": "14/9",
+   "nu1_over_nu0_include_identity": "0.838103919996487248821",
+   "nu1_over_nu0_exclude_identity": "1.940648358127900854591",
+   "label": "$W_3(5,6):\\ \\mathrm{Re}(0,0;0,2)$",
+   "series": "$W_3(5,6)$",
+   "status": "certified",
+   "crossing_residual": "4.8e-9 at cut 14 (Lambda=5); exact su(3) coset construction (sextet_2 x antifund_1 -> fund_3), cut-12/14 drift 2e-9 / 3e-9"
+  },
+  {
+   "c": "6/5",
+   "delta_ext": "1/5",
+   "nu1_over_nu0_include_identity": "0.24865870546450107476510718898819",
+   "nu1_over_nu0_exclude_identity": "1.24266934017275829032637891472",
+   "label": "$SU(3)_2/U(1)^2: \\Phi_{\\mathbf{3}}$",
+   "series": "$SU(3)_2/U(1)^2$",
+   "status": "certified",
+   "crossing_residual": "1.5e-13"
+  },
+  {
+   "c": "6/5",
+   "delta_ext": "1",
+   "nu1_over_nu0_include_identity": "0.785125234249675098",
+   "nu1_over_nu0_exclude_identity": "2.2279122904370267335",
+   "label": "$SU(3)_2/U(1)^2: \\psi_\\alpha$",
+   "series": "$SU(3)_2/U(1)^2$",
+   "status": "certified",
+   "crossing_residual": "3.0e-15"
+  },
+  {
+   "c": "8/7",
+   "delta_ext": "4/35",
+   "nu1_over_nu0_include_identity": "0.1478925605052713",
+   "nu1_over_nu0_exclude_identity": "0.3157472469812164",
+   "label": "$\\sigma_1$",
+   "series": "$Z_5$ parafermion",
+   "status": "certified",
+   "crossing_residual": "2.9e-17"
+  },
+  {
+   "c": "8/7",
+   "delta_ext": "6/35",
+   "nu1_over_nu0_include_identity": "0.2143264265246426",
+   "nu1_over_nu0_exclude_identity": "0.3851291947513569",
+   "label": "$\\sigma_2$",
+   "series": "$Z_5$ parafermion",
+   "status": "certified",
+   "crossing_residual": "8.0e-15"
+  },
+  {
+   "c": "8/7",
+   "delta_ext": "4/7",
+   "nu1_over_nu0_include_identity": "0.5750861634451584",
+   "nu1_over_nu0_exclude_identity": "1.955430044596048",
+   "label": "$(2,0)$",
+   "series": "$Z_5$ parafermion",
+   "status": "certified",
+   "crossing_residual": "1.3e-14"
+  },
+  {
+   "c": "8/7",
+   "delta_ext": "34/35",
+   "nu1_over_nu0_include_identity": "0.6562572744454151",
+   "nu1_over_nu0_exclude_identity": "1.518280427079726",
+   "label": "$(3,1)$",
+   "series": "$Z_5$ parafermion",
+   "status": "certified",
+   "crossing_residual": "2.4e-11"
+  },
+  {
+   "c": "8/7",
+   "delta_ext": "46/35",
+   "nu1_over_nu0_include_identity": "0.5546705616549508",
+   "nu1_over_nu0_exclude_identity": "1.449606578704187",
+   "label": "$(4,2)$",
+   "series": "$Z_5$ parafermion",
+   "status": "certified",
+   "crossing_residual": "9.1e-13"
+  },
+  {
+   "c": "8/7",
+   "delta_ext": "8/5",
+   "nu1_over_nu0_include_identity": "0.9431753450143172",
+   "nu1_over_nu0_exclude_identity": "3.147138817265996",
+   "label": "$(5,3)$",
+   "series": "$Z_5$ parafermion",
+   "status": "certified",
+   "crossing_residual": "6.7e-12"
+  },
+  {
+   "c": "8/7",
+   "delta_ext": "12/7",
+   "nu1_over_nu0_include_identity": "0.9186681723012442",
+   "nu1_over_nu0_exclude_identity": "3.614299645603156",
+   "label": "$(4,0)$",
+   "series": "$Z_5$ parafermion",
+   "status": "certified",
+   "crossing_residual": "6.9e-12"
+  },
+  {
+   "c": "8/7",
+   "delta_ext": "1/2",
+   "nu1_over_nu0_include_identity": "0.5232025975",
+   "nu1_over_nu0_exclude_identity": "1.7946375568",
+   "label": "$Z_5/\\!\\!/C$: C-twist $(i=0,+)$",
+   "series": "$Z_5$ parafermion $/\\!/C$",
+   "status": "certified",
+   "crossing_residual": "exact den-divided class sum, triangular q-series peel through grade 8; crossing 3.4e-11 at x=0.3; cut-7/8 drift 1.2e-8 (include), 3.3e-8 (exclude); 2.7e-8 below the certified Lambda=19 exclude upper bound 1.79463758 at Delta=1/2"
+  },
+  {
+   "c": "8/7",
+   "delta_ext": "3/14",
+   "nu1_over_nu0_include_identity": "0.2603611823",
+   "nu1_over_nu0_exclude_identity": "0.5705877776",
+   "label": "$Z_5/\\!\\!/C$: C-twist $(i=1,+)$",
+   "series": "$Z_5$ parafermion $/\\!/C$",
+   "status": "certified",
+   "crossing_residual": "exact den-divided class sum, two su(2)_5 channels, triangular q-series peel through grade 7; crossing 3.0e-9 at x=0.3; cut-6/7 drift 2.0e-7 (include), 4.1e-7 (exclude); channel weight from the level-5 invariant form confirmed by crossing"
+  },
+  {
+   "c": "8/7",
+   "delta_ext": "1/14",
+   "nu1_over_nu0_include_identity": "0.0942811738",
+   "nu1_over_nu0_exclude_identity": "0.1488785711",
+   "label": "$Z_5/\\!\\!/C$: C-twist $(i=2,+)$",
+   "series": "$Z_5$ parafermion $/\\!/C$",
+   "status": "certified",
+   "crossing_residual": "exact den-divided class sum, three su(2)_5 channels, triangular q-series peel through grade 6; crossing 1.1e-8 at x=0.3; cut-5/6 drift 6.4e-8 (include), 1.0e-7 (exclude); channel weights from the level-5 spin-one invariant form"
+  },
+  {
+   "c": "8/7",
+   "delta_ext": "17/14",
+   "nu1_over_nu0_include_identity": "0.7575454637",
+   "nu1_over_nu0_exclude_identity": "1.7087396594",
+   "label": "$Z_5/\\!\\!/C$: C-twist $(i=1,-)$",
+   "series": "$Z_5$ parafermion $/\\!/C$",
+   "status": "certified",
+   "crossing_residual": "exact den-divided class sum of the level-1/2 den-primary twisted state (k-i) e_0 g - i f_-1 g, two su(2)_5 channels, inter-sector interference in the den-charge split, triangular q-series peel through twisted grade 11; crossing 2.21e-8 at x=0.3; adjacent-grade drift 1.8e-07 (include), 3.6e-07 (exclude) (grade 9/10: 1.6e-8 / 3.3e-8; 8/9: 1.3e-5 / 2.6e-5 -- the shell contributions alternate); channel weight from the level-5 invariant form, crossing fit 0.32242 vs 0.32242"
+  },
+  {
+   "c": "8/7",
+   "delta_ext": "15/14",
+   "nu1_over_nu0_include_identity": "0.7205491582",
+   "nu1_over_nu0_exclude_identity": "1.4148720098",
+   "label": "$Z_5/\\!\\!/C$: C-twist $(i=2,-)$",
+   "series": "$Z_5$ parafermion $/\\!/C$",
+   "status": "certified",
+   "crossing_residual": "exact den-divided class sum of the level-1/2 den-primary twisted state, three su(2)_5 channels, inter-sector interference in the den-charge split, triangular q-series peel through twisted grade 10; crossing 3.7e-7 at x=0.3; adjacent-grade drift 1.3e-07 (include), 2.4e-07 (exclude) (grade 8/9: 8.4e-6 / 1.5e-5; 7/8: 1.8e-5 / 3.1e-5); channel weights from the level-5 spin-one invariant form"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "3/40",
+   "nu1_over_nu0_include_identity": "0.0990886080192577430924403187746",
+   "nu1_over_nu0_exclude_identity": "0.205605319966455489852145639934",
+   "label": "$\\sigma_1$",
+   "series": "$Z_{10}$ parafermion",
+   "status": "certified",
+   "crossing_residual": "1.4e-10"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "2/15",
+   "nu1_over_nu0_include_identity": "0.17441155408532630524",
+   "nu1_over_nu0_exclude_identity": "0.2912104650533501653",
+   "label": "$\\sigma_2$",
+   "series": "$Z_{10}$ parafermion",
+   "status": "certified",
+   "crossing_residual": "2.5e-8"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "5/24",
+   "nu1_over_nu0_include_identity": "0.263099475315928175112667244069",
+   "nu1_over_nu0_exclude_identity": "0.466509830062543658253262674071",
+   "label": "$(5,5)$",
+   "series": "$Z_{10}$ parafermion",
+   "status": "certified",
+   "crossing_residual": "7.0e-10"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "11/8",
+   "nu1_over_nu0_include_identity": "0.8694237212610495267605",
+   "nu1_over_nu0_exclude_identity": "1.675902070329409151612",
+   "label": "$(7,5)$",
+   "series": "$Z_{10}$ parafermion",
+   "status": "certified",
+   "crossing_residual": "7.6e-8"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "1/3",
+   "nu1_over_nu0_include_identity": "0.39928404224969549647",
+   "nu1_over_nu0_exclude_identity": "1.1001788462596878709",
+   "label": "$(2,0)$",
+   "series": "$Z_{10}$ parafermion",
+   "status": "certified",
+   "crossing_residual": "3.1e-8"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "23/40",
+   "nu1_over_nu0_include_identity": "0.6104518762937346",
+   "nu1_over_nu0_exclude_identity": "1.198244202492173",
+   "label": "$(3,1)$",
+   "series": "$Z_{10}$ parafermion",
+   "status": "certified",
+   "crossing_residual": "5.5e-13"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "4/5",
+   "nu1_over_nu0_include_identity": "0.7465783282378652",
+   "nu1_over_nu0_exclude_identity": "1.497514079886565",
+   "label": "$(4,2)$",
+   "series": "$Z_{10}$ parafermion",
+   "status": "certified",
+   "crossing_residual": "1.3e-12"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "1",
+   "nu1_over_nu0_include_identity": "0.8929337632402109",
+   "nu1_over_nu0_exclude_identity": "2.260783712046451",
+   "label": "$(4,0)$",
+   "series": "$Z_{10}$ parafermion",
+   "status": "certified",
+   "crossing_residual": "1.4e-11"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "7/40",
+   "nu1_over_nu0_include_identity": "0.224931341534177359681132021064",
+   "nu1_over_nu0_exclude_identity": "0.338456070367930234321769745291",
+   "label": "$(3,3)$",
+   "series": "$Z_{10}$ parafermion",
+   "status": "certified",
+   "crossing_residual": "5.0e-10"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "1/5",
+   "nu1_over_nu0_include_identity": "0.253767210629133534751715",
+   "nu1_over_nu0_exclude_identity": "0.363226717395346538065186",
+   "label": "$(4,4)$",
+   "series": "$Z_{10}$ parafermion",
+   "status": "certified",
+   "crossing_residual": "1.8e-10"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "6/5",
+   "nu1_over_nu0_include_identity": "0.82884240867934876568385138354922",
+   "nu1_over_nu0_exclude_identity": "1.5991155194328141861810961435729",
+   "label": "$(6,4)$",
+   "series": "$Z_{10}$ parafermion",
+   "status": "certified",
+   "crossing_residual": "6.5e-11"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "23/15",
+   "nu1_over_nu0_include_identity": "0.9549590291888401867679113644",
+   "nu1_over_nu0_exclude_identity": "1.926281064986882204080676946",
+   "label": "$(8,6)$",
+   "series": "$Z_{10}$ parafermion",
+   "status": "certified",
+   "crossing_residual": "3.6e-9"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "121/120",
+   "nu1_over_nu0_include_identity": "0.82721602176143732458",
+   "nu1_over_nu0_exclude_identity": "1.6376224833312766364",
+   "label": "$(5,3)$",
+   "series": "$Z_{10}$ parafermion",
+   "status": "certified",
+   "crossing_residual": "1.7e-10"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "169/120",
+   "nu1_over_nu0_include_identity": "1.0488818319255622047",
+   "nu1_over_nu0_exclude_identity": "1.8574536912716704890",
+   "label": "$(5,1)$",
+   "series": "$Z_{10}$ parafermion",
+   "status": "certified",
+   "crossing_residual": "2.9e-8"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "67/40",
+   "nu1_over_nu0_include_identity": "1.0697740098218965876",
+   "nu1_over_nu0_exclude_identity": "2.5245379140140118021",
+   "label": "$(9,7)$",
+   "series": "$Z_{10}$ parafermion",
+   "status": "certified",
+   "crossing_residual": "1.4e-8"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "9/5",
+   "nu1_over_nu0_include_identity": "1.1904905560547208304",
+   "nu1_over_nu0_exclude_identity": "2.2108716539441142692",
+   "label": "$(6,2)$",
+   "series": "$Z_{10}$ parafermion",
+   "status": "certified",
+   "crossing_residual": "3.4e-13"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "2",
+   "nu1_over_nu0_include_identity": "1.3423289684112351514",
+   "nu1_over_nu0_exclude_identity": "2.8299299119248646035",
+   "label": "$(6,0)$",
+   "series": "$Z_{10}$ parafermion",
+   "status": "certified",
+   "crossing_residual": "2.5e-8"
+  },
+  {
+   "c": "81/70",
+   "delta_ext": "3/7",
+   "nu1_over_nu0_include_identity": "0.467576326385417",
+   "nu1_over_nu0_exclude_identity": "1.58407826163408",
+   "label": "$(1,3)_{\\mathrm{NS}}$",
+   "series": "$\\mathcal{N}=1$ SM(5)",
+   "status": "certified",
+   "crossing_residual": "1.1e-19"
+  },
+  {
+   "c": "81/70",
+   "delta_ext": "16/7",
+   "nu1_over_nu0_include_identity": "0.865299497038043",
+   "nu1_over_nu0_exclude_identity": "2.69621434623151",
+   "label": "$(1,5)_{\\mathrm{NS}}$",
+   "series": "$\\mathcal{N}=1$ SM(5)",
+   "status": "certified",
+   "crossing_residual": "6.6e-13"
+  },
+  {
+   "c": "81/70",
+   "delta_ext": "3/35",
+   "nu1_over_nu0_include_identity": "0.112530494888078",
+   "nu1_over_nu0_exclude_identity": "0.243289586371294",
+   "label": "$(2,2)_{\\mathrm{NS}}$",
+   "series": "$\\mathcal{N}=1$ SM(5)",
+   "status": "certified",
+   "crossing_residual": "5.1e-21"
+  },
+  {
+   "c": "81/70",
+   "delta_ext": "8/35",
+   "nu1_over_nu0_include_identity": "0.273889205813102",
+   "nu1_over_nu0_exclude_identity": "0.620067684632697",
+   "label": "$(2,4)_{\\mathrm{NS}}$",
+   "series": "$\\mathcal{N}=1$ SM(5)",
+   "status": "certified",
+   "crossing_residual": "7.4e-20"
+  },
+  {
+   "c": "81/70",
+   "delta_ext": "9/5",
+   "nu1_over_nu0_include_identity": "0.924065987927623",
+   "nu1_over_nu0_exclude_identity": "3.85358364498560",
+   "label": "$(2,6)_{\\mathrm{NS}}$",
+   "series": "$\\mathcal{N}=1$ SM(5)",
+   "status": "certified",
+   "crossing_residual": "2.3e-14"
+  },
+  {
+   "c": "81/70",
+   "delta_ext": "38/35",
+   "nu1_over_nu0_include_identity": "0.785438618734972443",
+   "nu1_over_nu0_exclude_identity": "2.27068521359209032",
+   "label": "$(2,2)_{\\mathrm{NS}}: F$",
+   "series": "$\\mathcal{N}=1$ SM(5)",
+   "status": "certified",
+   "crossing_residual": "n_max=10/12; train 2.6e-10; held-out-new 2.1e-9; n10->n12 drift 8.3e-9/1.9e-8; 50/70-dps identical; positive weights; independently reproduced by the GKO coset su(2)_3 (+) su(2)_2 / su(2)_5 (models.c81_over_70.gko_coset) to 1.6e-10 / 3e-11 (include / exclude), structured per-block peel, cut 14"
+  },
+  {
+   "c": "81/70",
+   "delta_ext": "43/35",
+   "nu1_over_nu0_include_identity": "0.719933399895137691",
+   "nu1_over_nu0_exclude_identity": "1.78987083595224348",
+   "label": "$(2,4)_{\\mathrm{NS}}: F$",
+   "series": "$\\mathcal{N}=1$ SM(5)",
+   "status": "certified",
+   "crossing_residual": "n_max=10/12; train 7.3e-10; held-out-new 5.1e-9; n10->n12 drift 2.3e-8/3.9e-8; 50/70-dps identical; positive weights; independently reproduced by the GKO coset su(2)_3 (+) su(2)_2 / su(2)_5 (models.c81_over_70.gko_coset) to 1.3e-9 / 2.6e-9 (include / exclude), structured per-block peel, cut 14"
+  },
+  {
+   "c": "81/70",
+   "delta_ext": "10/7",
+   "nu1_over_nu0_include_identity": "0.939191638788961742",
+   "nu1_over_nu0_exclude_identity": "2.81746582538092029",
+   "label": "$(1,3)_{\\mathrm{NS}}: F$",
+   "series": "$\\mathcal{N}=1$ SM(5)",
+   "status": "certified",
+   "crossing_residual": "n_max=10/12; train 3.9e-10; held-out-new 3.9e-9; n10->n12 drift 6.6e-9/8.4e-9; 50/70-dps identical; positive weights; independently reproduced by the GKO coset su(2)_3 (+) su(2)_2 / su(2)_5 (models.c81_over_70.gko_coset) to 2.5e-10 / 5e-10 (include / exclude), structured per-block peel, cut 14"
+  },
+  {
+   "c": "81/70",
+   "delta_ext": "9/56",
+   "nu1_over_nu0_include_identity": "0.202441077808977",
+   "nu1_over_nu0_exclude_identity": "0.489997891582139",
+   "label": "$(1,2)_{\\mathrm{R}}$",
+   "series": "$\\mathcal{N}=1$ SM(5)",
+   "status": "certified",
+   "crossing_residual": "3.2e-19"
+  },
+  {
+   "c": "81/70",
+   "delta_ext": "29/280",
+   "nu1_over_nu0_include_identity": "0.134920753743087",
+   "nu1_over_nu0_exclude_identity": "0.214965956975832",
+   "label": "$(2,3)_{\\mathrm{R}}$",
+   "series": "$\\mathcal{N}=1$ SM(5)",
+   "status": "certified",
+   "crossing_residual": "2.0e-19"
+  },
+  {
+   "c": "81/70",
+   "delta_ext": "27/40",
+   "nu1_over_nu0_include_identity": "0.645586371085554",
+   "nu1_over_nu0_exclude_identity": "2.11126126321803",
+   "label": "$(2,1)_{\\mathrm{R}}$",
+   "series": "$\\mathcal{N}=1$ SM(5)",
+   "status": "certified",
+   "crossing_residual": "1.6e-19"
+  },
+  {
+   "c": "81/70",
+   "delta_ext": "269/280",
+   "nu1_over_nu0_include_identity": "0.622201397665384",
+   "nu1_over_nu0_exclude_identity": "1.56339984145601",
+   "label": "$(2,5)_{\\mathrm{R}}$",
+   "series": "$\\mathcal{N}=1$ SM(5)",
+   "status": "certified",
+   "crossing_residual": "3.9e-17"
+  },
+  {
+   "c": "81/70",
+   "delta_ext": "73/56",
+   "nu1_over_nu0_include_identity": "0.714354086182272",
+   "nu1_over_nu0_exclude_identity": "1.74855306777979",
+   "label": "$(1,4)_{\\mathrm{R}}$",
+   "series": "$\\mathcal{N}=1$ SM(5)",
+   "status": "certified",
+   "crossing_residual": "1.9e-16"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "1/8",
+   "nu1_over_nu0_include_identity": "0.16341714308970931858",
+   "nu1_over_nu0_exclude_identity": "1.0549854778901848514",
+   "label": "$\\sigma_1$",
+   "series": "Ising$^3$",
+   "status": "certified",
+   "crossing_residual": "6.0e-17"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "1/4",
+   "nu1_over_nu0_include_identity": "0.31120859086821193862",
+   "nu1_over_nu0_exclude_identity": "1.1168107193503016216",
+   "label": "$\\sigma_1\\sigma_2$",
+   "series": "Ising$^3$",
+   "status": "certified",
+   "crossing_residual": "2.4e-16"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "3/8",
+   "nu1_over_nu0_include_identity": "0.44022987886198036177",
+   "nu1_over_nu0_exclude_identity": "1.1640236638214182548",
+   "label": "$\\sigma_1\\sigma_2\\sigma_3$",
+   "series": "Ising$^3$",
+   "status": "certified",
+   "crossing_residual": "4.0e-16"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "1",
+   "nu1_over_nu0_include_identity": "0.89811595371850239406",
+   "nu1_over_nu0_exclude_identity": "2.2654092032854088803",
+   "label": "$\\epsilon_1$",
+   "series": "Ising$^3$",
+   "status": "certified",
+   "crossing_residual": "1.9e-14"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "9/8",
+   "nu1_over_nu0_include_identity": "0.92816574430377133893",
+   "nu1_over_nu0_exclude_identity": "2.0530418670153199877",
+   "label": "$\\epsilon_1\\sigma_2$",
+   "series": "Ising$^3$",
+   "status": "certified",
+   "crossing_residual": "3.9e-13"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "5/4",
+   "nu1_over_nu0_include_identity": "0.94548366122884963820",
+   "nu1_over_nu0_exclude_identity": "1.8939982658305645088",
+   "label": "$\\epsilon_1\\sigma_2\\sigma_3$",
+   "series": "Ising$^3$",
+   "status": "certified",
+   "crossing_residual": "1.3e-12"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "2",
+   "nu1_over_nu0_include_identity": "1.2596368960513953270",
+   "nu1_over_nu0_exclude_identity": "3.0027784691433819966",
+   "label": "$\\epsilon_1\\epsilon_2$",
+   "series": "Ising$^3$",
+   "status": "certified",
+   "crossing_residual": "6.5e-11"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "1/8",
+   "nu1_over_nu0_include_identity": "0.16341714308970931858",
+   "nu1_over_nu0_exclude_identity": "1.0549854778901848514",
+   "label": "$R_{\\rm light}$",
+   "series": "$\\mathcal{N}=2_{k=2}$",
+   "status": "certified",
+   "crossing_residual": "6.0e-17"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "1/8",
+   "nu1_over_nu0_include_identity": "0.163404702033784565178296534931",
+   "nu1_over_nu0_exclude_identity": "0.544870951708972945609732246502",
+   "label": "$\\operatorname{Re}(0,1,1)_R$",
+   "series": "$\\mathcal{N}=2_{k=2}$",
+   "status": "certified",
+   "crossing_residual": "3.1e-25"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "1/4",
+   "nu1_over_nu0_include_identity": "0.30942365661436885536",
+   "nu1_over_nu0_exclude_identity": "0.76890537981354534296",
+   "label": "$N^1_1$",
+   "series": "$\\mathcal{N}=2_{k=2}$",
+   "status": "certified",
+   "crossing_residual": "5.5e-16"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "1/2",
+   "nu1_over_nu0_include_identity": "0.56033548797897983871",
+   "nu1_over_nu0_exclude_identity": "2.0126379725696217177",
+   "label": "$N^2_2$",
+   "series": "$\\mathcal{N}=2_{k=2}$",
+   "status": "certified",
+   "crossing_residual": "8.0e-17"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "9/8",
+   "nu1_over_nu0_include_identity": "0.717643607962384203421010604638",
+   "nu1_over_nu0_exclude_identity": "1.31412746540191630035339635118",
+   "label": "$\\operatorname{Re}(0,3,1)_R$",
+   "series": "$\\mathcal{N}=2_{k=2}$",
+   "status": "certified",
+   "crossing_residual": "2.9e-20"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "9/8",
+   "nu1_over_nu0_include_identity": "1.00011923681973692543362894254",
+   "nu1_over_nu0_exclude_identity": "2.30621710245276815539935958969",
+   "label": "$\\operatorname{Re}(0,3,3)_R$",
+   "series": "$\\mathcal{N}=2_{k=2}$",
+   "status": "certified",
+   "crossing_residual": "3.1e-20"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "1",
+   "nu1_over_nu0_include_identity": "0.89811595371850239406",
+   "nu1_over_nu0_exclude_identity": "2.2654092032854088803",
+   "label": "$N^2_0$",
+   "series": "$\\mathcal{N}=2_{k=2}$",
+   "status": "certified",
+   "crossing_residual": "1.9e-14"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "5/8",
+   "nu1_over_nu0_include_identity": "0.66029103113622281885",
+   "nu1_over_nu0_exclude_identity": "1.8037552311656230479",
+   "label": "$(1,0,1)$",
+   "series": "$\\mathcal{N}=2_{k=2}$",
+   "status": "certified",
+   "crossing_residual": "6.9e-8"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "5/4",
+   "nu1_over_nu0_include_identity": "1.031919644675243646892338",
+   "nu1_over_nu0_exclude_identity": "2.13934208065364891314564",
+   "label": "$(1,1,2)$",
+   "series": "$\\mathcal{N}=2_{k=2}$",
+   "status": "certified",
+   "crossing_residual": "1.7e-16"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "3/2",
+   "nu1_over_nu0_include_identity": "1.153356053065000066681288",
+   "nu1_over_nu0_exclude_identity": "2.670264348570683916119109",
+   "label": "$(0,2,0)$",
+   "series": "$\\mathcal{N}=2_{k=2}$",
+   "status": "certified",
+   "crossing_residual": "1.1e-16"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "2",
+   "nu1_over_nu0_include_identity": "1.45997943183616025797363957664",
+   "nu1_over_nu0_exclude_identity": "2.29739292821899546276319292946",
+   "label": "$V_{\\sqrt{2}}$",
+   "series": "$\\mathcal{N}=2_{k=2}$",
+   "status": "certified",
+   "crossing_residual": "4.4e-18"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "2",
+   "nu1_over_nu0_include_identity": "1.25963689605141541215560511365",
+   "nu1_over_nu0_exclude_identity": "3.00277846914342542500997999662",
+   "label": "$J\\bar J$",
+   "series": "$\\mathcal{N}=2_{k=2}$",
+   "status": "certified",
+   "crossing_residual": "4.4e-18"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "9/8",
+   "nu1_over_nu0_include_identity": "0.96827121338437562345",
+   "nu1_over_nu0_exclude_identity": "2.1417525392460991161",
+   "label": "$\\sigma\\!\\times\\!\\cos(\\phi)$ ($R=1$)",
+   "series": "Ising$\\times U(1)$",
+   "status": "certified",
+   "crossing_residual": "3.9e-13"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "3/8",
+   "nu1_over_nu0_include_identity": "0.44022987886198036177",
+   "nu1_over_nu0_exclude_identity": "1.1640236638214182548",
+   "label": "$\\sigma\\!\\times\\!\\cos(\\phi/2)$ ($R=2$)",
+   "series": "Ising$\\times U(1)$",
+   "status": "certified",
+   "crossing_residual": "4.0e-16"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "3/16",
+   "nu1_over_nu0_include_identity": "0.23944127044452917972",
+   "nu1_over_nu0_exclude_identity": "0.57221631693984854817",
+   "label": "$\\sigma\\!\\times\\!\\cos(\\phi/4)$ ($R=4$)",
+   "series": "Ising$\\times U(1)$",
+   "status": "certified",
+   "crossing_residual": "7.4e-16"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "9/64",
+   "nu1_over_nu0_include_identity": "0.18293521068624775289",
+   "nu1_over_nu0_exclude_identity": "0.42357471629238165552",
+   "label": "$\\sigma\\!\\times\\!\\cos(\\phi/8)$ ($R=8$)",
+   "series": "Ising$\\times U(1)$",
+   "status": "certified",
+   "crossing_residual": "6.3e-16"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "3/8",
+   "nu1_over_nu0_include_identity": "0.44022987886198036177",
+   "nu1_over_nu0_exclude_identity": "1.1640236638214182548",
+   "label": "$\\sigma_R\\otimes V_{m=1}$",
+   "series": "super-affine $SO(3)_2$",
+   "status": "certified",
+   "crossing_residual": "4.0e-16"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "1",
+   "nu1_over_nu0_include_identity": "0.925367167018851569402604560874",
+   "nu1_over_nu0_exclude_identity": "2.33414770988436245841802530138",
+   "label": "$1_{NS}\\otimes V_{m=2}$",
+   "series": "super-affine $SO(3)_2$",
+   "status": "certified",
+   "crossing_residual": "2.0e-14"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "1",
+   "nu1_over_nu0_include_identity": "0.89811595371850239406",
+   "nu1_over_nu0_exclude_identity": "2.2654092032854088803",
+   "label": "$\\epsilon_{NS}\\otimes 1$",
+   "series": "super-affine $SO(3)_2$",
+   "status": "certified",
+   "crossing_residual": "1.9e-14"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "2",
+   "nu1_over_nu0_include_identity": "1.33136640742704694762857813925",
+   "nu1_over_nu0_exclude_identity": "3.17377046932705500978783600378",
+   "label": "$\\epsilon_{NS}\\otimes V_{m=2}$",
+   "series": "super-affine $SO(3)_2$",
+   "status": "certified",
+   "crossing_residual": "6.2e-11"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "9/8",
+   "nu1_over_nu0_include_identity": "0.952060768310377569406390951456",
+   "nu1_over_nu0_exclude_identity": "2.45958908804743016368732113112",
+   "label": "$(\\epsilon_1\\sigma_2+\\epsilon_2\\sigma_3+\\epsilon_3\\sigma_1)/\\sqrt3$",
+   "series": "Ising$^3$ enhanced mixtures",
+   "status": "certified",
+   "crossing_residual": "4.2e-13"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "9/8",
+   "nu1_over_nu0_include_identity": "0.7250394970684702311687808",
+   "nu1_over_nu0_exclude_identity": "1.071519604396657593506813",
+   "label": "$(\\epsilon_1\\sigma_2+\\epsilon_1\\sigma_3)/\\sqrt2$",
+   "series": "Ising$^3$ enhanced mixtures",
+   "status": "certified",
+   "crossing_residual": "3.9e-9"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "9/8",
+   "nu1_over_nu0_include_identity": "0.952060768310377569406390951456",
+   "nu1_over_nu0_exclude_identity": "2.45958908804743016368732113112",
+   "label": "$T:\\ (\\epsilon_1\\sigma_2+\\epsilon_2\\sigma_3+\\epsilon_3\\sigma_1)/\\sqrt3$",
+   "series": "so(3)$_1/2\\Gamma$: isolated $T,O,I$ orbifolds",
+   "status": "certified",
+   "crossing_residual": "4.2e-13"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "1/8",
+   "nu1_over_nu0_include_identity": "0.163931841627650181448809282016",
+   "nu1_over_nu0_exclude_identity": "0.292109663328450090600043667571",
+   "label": "$T/O:\\ (\\sigma_1+\\sigma_2+\\sigma_3)/\\sqrt3$",
+   "series": "so(3)$_1/2\\Gamma$: isolated $T,O,I$ orbifolds",
+   "status": "certified",
+   "crossing_residual": "5.9e-13"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "1/4",
+   "nu1_over_nu0_include_identity": "0.308217499434708215875386676936",
+   "nu1_over_nu0_exclude_identity": "0.492786419132184256444176211022",
+   "label": "$T/O:\\ \\sum_{i<j}\\sigma_i\\sigma_j/\\sqrt3$",
+   "series": "so(3)$_1/2\\Gamma$: isolated $T,O,I$ orbifolds",
+   "status": "certified",
+   "crossing_residual": "2.9e-12"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "3/8",
+   "nu1_over_nu0_include_identity": "0.440229878861980304406768636720",
+   "nu1_over_nu0_exclude_identity": "1.16402366382141811063039730515",
+   "label": "$T/O:\\ \\sigma_1\\sigma_2\\sigma_3$",
+   "series": "so(3)$_1/2\\Gamma$: isolated $T,O,I$ orbifolds",
+   "status": "certified",
+   "crossing_residual": "6.5e-13"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "1",
+   "nu1_over_nu0_include_identity": "0.934450904785603530879619466183",
+   "nu1_over_nu0_exclude_identity": "2.35706054541727594837141796653",
+   "label": "$T^\\pm/O^\\pm:\\ (\\epsilon_1+\\epsilon_2+\\epsilon_3)/\\sqrt3$",
+   "series": "so(3)$_1/2\\Gamma$: isolated $T,O,I$ orbifolds",
+   "status": "certified",
+   "crossing_residual": "3.5e-11"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "9/8",
+   "nu1_over_nu0_include_identity": "0.829359225634459596727502776087",
+   "nu1_over_nu0_exclude_identity": "1.41720177677646320511382446202",
+   "label": "$T/O:\\ \\sum_{i\\ne j}\\epsilon_i\\sigma_j/\\sqrt6$",
+   "series": "so(3)$_1/2\\Gamma$: isolated $T,O,I$ orbifolds",
+   "status": "certified",
+   "crossing_residual": "1.8e-10"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "5/4",
+   "nu1_over_nu0_include_identity": "0.942248679021789540358811088672",
+   "nu1_over_nu0_exclude_identity": "1.96097206141091342503957876542",
+   "label": "$T/O:\\ \\sum_i\\epsilon_i\\sigma_j\\sigma_k/\\sqrt3$",
+   "series": "so(3)$_1/2\\Gamma$: isolated $T,O,I$ orbifolds",
+   "status": "certified",
+   "crossing_residual": "9.2e-9"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "2",
+   "nu1_over_nu0_include_identity": "1.3552762445522819598647693643665",
+   "nu1_over_nu0_exclude_identity": "3.2307678027216508487568786336272",
+   "label": "$T^\\pm/O^\\pm:\\ \\sum_{i<j}\\epsilon_i\\epsilon_j/\\sqrt3$",
+   "series": "so(3)$_1/2\\Gamma$: isolated $T,O,I$ orbifolds",
+   "status": "certified",
+   "crossing_residual": "5.1e-17"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "9/8",
+   "nu1_over_nu0_include_identity": "0.8593834601101",
+   "nu1_over_nu0_exclude_identity": "1.597821441434",
+   "label": "$T^-/O^-:\\ \\sum_i \\sigma_i(\\psi_j\\bar\\psi_k+\\psi_k\\bar\\psi_j)/\\sqrt6$",
+   "series": "so(3)$_1/2\\Gamma$: isolated $T,O,I$ orbifolds",
+   "status": "certified",
+   "crossing_residual": "1.9e-13; exact X cell tensor (majorana_mixtures) at cut 18, cut-16 drift 2e-14"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "9/8",
+   "nu1_over_nu0_include_identity": "0.87170026484703058382",
+   "nu1_over_nu0_exclude_identity": "1.2679480449533347163",
+   "label": "$O^-:$ edge half-turn Ramond twist (perpendicular-Majorana excitation)",
+   "series": "so(3)$_1/2\\Gamma$: isolated $T,O,I$ orbifolds",
+   "status": "certified",
+   "crossing_residual": "2.5e-10; exact s-channel cells at cut 18 (c=1 cut 20), adjacent-cut drift 1.5e-14 / 2.1e-14"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "9/8",
+   "nu1_over_nu0_include_identity": "0.87452065167487664485",
+   "nu1_over_nu0_exclude_identity": "1.113885598571301027",
+   "label": "$I^-:$ double transposition Ramond twist (perpendicular-Majorana excitation)",
+   "series": "so(3)$_1/2\\Gamma$: isolated $T,O,I$ orbifolds",
+   "status": "certified",
+   "crossing_residual": "3.9e-10; exact s-channel cells at cut 16 (c=1 cut 18), adjacent-cut drift 2.3e-12 / 2.8e-12"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "1/16",
+   "nu1_over_nu0_include_identity": "0.082976314288690888928660524530532552",
+   "nu1_over_nu0_exclude_identity": "0.12417399197653698642245545152888022",
+   "label": "$O:\\ S_3$-invariant transposition twist",
+   "series": "so(3)$_1/2\\Gamma$: isolated $T,O,I$ orbifolds",
+   "status": "certified",
+   "crossing_residual": "8.4e-7"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "3/16",
+   "nu1_over_nu0_include_identity": "0.239597645774670903",
+   "nu1_over_nu0_exclude_identity": "0.374532072681599825",
+   "label": "$O:\\ 1_{(2)}\\!\\times\\!\\sigma_{\\rm spectator}$ transposition twist",
+   "series": "so(3)$_1/2\\Gamma$: isolated $T,O,I$ orbifolds",
+   "status": "certified",
+   "crossing_residual": "6.2e-16 held-out; cut-4/5 moment drift < 7e-6"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "1/8",
+   "nu1_over_nu0_include_identity": "0.16380809165405490208",
+   "nu1_over_nu0_exclude_identity": "0.23560924683718391829",
+   "label": "$O:\\ \\sigma_{(2)}$ transposition twist",
+   "series": "so(3)$_1/2\\Gamma$: isolated $T,O,I$ orbifolds",
+   "status": "certified",
+   "crossing_residual": "1.4e-16 held-out; cut-4/5 moment drift < 2e-6"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "1/4",
+   "nu1_over_nu0_include_identity": "0.308567286699",
+   "nu1_over_nu0_exclude_identity": "0.417049846543",
+   "label": "$O:\\ \\sigma_{(2)}\\!\\times\\!\\sigma_{\\rm spectator}$ transposition twist",
+   "series": "so(3)$_1/2\\Gamma$: isolated $T,O,I$ orbifolds",
+   "status": "certified",
+   "crossing_residual": "cut 8 physical-cover peel; cut-7/8 drift 1.5e-9 (include), 2.0e-9 (exclude); nome-window spread 5.1e-7 / 6.8e-7; so(3)_1/2O edge half-turn twin within 2.2e-7 / 2.9e-7"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "9/8",
+   "nu1_over_nu0_include_identity": "0.846851987173",
+   "nu1_over_nu0_exclude_identity": "1.593067387898",
+   "label": "$O:\\ \\sigma_{(2)}\\!\\times\\!\\epsilon_{\\rm spectator}$ transposition twist",
+   "series": "so(3)$_1/2\\Gamma$: isolated $T,O,I$ orbifolds",
+   "status": "certified",
+   "crossing_residual": "cut 12 on the 17-point q=0.0007...0.010 window; cut-10/12 drift 1.3e-6 (include), 2.2e-6 (exclude); alternate-window spread at cut 12 6.8e-7 / 1.2e-6 (cut 8/10: 9.0e-6 / 1.6e-5)"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "11/16",
+   "nu1_over_nu0_include_identity": "0.69522467274324135805899",
+   "nu1_over_nu0_exclude_identity": "1.22419507970942002603084",
+   "label": "$O:\\ \\epsilon_{(2)}\\!\\times\\!\\sigma_{\\rm spectator}$ transposition twist",
+   "series": "so(3)$_1/2\\Gamma$: isolated $T,O,I$ orbifolds",
+   "status": "certified",
+   "crossing_residual": "below 2e-56 at cut 14"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "9/16",
+   "nu1_over_nu0_include_identity": "0.6095435963363350",
+   "nu1_over_nu0_exclude_identity": "1.324934122304626",
+   "label": "$O:\\ \\epsilon_{(2)}$ transposition twist",
+   "series": "so(3)$_1/2\\Gamma$: isolated $T,O,I$ orbifolds",
+   "status": "certified",
+   "crossing_residual": "2.3e-6"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "17/16",
+   "nu1_over_nu0_include_identity": "0.8916015238400198",
+   "nu1_over_nu0_exclude_identity": "1.956605720686183",
+   "label": "$O:\\ \\epsilon_{\\rm spectator}$ transposition twist",
+   "series": "so(3)$_1/2\\Gamma$: isolated $T,O,I$ orbifolds",
+   "status": "certified",
+   "crossing_residual": "3.0e-6"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "25/16",
+   "nu1_over_nu0_include_identity": "1.13471297433967",
+   "nu1_over_nu0_exclude_identity": "2.60238702510089",
+   "label": "$O:\\ \\epsilon_{(2)}\\epsilon_{\\rm spectator}$ twist",
+   "series": "so(3)$_1/2\\Gamma$: isolated $T,O,I$ orbifolds",
+   "status": "certified",
+   "crossing_residual": "cut 14 structured peel; cut-12/14 drift 7.3e-8 (include), 1.4e-7 (exclude); so(3)_1/2O 4-cycle exact-cell twin within 4.6e-10 / 9.3e-10"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "2",
+   "nu1_over_nu0_include_identity": "1.4972845936719403327121683858258",
+   "nu1_over_nu0_exclude_identity": "2.2158510695431735483147247450672",
+   "label": "Ising$\\times SU(2)_1/(T,O,I)$: $\\sum_aJ^a\\bar J^a/\\sqrt3$",
+   "series": "Ising$\\times SU(2)_1/(T,O,I)$",
+   "status": "certified",
+   "crossing_residual": "5.1e-17"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "1/18",
+   "nu1_over_nu0_include_identity": "0.073812708017965989125",
+   "nu1_over_nu0_exclude_identity": "0.10310383390045133734",
+   "label": "Ising$\\times SU(2)_1/T$: $1\\otimes$ 3-cycle pair tower 0",
+   "series": "Ising$\\times SU(2)_1/(T,O,I)$",
+   "status": "certified",
+   "crossing_residual": "3.433e-10; cut 14, adjacent-cut drift 9.907e-17 / 1.38e-16"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "1/8",
+   "nu1_over_nu0_include_identity": "0.16377842697291738064",
+   "nu1_over_nu0_exclude_identity": "0.23484598901325478632",
+   "label": "Ising$\\times SU(2)_1/T$: $1\\otimes$ double transposition ground twist",
+   "series": "Ising$\\times SU(2)_1/(T,O,I)$",
+   "status": "certified",
+   "crossing_residual": "4.653e-10; cut 16, adjacent-cut drift 0.0 / 0.0"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "13/72",
+   "nu1_over_nu0_include_identity": "0.23123388300142412624",
+   "nu1_over_nu0_exclude_identity": "0.30471771573706581443",
+   "label": "Ising$\\times SU(2)_1/T$: $\\sigma\\otimes$ 3-cycle pair tower 0",
+   "series": "Ising$\\times SU(2)_1/(T,O,I)$",
+   "status": "certified",
+   "crossing_residual": "6.994e-10; cut 14, adjacent-cut drift 6.031e-15 / 7.898e-15"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "2/9",
+   "nu1_over_nu0_include_identity": "0.27940830555196471082",
+   "nu1_over_nu0_exclude_identity": "0.46153769748649130315",
+   "label": "Ising$\\times SU(2)_1/T$: $1\\otimes$ 3-cycle pair tower 1",
+   "series": "Ising$\\times SU(2)_1/(T,O,I)$",
+   "status": "certified",
+   "crossing_residual": "4.195e-9; cut 14, adjacent-cut drift 2.113e-14 / 3.437e-14"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "1/4",
+   "nu1_over_nu0_include_identity": "0.30886736650127556926",
+   "nu1_over_nu0_exclude_identity": "0.41643057755972638023",
+   "label": "Ising$\\times SU(2)_1/T$: $\\sigma\\otimes$ double transposition ground twist",
+   "series": "Ising$\\times SU(2)_1/(T,O,I)$",
+   "status": "certified",
+   "crossing_residual": "2.316e-10; cut 16, adjacent-cut drift 0.0 / 0.0"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "25/72",
+   "nu1_over_nu0_include_identity": "0.41107612929919419925",
+   "nu1_over_nu0_exclude_identity": "0.622297857423528254",
+   "label": "Ising$\\times SU(2)_1/T$: $\\sigma\\otimes$ 3-cycle pair tower 1",
+   "series": "Ising$\\times SU(2)_1/(T,O,I)$",
+   "status": "certified",
+   "crossing_residual": "1.655e-9; cut 14, adjacent-cut drift 5.271e-14 / 7.837e-14"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "8/9",
+   "nu1_over_nu0_include_identity": "0.81571965739643043053",
+   "nu1_over_nu0_exclude_identity": "1.3365046477313353082",
+   "label": "Ising$\\times SU(2)_1/T$: $1\\otimes$ 3-cycle pair tower 2",
+   "series": "Ising$\\times SU(2)_1/(T,O,I)$",
+   "status": "certified",
+   "crossing_residual": "4.87e-8; cut 14, adjacent-cut drift 6.108e-11 / 9.549e-11"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "73/72",
+   "nu1_over_nu0_include_identity": "0.86339000263156442758",
+   "nu1_over_nu0_exclude_identity": "1.3312118020038476025",
+   "label": "Ising$\\times SU(2)_1/T$: $\\sigma\\otimes$ 3-cycle pair tower 2",
+   "series": "Ising$\\times SU(2)_1/(T,O,I)$",
+   "status": "certified",
+   "crossing_residual": "3.79e-8; cut 14, adjacent-cut drift 2.868e-10 / 4.24e-10"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "19/18",
+   "nu1_over_nu0_include_identity": "0.81805623198360076648",
+   "nu1_over_nu0_exclude_identity": "0.99407697871128671063",
+   "label": "Ising$\\times SU(2)_1/T$: $\\epsilon\\otimes$ 3-cycle pair tower 0",
+   "series": "Ising$\\times SU(2)_1/(T,O,I)$",
+   "status": "certified",
+   "crossing_residual": "1.292e-8; cut 14, adjacent-cut drift 2.492e-10 / 2.981e-10"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "9/8",
+   "nu1_over_nu0_include_identity": "0.73143566945497077625",
+   "nu1_over_nu0_exclude_identity": "0.90996608441002865901",
+   "label": "Ising$\\times SU(2)_1/T$: $\\epsilon\\otimes$ double transposition ground twist",
+   "series": "Ising$\\times SU(2)_1/(T,O,I)$",
+   "status": "certified",
+   "crossing_residual": "3.674e-10; cut 16, adjacent-cut drift 2.765e-12 / 3.395e-12"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "9/8",
+   "nu1_over_nu0_include_identity": "0.88369459722523142446",
+   "nu1_over_nu0_exclude_identity": "1.4093602386748464296",
+   "label": "Ising$\\times SU(2)_1/T$: $1\\otimes$ double transposition excited twist",
+   "series": "Ising$\\times SU(2)_1/(T,O,I)$",
+   "status": "certified",
+   "crossing_residual": "2.33e-8; cut 14, adjacent-cut drift 1.047e-9 / 1.592e-9"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "11/9",
+   "nu1_over_nu0_include_identity": "0.9046020102363409868",
+   "nu1_over_nu0_exclude_identity": "1.2390287553110177246",
+   "label": "Ising$\\times SU(2)_1/T$: $\\epsilon\\otimes$ 3-cycle pair tower 1",
+   "series": "Ising$\\times SU(2)_1/(T,O,I)$",
+   "status": "certified",
+   "crossing_residual": "6.044e-8; cut 14, adjacent-cut drift 2.052e-9 / 2.728e-9"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "5/4",
+   "nu1_over_nu0_include_identity": "0.9052068167823798901",
+   "nu1_over_nu0_exclude_identity": "1.3734279485192810832",
+   "label": "Ising$\\times SU(2)_1/T$: $\\sigma\\otimes$ double transposition excited twist",
+   "series": "Ising$\\times SU(2)_1/(T,O,I)$",
+   "status": "certified",
+   "crossing_residual": "6.246e-8; cut 14, adjacent-cut drift 2.935e-9 / 4.269e-9"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "25/18",
+   "nu1_over_nu0_include_identity": "1.0323687644997651102",
+   "nu1_over_nu0_exclude_identity": "1.5730337751358559012",
+   "label": "Ising$\\times SU(2)_1/T$: $1\\otimes$ 3-cycle pair tower 3",
+   "series": "Ising$\\times SU(2)_1/(T,O,I)$",
+   "status": "certified",
+   "crossing_residual": "5.096e-7; cut 14, adjacent-cut drift 1.168e-8 / 1.694e-8"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "109/72",
+   "nu1_over_nu0_include_identity": "1.0428442092560469743",
+   "nu1_over_nu0_exclude_identity": "1.5293489539571019617",
+   "label": "Ising$\\times SU(2)_1/T$: $\\sigma\\otimes$ 3-cycle pair tower 3",
+   "series": "Ising$\\times SU(2)_1/(T,O,I)$",
+   "status": "certified",
+   "crossing_residual": "3.96e-7; cut 14, adjacent-cut drift 2.343e-8 / 3.287e-8"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "17/9",
+   "nu1_over_nu0_include_identity": "1.1429810325364772927",
+   "nu1_over_nu0_exclude_identity": "1.7877071011999476835",
+   "label": "Ising$\\times SU(2)_1/T$: $\\epsilon\\otimes$ 3-cycle pair tower 2",
+   "series": "Ising$\\times SU(2)_1/(T,O,I)$",
+   "status": "certified",
+   "crossing_residual": "2.979e-6; cut 14, adjacent-cut drift 6.858e-7 / 1.01e-6"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "1/32",
+   "nu1_over_nu0_include_identity": "0.041600949226857754061",
+   "nu1_over_nu0_exclude_identity": "0.061515534785315959232",
+   "label": "Ising$\\times SU(2)_1/O$: $1\\otimes$ 4-cycle tower 0",
+   "series": "Ising$\\times SU(2)_1/(T,O,I)$",
+   "status": "certified",
+   "crossing_residual": "2.312e-10; cut 14, adjacent-cut drift 4.476e-28 / 2.589e-28"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "1/18",
+   "nu1_over_nu0_include_identity": "0.073812708017965990598",
+   "nu1_over_nu0_exclude_identity": "0.10310383390045133744",
+   "label": "Ising$\\times SU(2)_1/O$: $1\\otimes$ 3-cycle tower 0",
+   "series": "Ising$\\times SU(2)_1/(T,O,I)$",
+   "status": "certified",
+   "crossing_residual": "3.433e-10; cut 14, adjacent-cut drift 9.907e-17 / 1.38e-16"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "1/8",
+   "nu1_over_nu0_include_identity": "0.16378209485131994026",
+   "nu1_over_nu0_exclude_identity": "0.20778239508126631904",
+   "label": "Ising$\\times SU(2)_1/O$: $1\\otimes$ edge half-turn ground twist",
+   "series": "Ising$\\times SU(2)_1/(T,O,I)$",
+   "status": "certified",
+   "crossing_residual": "6.813e-10; cut 16, adjacent-cut drift 0.0 / 0.0"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "1/8",
+   "nu1_over_nu0_include_identity": "0.16377842697291738064",
+   "nu1_over_nu0_exclude_identity": "0.23484598901325478632",
+   "label": "Ising$\\times SU(2)_1/O$: $1\\otimes$ face half-turn ground twist",
+   "series": "Ising$\\times SU(2)_1/(T,O,I)$",
+   "status": "certified",
+   "crossing_residual": "4.653e-10; cut 16, adjacent-cut drift 0.0 / 0.0"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "5/32",
+   "nu1_over_nu0_include_identity": "0.20212728644774738694",
+   "nu1_over_nu0_exclude_identity": "0.2785156203389663832",
+   "label": "Ising$\\times SU(2)_1/O$: $\\sigma\\otimes$ 4-cycle tower 0",
+   "series": "Ising$\\times SU(2)_1/(T,O,I)$",
+   "status": "certified",
+   "crossing_residual": "6.591e-10; cut 14, adjacent-cut drift 5.22e-15 / 7.147e-15"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "13/72",
+   "nu1_over_nu0_include_identity": "0.23123388300142412774",
+   "nu1_over_nu0_exclude_identity": "0.3047177157370658118",
+   "label": "Ising$\\times SU(2)_1/O$: $\\sigma\\otimes$ 3-cycle tower 0",
+   "series": "Ising$\\times SU(2)_1/(T,O,I)$",
+   "status": "certified",
+   "crossing_residual": "6.994e-10; cut 14, adjacent-cut drift 6.031e-15 / 7.898e-15"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "2/9",
+   "nu1_over_nu0_include_identity": "0.27940830555196474046",
+   "nu1_over_nu0_exclude_identity": "0.46153769748649130739",
+   "label": "Ising$\\times SU(2)_1/O$: $1\\otimes$ 3-cycle tower 1",
+   "series": "Ising$\\times SU(2)_1/(T,O,I)$",
+   "status": "certified",
+   "crossing_residual": "4.195e-9; cut 14, adjacent-cut drift 2.113e-14 / 3.437e-14"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "1/4",
+   "nu1_over_nu0_include_identity": "0.30886896984860965739",
+   "nu1_over_nu0_exclude_identity": "0.3770145858063734473",
+   "label": "Ising$\\times SU(2)_1/O$: $\\sigma\\otimes$ edge half-turn ground twist",
+   "series": "Ising$\\times SU(2)_1/(T,O,I)$",
+   "status": "certified",
+   "crossing_residual": "3.369e-10; cut 16, adjacent-cut drift 0.0 / 0.0"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "1/4",
+   "nu1_over_nu0_include_identity": "0.30886736650127556926",
+   "nu1_over_nu0_exclude_identity": "0.41643057755972638023",
+   "label": "Ising$\\times SU(2)_1/O$: $\\sigma\\otimes$ face half-turn ground twist",
+   "series": "Ising$\\times SU(2)_1/(T,O,I)$",
+   "status": "certified",
+   "crossing_residual": "2.316e-10; cut 16, adjacent-cut drift 0.0 / 0.0"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "9/32",
+   "nu1_over_nu0_include_identity": "0.34461924443190787287",
+   "nu1_over_nu0_exclude_identity": "0.64359771958382134001",
+   "label": "Ising$\\times SU(2)_1/O$: $1\\otimes$ 4-cycle tower 1",
+   "series": "Ising$\\times SU(2)_1/(T,O,I)$",
+   "status": "certified",
+   "crossing_residual": "1.158e-10; cut 14, adjacent-cut drift 3.677e-14 / 6.694e-14"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "25/72",
+   "nu1_over_nu0_include_identity": "0.41107612929919422897",
+   "nu1_over_nu0_exclude_identity": "0.62229785742352825146",
+   "label": "Ising$\\times SU(2)_1/O$: $\\sigma\\otimes$ 3-cycle tower 1",
+   "series": "Ising$\\times SU(2)_1/(T,O,I)$",
+   "status": "certified",
+   "crossing_residual": "1.655e-9; cut 14, adjacent-cut drift 5.271e-14 / 7.837e-14"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "13/32",
+   "nu1_over_nu0_include_identity": "0.46968470413350516462",
+   "nu1_over_nu0_exclude_identity": "0.78465959794681246589",
+   "label": "Ising$\\times SU(2)_1/O$: $\\sigma\\otimes$ 4-cycle tower 1",
+   "series": "Ising$\\times SU(2)_1/(T,O,I)$",
+   "status": "certified",
+   "crossing_residual": "1.088e-10; cut 14, adjacent-cut drift 1.481e-13 / 2.408e-13"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "25/32",
+   "nu1_over_nu0_include_identity": "0.76512653177429671536",
+   "nu1_over_nu0_exclude_identity": "1.3830583578149622731",
+   "label": "Ising$\\times SU(2)_1/O$: $1\\otimes$ 4-cycle tower 2",
+   "series": "Ising$\\times SU(2)_1/(T,O,I)$",
+   "status": "certified",
+   "crossing_residual": "6.991e-10; cut 14, adjacent-cut drift 1.495e-11 / 2.557e-11"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "8/9",
+   "nu1_over_nu0_include_identity": "0.81571965739643068372",
+   "nu1_over_nu0_exclude_identity": "1.3365046477313353247",
+   "label": "Ising$\\times SU(2)_1/O$: $1\\otimes$ 3-cycle tower 2",
+   "series": "Ising$\\times SU(2)_1/(T,O,I)$",
+   "status": "certified",
+   "crossing_residual": "4.87e-8; cut 14, adjacent-cut drift 6.108e-11 / 9.549e-11"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "29/32",
+   "nu1_over_nu0_include_identity": "0.82751387913700835956",
+   "nu1_over_nu0_exclude_identity": "1.3797086001336847841",
+   "label": "Ising$\\times SU(2)_1/O$: $\\sigma\\otimes$ 4-cycle tower 2",
+   "series": "Ising$\\times SU(2)_1/(T,O,I)$",
+   "status": "certified",
+   "crossing_residual": "2.762e-9; cut 14, adjacent-cut drift 7.519e-11 / 1.193e-10"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "73/72",
+   "nu1_over_nu0_include_identity": "0.86339000263156468857",
+   "nu1_over_nu0_exclude_identity": "1.3312118020038476682",
+   "label": "Ising$\\times SU(2)_1/O$: $\\sigma\\otimes$ 3-cycle tower 2",
+   "series": "Ising$\\times SU(2)_1/(T,O,I)$",
+   "status": "certified",
+   "crossing_residual": "3.79e-8; cut 14, adjacent-cut drift 2.868e-10 / 4.24e-10"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "33/32",
+   "nu1_over_nu0_include_identity": "0.8588942656425430824",
+   "nu1_over_nu0_exclude_identity": "1.072236791007117355",
+   "label": "Ising$\\times SU(2)_1/O$: $\\epsilon\\otimes$ 4-cycle tower 0",
+   "series": "Ising$\\times SU(2)_1/(T,O,I)$",
+   "status": "certified",
+   "crossing_residual": "1.236e-8; cut 14, adjacent-cut drift 4.361e-10 / 5.341e-10"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "19/18",
+   "nu1_over_nu0_include_identity": "0.81805623198360076574",
+   "nu1_over_nu0_exclude_identity": "0.99407697871128669953",
+   "label": "Ising$\\times SU(2)_1/O$: $\\epsilon\\otimes$ 3-cycle tower 0",
+   "series": "Ising$\\times SU(2)_1/(T,O,I)$",
+   "status": "certified",
+   "crossing_residual": "1.292e-8; cut 14, adjacent-cut drift 2.492e-10 / 2.981e-10"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "9/8",
+   "nu1_over_nu0_include_identity": "0.73256136933625508272",
+   "nu1_over_nu0_exclude_identity": "0.84914186064911837666",
+   "label": "Ising$\\times SU(2)_1/O$: $\\epsilon\\otimes$ edge half-turn ground twist",
+   "series": "Ising$\\times SU(2)_1/(T,O,I)$",
+   "status": "certified",
+   "crossing_residual": "2.201e-10; cut 16, adjacent-cut drift 1.735e-12 / 1.994e-12"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "9/8",
+   "nu1_over_nu0_include_identity": "0.89175327014440960743",
+   "nu1_over_nu0_exclude_identity": "1.1984910692741028738",
+   "label": "Ising$\\times SU(2)_1/O$: $1\\otimes$ edge half-turn excited twist",
+   "series": "Ising$\\times SU(2)_1/(T,O,I)$",
+   "status": "certified",
+   "crossing_residual": "2.221e-8; cut 14, adjacent-cut drift 6.755e-10 / 8.833e-10"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "9/8",
+   "nu1_over_nu0_include_identity": "0.73143566945497077625",
+   "nu1_over_nu0_exclude_identity": "0.90996608441002865901",
+   "label": "Ising$\\times SU(2)_1/O$: $\\epsilon\\otimes$ face half-turn ground twist",
+   "series": "Ising$\\times SU(2)_1/(T,O,I)$",
+   "status": "certified",
+   "crossing_residual": "3.674e-10; cut 16, adjacent-cut drift 2.765e-12 / 3.395e-12"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "9/8",
+   "nu1_over_nu0_include_identity": "0.88369459722523142446",
+   "nu1_over_nu0_exclude_identity": "1.4093602386748464296",
+   "label": "Ising$\\times SU(2)_1/O$: $1\\otimes$ face half-turn excited twist",
+   "series": "Ising$\\times SU(2)_1/(T,O,I)$",
+   "status": "certified",
+   "crossing_residual": "2.33e-8; cut 14, adjacent-cut drift 1.047e-9 / 1.592e-9"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "11/9",
+   "nu1_over_nu0_include_identity": "0.90460201023634100937",
+   "nu1_over_nu0_exclude_identity": "1.2390287553110176874",
+   "label": "Ising$\\times SU(2)_1/O$: $\\epsilon\\otimes$ 3-cycle tower 1",
+   "series": "Ising$\\times SU(2)_1/(T,O,I)$",
+   "status": "certified",
+   "crossing_residual": "6.044e-8; cut 14, adjacent-cut drift 2.052e-9 / 2.728e-9"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "5/4",
+   "nu1_over_nu0_include_identity": "0.91403227249189400277",
+   "nu1_over_nu0_exclude_identity": "1.193148047628245409",
+   "label": "Ising$\\times SU(2)_1/O$: $\\sigma\\otimes$ edge half-turn excited twist",
+   "series": "Ising$\\times SU(2)_1/(T,O,I)$",
+   "status": "certified",
+   "crossing_residual": "5.378e-8; cut 14, adjacent-cut drift 1.589e-9 / 2.024e-9"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "5/4",
+   "nu1_over_nu0_include_identity": "0.9052068167823798901",
+   "nu1_over_nu0_exclude_identity": "1.3734279485192810832",
+   "label": "Ising$\\times SU(2)_1/O$: $\\sigma\\otimes$ face half-turn excited twist",
+   "series": "Ising$\\times SU(2)_1/(T,O,I)$",
+   "status": "certified",
+   "crossing_residual": "6.246e-8; cut 14, adjacent-cut drift 2.935e-9 / 4.269e-9"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "41/32",
+   "nu1_over_nu0_include_identity": "0.98457749200334407977",
+   "nu1_over_nu0_exclude_identity": "1.4649284881268121568",
+   "label": "Ising$\\times SU(2)_1/O$: $\\epsilon\\otimes$ 4-cycle tower 1",
+   "series": "Ising$\\times SU(2)_1/(T,O,I)$",
+   "status": "certified",
+   "crossing_residual": "5.234e-8; cut 14, adjacent-cut drift 2.991e-9 / 4.26e-9"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "25/18",
+   "nu1_over_nu0_include_identity": "1.0323687644997653551",
+   "nu1_over_nu0_exclude_identity": "1.5730337751358557893",
+   "label": "Ising$\\times SU(2)_1/O$: $1\\otimes$ 3-cycle tower 3",
+   "series": "Ising$\\times SU(2)_1/(T,O,I)$",
+   "status": "certified",
+   "crossing_residual": "5.096e-7; cut 14, adjacent-cut drift 1.168e-8 / 1.694e-8"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "109/72",
+   "nu1_over_nu0_include_identity": "1.0428442092560472426",
+   "nu1_over_nu0_exclude_identity": "1.529348953957101935",
+   "label": "Ising$\\times SU(2)_1/O$: $\\sigma\\otimes$ 3-cycle tower 3",
+   "series": "Ising$\\times SU(2)_1/(T,O,I)$",
+   "status": "certified",
+   "crossing_residual": "3.96e-7; cut 14, adjacent-cut drift 2.343e-8 / 3.287e-8"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "49/32",
+   "nu1_over_nu0_include_identity": "1.1328958777115115277",
+   "nu1_over_nu0_exclude_identity": "1.7644275293457356833",
+   "label": "Ising$\\times SU(2)_1/O$: $1\\otimes$ 4-cycle tower 3",
+   "series": "Ising$\\times SU(2)_1/(T,O,I)$",
+   "status": "certified",
+   "crossing_residual": "4.015e-7; cut 14, adjacent-cut drift 3.357e-8 / 4.933e-8"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "53/32",
+   "nu1_over_nu0_include_identity": "1.1413304133472662157",
+   "nu1_over_nu0_exclude_identity": "1.7115646110517300254",
+   "label": "Ising$\\times SU(2)_1/O$: $\\sigma\\otimes$ 4-cycle tower 3",
+   "series": "Ising$\\times SU(2)_1/(T,O,I)$",
+   "status": "certified",
+   "crossing_residual": "5.11e-7; cut 14, adjacent-cut drift 5.645e-8 / 8.037e-8"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "57/32",
+   "nu1_over_nu0_include_identity": "1.1807659479709588291",
+   "nu1_over_nu0_exclude_identity": "1.9584405665215405122",
+   "label": "Ising$\\times SU(2)_1/O$: $\\epsilon\\otimes$ 4-cycle tower 2",
+   "series": "Ising$\\times SU(2)_1/(T,O,I)$",
+   "status": "certified",
+   "crossing_residual": "1.544e-6; cut 14, adjacent-cut drift 3.052e-7 / 4.706e-7"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "17/9",
+   "nu1_over_nu0_include_identity": "1.1429810325364775547",
+   "nu1_over_nu0_exclude_identity": "1.7877071011999476226",
+   "label": "Ising$\\times SU(2)_1/O$: $\\epsilon\\otimes$ 3-cycle tower 2",
+   "series": "Ising$\\times SU(2)_1/(T,O,I)$",
+   "status": "certified",
+   "crossing_residual": "2.979e-6; cut 14, adjacent-cut drift 6.858e-7 / 1.01e-6"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "1/50",
+   "nu1_over_nu0_include_identity": "0.02663845980352369608",
+   "nu1_over_nu0_exclude_identity": "0.034568011411423853947",
+   "label": "Ising$\\times SU(2)_1/I$: $1\\otimes$ 5-cycle (+) tower 0",
+   "series": "Ising$\\times SU(2)_1/(T,O,I)$",
+   "status": "certified",
+   "crossing_residual": "2.742e-10; cut 14, adjacent-cut drift 3.36e-29 / 9.383e-29"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "1/18",
+   "nu1_over_nu0_include_identity": "0.073789035833571594699",
+   "nu1_over_nu0_exclude_identity": "0.091271669607354622731",
+   "label": "Ising$\\times SU(2)_1/I$: $1\\otimes$ 3-cycle tower 0",
+   "series": "Ising$\\times SU(2)_1/(T,O,I)$",
+   "status": "certified",
+   "crossing_residual": "6.497e-10; cut 14, adjacent-cut drift 1.148e-16 / 1.418e-16"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "2/25",
+   "nu1_over_nu0_include_identity": "0.10597896360286244649",
+   "nu1_over_nu0_exclude_identity": "0.14280898778156084311",
+   "label": "Ising$\\times SU(2)_1/I$: $1\\otimes$ 5-cycle (-) tower 0",
+   "series": "Ising$\\times SU(2)_1/(T,O,I)$",
+   "status": "certified",
+   "crossing_residual": "3.466e-9; cut 14, adjacent-cut drift 3.114e-16 / 4.183e-16"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "1/8",
+   "nu1_over_nu0_include_identity": "0.16377447060368173542",
+   "nu1_over_nu0_exclude_identity": "0.19247086661651904019",
+   "label": "Ising$\\times SU(2)_1/I$: $1\\otimes$ double transposition ground twist",
+   "series": "Ising$\\times SU(2)_1/(T,O,I)$",
+   "status": "certified",
+   "crossing_residual": "1.407e-9; cut 16, adjacent-cut drift 0.0 / 0.0"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "29/200",
+   "nu1_over_nu0_include_identity": "0.18834378624603287931",
+   "nu1_over_nu0_exclude_identity": "0.23372558473728270049",
+   "label": "Ising$\\times SU(2)_1/I$: $\\sigma\\otimes$ 5-cycle (+) tower 0",
+   "series": "Ising$\\times SU(2)_1/(T,O,I)$",
+   "status": "certified",
+   "crossing_residual": "6.248e-10; cut 14, adjacent-cut drift 6.924e-15 / 8.56e-15"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "9/50",
+   "nu1_over_nu0_include_identity": "0.23064798849270670647",
+   "nu1_over_nu0_exclude_identity": "0.34821600362416843264",
+   "label": "Ising$\\times SU(2)_1/I$: $1\\otimes$ 5-cycle (-) tower 1",
+   "series": "Ising$\\times SU(2)_1/(T,O,I)$",
+   "status": "certified",
+   "crossing_residual": "1.058e-8; cut 14, adjacent-cut drift 9.162e-15 / 1.37e-14"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "13/72",
+   "nu1_over_nu0_include_identity": "0.23123673337104510271",
+   "nu1_over_nu0_exclude_identity": "0.2761344558774936217",
+   "label": "Ising$\\times SU(2)_1/I$: $\\sigma\\otimes$ 3-cycle tower 0",
+   "series": "Ising$\\times SU(2)_1/(T,O,I)$",
+   "status": "certified",
+   "crossing_residual": "1.073e-9; cut 14, adjacent-cut drift 5.255e-15 / 6.252e-15"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "41/200",
+   "nu1_over_nu0_include_identity": "0.25944602094351285245",
+   "nu1_over_nu0_exclude_identity": "0.33234347808281336496",
+   "label": "Ising$\\times SU(2)_1/I$: $\\sigma\\otimes$ 5-cycle (-) tower 0",
+   "series": "Ising$\\times SU(2)_1/(T,O,I)$",
+   "status": "certified",
+   "crossing_residual": "1.114e-9; cut 14, adjacent-cut drift 5.547e-15 / 7.062e-15"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "2/9",
+   "nu1_over_nu0_include_identity": "0.27945206450546897385",
+   "nu1_over_nu0_exclude_identity": "0.37840024632595252646",
+   "label": "Ising$\\times SU(2)_1/I$: $1\\otimes$ 3-cycle tower 1",
+   "series": "Ising$\\times SU(2)_1/(T,O,I)$",
+   "status": "certified",
+   "crossing_residual": "7.573e-9; cut 14, adjacent-cut drift 1.899e-14 / 2.55e-14"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "1/4",
+   "nu1_over_nu0_include_identity": "0.30888161815012530253",
+   "nu1_over_nu0_exclude_identity": "0.35392208652911848268",
+   "label": "Ising$\\times SU(2)_1/I$: $\\sigma\\otimes$ double transposition ground twist",
+   "series": "Ising$\\times SU(2)_1/(T,O,I)$",
+   "status": "certified",
+   "crossing_residual": "7.301e-10; cut 16, adjacent-cut drift 0.0 / 0.0"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "61/200",
+   "nu1_over_nu0_include_identity": "0.36751401587460726341",
+   "nu1_over_nu0_exclude_identity": "0.51722033936383616481",
+   "label": "Ising$\\times SU(2)_1/I$: $\\sigma\\otimes$ 5-cycle (-) tower 1",
+   "series": "Ising$\\times SU(2)_1/(T,O,I)$",
+   "status": "certified",
+   "crossing_residual": "3.525e-9; cut 14, adjacent-cut drift 2.037e-14 / 2.831e-14"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "8/25",
+   "nu1_over_nu0_include_identity": "0.38583980234528122145",
+   "nu1_over_nu0_exclude_identity": "0.57212437009102171992",
+   "label": "Ising$\\times SU(2)_1/I$: $1\\otimes$ 5-cycle (+) tower 1",
+   "series": "Ising$\\times SU(2)_1/(T,O,I)$",
+   "status": "certified",
+   "crossing_residual": "1.727e-9; cut 14, adjacent-cut drift 5.722e-14 / 8.351e-14"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "25/72",
+   "nu1_over_nu0_include_identity": "0.41116494589664023969",
+   "nu1_over_nu0_exclude_identity": "0.53047915202329978561",
+   "label": "Ising$\\times SU(2)_1/I$: $\\sigma\\otimes$ 3-cycle tower 1",
+   "series": "Ising$\\times SU(2)_1/(T,O,I)$",
+   "status": "certified",
+   "crossing_residual": "3.036e-9; cut 14, adjacent-cut drift 3.856e-14 / 4.925e-14"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "89/200",
+   "nu1_over_nu0_include_identity": "0.50671991518840368755",
+   "nu1_over_nu0_exclude_identity": "0.70593505824795624986",
+   "label": "Ising$\\times SU(2)_1/I$: $\\sigma\\otimes$ 5-cycle (+) tower 1",
+   "series": "Ising$\\times SU(2)_1/(T,O,I)$",
+   "status": "certified",
+   "crossing_residual": "9.513e-10; cut 14, adjacent-cut drift 2.287e-13 / 3.132e-13"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "18/25",
+   "nu1_over_nu0_include_identity": "0.72954192018765959019",
+   "nu1_over_nu0_exclude_identity": "1.0605969480658857534",
+   "label": "Ising$\\times SU(2)_1/I$: $1\\otimes$ 5-cycle (+) tower 2",
+   "series": "Ising$\\times SU(2)_1/(T,O,I)$",
+   "status": "certified",
+   "crossing_residual": "8.605e-9; cut 14, adjacent-cut drift 8.425e-12 / 1.19e-11"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "169/200",
+   "nu1_over_nu0_include_identity": "0.80055708557297345037",
+   "nu1_over_nu0_exclude_identity": "1.1095529037192474926",
+   "label": "Ising$\\times SU(2)_1/I$: $\\sigma\\otimes$ 5-cycle (+) tower 2",
+   "series": "Ising$\\times SU(2)_1/(T,O,I)$",
+   "status": "certified",
+   "crossing_residual": "6.708e-9; cut 14, adjacent-cut drift 3.285e-11 / 4.43e-11"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "8/9",
+   "nu1_over_nu0_include_identity": "0.81719432107753758071",
+   "nu1_over_nu0_exclude_identity": "1.1008985453508566802",
+   "label": "Ising$\\times SU(2)_1/I$: $1\\otimes$ 3-cycle tower 2",
+   "series": "Ising$\\times SU(2)_1/(T,O,I)$",
+   "status": "certified",
+   "crossing_residual": "8.803e-8; cut 14, adjacent-cut drift 5.642e-11 / 7.411e-11"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "49/50",
+   "nu1_over_nu0_include_identity": "0.84762896105188260879",
+   "nu1_over_nu0_exclude_identity": "1.303840394263506601",
+   "label": "Ising$\\times SU(2)_1/I$: $1\\otimes$ 5-cycle (-) tower 2",
+   "series": "Ising$\\times SU(2)_1/(T,O,I)$",
+   "status": "certified",
+   "crossing_residual": "1.9e-7; cut 14, adjacent-cut drift 1.542e-10 / 2.276e-10"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "73/72",
+   "nu1_over_nu0_include_identity": "0.8652771073546203842",
+   "nu1_over_nu0_exclude_identity": "1.1272717715937246017",
+   "label": "Ising$\\times SU(2)_1/I$: $\\sigma\\otimes$ 3-cycle tower 2",
+   "series": "Ising$\\times SU(2)_1/(T,O,I)$",
+   "status": "certified",
+   "crossing_residual": "7.032e-8; cut 14, adjacent-cut drift 2.613e-10 / 3.325e-10"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "51/50",
+   "nu1_over_nu0_include_identity": "0.87475428655027626846",
+   "nu1_over_nu0_exclude_identity": "1.017238537271313397",
+   "label": "Ising$\\times SU(2)_1/I$: $\\epsilon\\otimes$ 5-cycle (+) tower 0",
+   "series": "Ising$\\times SU(2)_1/(T,O,I)$",
+   "status": "certified",
+   "crossing_residual": "2.21e-8; cut 14, adjacent-cut drift 6.452e-10 / 7.407e-10"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "19/18",
+   "nu1_over_nu0_include_identity": "0.8175143224815590996",
+   "nu1_over_nu0_exclude_identity": "0.92834583223521384336",
+   "label": "Ising$\\times SU(2)_1/I$: $\\epsilon\\otimes$ 3-cycle tower 0",
+   "series": "Ising$\\times SU(2)_1/(T,O,I)$",
+   "status": "certified",
+   "crossing_residual": "1.473e-8; cut 14, adjacent-cut drift 2.791e-10 / 3.138e-10"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "27/25",
+   "nu1_over_nu0_include_identity": "0.77211882472444722495",
+   "nu1_over_nu0_exclude_identity": "0.92248851646323819603",
+   "label": "Ising$\\times SU(2)_1/I$: $\\epsilon\\otimes$ 5-cycle (-) tower 0",
+   "series": "Ising$\\times SU(2)_1/(T,O,I)$",
+   "status": "certified",
+   "crossing_residual": "1.065e-8; cut 14, adjacent-cut drift 1.963e-10 / 2.315e-10"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "221/200",
+   "nu1_over_nu0_include_identity": "0.88365433401652271187",
+   "nu1_over_nu0_exclude_identity": "1.2943047382097414176",
+   "label": "Ising$\\times SU(2)_1/I$: $\\sigma\\otimes$ 5-cycle (-) tower 2",
+   "series": "Ising$\\times SU(2)_1/(T,O,I)$",
+   "status": "certified",
+   "crossing_residual": "1.583e-7; cut 14, adjacent-cut drift 5.278e-10 / 7.453e-10"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "9/8",
+   "nu1_over_nu0_include_identity": "0.7324497776844857738",
+   "nu1_over_nu0_exclude_identity": "0.81082688563319045256",
+   "label": "Ising$\\times SU(2)_1/I$: $\\epsilon\\otimes$ double transposition ground twist",
+   "series": "Ising$\\times SU(2)_1/(T,O,I)$",
+   "status": "certified",
+   "crossing_residual": "3.735e-10; cut 16, adjacent-cut drift 1.769e-12 / 1.947e-12"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "9/8",
+   "nu1_over_nu0_include_identity": "0.89631423663722456409",
+   "nu1_over_nu0_exclude_identity": "1.0901625570775273068",
+   "label": "Ising$\\times SU(2)_1/I$: $1\\otimes$ double transposition excited twist",
+   "series": "Ising$\\times SU(2)_1/(T,O,I)$",
+   "status": "certified",
+   "crossing_residual": "3.2e-8; cut 14, adjacent-cut drift 6.899e-10 / 8.248e-10"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "59/50",
+   "nu1_over_nu0_include_identity": "0.83495061155578948941",
+   "nu1_over_nu0_exclude_identity": "1.0783059390044571616",
+   "label": "Ising$\\times SU(2)_1/I$: $\\epsilon\\otimes$ 5-cycle (-) tower 1",
+   "series": "Ising$\\times SU(2)_1/(T,O,I)$",
+   "status": "certified",
+   "crossing_residual": "4.148e-8; cut 14, adjacent-cut drift 1.026e-9 / 1.297e-9"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "11/9",
+   "nu1_over_nu0_include_identity": "0.90417077388629428647",
+   "nu1_over_nu0_exclude_identity": "1.101110908795316866",
+   "label": "Ising$\\times SU(2)_1/I$: $\\epsilon\\otimes$ 3-cycle tower 1",
+   "series": "Ising$\\times SU(2)_1/(T,O,I)$",
+   "status": "certified",
+   "crossing_residual": "8.862e-8; cut 14, adjacent-cut drift 1.993e-9 / 2.385e-9"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "5/4",
+   "nu1_over_nu0_include_identity": "0.9189988175509360322",
+   "nu1_over_nu0_exclude_identity": "1.0973487783625844957",
+   "label": "Ising$\\times SU(2)_1/I$: $\\sigma\\otimes$ double transposition excited twist",
+   "series": "Ising$\\times SU(2)_1/(T,O,I)$",
+   "status": "certified",
+   "crossing_residual": "8.009e-8; cut 14, adjacent-cut drift 1.665e-9 / 1.957e-9"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "32/25",
+   "nu1_over_nu0_include_identity": "0.96600102603120242863",
+   "nu1_over_nu0_exclude_identity": "1.4388500518311421215",
+   "label": "Ising$\\times SU(2)_1/I$: $1\\otimes$ 5-cycle (-) tower 3",
+   "series": "Ising$\\times SU(2)_1/(T,O,I)$",
+   "status": "certified",
+   "crossing_residual": "7.822e-7; cut 14, adjacent-cut drift 3.037e-9 / 4.335e-9"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "33/25",
+   "nu1_over_nu0_include_identity": "1.0275784471844735402",
+   "nu1_over_nu0_exclude_identity": "1.3424001391699613891",
+   "label": "Ising$\\times SU(2)_1/I$: $\\epsilon\\otimes$ 5-cycle (+) tower 1",
+   "series": "Ising$\\times SU(2)_1/(T,O,I)$",
+   "status": "certified",
+   "crossing_residual": "8.401e-8; cut 14, adjacent-cut drift 4.528e-9 / 5.749e-9"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "25/18",
+   "nu1_over_nu0_include_identity": "1.0388782005602438882",
+   "nu1_over_nu0_exclude_identity": "1.3448669599234277302",
+   "label": "Ising$\\times SU(2)_1/I$: $1\\otimes$ 3-cycle tower 3",
+   "series": "Ising$\\times SU(2)_1/(T,O,I)$",
+   "status": "certified",
+   "crossing_residual": "9.509e-7; cut 14, adjacent-cut drift 8.619e-9 / 1.085e-8"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "281/200",
+   "nu1_over_nu0_include_identity": "0.97906989094769650038",
+   "nu1_over_nu0_exclude_identity": "1.4040561915554469955",
+   "label": "Ising$\\times SU(2)_1/I$: $\\sigma\\otimes$ 5-cycle (-) tower 3",
+   "series": "Ising$\\times SU(2)_1/(T,O,I)$",
+   "status": "certified",
+   "crossing_residual": "6.728e-7; cut 14, adjacent-cut drift 5.39e-9 / 7.443e-9"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "109/72",
+   "nu1_over_nu0_include_identity": "1.0508344247196261236",
+   "nu1_over_nu0_exclude_identity": "1.3311468834145456717",
+   "label": "Ising$\\times SU(2)_1/I$: $\\sigma\\otimes$ 3-cycle tower 3",
+   "series": "Ising$\\times SU(2)_1/(T,O,I)$",
+   "status": "certified",
+   "crossing_residual": "7.858e-7; cut 14, adjacent-cut drift 1.673e-8 / 2.067e-8"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "81/50",
+   "nu1_over_nu0_include_identity": "1.2084915340885130781",
+   "nu1_over_nu0_exclude_identity": "1.585385285944111867",
+   "label": "Ising$\\times SU(2)_1/I$: $1\\otimes$ 5-cycle (+) tower 3",
+   "series": "Ising$\\times SU(2)_1/(T,O,I)$",
+   "status": "certified",
+   "crossing_residual": "8.475e-7; cut 14, adjacent-cut drift 3.81e-8 / 4.832e-8"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "43/25",
+   "nu1_over_nu0_include_identity": "1.1935325629749127031",
+   "nu1_over_nu0_exclude_identity": "1.6365446667686118876",
+   "label": "Ising$\\times SU(2)_1/I$: $\\epsilon\\otimes$ 5-cycle (+) tower 2",
+   "series": "Ising$\\times SU(2)_1/(T,O,I)$",
+   "status": "certified",
+   "crossing_residual": "1.905e-6; cut 14, adjacent-cut drift 2.47e-7 / 3.251e-7"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "349/200",
+   "nu1_over_nu0_include_identity": "1.2174282871401625351",
+   "nu1_over_nu0_exclude_identity": "1.5648110907938285601",
+   "label": "Ising$\\times SU(2)_1/I$: $\\sigma\\otimes$ 5-cycle (+) tower 3",
+   "series": "Ising$\\times SU(2)_1/(T,O,I)$",
+   "status": "certified",
+   "crossing_residual": "8.415e-7; cut 14, adjacent-cut drift 7.974e-8 / 9.936e-8"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "17/9",
+   "nu1_over_nu0_include_identity": "1.1481861206108905852",
+   "nu1_over_nu0_exclude_identity": "1.5078181363375391348",
+   "label": "Ising$\\times SU(2)_1/I$: $\\epsilon\\otimes$ 3-cycle tower 2",
+   "series": "Ising$\\times SU(2)_1/(T,O,I)$",
+   "status": "certified",
+   "crossing_residual": "4.39e-6; cut 14, adjacent-cut drift 7.31e-7 / 9.286e-7"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "99/50",
+   "nu1_over_nu0_include_identity": "1.1012658316551312731",
+   "nu1_over_nu0_exclude_identity": "1.6543005512687176628",
+   "label": "Ising$\\times SU(2)_1/I$: $\\epsilon\\otimes$ 5-cycle (-) tower 2",
+   "series": "Ising$\\times SU(2)_1/(T,O,I)$",
+   "status": "certified",
+   "crossing_residual": "5.045e-6; cut 14, adjacent-cut drift 1.198e-6 / 1.711e-6"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "1/8",
+   "nu1_over_nu0_include_identity": "0.16393184162755288213",
+   "nu1_over_nu0_exclude_identity": "0.29210966332829198229",
+   "label": "so(3)$_1/2T$: double transposition Ramond twist",
+   "series": "so(3)$_1/2\\Gamma$: isolated $T,O,I$ orbifolds",
+   "status": "certified",
+   "crossing_residual": "2.085e-8; full-grid peel at cut 10, adjacent-cut drift 2.92e-12 / 5.361e-12"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "1/4",
+   "nu1_over_nu0_include_identity": "0.30821749943407162279",
+   "nu1_over_nu0_exclude_identity": "0.4927864191311664219",
+   "label": "so(3)$_1/2T$: double transposition twist",
+   "series": "so(3)$_1/2\\Gamma$: isolated $T,O,I$ orbifolds",
+   "status": "certified",
+   "crossing_residual": "3.317e-8; full-grid peel at cut 10, adjacent-cut drift 8.375e-11 / 1.327e-10"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "1/8",
+   "nu1_over_nu0_include_identity": "0.16380834631769624296",
+   "nu1_over_nu0_exclude_identity": "0.2356096120264628317",
+   "label": "so(3)$_1/2O$: edge half-turn Ramond twist",
+   "series": "so(3)$_1/2\\Gamma$: isolated $T,O,I$ orbifolds",
+   "status": "certified",
+   "crossing_residual": "2.077e-8; full-grid peel at cut 10, adjacent-cut drift 1.225e-9 / 1.763e-9"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "1/8",
+   "nu1_over_nu0_include_identity": "0.16393184162755288213",
+   "nu1_over_nu0_exclude_identity": "0.29210966332829198229",
+   "label": "so(3)$_1/2O$: face half-turn Ramond twist",
+   "series": "so(3)$_1/2\\Gamma$: isolated $T,O,I$ orbifolds",
+   "status": "certified",
+   "crossing_residual": "2.085e-8; full-grid peel at cut 10, adjacent-cut drift 2.92e-12 / 5.361e-12"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "1/4",
+   "nu1_over_nu0_include_identity": "0.3085670666621571761",
+   "nu1_over_nu0_exclude_identity": "0.41704955395328601346",
+   "label": "so(3)$_1/2O$: edge half-turn twist",
+   "series": "so(3)$_1/2\\Gamma$: isolated $T,O,I$ orbifolds",
+   "status": "certified",
+   "crossing_residual": "3.275e-8; full-grid peel at cut 10, adjacent-cut drift 7.244e-9 / 9.79e-9"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "1/4",
+   "nu1_over_nu0_include_identity": "0.30821749943407162279",
+   "nu1_over_nu0_exclude_identity": "0.4927864191311664219",
+   "label": "so(3)$_1/2O$: face half-turn twist",
+   "series": "so(3)$_1/2\\Gamma$: isolated $T,O,I$ orbifolds",
+   "status": "certified",
+   "crossing_residual": "3.317e-8; full-grid peel at cut 10, adjacent-cut drift 8.375e-11 / 1.327e-10"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "1/8",
+   "nu1_over_nu0_include_identity": "0.16379059668500902663",
+   "nu1_over_nu0_exclude_identity": "0.20823958615622027144",
+   "label": "so(3)$_1/2I$: double transposition Ramond twist",
+   "series": "so(3)$_1/2\\Gamma$: isolated $T,O,I$ orbifolds",
+   "status": "certified",
+   "crossing_residual": "8.038e-9; full-grid peel at cut 14, adjacent-cut drift 5.88e-11 / 7.476e-11"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "1/4",
+   "nu1_over_nu0_include_identity": "0.30868488569743673327",
+   "nu1_over_nu0_exclude_identity": "0.37745440239872460983",
+   "label": "so(3)$_1/2I$: double transposition twist",
+   "series": "so(3)$_1/2\\Gamma$: isolated $T,O,I$ orbifolds",
+   "status": "certified",
+   "crossing_residual": "7.278e-9; full-grid peel at cut 14, adjacent-cut drift 3.139e-8 / 3.839e-8"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "1/9",
+   "nu1_over_nu0_include_identity": "0.14628833156781446562",
+   "nu1_over_nu0_exclude_identity": "0.20948874807480448803",
+   "label": "so(3)$_1/2T$: 3-cycle pair twist, tower 0",
+   "series": "so(3)$_1/2\\Gamma$: isolated $T,O,I$ orbifolds",
+   "status": "certified",
+   "crossing_residual": "1.349e-18; exact s-channel cells at cut 20 (c=1 cut 22), adjacent-cut drift 0 / 0"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "4/9",
+   "nu1_over_nu0_include_identity": "0.50255991308234400529",
+   "nu1_over_nu0_exclude_identity": "0.94561586012453806034",
+   "label": "so(3)$_1/2T$: 3-cycle pair twist, tower 1",
+   "series": "so(3)$_1/2\\Gamma$: isolated $T,O,I$ orbifolds",
+   "status": "certified",
+   "crossing_residual": "1.537e-17; exact s-channel cells at cut 20 (c=1 cut 22), adjacent-cut drift 1.0e-20 / 2.0e-20"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "16/9",
+   "nu1_over_nu0_include_identity": "1.1889165392885120401",
+   "nu1_over_nu0_exclude_identity": "2.1550103762176133205",
+   "label": "so(3)$_1/2T$: 3-cycle pair twist, tower 2",
+   "series": "so(3)$_1/2\\Gamma$: isolated $T,O,I$ orbifolds",
+   "status": "certified",
+   "crossing_residual": "2.848e-12; exact s-channel cells at cut 20 (c=1 cut 22), adjacent-cut drift 8.02e-14 / 1.372e-13"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "1/16",
+   "nu1_over_nu0_include_identity": "0.082976314288905316874",
+   "nu1_over_nu0_exclude_identity": "0.1241739919768565115",
+   "label": "so(3)$_1/2O$: 4-cycle twist, tower 0",
+   "series": "so(3)$_1/2\\Gamma$: isolated $T,O,I$ orbifolds",
+   "status": "certified",
+   "crossing_residual": "2.131e-19; exact s-channel cells at cut 20 (c=1 cut 22), adjacent-cut drift 0 / 0"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "1/9",
+   "nu1_over_nu0_include_identity": "0.14628833156781446562",
+   "nu1_over_nu0_exclude_identity": "0.20948874807480448803",
+   "label": "so(3)$_1/2O$: 3-cycle twist, tower 0",
+   "series": "so(3)$_1/2\\Gamma$: isolated $T,O,I$ orbifolds",
+   "status": "certified",
+   "crossing_residual": "1.349e-18; exact s-channel cells at cut 20 (c=1 cut 22), adjacent-cut drift 0 / 0"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "4/9",
+   "nu1_over_nu0_include_identity": "0.50255991308234400529",
+   "nu1_over_nu0_exclude_identity": "0.94561586012453806034",
+   "label": "so(3)$_1/2O$: 3-cycle twist, tower 1",
+   "series": "so(3)$_1/2\\Gamma$: isolated $T,O,I$ orbifolds",
+   "status": "certified",
+   "crossing_residual": "1.537e-17; exact s-channel cells at cut 20 (c=1 cut 22), adjacent-cut drift 1.0e-20 / 2.0e-20"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "9/16",
+   "nu1_over_nu0_include_identity": "0.6095436018719769605",
+   "nu1_over_nu0_exclude_identity": "1.3249341344419192179",
+   "label": "so(3)$_1/2O$: 4-cycle twist, tower 1",
+   "series": "so(3)$_1/2\\Gamma$: isolated $T,O,I$ orbifolds",
+   "status": "certified",
+   "crossing_residual": "5.021e-17; exact s-channel cells at cut 20 (c=1 cut 22), adjacent-cut drift 6.0e-20 / 1.0e-19"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "25/16",
+   "nu1_over_nu0_include_identity": "1.1676254529046836336",
+   "nu1_over_nu0_exclude_identity": "2.409050687806595955",
+   "label": "so(3)$_1/2O$: 4-cycle twist, tower 2",
+   "series": "so(3)$_1/2\\Gamma$: isolated $T,O,I$ orbifolds",
+   "status": "certified",
+   "crossing_residual": "8.971e-13; exact s-channel cells at cut 20 (c=1 cut 22), adjacent-cut drift 1.617e-14 / 3.093e-14"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "16/9",
+   "nu1_over_nu0_include_identity": "1.1889165392885120401",
+   "nu1_over_nu0_exclude_identity": "2.1550103762176133205",
+   "label": "so(3)$_1/2O$: 3-cycle twist, tower 2",
+   "series": "so(3)$_1/2\\Gamma$: isolated $T,O,I$ orbifolds",
+   "status": "certified",
+   "crossing_residual": "2.848e-12; exact s-channel cells at cut 20 (c=1 cut 22), adjacent-cut drift 8.02e-14 / 1.372e-13"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "1/25",
+   "nu1_over_nu0_include_identity": "0.053202098566227005783",
+   "nu1_over_nu0_exclude_identity": "0.069308908842462913616",
+   "label": "so(3)$_1/2I$: 5-cycle (+) twist, tower 0",
+   "series": "so(3)$_1/2\\Gamma$: isolated $T,O,I$ orbifolds",
+   "status": "certified",
+   "crossing_residual": "1.088e-19; exact s-channel cells at cut 20 (c=1 cut 22), adjacent-cut drift 0 / 0"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "1/9",
+   "nu1_over_nu0_include_identity": "0.14624689255336921786",
+   "nu1_over_nu0_exclude_identity": "0.18350583441976308055",
+   "label": "so(3)$_1/2I$: 3-cycle twist, tower 0",
+   "series": "so(3)$_1/2\\Gamma$: isolated $T,O,I$ orbifolds",
+   "status": "certified",
+   "crossing_residual": "1.305e-18; exact s-channel cells at cut 20 (c=1 cut 22), adjacent-cut drift 0 / 0"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "4/25",
+   "nu1_over_nu0_include_identity": "0.20717063000297253156",
+   "nu1_over_nu0_exclude_identity": "0.29132756929377476584",
+   "label": "so(3)$_1/2I$: 5-cycle (-) twist, tower 0",
+   "series": "so(3)$_1/2\\Gamma$: isolated $T,O,I$ orbifolds",
+   "status": "certified",
+   "crossing_residual": "3.845e-18; exact s-channel cells at cut 20 (c=1 cut 22), adjacent-cut drift 0 / 0"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "9/25",
+   "nu1_over_nu0_include_identity": "0.42155725167352184005",
+   "nu1_over_nu0_exclude_identity": "0.70801169592572114706",
+   "label": "so(3)$_1/2I$: 5-cycle (-) twist, tower 1",
+   "series": "so(3)$_1/2\\Gamma$: isolated $T,O,I$ orbifolds",
+   "status": "certified",
+   "crossing_residual": "8.567e-18; exact s-channel cells at cut 20 (c=1 cut 22), adjacent-cut drift 0 / 0"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "4/9",
+   "nu1_over_nu0_include_identity": "0.50182664401330432927",
+   "nu1_over_nu0_exclude_identity": "0.73249621391755148915",
+   "label": "so(3)$_1/2I$: 3-cycle twist, tower 1",
+   "series": "so(3)$_1/2\\Gamma$: isolated $T,O,I$ orbifolds",
+   "status": "certified",
+   "crossing_residual": "1.595e-17; exact s-channel cells at cut 20 (c=1 cut 22), adjacent-cut drift 0 / 0"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "16/25",
+   "nu1_over_nu0_include_identity": "0.6730569672709965132",
+   "nu1_over_nu0_exclude_identity": "1.0942643782521541298",
+   "label": "so(3)$_1/2I$: 5-cycle (+) twist, tower 1",
+   "series": "so(3)$_1/2\\Gamma$: isolated $T,O,I$ orbifolds",
+   "status": "certified",
+   "crossing_residual": "8.542e-17; exact s-channel cells at cut 20 (c=1 cut 22), adjacent-cut drift 9.0e-20 / 1.0e-19"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "36/25",
+   "nu1_over_nu0_include_identity": "1.1328216012703265894",
+   "nu1_over_nu0_exclude_identity": "1.7663032036871016628",
+   "label": "so(3)$_1/2I$: 5-cycle (+) twist, tower 2",
+   "series": "so(3)$_1/2\\Gamma$: isolated $T,O,I$ orbifolds",
+   "status": "certified",
+   "crossing_residual": "2.458e-13; exact s-channel cells at cut 20 (c=1 cut 22), adjacent-cut drift 2.658e-15 / 3.991e-15"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "16/9",
+   "nu1_over_nu0_include_identity": "1.1748185108957259879",
+   "nu1_over_nu0_exclude_identity": "1.6705914356924164737",
+   "label": "so(3)$_1/2I$: 3-cycle twist, tower 2",
+   "series": "so(3)$_1/2\\Gamma$: isolated $T,O,I$ orbifolds",
+   "status": "certified",
+   "crossing_residual": "2.973e-12; exact s-channel cells at cut 20 (c=1 cut 22), adjacent-cut drift 5.651e-14 / 7.803e-14"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "49/25",
+   "nu1_over_nu0_include_identity": "1.2038772327029247664",
+   "nu1_over_nu0_exclude_identity": "1.9925077333839382303",
+   "label": "so(3)$_1/2I$: 5-cycle (-) twist, tower 2",
+   "series": "so(3)$_1/2\\Gamma$: isolated $T,O,I$ orbifolds",
+   "status": "certified",
+   "crossing_residual": "8.663e-12; exact s-channel cells at cut 20 (c=1 cut 22), adjacent-cut drift 2.701e-13 / 4.265e-13"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "10/9",
+   "nu1_over_nu0_include_identity": "0.88141758115873673471",
+   "nu1_over_nu0_exclude_identity": "1.8435480556644724215",
+   "label": "so(3)$_1/2O$: 3-cycle twist, towers 1+2 (axis-Majorana excitation)",
+   "series": "so(3)$_1/2\\Gamma$: isolated $T,O,I$ orbifolds",
+   "status": "certified",
+   "crossing_residual": "2.008e-10; exact s-channel cells at cut 16 (c=1 cut 18), adjacent-cut drift 5.358e-12 / 1.04e-11"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "13/9",
+   "nu1_over_nu0_include_identity": "1.0789632791294520122",
+   "nu1_over_nu0_exclude_identity": "2.0915653129901248249",
+   "label": "so(3)$_1/2O$: 3-cycle twist, towers 0+3 (axis-Majorana excitation)",
+   "series": "so(3)$_1/2\\Gamma$: isolated $T,O,I$ orbifolds",
+   "status": "certified",
+   "crossing_residual": "2.312e-9; exact s-channel cells at cut 16 (c=1 cut 18), adjacent-cut drift 9.923e-11 / 1.776e-10"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "17/16",
+   "nu1_over_nu0_include_identity": "0.89160183070838750874",
+   "nu1_over_nu0_exclude_identity": "1.9566064075326552779",
+   "label": "so(3)$_1/2O$: 4-cycle twist, towers 1+2 (axis-Majorana excitation)",
+   "series": "so(3)$_1/2\\Gamma$: isolated $T,O,I$ orbifolds",
+   "status": "certified",
+   "crossing_residual": "1.514e-10; exact s-channel cells at cut 16 (c=1 cut 18), adjacent-cut drift 3.877e-12 / 7.829e-12"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "25/16",
+   "nu1_over_nu0_include_identity": "1.1347129747978688578",
+   "nu1_over_nu0_exclude_identity": "2.6023870260341599071",
+   "label": "so(3)$_1/2O$: 4-cycle twist, towers 0+3 (axis-Majorana excitation)",
+   "series": "so(3)$_1/2\\Gamma$: isolated $T,O,I$ orbifolds",
+   "status": "certified",
+   "crossing_residual": "8.64e-9; exact s-channel cells at cut 16 (c=1 cut 18), adjacent-cut drift 4.583e-10 / 9.336e-10"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "26/25",
+   "nu1_over_nu0_include_identity": "0.90916799792182896928",
+   "nu1_over_nu0_exclude_identity": "1.7887717120218907045",
+   "label": "so(3)$_1/2I$: 5-cycle (+) twist, towers 1+2 (axis-Majorana excitation)",
+   "series": "so(3)$_1/2\\Gamma$: isolated $T,O,I$ orbifolds",
+   "status": "certified",
+   "crossing_residual": "1.576e-10; exact s-channel cells at cut 16 (c=1 cut 18), adjacent-cut drift 3.523e-12 / 6.472e-12"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "13/9",
+   "nu1_over_nu0_include_identity": "1.0583861125279583358",
+   "nu1_over_nu0_exclude_identity": "1.5721929335566534819",
+   "label": "so(3)$_1/2I$: 3-cycle twist, towers 0+3 (axis-Majorana excitation)",
+   "series": "so(3)$_1/2\\Gamma$: isolated $T,O,I$ orbifolds",
+   "status": "certified",
+   "crossing_residual": "2.516e-9; exact s-channel cells at cut 16 (c=1 cut 18), adjacent-cut drift 7.76e-11 / 1.108e-10"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "34/25",
+   "nu1_over_nu0_include_identity": "1.0436863652586781376",
+   "nu1_over_nu0_exclude_identity": "1.8066718422712730015",
+   "label": "so(3)$_1/2I$: 5-cycle (-) twist, towers 0+3 (axis-Majorana excitation)",
+   "series": "so(3)$_1/2\\Gamma$: isolated $T,O,I$ orbifolds",
+   "status": "certified",
+   "crossing_residual": "8.937e-10; exact s-channel cells at cut 16 (c=1 cut 18), adjacent-cut drift 3.752e-11 / 6.124e-11"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "41/25",
+   "nu1_over_nu0_include_identity": "1.1541618831470124799",
+   "nu1_over_nu0_exclude_identity": "1.9148084602311333675",
+   "label": "so(3)$_1/2I$: 5-cycle (+) twist, towers 0+3 (axis-Majorana excitation)",
+   "series": "so(3)$_1/2\\Gamma$: isolated $T,O,I$ orbifolds",
+   "status": "certified",
+   "crossing_residual": "1.059e-8; exact s-channel cells at cut 16 (c=1 cut 18), adjacent-cut drift 4.5e-10 / 7.036e-10"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "29/25",
+   "nu1_over_nu0_include_identity": "0.90818788631501397399",
+   "nu1_over_nu0_exclude_identity": "1.7042908937189737063",
+   "label": "so(3)$_1/2I$: 5-cycle (-) twist, towers 1+2 (axis-Majorana excitation)",
+   "series": "so(3)$_1/2\\Gamma$: isolated $T,O,I$ orbifolds",
+   "status": "certified",
+   "crossing_residual": "2.197e-10; exact s-channel cells at cut 16 (c=1 cut 18), adjacent-cut drift 6.507e-12 / 1.149e-11"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "10/9",
+   "nu1_over_nu0_include_identity": "0.86891373612106924581",
+   "nu1_over_nu0_exclude_identity": "1.4187035383352802016",
+   "label": "so(3)$_1/2I$: 3-cycle twist, towers 1+2 (axis-Majorana excitation)",
+   "series": "so(3)$_1/2\\Gamma$: isolated $T,O,I$ orbifolds",
+   "status": "certified",
+   "crossing_residual": "2.061e-10; exact s-channel cells at cut 16 (c=1 cut 18), adjacent-cut drift 4.132e-12 / 6.471e-12"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "5/4",
+   "nu1_over_nu0_include_identity": "0.94224866014806804362",
+   "nu1_over_nu0_exclude_identity": "1.9609720221300630406",
+   "label": "so(3)$_1/2T$: double transposition twist (axis-Majorana excitation)",
+   "series": "so(3)$_1/2\\Gamma$: isolated $T,O,I$ orbifolds",
+   "status": "certified",
+   "crossing_residual": "1.976e-8; full-grid peel at cut 14, adjacent-cut drift 4.048e-8 / 8.424e-8"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "9/8",
+   "nu1_over_nu0_include_identity": "0.82935922633326836139",
+   "nu1_over_nu0_exclude_identity": "1.4172017779706662789",
+   "label": "so(3)$_1/2T$: double transposition Ramond twist (perpendicular-Majorana excitation)",
+   "series": "so(3)$_1/2\\Gamma$: isolated $T,O,I$ orbifolds",
+   "status": "certified",
+   "crossing_residual": "6.198e-9; full-grid peel at cut 14, adjacent-cut drift 5.295e-9 / 9.049e-9"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "5/4",
+   "nu1_over_nu0_include_identity": "0.92771238290602600545",
+   "nu1_over_nu0_exclude_identity": "1.4352983392011238451",
+   "label": "so(3)$_1/2O$: edge half-turn twist (axis-Majorana excitation)",
+   "series": "so(3)$_1/2\\Gamma$: isolated $T,O,I$ orbifolds",
+   "status": "certified",
+   "crossing_residual": "2.043e-8; full-grid peel at cut 14, adjacent-cut drift 1.328e-7 / 2.055e-7"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "5/4",
+   "nu1_over_nu0_include_identity": "0.94224866014806804362",
+   "nu1_over_nu0_exclude_identity": "1.9609720221300630406",
+   "label": "so(3)$_1/2O$: face half-turn twist (axis-Majorana excitation)",
+   "series": "so(3)$_1/2\\Gamma$: isolated $T,O,I$ orbifolds",
+   "status": "certified",
+   "crossing_residual": "1.976e-8; full-grid peel at cut 14, adjacent-cut drift 4.048e-8 / 8.424e-8"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "9/8",
+   "nu1_over_nu0_include_identity": "0.83837657167206730348",
+   "nu1_over_nu0_exclude_identity": "1.1703626113894386982",
+   "label": "so(3)$_1/2O$: edge half-turn Ramond twist (perpendicular-Majorana excitation)",
+   "series": "so(3)$_1/2\\Gamma$: isolated $T,O,I$ orbifolds",
+   "status": "certified",
+   "crossing_residual": "2.384e-10; exact s-channel cells at cut 18 (c=1 cut 20), adjacent-cut drift 1.34e-14 / 1.83e-14"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "9/8",
+   "nu1_over_nu0_include_identity": "0.82935922563440460078",
+   "nu1_over_nu0_exclude_identity": "1.4172017767763734028",
+   "label": "so(3)$_1/2O$: face half-turn Ramond twist (perpendicular-Majorana excitation)",
+   "series": "so(3)$_1/2\\Gamma$: isolated $T,O,I$ orbifolds",
+   "status": "certified",
+   "crossing_residual": "4.536e-10; exact s-channel cells at cut 18 (c=1 cut 20), adjacent-cut drift 1.58e-14 / 2.59e-14"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "5/4",
+   "nu1_over_nu0_include_identity": "0.92866903376115998622",
+   "nu1_over_nu0_exclude_identity": "1.2232397469904578288",
+   "label": "so(3)$_1/2I$: double transposition twist (axis-Majorana excitation)",
+   "series": "so(3)$_1/2\\Gamma$: isolated $T,O,I$ orbifolds",
+   "status": "certified",
+   "crossing_residual": "2.532e-7; full-grid peel at cut 16, adjacent-cut drift 1.19e-6 / 1.568e-6"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "9/8",
+   "nu1_over_nu0_include_identity": "0.84439005358840935263",
+   "nu1_over_nu0_exclude_identity": "1.0502699820718089536",
+   "label": "so(3)$_1/2I$: double transposition Ramond twist (perpendicular-Majorana excitation)",
+   "series": "so(3)$_1/2\\Gamma$: isolated $T,O,I$ orbifolds",
+   "status": "certified",
+   "crossing_residual": "1.695e-10; exact s-channel cells at cut 17 (c=1 cut 18), adjacent-cut drift 1.02e-14 / 1.25e-14"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "10/9",
+   "nu1_over_nu0_include_identity": "0.88141758115873673471",
+   "nu1_over_nu0_exclude_identity": "1.8435480556644724215",
+   "label": "so(3)$_1/2T$: 3-cycle pair twist, towers 1+2 (axis-Majorana excitation)",
+   "series": "so(3)$_1/2\\Gamma$: isolated $T,O,I$ orbifolds",
+   "status": "certified",
+   "crossing_residual": "2.008e-10; exact s-channel cells at cut 16 (c=1 cut 18), adjacent-cut drift 5.358e-12 / 1.04e-11"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "13/9",
+   "nu1_over_nu0_include_identity": "1.0789632791294520122",
+   "nu1_over_nu0_exclude_identity": "2.0915653129901248249",
+   "label": "so(3)$_1/2T$: 3-cycle pair twist, towers 0+3 (axis-Majorana excitation)",
+   "series": "so(3)$_1/2\\Gamma$: isolated $T,O,I$ orbifolds",
+   "status": "certified",
+   "crossing_residual": "2.312e-9; exact s-channel cells at cut 16 (c=1 cut 18), adjacent-cut drift 9.923e-11 / 1.776e-10"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "11/72",
+   "nu1_over_nu0_include_identity": "0.19833795654738579803",
+   "nu1_over_nu0_exclude_identity": "0.24670708213474699202",
+   "label": "so(3)$_1/2I$: 3-cycle Ramond twist, towers 0+1",
+   "series": "so(3)$_1/2\\Gamma$: isolated $T,O,I$ orbifolds",
+   "status": "certified",
+   "crossing_residual": "3.098e-9; exact s-channel cells at cut 12 (c=1 cut 14), adjacent-cut drift 8.288e-13 / 1.026e-12"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "59/72",
+   "nu1_over_nu0_include_identity": "0.75795640182746868521",
+   "nu1_over_nu0_exclude_identity": "1.0294009868791462432",
+   "label": "so(3)$_1/2I$: 3-cycle Ramond twist, towers 0+2",
+   "series": "so(3)$_1/2\\Gamma$: isolated $T,O,I$ orbifolds",
+   "status": "certified",
+   "crossing_residual": "1.073e-9; exact s-channel cells at cut 14 (c=1 cut 16), adjacent-cut drift 1.075e-11 / 1.426e-11"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "43/200",
+   "nu1_over_nu0_include_identity": "0.27092455609711159244",
+   "nu1_over_nu0_exclude_identity": "0.36567169651352126632",
+   "label": "so(3)$_1/2I$: 5-cycle (+) Ramond twist, towers 0+1",
+   "series": "so(3)$_1/2\\Gamma$: isolated $T,O,I$ orbifolds",
+   "status": "certified",
+   "crossing_residual": "5.648e-9; exact s-channel cells at cut 12 (c=1 cut 14), adjacent-cut drift 3.683e-12 / 4.924e-12"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "123/200",
+   "nu1_over_nu0_include_identity": "0.648919309393919809",
+   "nu1_over_nu0_exclude_identity": "0.91841857573780264508",
+   "label": "so(3)$_1/2I$: 5-cycle (+) Ramond twist, towers 0+2",
+   "series": "so(3)$_1/2\\Gamma$: isolated $T,O,I$ orbifolds",
+   "status": "certified",
+   "crossing_residual": "1.459e-10; exact s-channel cells at cut 14 (c=1 cut 16), adjacent-cut drift 8.703e-13 / 1.203e-12"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "27/200",
+   "nu1_over_nu0_include_identity": "0.17645779410960857539",
+   "nu1_over_nu0_exclude_identity": "0.23237803573186931967",
+   "label": "so(3)$_1/2I$: 5-cycle (-) Ramond twist, towers 0+1",
+   "series": "so(3)$_1/2\\Gamma$: isolated $T,O,I$ orbifolds",
+   "status": "certified",
+   "crossing_residual": "1.28e-9; exact s-channel cells at cut 12 (c=1 cut 14), adjacent-cut drift 6.395e-13 / 8.375e-13"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "187/200",
+   "nu1_over_nu0_include_identity": "0.79532824541342844659",
+   "nu1_over_nu0_exclude_identity": "1.2753923314225846028",
+   "label": "so(3)$_1/2I$: 5-cycle (-) Ramond twist, towers 0+2",
+   "series": "so(3)$_1/2\\Gamma$: isolated $T,O,I$ orbifolds",
+   "status": "certified",
+   "crossing_residual": "2.747e-9; exact s-channel cells at cut 14 (c=1 cut 16), adjacent-cut drift 6.212e-11 / 9.548e-11"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "11/72",
+   "nu1_over_nu0_include_identity": "0.19837630117012081379",
+   "nu1_over_nu0_exclude_identity": "0.2806906926579658144",
+   "label": "so(3)$_1/2O$: 3-cycle Ramond twist, towers 0+1",
+   "series": "so(3)$_1/2\\Gamma$: isolated $T,O,I$ orbifolds",
+   "status": "certified",
+   "crossing_residual": "2.874e-9; exact s-channel cells at cut 12 (c=1 cut 14), adjacent-cut drift 1.237e-12 / 1.736e-12"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "59/72",
+   "nu1_over_nu0_include_identity": "0.75685027495961235996",
+   "nu1_over_nu0_exclude_identity": "1.2587905317811464114",
+   "label": "so(3)$_1/2O$: 3-cycle Ramond twist, towers 0+2",
+   "series": "so(3)$_1/2\\Gamma$: isolated $T,O,I$ orbifolds",
+   "status": "certified",
+   "crossing_residual": "9.441e-10; exact s-channel cells at cut 14 (c=1 cut 16), adjacent-cut drift 1.52e-11 / 2.419e-11"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "3/16",
+   "nu1_over_nu0_include_identity": "0.23959764650107622121",
+   "nu1_over_nu0_exclude_identity": "0.37453207379821661309",
+   "label": "so(3)$_1/2O$: 4-cycle Ramond twist, towers 0+1",
+   "series": "so(3)$_1/2\\Gamma$: isolated $T,O,I$ orbifolds",
+   "status": "certified",
+   "crossing_residual": "3.873e-9; exact s-channel cells at cut 12 (c=1 cut 14), adjacent-cut drift 2.459e-12 / 3.792e-12"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "11/16",
+   "nu1_over_nu0_include_identity": "0.69522467274324135848",
+   "nu1_over_nu0_exclude_identity": "1.224195079709420027",
+   "label": "so(3)$_1/2O$: 4-cycle Ramond twist, towers 0+2",
+   "series": "so(3)$_1/2\\Gamma$: isolated $T,O,I$ orbifolds",
+   "status": "certified",
+   "crossing_residual": "2.843e-10; exact s-channel cells at cut 14 (c=1 cut 16), adjacent-cut drift 3.507e-12 / 5.895e-12"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "27/16",
+   "nu1_over_nu0_include_identity": "1.1820417054450251214",
+   "nu1_over_nu0_exclude_identity": "2.1667754245966521356",
+   "label": "so(3)$_1/2O$: 4-cycle Ramond twist, towers 1+3",
+   "series": "so(3)$_1/2\\Gamma$: isolated $T,O,I$ orbifolds",
+   "status": "certified",
+   "crossing_residual": "1.439e-8; exact s-channel cells at cut 16 (c=1 cut 18), adjacent-cut drift 5.742e-10 / 9.742e-10"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "11/72",
+   "nu1_over_nu0_include_identity": "0.19837630117012081379",
+   "nu1_over_nu0_exclude_identity": "0.2806906926579658144",
+   "label": "so(3)$_1/2T$: 3-cycle pair Ramond twist, towers 0+1",
+   "series": "so(3)$_1/2\\Gamma$: isolated $T,O,I$ orbifolds",
+   "status": "certified",
+   "crossing_residual": "2.874e-9; exact s-channel cells at cut 12 (c=1 cut 14), adjacent-cut drift 1.237e-12 / 1.736e-12"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "59/72",
+   "nu1_over_nu0_include_identity": "0.75685027495961235996",
+   "nu1_over_nu0_exclude_identity": "1.2587905317811464114",
+   "label": "so(3)$_1/2T$: 3-cycle pair Ramond twist, towers 0+2",
+   "series": "so(3)$_1/2\\Gamma$: isolated $T,O,I$ orbifolds",
+   "status": "certified",
+   "crossing_residual": "9.441e-10; exact s-channel cells at cut 14 (c=1 cut 16), adjacent-cut drift 1.52e-11 / 2.419e-11"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "107/72",
+   "nu1_over_nu0_include_identity": "1.0467678583297885311",
+   "nu1_over_nu0_exclude_identity": "1.4515311313274098327",
+   "label": "so(3)$_1/2I$: 3-cycle Ramond twist, towers 1+3",
+   "series": "so(3)$_1/2\\Gamma$: isolated $T,O,I$ orbifolds",
+   "status": "certified",
+   "crossing_residual": "2.977e-9; exact s-channel cells at cut 16 (c=1 cut 18), adjacent-cut drift 9.783e-11 / 1.315e-10"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "363/200",
+   "nu1_over_nu0_include_identity": "1.2222959681768031838",
+   "nu1_over_nu0_exclude_identity": "1.7578168499229323991",
+   "label": "so(3)$_1/2I$: 5-cycle (+) Ramond twist, towers 1+3",
+   "series": "so(3)$_1/2\\Gamma$: isolated $T,O,I$ orbifolds",
+   "status": "certified",
+   "crossing_residual": "3.403e-8; exact s-channel cells at cut 16 (c=1 cut 18), adjacent-cut drift 1.323e-9 / 1.826e-9"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "267/200",
+   "nu1_over_nu0_include_identity": "0.9850222569680594502",
+   "nu1_over_nu0_exclude_identity": "1.6169540636044241176",
+   "label": "so(3)$_1/2I$: 5-cycle (-) Ramond twist, towers 1+3",
+   "series": "so(3)$_1/2\\Gamma$: isolated $T,O,I$ orbifolds",
+   "status": "certified",
+   "crossing_residual": "7.395e-10; exact s-channel cells at cut 16 (c=1 cut 18), adjacent-cut drift 2.593e-11 / 4.056e-11"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "107/72",
+   "nu1_over_nu0_include_identity": "1.0685421396975970772",
+   "nu1_over_nu0_exclude_identity": "1.8433402838663743505",
+   "label": "so(3)$_1/2O$: 3-cycle Ramond twist, towers 1+3",
+   "series": "so(3)$_1/2\\Gamma$: isolated $T,O,I$ orbifolds",
+   "status": "certified",
+   "crossing_residual": "2.909e-9; exact s-channel cells at cut 16 (c=1 cut 18), adjacent-cut drift 1.445e-10 / 2.348e-10"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "107/72",
+   "nu1_over_nu0_include_identity": "1.0685421396975970772",
+   "nu1_over_nu0_exclude_identity": "1.8433402838663743505",
+   "label": "so(3)$_1/2T$: 3-cycle pair Ramond twist, towers 1+3",
+   "series": "so(3)$_1/2\\Gamma$: isolated $T,O,I$ orbifolds",
+   "status": "certified",
+   "crossing_residual": "2.909e-9; exact s-channel cells at cut 16 (c=1 cut 18), adjacent-cut drift 1.445e-10 / 2.348e-10"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "1",
+   "nu1_over_nu0_include_identity": "0.92536716700497487141",
+   "nu1_over_nu0_exclude_identity": "2.3341477098524410793",
+   "label": "$\\psi\\otimes V_{(1/2,-1)}\\,+\\,$P ($R^2=4$)",
+   "series": "super-affine line: Ramond-type twists",
+   "status": "certified",
+   "crossing_residual": "2.55e-9; full-grid peel at cut 12, adjacent-cut drift 5.318e-9 / 1.355e-8"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "49/48",
+   "nu1_over_nu0_include_identity": "0.93101499567501786562",
+   "nu1_over_nu0_exclude_identity": "2.3476234122919037792",
+   "label": "$\\psi\\otimes V_{(1/2,-1)}\\,+\\,$P ($R^2=3$)",
+   "series": "super-affine line: Ramond-type twists",
+   "status": "certified",
+   "crossing_residual": "1.928e-9; full-grid peel at cut 12, adjacent-cut drift 7.744e-9 / 1.946e-8"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "16/15",
+   "nu1_over_nu0_include_identity": "0.94001307056887431094",
+   "nu1_over_nu0_exclude_identity": "2.3620626667749601136",
+   "label": "$\\psi\\otimes V_{(1/2,-1)}\\,+\\,$P ($R^2=12/5$)",
+   "series": "super-affine line: Ramond-type twists",
+   "status": "certified",
+   "crossing_residual": "2.509e-9; full-grid peel at cut 12, adjacent-cut drift 5.073e-7 / 1.275e-6"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "9/8",
+   "nu1_over_nu0_include_identity": "0.95666674710799551782",
+   "nu1_over_nu0_exclude_identity": "2.381251565898045277",
+   "label": "$\\psi\\otimes V_{(1/2,-1)}\\,+\\,$P ($R^2=2$)",
+   "series": "super-affine line: Ramond-type twists",
+   "status": "certified",
+   "crossing_residual": "2.994e-9; full-grid peel at cut 12, adjacent-cut drift 5.32e-8 / 1.324e-7"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "121/96",
+   "nu1_over_nu0_include_identity": "1.0351463068121820285",
+   "nu1_over_nu0_exclude_identity": "2.4777043507454448874",
+   "label": "$\\psi\\otimes V_{(1/2,-1)}\\,+\\,$P ($R^2=3/2$)",
+   "series": "super-affine line: Ramond-type twists",
+   "status": "certified",
+   "crossing_residual": "2.78e-9; full-grid peel at cut 12, adjacent-cut drift 1.869e-8 / 4.477e-8"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "25/16",
+   "nu1_over_nu0_include_identity": "1.1655262366875387107",
+   "nu1_over_nu0_exclude_identity": "2.4553514233995966868",
+   "label": "$\\psi\\otimes V_{(1/2,-1)}\\,+\\,$P ($R^2=1$)",
+   "series": "super-affine line: Ramond-type twists",
+   "status": "certified",
+   "crossing_residual": "1.869e-8; full-grid peel at cut 16, adjacent-cut drift 1.619e-11 / 3.411e-11"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "9/5",
+   "nu1_over_nu0_include_identity": "1.2613717186023291761",
+   "nu1_over_nu0_exclude_identity": "2.4038792321236378142",
+   "label": "$\\psi\\otimes V_{(1/2,-1)}\\,+\\,$P ($R^2=4/5$)",
+   "series": "super-affine line: Ramond-type twists",
+   "status": "certified",
+   "crossing_residual": "7.511e-9; full-grid peel at cut 16, adjacent-cut drift 1.952e-10 / 3.719e-10"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "7/40",
+   "nu1_over_nu0_include_identity": "0.2247042803127883418316",
+   "nu1_over_nu0_exclude_identity": "0.5325769477232569961231",
+   "label": "$E_6$: $\\sigma\\otimes V_{1}$",
+   "series": "$Z_{10}$ $E_6$ invariant = super-affine $R^2=20$",
+   "status": "certified",
+   "crossing_residual": "4.1e-18; circle-line product spectrum at cut 20 (super-affine R^2=20)"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "1/5",
+   "nu1_over_nu0_include_identity": "0.2544391003931017215242",
+   "nu1_over_nu0_exclude_identity": "0.8911184001043229403387",
+   "label": "$E_6$: $1\\otimes V_{2}$",
+   "series": "$Z_{10}$ $E_6$ invariant = super-affine $R^2=20$",
+   "status": "certified",
+   "crossing_residual": "1.8e-18; circle-line product spectrum at cut 20 (super-affine R^2=20)"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "23/40",
+   "nu1_over_nu0_include_identity": "0.6209850134597530862473",
+   "nu1_over_nu0_exclude_identity": "1.703265259480587108843",
+   "label": "$E_6$: $\\sigma\\otimes V_{3}$",
+   "series": "$Z_{10}$ $E_6$ invariant = super-affine $R^2=20$",
+   "status": "certified",
+   "crossing_residual": "1.3e-17; circle-line product spectrum at cut 20 (super-affine R^2=20)"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "4/5",
+   "nu1_over_nu0_include_identity": "0.7951246322633781578753",
+   "nu1_over_nu0_exclude_identity": "2.347094563079165023441",
+   "label": "$E_6$: $1\\otimes V_{4}$",
+   "series": "$Z_{10}$ $E_6$ invariant = super-affine $R^2=20$",
+   "status": "certified",
+   "crossing_residual": "6.0e-17; circle-line product spectrum at cut 20 (super-affine R^2=20)"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "6/5",
+   "nu1_over_nu0_include_identity": "0.8489774208452198298544",
+   "nu1_over_nu0_exclude_identity": "1.641590134794006032604",
+   "label": "$E_6$: $\\epsilon\\otimes V_{2}$",
+   "series": "$Z_{10}$ $E_6$ invariant = super-affine $R^2=20$",
+   "status": "certified",
+   "crossing_residual": "1.1e-14; circle-line product spectrum at cut 20 (super-affine R^2=20)"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "11/8",
+   "nu1_over_nu0_include_identity": "1.093476241153814376448",
+   "nu1_over_nu0_exclude_identity": "2.134469715910595631405",
+   "label": "$E_6$: $\\sigma\\otimes V_{5}$ $=\\mu\\otimes V_{w=1/2}$",
+   "series": "$Z_{10}$ $E_6$ invariant = super-affine $R^2=20$",
+   "status": "certified",
+   "crossing_residual": "2.8e-14; circle-line product spectrum at cut 20 (super-affine R^2=20)"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "9/5",
+   "nu1_over_nu0_include_identity": "1.360349554793789276796",
+   "nu1_over_nu0_exclude_identity": "2.26732338947690034879",
+   "label": "$E_6$: $1\\otimes V_{6}$",
+   "series": "$Z_{10}$ $E_6$ invariant = super-affine $R^2=20$",
+   "status": "certified",
+   "crossing_residual": "4.7e-13; circle-line product spectrum at cut 20 (super-affine R^2=20)"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "9/5",
+   "nu1_over_nu0_include_identity": "1.262117894050589942803",
+   "nu1_over_nu0_exclude_identity": "3.093287743290617643035",
+   "label": "$E_6$: $\\epsilon\\otimes V_{4}$",
+   "series": "$Z_{10}$ $E_6$ invariant = super-affine $R^2=20$",
+   "status": "certified",
+   "crossing_residual": "4.8e-13; circle-line product spectrum at cut 20 (super-affine R^2=20)"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "2",
+   "nu1_over_nu0_include_identity": "1.3552762445522819598647693643665",
+   "nu1_over_nu0_exclude_identity": "3.2307678027216508487568786336272",
+   "label": "$I^\\pm:\\ \\sum_aJ^a\\bar J^a/\\sqrt3$",
+   "series": "so(3)$_1/2\\Gamma$: isolated $T,O,I$ orbifolds",
+   "status": "certified",
+   "crossing_residual": "5.1e-17"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "3/40",
+   "nu1_over_nu0_include_identity": "0.0993207165478163252",
+   "nu1_over_nu0_exclude_identity": "0.223944260414995929",
+   "label": "$1\\!\\otimes\\!\\sigma_T$",
+   "series": "$Z_3\\!\\times\\!$TIM",
+   "status": "certified",
+   "crossing_residual": "2.1e-10"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "1/5",
+   "nu1_over_nu0_include_identity": "0.254088010141727165",
+   "nu1_over_nu0_exclude_identity": "1.2538673602821128",
+   "label": "$1\\!\\otimes\\!\\epsilon_T$",
+   "series": "$Z_3\\!\\times\\!$TIM",
+   "status": "certified",
+   "crossing_residual": "5.8e-10"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "7/8",
+   "nu1_over_nu0_include_identity": "0.834145165319820397",
+   "nu1_over_nu0_exclude_identity": "2.52611114647151662",
+   "label": "$1\\!\\otimes\\!\\sigma'_T$",
+   "series": "$Z_3\\!\\times\\!$TIM",
+   "status": "certified",
+   "crossing_residual": "3.5e-8"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "6/5",
+   "nu1_over_nu0_include_identity": "0.977834854526390154",
+   "nu1_over_nu0_exclude_identity": "2.12040211801227585",
+   "label": "$1\\!\\otimes\\!\\epsilon'_T$",
+   "series": "$Z_3\\!\\times\\!$TIM",
+   "status": "certified",
+   "crossing_residual": "4.4e-7"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "2/15",
+   "nu1_over_nu0_include_identity": "0.173999718193730025",
+   "nu1_over_nu0_exclude_identity": "0.382640123158797197",
+   "label": "$\\sigma_P$",
+   "series": "$Z_3\\!\\times\\!$TIM",
+   "status": "certified",
+   "crossing_residual": "2.0e-9"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "5/24",
+   "nu1_over_nu0_include_identity": "0.263143676880636155",
+   "nu1_over_nu0_exclude_identity": "0.378830302488250101",
+   "label": "$\\sigma_P\\!\\otimes\\!\\sigma_T$",
+   "series": "$Z_3\\!\\times\\!$TIM",
+   "status": "certified",
+   "crossing_residual": "2.3e-9"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "1/3",
+   "nu1_over_nu0_include_identity": "0.396184865902033692",
+   "nu1_over_nu0_exclude_identity": "0.710263156509715394",
+   "label": "$\\sigma_P\\!\\otimes\\!\\epsilon_T$",
+   "series": "$Z_3\\!\\times\\!$TIM",
+   "status": "certified",
+   "crossing_residual": "2.8e-9"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "121/120",
+   "nu1_over_nu0_include_identity": "0.810886755934658247",
+   "nu1_over_nu0_exclude_identity": "1.33162133753134187",
+   "label": "$\\sigma_P\\!\\otimes\\!\\sigma'_T$",
+   "series": "$Z_3\\!\\times\\!$TIM",
+   "status": "certified",
+   "crossing_residual": "5.0e-7"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "4/3",
+   "nu1_over_nu0_include_identity": "0.8794640339694982301077158",
+   "nu1_over_nu0_exclude_identity": "1.294662178652468309816164",
+   "label": "$\\sigma_P\\!\\otimes\\!\\epsilon'_T$",
+   "series": "$Z_3\\!\\times\\!$TIM",
+   "status": "certified",
+   "crossing_residual": "5.3e-16"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "4/5",
+   "nu1_over_nu0_include_identity": "0.789039815364557922",
+   "nu1_over_nu0_exclude_identity": "2.53681105560173137",
+   "label": "$\\epsilon_P$",
+   "series": "$Z_3\\!\\times\\!$TIM",
+   "status": "certified",
+   "crossing_residual": "2.9e-8"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "7/8",
+   "nu1_over_nu0_include_identity": "0.746007068595893197",
+   "nu1_over_nu0_exclude_identity": "1.23802698736654534",
+   "label": "$\\epsilon_P\\!\\otimes\\!\\sigma_T$",
+   "series": "$Z_3\\!\\times\\!$TIM",
+   "status": "certified",
+   "crossing_residual": "5.1e-8"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "1",
+   "nu1_over_nu0_include_identity": "0.902476869785788302",
+   "nu1_over_nu0_exclude_identity": "2.27640918537638379",
+   "label": "$\\epsilon_P\\!\\otimes\\!\\epsilon_T$",
+   "series": "$Z_3\\!\\times\\!$TIM",
+   "status": "certified",
+   "crossing_residual": "1.2e-7"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "67/40",
+   "nu1_over_nu0_include_identity": "1.227669012124046513907591",
+   "nu1_over_nu0_exclude_identity": "3.603353112361573223740019",
+   "label": "$\\epsilon_P\\!\\otimes\\!\\sigma'_T$",
+   "series": "$Z_3\\!\\times\\!$TIM",
+   "status": "certified",
+   "crossing_residual": "3.9e-15"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "2",
+   "nu1_over_nu0_include_identity": "1.247005345266365976601948",
+   "nu1_over_nu0_exclude_identity": "2.972666816453561715556207",
+   "label": "$\\epsilon_P\\!\\otimes\\!\\epsilon'_T$",
+   "series": "$Z_3\\!\\times\\!$TIM",
+   "status": "certified",
+   "crossing_residual": "3.9e-14"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "4/3",
+   "nu1_over_nu0_include_identity": "1.04281899703655399",
+   "nu1_over_nu0_exclude_identity": "2.00206221041773667",
+   "label": "$Z_P$",
+   "series": "$Z_3\\!\\times\\!$TIM",
+   "status": "certified",
+   "crossing_residual": "8.3e-7"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "169/120",
+   "nu1_over_nu0_include_identity": "0.8930367552648309991103066",
+   "nu1_over_nu0_exclude_identity": "1.242606423289673119733493",
+   "label": "$Z_P\\!\\otimes\\!\\sigma_T$",
+   "series": "$Z_3\\!\\times\\!$TIM",
+   "status": "certified",
+   "crossing_residual": "1.3e-15"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "23/15",
+   "nu1_over_nu0_include_identity": "1.098841084140031626564482",
+   "nu1_over_nu0_exclude_identity": "1.959315925113674911614445",
+   "label": "$Z_P\\!\\otimes\\!\\epsilon_T$",
+   "series": "$Z_3\\!\\times\\!$TIM",
+   "status": "certified",
+   "crossing_residual": "2.0e-15"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "1/20",
+   "nu1_over_nu0_include_identity": "0.06639239642141004498409167873",
+   "nu1_over_nu0_exclude_identity": "0.1395623299832514920325582676",
+   "label": "$\\phi^{M(5,6)}_{2,2}\\!\\otimes\\!\\phi^{\\rm TIM}_{1,1}$",
+   "series": "$M(5,6)_A\\!\\times\\!$TIM",
+   "status": "certified",
+   "crossing_residual": "2.7e-17"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "1/8",
+   "nu1_over_nu0_include_identity": "0.1639890984608364762061769517",
+   "nu1_over_nu0_exclude_identity": "0.2317731588786701301218773498",
+   "label": "$\\phi^{M(5,6)}_{2,2}\\!\\otimes\\!\\phi^{\\rm TIM}_{2,2}$",
+   "series": "$M(5,6)_A\\!\\times\\!$TIM",
+   "status": "certified",
+   "crossing_residual": "3.0e-16"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "1/4",
+   "nu1_over_nu0_include_identity": "0.3110344236723187569341729348",
+   "nu1_over_nu0_exclude_identity": "1.383187224327424898481431609",
+   "label": "$\\phi^{M(5,6)}_{1,2}\\!\\otimes\\!\\phi^{\\rm TIM}_{1,1}$",
+   "series": "$M(5,6)_A\\!\\times\\!$TIM",
+   "status": "certified",
+   "crossing_residual": "1.3e-16"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "1/4",
+   "nu1_over_nu0_include_identity": "0.3097434933311611601192835403",
+   "nu1_over_nu0_exclude_identity": "0.5346960130935274261648211552",
+   "label": "$\\phi^{M(5,6)}_{2,2}\\!\\otimes\\!\\phi^{\\rm TIM}_{1,2}$",
+   "series": "$M(5,6)_A\\!\\times\\!$TIM",
+   "status": "certified",
+   "crossing_residual": "1.1e-15"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "13/40",
+   "nu1_over_nu0_include_identity": "0.3860257972140018858434107795",
+   "nu1_over_nu0_exclude_identity": "0.6850810491276653108010721765",
+   "label": "$\\phi^{M(5,6)}_{1,2}\\!\\otimes\\!\\phi^{\\rm TIM}_{2,2}$",
+   "series": "$M(5,6)_A\\!\\times\\!$TIM",
+   "status": "certified",
+   "crossing_residual": "1.2e-15"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "9/20",
+   "nu1_over_nu0_include_identity": "0.5140845990375304432731546832",
+   "nu1_over_nu0_exclude_identity": "1.419626490081403609316523076",
+   "label": "$\\phi^{M(5,6)}_{1,2}\\!\\otimes\\!\\phi^{\\rm TIM}_{1,2}$",
+   "series": "$M(5,6)_A\\!\\times\\!$TIM",
+   "status": "certified",
+   "crossing_residual": "1.5e-15"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "37/40",
+   "nu1_over_nu0_include_identity": "0.7931123857836321784758282728",
+   "nu1_over_nu0_exclude_identity": "1.239987653224424391234821894",
+   "label": "$\\phi^{M(5,6)}_{2,2}\\!\\otimes\\!\\phi^{\\rm TIM}_{2,1}$",
+   "series": "$M(5,6)_A\\!\\times\\!$TIM",
+   "status": "certified",
+   "crossing_residual": "2.7e-13"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "21/20",
+   "nu1_over_nu0_include_identity": "0.8894168109448754296892292645",
+   "nu1_over_nu0_exclude_identity": "1.832037676165355277737039052",
+   "label": "$\\phi^{M(5,6)}_{2,4}\\!\\otimes\\!\\phi^{\\rm TIM}_{1,1}$",
+   "series": "$M(5,6)_A\\!\\times\\!$TIM",
+   "status": "certified",
+   "crossing_residual": "1.4e-12"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "9/8",
+   "nu1_over_nu0_include_identity": "0.9700330687929435298423015478",
+   "nu1_over_nu0_exclude_identity": "2.358825885936013066846498588",
+   "label": "$\\phi^{M(5,6)}_{1,2}\\!\\otimes\\!\\phi^{\\rm TIM}_{2,1}$",
+   "series": "$M(5,6)_A\\!\\times\\!$TIM",
+   "status": "certified",
+   "crossing_residual": "1.5e-12"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "9/8",
+   "nu1_over_nu0_include_identity": "0.7624016485634099370646092817",
+   "nu1_over_nu0_exclude_identity": "1.088376575184572813454009893",
+   "label": "$\\phi^{M(5,6)}_{2,4}\\!\\otimes\\!\\phi^{\\rm TIM}_{2,2}$",
+   "series": "$M(5,6)_A\\!\\times\\!$TIM",
+   "status": "certified",
+   "crossing_residual": "1.6e-12"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "5/4",
+   "nu1_over_nu0_include_identity": "0.8875786180033719175924038733",
+   "nu1_over_nu0_exclude_identity": "1.253790349922687726390731778",
+   "label": "$\\phi^{M(5,6)}_{2,2}\\!\\otimes\\!\\phi^{\\rm TIM}_{1,3}$",
+   "series": "$M(5,6)_A\\!\\times\\!$TIM",
+   "status": "certified",
+   "crossing_residual": "4.5e-12"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "5/4",
+   "nu1_over_nu0_include_identity": "0.9608929655340242653143312637",
+   "nu1_over_nu0_exclude_identity": "1.783956714839481967276598868",
+   "label": "$\\phi^{M(5,6)}_{2,4}\\!\\otimes\\!\\phi^{\\rm TIM}_{1,2}$",
+   "series": "$M(5,6)_A\\!\\times\\!$TIM",
+   "status": "certified",
+   "crossing_residual": "4.5e-12"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "29/20",
+   "nu1_over_nu0_include_identity": "1.068907064380123086424822291",
+   "nu1_over_nu0_exclude_identity": "2.09726217114978989262694942",
+   "label": "$\\phi^{M(5,6)}_{1,2}\\!\\otimes\\!\\phi^{\\rm TIM}_{1,3}$",
+   "series": "$M(5,6)_A\\!\\times\\!$TIM",
+   "status": "certified",
+   "crossing_residual": "1.8e-11"
+  },
+  {
+   "c": "3/2",
+   "delta_ext": "77/40",
+   "nu1_over_nu0_include_identity": "1.162502618595798360039077924",
+   "nu1_over_nu0_exclude_identity": "2.493003814200003671775323689",
+   "label": "$\\phi^{M(5,6)}_{2,4}\\!\\otimes\\!\\phi^{\\rm TIM}_{2,1}$",
+   "series": "$M(5,6)_A\\!\\times\\!$TIM",
+   "status": "certified",
+   "crossing_residual": "8.7e-10"
+  }
+ ]
+}
