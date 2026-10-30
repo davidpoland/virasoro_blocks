@@ -53,9 +53,11 @@ directly with SDPB.
 
 ## Install
 
-From a checkout, in a virtual environment:
+Clone the repository and install it in a virtual environment:
 
 ```sh
+git clone https://github.com/davidpoland/virasoro_blocks.git
+cd virasoro_blocks
 python -m venv .venv
 source .venv/bin/activate
 python -m pip install -e .
@@ -332,10 +334,10 @@ installs and runs outside the checkout.
 ## Citing
 
 If you use this software in published work, please cite the accompanying
-paper, *virasoro_blocks: Software for the 2d bootstrap* (D. Poland, in
-preparation), and the software itself.  [CITATION.cff](CITATION.cff) has the
-metadata.  Please also cite [SDPB](https://github.com/davidsd/sdpb) for the
-bounds.
+paper, *virasoro_blocks: Software for the 2d bootstrap* (D. Poland,
+[arXiv:2610.39106](https://arxiv.org/abs/2610.39106)).
+[CITATION.cff](CITATION.cff) has the metadata.  Please also cite
+[SDPB](https://github.com/davidsd/sdpb) for the bounds.
 
 ## Author
 

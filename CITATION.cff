@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use virasoro_blocks, please cite the accompanying paper and this software."
+message: "If you use virasoro_blocks, please cite the accompanying paper."
 title: "virasoro_blocks"
 type: software
 version: "0.1.0"
@@ -22,4 +22,6 @@ preferred-citation:
     - family-names: Poland
       given-names: David
       affiliation: "Yale University"
-  status: in-preparation
+  year: 2026
+  url: "https://arxiv.org/abs/2610.39106"
+  doi: "10.48550/arXiv.2610.39106"
